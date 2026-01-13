@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ai on My New Hugo Site</title>
+    <title>AI on My New Hugo Site</title>
     <link>http://localhost:1313/tags/ai/</link>
-    <description>Recent content in Ai on My New Hugo Site</description>
+    <description>Recent content in AI on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Mar 2025 16:55:00 +0900</lastBuildDate>

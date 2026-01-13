@@ -152,23 +152,21 @@ pre {
 header {
     position: sticky;
     top: 0;
-    height: 50px;
     line-height: 30px;
     z-index: 1000;
     background-color: light-dark(var(--color-white), var(--color-black));
     border-bottom: 1px solid light-dark(var(--color-grey), var(--color-black-light));
-    padding: calc(var(--spacing-unit) * 0.5) 0;
 
     .site-title {
         font-family: "Roboto Mono", monospace;
         font-size: 1.2rem;
         position: relative;
-        margin: 0 calc(var(--spacing-unit) * 0.5);
+        padding: calc(var(--spacing-unit) * 0.5);
 
         #header-logo {
             position: absolute;
-            top: 0;
-            left: 0;
+            top: calc(var(--spacing-unit) * 0.5);
+            left: calc(var(--spacing-unit) * 0.5);
         }
 
         #theme-toggle {
@@ -206,8 +204,7 @@ nav {
         padding: 0px;
         display: flex;
         flex-direction: row;
-        background-color: yellow;
-        border-bottom: 1px solid light-dark(var(--color-grey), var(--color-black-light));
+        justify-content: middle;
 
         &.nav-links {
             position: sticky;
