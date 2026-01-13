@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lifehack on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/lifehack/</link>
+    <description>Recent content in Lifehack on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/lifehack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procrastination and Fear of Failure</title>
+      <link>http://localhost:1313/posts/procrastination-and-fear-of-failure/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/procrastination-and-fear-of-failure/</guid>
+      <description>&lt;p&gt;I tend to procrastinate if I let myself, so I&amp;rsquo;ve tried my share of techniques to keep it in check. At some point, I read that a fear of failure can cause procrastination, and this really resonated with me. Realizing this has helped me understand where my urge to put things off is coming from.&lt;/p&gt;&#xA;&lt;p&gt;If I have a large task in front of me, my mind rushes through everything that needs to be done and affirms how difficult it will be. I imagine (mostly subconsciously) all the ways that my output will be less than ideal, and that is what keeps me from taking action.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samasource on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/samasource/</link>
+    <description>Recent content in Samasource on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Dec 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/samasource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Three Cups of Tea</title>
+      <link>http://localhost:1313/posts/three-cups-of-tea/</link>
+      <pubDate>Thu, 10 Dec 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/three-cups-of-tea/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Three Cups of Tea&lt;/em&gt; is the most inspiring book I have ever read.&lt;/p&gt;&#xA;&lt;p&gt;It is the true story following Greg Mortenson, a mountaineer who attempts to climb K2. On his way down, he stumbles into a tiny village in Pakistan and vows to return one day to build a school for the children there. He is successful, and is urged by others to continue building schools for underprivileged children across Pakistan. His story is remarkable, and the amount of impact he has managed to bring as one man with audacious goals is astounding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Facebook and Non-Profits: Revolutionizing with Samasource</title>
+      <link>http://localhost:1313/posts/facebook-and-non-profits-revolutionizing-with-samasource/</link>
+      <pubDate>Fri, 21 Aug 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/facebook-and-non-profits-revolutionizing-with-samasource/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted on the &lt;a href=&#34;http://fbfund.com/facebook-and-non-profits-revolutionizing-with-samasource/&#34;&gt;fbFund blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;While a Stanford undergrad, I began my online career with gleeful audacity. The Monday after Facebook Platform launched, my friend and I released Facebook&amp;rsquo;s original Graffiti application. We were unexperienced and had no viral component, so we soon lost the battle to Mark Kantor et al.&amp;rsquo;s version. But Graffiti gave us excitement and hunger. The following fall we enrolled in Stanford&amp;rsquo;s course on Facebook applications, using the opportunity to develop Send Hotness. This time, we nailed the virality. A few advertising payouts later, we were the proud owners of two companies. Doped up on adrenaline, we loved every minute. I stepped down eventually once I remembered that I had schoolwork to do, but I felt sure that this was my path.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Samasource Selected for fbFund REV</title>
+      <link>http://localhost:1313/posts/samasource-selected-for-fbfund-rev/</link>
+      <pubDate>Sun, 31 May 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/samasource-selected-for-fbfund-rev/</guid>
+      <description>&lt;p&gt;Hooray! Along with 18 companies and one other non-profit, &lt;strong&gt;Samasource was chosen to participate in fbFund’s incubator program this summer&lt;/strong&gt;. Check out the full list of winners on &lt;a href=&#34;http://venturebeat.com/2009/05/28/fbfund-17-companies-and-2-nonprofits-win-head-to-palo-alto/&#34;&gt;VentureBeat&lt;/a&gt; or &lt;a href=&#34;http://www.insidefacebook.com/2009/05/28/facebook-announces-19-2009-fbfund-winners/&#34;&gt;InsideFacebook&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;What this means is that we’ll have Palo Alto office space, lots of media attention, an official Facebook seal of approval, and possibly free lunches &lt;em&gt;/crossfingers&lt;/em&gt;. The catch?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Due to the way fbFund is structured, the non-profit startups cannot receive funding (&lt;a href=&#34;http://developers.facebook.com/news.php?blog=1&amp;amp;story=249&#34;&gt;Facebook dev blog&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

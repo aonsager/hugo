@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manifesto on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/manifesto/</link>
+    <description>Recent content in Manifesto on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Mar 2025 16:55:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/manifesto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My AI manifesto</title>
+      <link>http://localhost:1313/posts/ai-manifesto/</link>
+      <pubDate>Fri, 28 Mar 2025 16:55:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/ai-manifesto/</guid>
+      <description>&lt;p&gt;This is my personal manifesto for how I will and will not use generative AI. I believe it can be an extremely useful tool in certain situations, but can also have many negative repurcussions if used incorrectly.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-use-to-expand-my-abilities-not-as-a-crutch&#34;&gt;1: Use to expand my abilities, not as a crutch.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;a-teach-me-new-things&#34;&gt;A: Teach me new things&lt;/h3&gt;&#xA;&lt;p&gt;As a coding assistant, AI can quickly show me the correct syntax. It can suggest implementations, and teach me how to implement new functions. These are extremely useful, and help me to be exponentionally more productive as a hobby developer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

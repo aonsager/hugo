@@ -1,0 +1,6 @@
+---
+date: '2025-12-25 10:17:00 +0900'
+toot_id: 01KD9H9JC2R48T2A2S2JJMV72V
+---
+<p>We found a slug! In our house! Coming down the stairs! It must have ridden in on a package left on the porch.</p>
+<div class='gallery'></div>

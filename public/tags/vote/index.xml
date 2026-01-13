@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vote on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/vote/</link>
+    <description>Recent content in Vote on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Feb 2008 09:05:16 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why vote?</title>
+      <link>http://localhost:1313/posts/why-vote/</link>
+      <pubDate>Thu, 07 Feb 2008 09:05:16 +0900</pubDate>
+      <guid>http://localhost:1313/posts/why-vote/</guid>
+      <description>&lt;p&gt;People say that voting doesn&amp;rsquo;t really matter, because in the big picture, one vote for one candidate isn&amp;rsquo;t really going to make that much difference. And this is something that I&amp;rsquo;ve had a hard time coming to terms with too, but I think I figured it out.&lt;/p&gt;&lt;p&gt;The point of voting is not to ensure that the right person gets elected or that the right ideas get placed in motion, because, as mentioned above, one vote is not really going to make a huge difference. Rather, &lt;i&gt;I think the point of voting is to be aware of the issues and to care about them to the point where you are able to publicly commit to what you believe.&lt;/i&gt; Once you have enough people caring about issues and participating in the argument, then you can finally start seeing great changes that save people, nations, and ideals. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

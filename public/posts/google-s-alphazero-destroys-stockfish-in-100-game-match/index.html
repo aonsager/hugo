@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Google&#39;s AlphaZero Destroys Stockfish In 100-Game Match | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+    <div class="site-title">
+        <svg id="header-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="10" fill="#fcfcfc" stroke="#202225" stroke-width="1" />
+            <circle cx="25" cy="15" r="10" fill="#202225" stroke="#fcfcfc" stroke-width="1" />
+        </svg>
+        <div class="site-url">
+            <span class="header-url">invisibleparade.com</span>
+        </div>
+    </div>
+</div>
+
+  </header>
+  <nav>
+  	<div class="container">
+    <ul>
+        <li><a href="/">Index</a></li>
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/notes">Notes</a></li>
+        <li><a href="/links">Links</a></li>
+        <li><a href="/micro">Micro</a></li>
+    </ul>
+</div>
+
+  </nav>
+  <main>
+    
+  <h1>Google&#39;s AlphaZero Destroys Stockfish In 100-Game Match</h1>
+
+  
+  
+  <time datetime="2017-12-06T22:58:00&#43;09:00">December 6, 2017</time>
+
+  <p>Google&rsquo;s AlphaZero program is a machine that plays chess, and it has managed to quickly become the strongest chess AI in the world by implementing machine learning techniques. While existing chess AIs have mostly been massive dictionaries of moves that are put together by humans, AlphaZero learned chess entirely on its own with minimal human input.</p>
+<p>As I understand it, the hardest part of creating an AI that solves problems like chess is finding some way to calculate if you&rsquo;re winning or not. If that were easy to do, the program could just look at all of its possible moves (which is not very many for a computer) and see which one would leave it winning by more. The trouble is that it&rsquo;s very hard to tell if you&rsquo;re winning. You might need to consider all possible outcomes many moves in advance, which quickly becomes too many to calculate.</p>
+<p>Successful chess AI programs, of which Stockfish is the most popular, have a giant list of common board situations and good moves to make. An <a href="https://en.wikipedia.org/wiki/Chess_opening_theory_table">opening table</a> lists moves that can happen towards the beginning of a match, and an <a href="https://en.wikipedia.org/wiki/Endgame_tablebase">endgame tablebase</a> shows possible situations at the end of a match. The middle of a match is much more complicated and has far many more possibilities, so it&rsquo;s difficult to create tables like this. The strength of a chess AI boils down to how big its tables are, and how quickly it can search them within the match&rsquo;s time limits. But, from <a href="https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-100-game-match">chess.com</a>:</p>
+<blockquote>
+<p>[I]t took AlphaZero only four hours to &ldquo;learn&rdquo; chess. Sorry humans, you had a good run.</p>
+<p>That&rsquo;s right &ndash; the programmers of AlphaZero, housed within the DeepMind division of Google, had it use &ldquo;machine learning,&rdquo; which is sometimes called &ldquo;reinforced learning.&rdquo; Put more plainly, AlphaZero was not &ldquo;taught&rdquo; the game in the traditional sense. No opening book, no endgame tables, and apparently no complicated algorithms dissecting minute differences between center pawns and side pawns.</p>
+</blockquote>
+<p>I think this means that the program just played a lot of chess games on its own, and learned for itself what positions and moves lead to more wins. It&rsquo;s possible that it built an intuition of how much it is winning, or how likely it is to get more ahead, at any point in a match. It can learn which moves don&rsquo;t pay off immediately but might give an advantage later. Programs like Stockfish can&rsquo;t really plan ahead, which is why they need to search their tables for the best move on every turn. AlphaZero isn&rsquo;t limited by whether or not it was explicitly taught a certain situation. This ability also makes the searches much more efficient:</p>
+<blockquote>
+<p>Indeed, much like humans, AlphaZero searches fewer positions that its predecessors. The paper claims that it looks at &ldquo;only&rdquo; 80,000 positions per second, compared to Stockfish&rsquo;s 70 million per second.</p>
+</blockquote>
+<p>That&rsquo;s 0.01% of searching effort required, which gives a huge advantage over an entire match.</p>
+<p>If you&rsquo;re interested, you can read the full paper <a href="https://arxiv.org/pdf/1712.01815.pdf">here</a>.</p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/ai/">Ai</a></li>
+        <li><a href="/tags/tech/">Tech</a></li>
+        <li><a href="/tags/google/">Google</a></li>
+        <li><a href="/tags/article/">Article</a></li>
+        <li><a href="/tags/chess/">Chess</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

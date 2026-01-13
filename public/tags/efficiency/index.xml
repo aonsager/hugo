@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Efficiency on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/efficiency/</link>
+    <description>Recent content in Efficiency on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jan 2026 16:51:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don’t min-max your hobbies</title>
+      <link>http://localhost:1313/posts/min-max-hobbies/</link>
+      <pubDate>Sat, 10 Jan 2026 16:51:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/min-max-hobbies/</guid>
+      <description>&lt;p&gt;When I’m having fun with a hobby, nothing kills my motivation faster than learning about a better, more efficient way I could be doing things.&lt;/p&gt;&#xA;&lt;p&gt;I was playing Fantasy Life i – chopping trees, making boots, fishing fish, and just generally having a grand time. It felt like alchemy skills were taking longer than the rest to level up, so i checked a wiki to see if i was missing something. Big mistake. What i learned is that, if i haven’t created 4 sunglasses with EXP boost buffs and then started crafting 10 thousand health potions to power level, I’m wasting my time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transparent leadership</title>
+      <link>http://localhost:1313/posts/transparent-leadership/</link>
+      <pubDate>Tue, 09 Dec 2025 13:11:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/transparent-leadership/</guid>
+      <description>&lt;p&gt;From &lt;a href=&#34;https://entropicthoughts.com/transparent-leadership-beats-servant-leadership&#34;&gt;Transparent Leadership Beats Servant Leadership&lt;/a&gt;, by Chris at &lt;a href=&#34;https://entropicthoughts.com/index&#34;&gt;Entropic Thoughts&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In my book, a good leader&lt;/p&gt;&#xA;&lt;p&gt;coaches people,&lt;br&gt;&#xA;connects people,&lt;br&gt;&#xA;[. . .]&lt;br&gt;&#xA;creates direct links between supply and demand (instead of deliberately making themselves a middle man),&lt;br&gt;&#xA;[. . .]&lt;br&gt;&#xA;generally makes themselves redundant.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I really related with many of the points in this post. Coincidentally, I had just recently come to some similar conclusions at my own workplace, too.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

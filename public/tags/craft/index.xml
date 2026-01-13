@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Craft on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/craft/</link>
+    <description>Recent content in Craft on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/craft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leather Sneakers by Spingle</title>
+      <link>http://localhost:1313/links/leather-sneakers-by-spingle/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/leather-sneakers-by-spingle/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/spingle.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.spingle.jp/en/&#34;&gt;Spingle&lt;/a&gt; is a company based in Hiroshima, Japan that makes hand-crafted leather shoes, and they also have an excellent &lt;a href=&#34;https://www.spingle.jp/en/spingle_move/&#34;&gt;sneaker lineup&lt;/a&gt;. Because the leather molds to your feet over time, the shoes become more comfortable the more you wear them.&lt;/p&gt;&#xA;&lt;p&gt;They are a little pricey, but they should last a long time and the cost is completely reasonable considering the work that goes into them. And there are plenty of sneakers that cost even more.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

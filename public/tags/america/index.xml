@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>America on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/america/</link>
+    <description>Recent content in America on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/america/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universal Basic Income</title>
+      <link>http://localhost:1313/posts/universal-basic-income/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/universal-basic-income/</guid>
+      <description>&lt;p&gt;I wonder sometimes about what a better society than ours would be. What should our goals be as we try to improve?&lt;/p&gt;&#xA;&lt;p&gt;As our society improves and we get more efficient, I like to imagine a future where we don&amp;rsquo;t have to work as much. That seems like a nice thing to aim for. Universal basic income (UBI) seems like one possible solution. If we could afford to give everybody a fixed minimal income, people could work less and still have a basic amount of wealth needed to survive. But I&amp;rsquo;m not yet convinced whether UBI is the correct answer to describe an ideal future.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Perils of Eroded Civic Knowledge Forewarned by Former Justice Souter</title>
+      <link>http://localhost:1313/links/perils-of-eroded-civic-knowledge-forewarned-by-fmr/</link>
+      <pubDate>Mon, 24 Oct 2016 18:43:32 +0900</pubDate>
+      <guid>http://localhost:1313/links/perils-of-eroded-civic-knowledge-forewarned-by-fmr/</guid>
+      <description>&lt;p&gt;This is extremely important.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Striking Perspective on New York City Property Values | Metrocosm</title>
+      <link>http://localhost:1313/links/a-striking-perspective-on-new-york-city-property/</link>
+      <pubDate>Thu, 09 Jul 2015 14:17:56 +0900</pubDate>
+      <guid>http://localhost:1313/links/a-striking-perspective-on-new-york-city-property/</guid>
+      <description>&lt;p&gt;Property values across the U.S., where the area of each state has been substituted for its total property value.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>San Francisco Is Dead. Long Live San Francisco</title>
+      <link>http://localhost:1313/posts/san-francisco-is-dead-long-live-san-francisco/</link>
+      <pubDate>Fri, 25 Apr 2014 13:39:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/san-francisco-is-dead-long-live-san-francisco/</guid>
+      <description>&lt;p&gt;From &lt;a href=&#34;http://www.modernluxury.com/san-francisco/story/san-francisco-dead-long-live-san-francisco&#34;&gt;Gary Kamiya&lt;/a&gt; in San Francisco Magazine, talking about the many factors and consequences of San Francisco&amp;rsquo;s economic growth.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;(I)f present trends continue, the city could soon become a moated citadel of info-money, accessible only to venture capitalists, Twitter engineers, and the creators of hookup apps.&lt;br&gt;&#xA;[&amp;hellip;]&lt;br&gt;&#xA;This prospect worries me. As someone who loves San Francisco’s maverick tradition and its class and ethnic diversity (I celebrated both in a book I wrote last year called Cool Gray City of Love), I find the idea that my beloved town is on the verge of becoming another Manhattan—a picturesque but increasingly expensive, homogeneous, and sterile burg—distressing, to put it mildly.&lt;br&gt;&#xA;[&amp;hellip;]&lt;br&gt;&#xA;And yet, the political, cultural, and class war that has erupted over what is happening to San Francisco—call it the Change—strikes me as wrongheaded to the point of surreality.&lt;br&gt;&#xA;[&amp;hellip;]&lt;br&gt;&#xA;I’m all for rushing the barricades when there’s an enemy to fight and a battle that can be won. I’ve engaged in my share of such battles. But it’s time to reckon with reality: There is no enemy here. Or if there is, it’s an enemy that won’t be defeated. What has hit San Francisco in the last couple of years can be summed up in one word: capitalism. And that is a tsunami that no seawall can keep out.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

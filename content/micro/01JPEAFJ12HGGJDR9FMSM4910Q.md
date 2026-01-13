@@ -1,0 +1,6 @@
+---
+date: '2025-03-16 10:53:00 +0900'
+toot_id: 01JPEAFJ12HGGJDR9FMSM4910Q
+---
+<p>So what’s the best way to feed my car’s user manual to an LLM and have it answer all my questions? Or every appliance in my house, for that matter.</p>
+<div class='gallery'></div>

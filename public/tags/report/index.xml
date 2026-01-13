@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Report on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/report/</link>
+    <description>Recent content in Report on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 May 2009 13:25:58 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/report/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gravity Summit Stanford: Wrap-up</title>
+      <link>http://localhost:1313/posts/gravity-summit-stanford-wrap-up/</link>
+      <pubDate>Sat, 09 May 2009 13:25:58 +0900</pubDate>
+      <guid>http://localhost:1313/posts/gravity-summit-stanford-wrap-up/</guid>
+      <description>&lt;p&gt;Tuesday, May 5th was Gravity Summit&amp;rsquo;s &amp;ldquo;Social Media Marketing for Business&amp;rdquo; at Stanford. I&amp;rsquo;ve known Rodney Rumford since Joachim and I made Graffiti for Facebook, and he was kind enough to save me a spot.&lt;/p&gt;&#xA;&lt;p&gt;The focus of the talks was very much aimed towards large businesses; presentations were given by such notable people as Bob Pearson of Dell, Inc. and Charles Miller from DIRECTV. That said, it seemed there were plenty of small business owners attending, and many of the points were generalizable. The main idea is:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimism on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/optimism/</link>
+    <description>Recent content in Optimism on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/optimism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Becoming a parent introduced me to stress</title>
+      <link>http://localhost:1313/posts/becoming-a-parent-introduced-me-to-stress/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/becoming-a-parent-introduced-me-to-stress/</guid>
+      <description>&lt;p&gt;I have always been a calm and happy person. Aggressively optimistic, even. I made it through the first 1/3 of my life without feeling much stress, only getting angry on rare occasions. Anger management, emotional therapy, mindfulness exercises, these were all things that I had no need for.&lt;/p&gt;&#xA;&lt;p&gt;I thought that this was a personality trait, but now I realize that I was simply blessed with an easy life. It&amp;rsquo;s not that I was particularly good at dealing with stress, I just didn&amp;rsquo;t have much stress coming my way.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

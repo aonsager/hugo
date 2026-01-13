@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Replace Text in File - OSX Service | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+    <div class="site-title">
+        <svg id="header-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="10" fill="#fcfcfc" stroke="#202225" stroke-width="1" />
+            <circle cx="25" cy="15" r="10" fill="#202225" stroke="#fcfcfc" stroke-width="1" />
+        </svg>
+        <div class="site-url">
+            <span class="header-url">invisibleparade.com</span>
+        </div>
+    </div>
+</div>
+
+  </header>
+  <nav>
+  	<div class="container">
+    <ul>
+        <li><a href="/">Index</a></li>
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/notes">Notes</a></li>
+        <li><a href="/links">Links</a></li>
+        <li><a href="/micro">Micro</a></li>
+    </ul>
+</div>
+
+  </nav>
+  <main>
+    
+  <h1>Replace Text in File - OSX Service</h1>
+
+  
+  
+  <time datetime="2014-03-31T20:23:00&#43;00:00">March 31, 2014</time>
+
+  <p>A quick Mac OSX service that will search and replace all given strings in a text file, and save the modified content as a new file. It&rsquo;s not <em>that</em> much faster than just opening it in a text editor, but it was a fun way to learn how sed works.</p>
+<p><a href="http://images.alexonsager.net/blog/Replace_Text.zip">Download the script here</a></p>
+<p>It just runs a simple AppleScript that prompts for the query strings and new filename, and then runs sed through the shell to do the string replacements.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-applescript" data-lang="applescript"><span style="display:flex;"><span><span style="color:#66d9ef">on</span> run {input, parameters}
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">set</span> filepath <span style="color:#66d9ef">to</span> quoted form <span style="color:#66d9ef">of</span> POSIX <span style="color:#a6e22e">path</span> <span style="color:#66d9ef">of</span> (first item <span style="color:#66d9ef">of</span> input)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">set</span> folderpath <span style="color:#66d9ef">to</span> quoted form <span style="color:#66d9ef">of</span> POSIX <span style="color:#a6e22e">path</span> <span style="color:#66d9ef">of</span> (POSIX file (do shell script <span style="color:#e6db74">&#34;dirname &#34;</span> <span style="color:#f92672">&amp;</span> filepath)) <span style="color:#f92672">&amp;</span> <span style="color:#e6db74">&#34;/&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">set</span> findText <span style="color:#66d9ef">to</span> <span style="color:#a6e22e">text returned</span> <span style="color:#66d9ef">of</span> (display dialog <span style="color:#e6db74">&#34;Enter search string&#34;</span> default answer <span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">set</span> replaceText <span style="color:#66d9ef">to</span> <span style="color:#a6e22e">text returned</span> <span style="color:#66d9ef">of</span> (display dialog <span style="color:#e6db74">&#34;Enter replace string&#34;</span> default answer <span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">set</span> newfilepath <span style="color:#66d9ef">to</span> folderpath <span style="color:#f92672">&amp;</span> <span style="color:#a6e22e">text returned</span> <span style="color:#66d9ef">of</span> (display dialog <span style="color:#e6db74">&#34;Enter new file name&#34;</span> default answer <span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span>    do shell script <span style="color:#e6db74">&#34;export LC_CTYPE=C;export LANG=C;sed &#39;s/&#34;</span> <span style="color:#f92672">&amp;</span> findText <span style="color:#f92672">&amp;</span> <span style="color:#e6db74">&#34;/&#34;</span> <span style="color:#f92672">&amp;</span> replaceText <span style="color:#f92672">&amp;</span> <span style="color:#e6db74">&#34;/g&#39; &#34;</span> <span style="color:#f92672">&amp;</span> filepath <span style="color:#f92672">&amp;</span> <span style="color:#e6db74">&#34; &gt; &#34;</span> <span style="color:#f92672">&amp;</span> newfilepath
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span> run
+</span></span></code></pre></div><p>After downloading, unzip and place the file in ~/Library/Services (or create the folder first if it doesn’t exist already)</p>
+<p>After doing so, you should be able to simply right-click a file in Finder to see the &ldquo;Replace Text&rdquo; option. (You might find it under a &ldquo;Services&rdquo; category)</p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/mac/">Mac</a></li>
+        <li><a href="/tags/programming/">Programming</a></li>
+        <li><a href="/tags/script/">Script</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

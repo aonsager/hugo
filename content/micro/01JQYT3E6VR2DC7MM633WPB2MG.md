@@ -1,0 +1,6 @@
+---
+date: '2025-04-04 06:49:00 +0900'
+toot_id: 01JQYT3E6VR2DC7MM633WPB2MG
+---
+<p>Watched Adolescence, and wow what a ride. I was gripped from start to finish and was pretty emotionally battered at the end.</p>
+<div class='gallery'></div>

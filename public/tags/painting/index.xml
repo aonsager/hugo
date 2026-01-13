@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Painting on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/painting/</link>
+    <description>Recent content in Painting on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/painting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Star Wars Oil Paintings</title>
+      <link>http://localhost:1313/links/star-wars-oil-paintings/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/star-wars-oil-paintings/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2021/star-wars-oil.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll always have a soft spot for Star Wars things, but these paintings by Naci Caba are wonderful. The colors add a great bit of flavor especially to scenes in space that would otherwise be predominantly black and grey.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

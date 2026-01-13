@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apple on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/apple/</link>
+    <description>Recent content in Apple on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Apr 2014 17:04:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iWatch Concept</title>
+      <link>http://localhost:1313/links/iwatch-concept/</link>
+      <pubDate>Thu, 24 Apr 2014 17:04:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/iwatch-concept/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;If you could see the future, what would you watch?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Neat concept design by &lt;a href=&#34;http://twitter.com/frandiCosta&#34;&gt;@frandiCosta&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Original iChat UI</title>
+      <link>http://localhost:1313/links/original-ichat-ui/</link>
+      <pubDate>Wed, 19 Mar 2008 03:00:50 +0900</pubDate>
+      <guid>http://localhost:1313/links/original-ichat-ui/</guid>
+      <description>&lt;p&gt;It&#39;s always exciting to see original prototypes of good products. Not to mention the sample conversation going on in there is rather delightful.  &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apple sets the design standard</title>
+      <link>http://localhost:1313/links/apple-sets-the-design-standard/</link>
+      <pubDate>Wed, 13 Feb 2008 03:49:29 +0900</pubDate>
+      <guid>http://localhost:1313/links/apple-sets-the-design-standard/</guid>
+      <description>&lt;p&gt;A pretty good article describing Apple&amp;rsquo;s success with their high attention to design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buy a mac</title>
+      <link>http://localhost:1313/links/buy-a-mac/</link>
+      <pubDate>Tue, 12 Feb 2008 05:00:30 +0900</pubDate>
+      <guid>http://localhost:1313/links/buy-a-mac/</guid>
+      <description>&lt;p&gt;This article is so strange. It shows all the reasons why buying a PC with Windows Vista is a terrible idea, and yet the author seems perfectly happy with his Vista computer, even after paying absurd amounts of money to fix something that shouldn&amp;rsquo;t have broke in the first place.  &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

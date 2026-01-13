@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/mobile/</link>
+    <description>Recent content in Mobile on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Nov 2017 18:59:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pay to Win</title>
+      <link>http://localhost:1313/posts/pay-to-win/</link>
+      <pubDate>Thu, 30 Nov 2017 18:59:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/pay-to-win/</guid>
+      <description>&lt;p&gt;Mobile games can make a crazy amount of money. &lt;a href=&#34;https://en.wikipedia.org/wiki/Puzzle_%26_Dragons&#34;&gt;Puzzles and Dragons&lt;/a&gt; at its peak was said to be earning &lt;em&gt;$100 million per month&lt;/em&gt;! Why do people spend so much?&lt;/p&gt;&#xA;&lt;p&gt;Mobile games are generally much more simple than traditional video games, so they can&amp;rsquo;t provide the same rich experiences as traditional video games. Instead, they engage their core users by providing a satisfying experience of winning, especially against other players. Since people often play mobile games in their spare time, money is used as a shortcut to win quickly and efficiently. The entire game&amp;rsquo;s structure is built around creating an environment to support people who are willing to pay large amounts of money in order to win.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

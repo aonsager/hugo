@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roguelike on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/roguelike/</link>
+    <description>Recent content in Roguelike on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/roguelike/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Links - October 2022</title>
+      <link>http://localhost:1313/posts/web-links---october-2022/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/web-links---october-2022/</guid>
+      <description>&lt;dl&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://www.gamedeveloper.com/design/how-to-make-a-roguelike&#34;&gt;How to Make a Roguelike&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(www.gamedeveloper.com)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;Practical tips for how to plan and structure a new Roguelike game.&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://www.hackster.io/news/this-novel-mechanical-neural-network-architected-material-learns-to-respond-to-its-environment-ad68bdcf2d7b&#34;&gt;&#34;Mechanical Neural Network&#34; Learns to Respond to Its Environment&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(www.hackster.io)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;Flexible parts within a pattern of beams move and bend by reacting to magnetic fields. Future uses may include efficient aircraft wings or earthquake-resistant buildings.&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://variety.com/2022/tv/news/william-shatner-space-boldly-go-excerpt-1235395113/&#34;&gt;William Shatner: My Trip to Space Filled Me With Sadness&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(variety.com)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;Expecting beauty, William Shatner looked out into space and saw only death. Life and beauty only exists on Earth, and its tininess and fragility was overwhelming.&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://jalammar.github.io/illustrated-stable-diffusion/&#34;&gt;The Illustrated Stable Diffusion&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(jalammar.github.io)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;An illustrated guide explaining how Stable Diffusion works&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://coolify.io/&#34;&gt;Coolify&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(coolify.io)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;An open-source &amp; self-hostable Heroku / Netlify alternative&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://thereformedbroker.com/2022/10/02/you-werent-supposed-to-see-that/&#34;&gt;You weren&#39;t supposed to see that&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(thereformedbroker.com)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;Powerful economic stimulus during the pandemic worked a little too well and made everyone&#39;s lives better. But we need to have both winners and losers, so now were are backpedaling to bring things back to normal, i.e. worse for the bottom rung.&lt;/dd&gt;&#xA;&lt;/dl&gt;</description>
+    </item>
+  </channel>
+</rss>

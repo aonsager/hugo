@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/writing/</link>
+    <description>Recent content in Writing on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comments are back</title>
+      <link>http://localhost:1313/posts/comments-are-back/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/comments-are-back/</guid>
+      <description>&lt;p&gt;This site has gone through many forms, and comments have come and gone. Now they are back, made possible by &lt;a href=&#34;https://github.com/souramoo/commentoplusplus&#34;&gt;commento++&lt;/a&gt;. &lt;a href=&#34;https://commento.io&#34;&gt;Commento&lt;/a&gt; was popular and on my radar for a while, but the original repository has been dead for a while. Commento++ is a fork that has been dead for&amp;hellip; a little bit less of a while. But it has a few improvements from the original, and as long as it&amp;rsquo;s stable I don&amp;rsquo;t care so much.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beautiful vs. Effective Prose</title>
+      <link>http://localhost:1313/posts/beautiful-vs.-effective-prose/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/beautiful-vs.-effective-prose/</guid>
+      <description>&lt;p&gt;A long time ago, I fancied myself a writer and strove to write beautiful prose. I read a lot and borrowed from styles that I admired, but oftentimes my sentences ran on, and I relied on my thesaurus too heavily. But I enjoyed the process of writing and reached a familiarity with words that allowed me to simply let my thoughts flow through my fingers onto the page.&lt;/p&gt;&#xA;&lt;p&gt;At university, I discovered &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Elements_of_Style&#34;&gt;The Elements of Style&lt;/a&gt; and quickly became an advocate instead of lean, effective prose. I strove to convey my thoughts using fewer words. Composition took more effort as I scrutinized each phrase. I was happy with the results, and I felt a deliberate craftsmanship that seemed more pronounced than before.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An AI That Begins Novels</title>
+      <link>http://localhost:1313/links/an-ai-that-begins-novels/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/an-ai-that-begins-novels/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://aiweirdness.com/post/189170306297/how-to-begin-a-novel&#34;&gt;This neural network&lt;/a&gt; was trained to output unique opening lines to novels. Some of the results are surprisingly great:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I have just been informed, that the debate over the question ‘is it right or wrong to have immortal souls’ has been finally brought to a conclusion.&lt;/p&gt;&#xA;&lt;p&gt;When I was a boy, I was fond of the story of the pirate god.&lt;/p&gt;&#xA;&lt;p&gt;He had a strange name, and he was a very big boy indeed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nobody. Understands. Punctuation.</title>
+      <link>http://localhost:1313/links/nobody-understands-punctuation/</link>
+      <pubDate>Mon, 09 Jun 2014 12:49:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/nobody-understands-punctuation/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://stilldrinking.org/nobody-understands-punctuation&#34;&gt;Peter Welch&lt;/a&gt; has published an excellent piece on punctuation and writing style in the English language.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Yes, you can use punctuation in incorrect ways, but that does not mean there is only one way to use it. A friend recently told me publishers don&amp;rsquo;t care whether you use an oxford comma or not, as long as you pick one and stick with it. This is stupid. If punctuation obscures or distorts the meaning of a sentence in an unintended way, it is wrong, but apart from that, punctuation is about rhythm. An Oxford comma is not a flip switch in an author&amp;rsquo;s voice, it&amp;rsquo;s a decision made in the moment to maintain the flow of the idea. Momentum, syncopation, rhythm and pattern make a sentence flow, because writers are trying to transfer the voices in their heads into yours.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Becoming a Better Writer</title>
+      <link>http://localhost:1313/posts/becoming-a-better-writer/</link>
+      <pubDate>Wed, 25 Mar 2009 15:39:05 +0900</pubDate>
+      <guid>http://localhost:1313/posts/becoming-a-better-writer/</guid>
+      <description>&lt;p&gt;I just ordered Strunk &amp;amp; White&amp;rsquo;s &amp;ldquo;The Elements of Style,&amp;rdquo; 50th anniversary edition. I don&amp;rsquo;t have the book yet, but the purchase inspired me to pay more attention to writing. Hopefully this can be someplace where I can practice writing, incorporating new ideas and polishing my prose. No high hopes yet, as I don&amp;rsquo;t often continue such things for long, but we&amp;rsquo;ll see how it goes :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

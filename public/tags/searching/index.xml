@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Searching on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/searching/</link>
+    <description>Recent content in Searching on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/searching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Squirrel - Archive webpages so I can find them again</title>
+      <link>http://localhost:1313/posts/squirrel---archive-webpages-so-i-can-find-them-again/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/squirrel---archive-webpages-so-i-can-find-them-again/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2025/squirrel.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I &lt;a href=&#34;https://github.com/aonsager/squirrel-archiver&#34;&gt;created a thing&lt;/a&gt; that lets me save webpage contents in a smart way. I know, there are a million bookmark managers and web archivers out there, but this one is for me.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-motivation&#34;&gt;The Motivation&lt;/h2&gt;&#xA;&lt;p&gt;From &lt;a href=&#34;https://pinboard.in/about/&#34;&gt;Pinboard&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Do you half-remember interesting things you saw online six months ago, but struggle to find them in a search engine?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Yes, yes, a hundred times yes. This happens to me all the time. Searching my history doesn&amp;rsquo;t work because usually the keywords I remember are not in the title. Google et al. aren&amp;rsquo;t much help either.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

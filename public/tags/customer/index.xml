@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customer on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/customer/</link>
+    <description>Recent content in Customer on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 May 2025 10:39:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/customer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>If you love something, pay a subscription fee</title>
+      <link>http://localhost:1313/posts/pay-a-subscription/</link>
+      <pubDate>Thu, 15 May 2025 10:39:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/pay-a-subscription/</guid>
+      <description>&lt;p&gt;As a rule of thumb, you are more likely to be satisfied by a service that you pay for directly. This is because paying money makes you a &lt;em&gt;customer&lt;/em&gt; of the business, and the business is thereby directly motivated to keep you satisfied.&lt;/p&gt;&#xA;&lt;p&gt;If you want to find a service that will satisfy you for a long time, &lt;em&gt;paying a subscription&lt;/em&gt; is your best bet.&lt;/p&gt;&#xA;&lt;p&gt;Here are some facts:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;In general, a business aims to please its customers.&lt;/li&gt;&#xA;&lt;li&gt;A business&amp;rsquo;s customers are &lt;em&gt;those who pay it money&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;If you do not pay money to a business, you are not its customer.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;A user of a service who does not pay is, strictly speaking, not a customer. In most cases, the needs of the user and the needs of the customer are not too far apart, so many non-paying users are generally satisfied. But on average, in the long run, the needs of the non-user customer and the needs of the non-customer users will drift apart.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

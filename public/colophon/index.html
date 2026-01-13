@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Colophon | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+    <div class="site-title">
+        <svg id="header-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="10" fill="#fcfcfc" stroke="#202225" stroke-width="1" />
+            <circle cx="25" cy="15" r="10" fill="#202225" stroke="#fcfcfc" stroke-width="1" />
+        </svg>
+        <div class="site-url">
+            <span class="header-url">invisibleparade.com</span>
+        </div>
+    </div>
+</div>
+
+  </header>
+  <nav>
+  	<div class="container">
+    <ul>
+        <li><a href="/">Index</a></li>
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/notes">Notes</a></li>
+        <li><a href="/links">Links</a></li>
+        <li><a href="/micro">Micro</a></li>
+    </ul>
+</div>
+
+  </nav>
+  <main>
+    
+  <h1>Colophon</h1>
+
+  
+  
+  <time datetime="2025-12-24T12:37:00&#43;09:00">December 24, 2025</time>
+
+  <p>This site is build with #quartz (<a href="https://quartz.jzhao.xyz">https://quartz.jzhao.xyz</a>), which is a static-site generator that transforms a folder of Markdown files into a website.</p>
+<p>It&rsquo;s designed to work well with #obsidian (<a href="https://obsidian.md">https://obsidian.md</a>) &rsquo;s features, and that is what I use to write my content. I&rsquo;m not <em>that</em> deep in the Obsidian ecosystem, and I don&rsquo;t really use any advanced features, but everything about it, especially PC/Mobile cross-functionality, is pretty good.</p>
+<p>Because I access my Obsidian Vault on both desktop and mobile, the vault is saved in a weird location in my iCloud drive:</p>
+<pre tabindex="0"><code>~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/
+</code></pre><p>When building this site with Quartz, I have a script that batch-copies the files from my Obsidian vault into the Quartz folder, which it then uses to generate the site. The generated site is pushed to Github, where I have an Action setup to copy the contents of the <code>public/</code> folder to my VPS.</p>
+<p>I&rsquo;ve always felt that it&rsquo;s unwieldy to install static-site generators on the VPS, so I prefer to do the generation on my local machine and just copy over the outputted files.</p>
+<p>Since the Markdown content is synced via iCloud, I can even set up a cron task on my home computer to build + deploy every hour.</p>
+<p>I&rsquo;ve also tagged various files with #colophon that explain small features I&rsquo;ve added.</p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/quartz/">Quartz</a></li>
+        <li><a href="/tags/obsidian/">Obsidian</a></li>
+        <li><a href="/tags/markdown/">Markdown</a></li>
+        <li><a href="/tags/website/">Website</a></li>
+        <li><a href="/tags/icloud/">Icloud</a></li>
+        <li><a href="/tags/colophon/">Colophon</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

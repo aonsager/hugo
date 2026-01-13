@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mmo on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/mmo/</link>
+    <description>Recent content in Mmo on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mmo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Value Promise of Subscription Games</title>
+      <link>http://localhost:1313/posts/the-value-promise-of-subscription-games/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-value-promise-of-subscription-games/</guid>
+      <description>&lt;p&gt;I had been playing World of Warcraft on and off for about 10 years, but I decided to stop playing again about a year ago. I quit because of a series of changes that were made to the game, and it motivated me to think about why I reacted that way as a paying customer.&lt;/p&gt;&#xA;&lt;p&gt;A series of recent changes made to WoW were designed to motivate players to play by ensuring they always gain something and grow a little every time they play. Unfortunately, a side effect of these changes was an increased pressure to spend many hours playing. This made me feel like my limited time spent in the game was less valuable, and is what ultimately led to me quitting the game.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

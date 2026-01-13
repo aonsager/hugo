@@ -1,0 +1,6 @@
+---
+date: '2025-01-07 09:58:00 +0900'
+toot_id: 01JGZ4B29MHVSR14RPGX641AHW
+---
+<p>Tontie is the reason I can still type numbers very quickly on a 10-key keypad. Anybody else play this?<br><br><a href="https://www.eyezmaze.com/game/tontie.html" rel="nofollow noreferrer noopener" target="_blank">https://www.eyezmaze.com/game/tontie.html</a></p>
+

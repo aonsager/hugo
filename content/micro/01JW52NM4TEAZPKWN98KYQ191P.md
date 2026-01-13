@@ -1,0 +1,6 @@
+---
+date: '2025-05-26 10:17:00 +0900'
+toot_id: 01JW52NM4TEAZPKWN98KYQ191P
+---
+<p>Interesting. chatgpt.com has started showing up as an inbound referrer to my blog for the first time.</p>
+<div class='gallery'></div>

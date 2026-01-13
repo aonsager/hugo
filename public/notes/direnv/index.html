@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+    <div class="site-title">
+        <svg id="header-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="10" fill="#fcfcfc" stroke="#202225" stroke-width="1" />
+            <circle cx="25" cy="15" r="10" fill="#202225" stroke="#fcfcfc" stroke-width="1" />
+        </svg>
+        <div class="site-url">
+            <span class="header-url">invisibleparade.com</span>
+        </div>
+    </div>
+</div>
+
+  </header>
+  <nav>
+  	<div class="container">
+    <ul>
+        <li><a href="/">Index</a></li>
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/notes">Notes</a></li>
+        <li><a href="/links">Links</a></li>
+        <li><a href="/micro">Micro</a></li>
+    </ul>
+</div>
+
+  </nav>
+  <main>
+    
+  <h1></h1>
+
+  
+  
+  <time datetime="2025-12-24T11:27:00&#43;09:00">December 24, 2025</time>
+
+  <p><a href="https://direnv.net">direnv</a> lets you define environment variables to be loaded only within certain directories. It&rsquo;s a great way to save secret variables that are project-specific, without cluttering your global shell config.</p>
+<h2 id="installation">Installation</h2>
+<pre tabindex="0"><code>brew install direnv
+echo &#39;eval &#34;$(direnv hook zsh)&#34;&#39; &gt;&gt; ~/.zshrc
+</code></pre><h2 id="usage">Usage</h2>
+<pre tabindex="0"><code>echo &#39;export SECRET_TOKEN=&#34;super-secret&#34;&#39; &gt; .envrc
+echo &#39;export API_KEY=&#34;12345&#34;&#39; &gt;&gt; .envrc
+direnv allow
+</code></pre><p>Whenever you <code>cd</code> into this folder, the environment variables will load.</p>
+<h2 id="dont-commit-the-secrets">Don&rsquo;t commit the secrets!</h2>
+<p>Add to <code>.gitignore</code>:</p>
+<pre tabindex="0"><code>.envrc
+</code></pre>
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/direnv/">Direnv</a></li>
+        <li><a href="/tags/environment/">Environment</a></li>
+        <li><a href="/tags/variables/">Variables</a></li>
+        <li><a href="/tags/security/">Security</a></li>
+        <li><a href="/tags/gitignore/">Gitignore</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

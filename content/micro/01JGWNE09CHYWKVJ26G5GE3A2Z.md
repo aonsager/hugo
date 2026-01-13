@@ -1,0 +1,6 @@
+---
+date: '2025-01-06 10:59:00 +0900'
+toot_id: 01JGWNE09CHYWKVJ26G5GE3A2Z
+---
+<p>Next pet-project to tackle: Minimal-friction searchable archive of webpages I visit.</p>
+

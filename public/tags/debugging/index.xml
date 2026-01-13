@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debugging on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/debugging/</link>
+    <description>Recent content in Debugging on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Feb 2025 15:11:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python script failing via cron</title>
+      <link>http://localhost:1313/posts/python-cron/</link>
+      <pubDate>Wed, 26 Feb 2025 15:11:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/python-cron/</guid>
+      <description>&lt;h2 id=&#34;the-issue&#34;&gt;The issue&lt;/h2&gt;&#xA;&lt;p&gt;I had setup a cron task to run my &lt;a href=&#34;http://localhost:1313/2025/01/09/squirrel-archive-webpages-so-i-can-find-them-again.html&#34;&gt;Squirrel Archiver&lt;/a&gt; script once per day, but for some reason the task was not executing. Nothing, including any errors, was showing up in any logs. At first I thought there was something wrong with my crontab, but other scripts set up to run in the same way were running without issue.&lt;/p&gt;&#xA;&lt;p&gt;Copying the commands in crontab to the terminal and running it manually worked. It was only when cron was triggering the run that it failed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

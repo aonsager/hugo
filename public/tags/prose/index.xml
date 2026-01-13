@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prose on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/prose/</link>
+    <description>Recent content in Prose on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/prose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beautiful vs. Effective Prose</title>
+      <link>http://localhost:1313/posts/beautiful-vs.-effective-prose/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/beautiful-vs.-effective-prose/</guid>
+      <description>&lt;p&gt;A long time ago, I fancied myself a writer and strove to write beautiful prose. I read a lot and borrowed from styles that I admired, but oftentimes my sentences ran on, and I relied on my thesaurus too heavily. But I enjoyed the process of writing and reached a familiarity with words that allowed me to simply let my thoughts flow through my fingers onto the page.&lt;/p&gt;&#xA;&lt;p&gt;At university, I discovered &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Elements_of_Style&#34;&gt;The Elements of Style&lt;/a&gt; and quickly became an advocate instead of lean, effective prose. I strove to convey my thoughts using fewer words. Composition took more effort as I scrutinized each phrase. I was happy with the results, and I felt a deliberate craftsmanship that seemed more pronounced than before.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

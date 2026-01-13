@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zombie on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/zombie/</link>
+    <description>Recent content in Zombie on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/zombie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One Cut of the Dead (カメラを止めるな！）</title>
+      <link>http://localhost:1313/posts/one-cut-of-the-dead/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/one-cut-of-the-dead/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://kametome.net/index.html&#34;&gt;One Cut of the Dead (カメラを止めるな！)&lt;/a&gt;&lt;/em&gt; is a low budget Japanese zombie movie that became hugely popular here. I just watched it over the weekend and it was wonderful. The writing is very funny and very clever, and when it was over I found myself immediately wanting to watch it a second time.&lt;/p&gt;&#xA;&lt;p&gt;From &lt;a href=&#34;https://en.wikipedia.org/wiki/One_Cut_of_the_Dead&#34;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;One Cut of the Dead was made for 3 million Japanese Yen (approximately $25,000 in US Dollars at the time) with a cast of unknown actors. It was made in eight days after director Shinichiro Ueda participated in workshops for actors and filmmakers at the Enbu Seminar drama school in Tokyo&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

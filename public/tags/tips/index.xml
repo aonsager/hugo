@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/tips/</link>
+    <description>Recent content in Tips on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Cook Popcorn in a Pan</title>
+      <link>http://localhost:1313/posts/how-to-cook-popcorn-in-a-pan/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-cook-popcorn-in-a-pan/</guid>
+      <description>&lt;p&gt;The best way to cook popcorn in a pan. The secret is to heat up the kernels evenly in hot oil first, before heating them over a flame to pop them quickly all at once.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Coat the bottom of a pan with a small amount of oil and place over medium heat.&lt;/li&gt;&#xA;&lt;li&gt;Put three popcorn kernels in the pan and wait for all three to pop.&lt;/li&gt;&#xA;&lt;li&gt;Put the rest of the kernels in the pan, cover with a lid, and &lt;strong&gt;remove from the heat&lt;/strong&gt; for 30 seconds.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This heats the kernels evenly, getting them all ready to pop together.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;Return the pan to the heat, where the popcorn should start popping right away.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It helps to keep the lid ajar and shake the pan occasionally to keep the popcorn dry.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Once the popping slows to a few seconds between pops, pour the popcorn into a bowl.&lt;/li&gt;&#xA;&lt;li&gt;Add salt to taste.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/popcorn.jpg&#34; alt=&#34;Photo by Keegan Evans from Pexels&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

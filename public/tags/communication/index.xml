@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communication on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/communication/</link>
+    <description>Recent content in Communication on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Dec 2025 13:11:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transparent leadership</title>
+      <link>http://localhost:1313/posts/transparent-leadership/</link>
+      <pubDate>Tue, 09 Dec 2025 13:11:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/transparent-leadership/</guid>
+      <description>&lt;p&gt;From &lt;a href=&#34;https://entropicthoughts.com/transparent-leadership-beats-servant-leadership&#34;&gt;Transparent Leadership Beats Servant Leadership&lt;/a&gt;, by Chris at &lt;a href=&#34;https://entropicthoughts.com/index&#34;&gt;Entropic Thoughts&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In my book, a good leader&lt;/p&gt;&#xA;&lt;p&gt;coaches people,&lt;br&gt;&#xA;connects people,&lt;br&gt;&#xA;[. . .]&lt;br&gt;&#xA;creates direct links between supply and demand (instead of deliberately making themselves a middle man),&lt;br&gt;&#xA;[. . .]&lt;br&gt;&#xA;generally makes themselves redundant.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I really related with many of the points in this post. Coincidentally, I had just recently come to some similar conclusions at my own workplace, too.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Communication-driven productivity</title>
+      <link>http://localhost:1313/posts/cdp/</link>
+      <pubDate>Thu, 05 Jun 2025 15:45:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/cdp/</guid>
+      <description>&lt;p&gt;Or, &amp;ldquo;The latest chapter in my fool&amp;rsquo;s quest to discover a productivity framework that magically makes me effortlessly productive&amp;rdquo;. So it goes.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always considered my todo list as a list of things I need to do (for obvious reasons). But I had a minor epiphany and realized that, in my current role, everything I do has exactly zero value &lt;em&gt;until I communicate it to the right people&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For example: One big item on my todo list now is to finish writing a proposal for improving how we evaluate new game ideas. But if the overarching objective is &amp;ldquo;&lt;em&gt;Improve how we evaluate new game ideas&lt;/em&gt;&amp;rdquo;, the direct actions to achieve this are &amp;ldquo;&lt;em&gt;Convince the right important people and get approval&lt;/em&gt;&amp;rdquo;, followed by &amp;ldquo;&lt;em&gt;Tell everybody about the changes&lt;/em&gt;&amp;rdquo;. These are accompanied by the prerequisite sub-tasks, &amp;ldquo;&lt;em&gt;Write up a convincing proposal&lt;/em&gt;&amp;rdquo; and &amp;ldquo;&lt;em&gt;Update the existing guideline documents&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comments are back</title>
+      <link>http://localhost:1313/posts/comments-are-back/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/comments-are-back/</guid>
+      <description>&lt;p&gt;This site has gone through many forms, and comments have come and gone. Now they are back, made possible by &lt;a href=&#34;https://github.com/souramoo/commentoplusplus&#34;&gt;commento++&lt;/a&gt;. &lt;a href=&#34;https://commento.io&#34;&gt;Commento&lt;/a&gt; was popular and on my radar for a while, but the original repository has been dead for a while. Commento++ is a fork that has been dead for&amp;hellip; a little bit less of a while. But it has a few improvements from the original, and as long as it&amp;rsquo;s stable I don&amp;rsquo;t care so much.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Incredible Network of Children</title>
+      <link>http://localhost:1313/posts/the-incredible-network-of-children/</link>
+      <pubDate>Mon, 21 Dec 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-incredible-network-of-children/</guid>
+      <description>&lt;p&gt;When we were kids, we didn’t use online forums, message boards, or FAQs. Yet somehow, every single child knew that if your videogame wasn’t working, you just needed to blow in the cartridge. And it’s not like anybody documented Red Rover or Wall Ball or Groundies/Lava Monster. Kids just talked to each other and figured it out.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gravity Summit Stanford: Wrap-up</title>
+      <link>http://localhost:1313/posts/gravity-summit-stanford-wrap-up/</link>
+      <pubDate>Sat, 09 May 2009 13:25:58 +0900</pubDate>
+      <guid>http://localhost:1313/posts/gravity-summit-stanford-wrap-up/</guid>
+      <description>&lt;p&gt;Tuesday, May 5th was Gravity Summit&amp;rsquo;s &amp;ldquo;Social Media Marketing for Business&amp;rdquo; at Stanford. I&amp;rsquo;ve known Rodney Rumford since Joachim and I made Graffiti for Facebook, and he was kind enough to save me a spot.&lt;/p&gt;&#xA;&lt;p&gt;The focus of the talks was very much aimed towards large businesses; presentations were given by such notable people as Bob Pearson of Dell, Inc. and Charles Miller from DIRECTV. That said, it seemed there were plenty of small business owners attending, and many of the points were generalizable. The main idea is:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

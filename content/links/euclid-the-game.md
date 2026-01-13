@@ -1,0 +1,17 @@
+---
+title: Euclid The Game
+date: 2014-06-23 12:47:00
+link: http://euclidthegame.org/
+tags:
+- game
+- math
+- puzzle
+colors:
+- "#4C4D4E"
+- "#9B8D77"
+- "#B1B1B1"
+- "#B1B1B3"
+- "#A6A296"
+---
+
+Euclid The Game is a puzzle game that challenges you to use simple methods like drawing circles, translating lines, and bisecting angles to solve geometric puzzles. Very addicting, and it made me remember just how powerful tools like a compass can be.

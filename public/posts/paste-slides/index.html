@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Copy and paste across Google Slides | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+    <div class="site-title">
+        <svg id="header-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="10" fill="#fcfcfc" stroke="#202225" stroke-width="1" />
+            <circle cx="25" cy="15" r="10" fill="#202225" stroke="#fcfcfc" stroke-width="1" />
+        </svg>
+        <div class="site-url">
+            <span class="header-url">invisibleparade.com</span>
+        </div>
+    </div>
+</div>
+
+  </header>
+  <nav>
+  	<div class="container">
+    <ul>
+        <li><a href="/">Index</a></li>
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/notes">Notes</a></li>
+        <li><a href="/links">Links</a></li>
+        <li><a href="/micro">Micro</a></li>
+    </ul>
+</div>
+
+  </nav>
+  <main>
+    
+  <h1>Copy and paste across Google Slides</h1>
+
+  
+  
+  <time datetime="2025-07-15T10:31:00&#43;09:00">July 15, 2025</time>
+
+  <p>I wanted to copy slides from one Google Slide document to another. Half-expecting it to not work, I just copied slides in one document, switched to a different tab, hit paste&hellip; and it worked! Seamless and perfect.</p>
+<p>It looks like when you copy slides, your clipboard actually saves a special payload that contains information about the slides you are copying, rather than the raw content. Then when you paste that into a Slides document, it retrieves the slide data from its servers and imports them to the second document. I imagine you have to be logged into the same Google account in both tabs for it to work properly.</p>
+<p>You can actually look at the raw clipboard data by using a custom HTML page like below:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;&lt;<span style="color:#f92672">title</span>&gt;Clipboard Viewer&lt;/<span style="color:#f92672">title</span>&gt;&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">h1</span>&gt;Paste clipboard contents here (Ctrl+V)&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">pre</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;output&#34;</span>&gt;&lt;/<span style="color:#f92672">pre</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>    document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;paste&#39;</span>, <span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">event</span>) =&gt; {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">output</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;output&#39;</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">output</span>.<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">clipboardItems</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">clipboardData</span>.<span style="color:#a6e22e">items</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">clipboardItems</span>.<span style="color:#a6e22e">length</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">item</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">clipboardItems</span>[<span style="color:#a6e22e">i</span>];
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">type</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">type</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">output</span>.<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">`MIME Type: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">type</span><span style="color:#e6db74">}</span><span style="color:#e6db74">\n`</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">kind</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;string&#39;</span>) {
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">getAsString</span>((<span style="color:#a6e22e">str</span>) =&gt; {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">output</span>.<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">`Content:\n</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">str</span><span style="color:#e6db74">}</span><span style="color:#e6db74">\n\n`</span>;
+</span></span><span style="display:flex;"><span>          });
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">kind</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;file&#39;</span>) {
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">file</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">getAsFile</span>();
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">text</span>();
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">output</span>.<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">`File Content:\n</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">text</span><span style="color:#e6db74">}</span><span style="color:#e6db74">\n\n`</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div><p>After copying slide data and pasting it to this page, I saw:</p>
+<pre tabindex="0"><code>MIME Type: text/html
+MIME Type: text/plain
+Content:
+&lt;head&gt;&lt;meta charset=&#34;UTF-8&#34;&gt;&lt;/head&gt;&lt;b id=&#34;docs-internal-guid-2b163f80-7fff-e9cd-4022-54d9d4edcc57&#34; style=&#34;font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal;&#34;&gt;&lt;span&gt; &lt;/span&gt;&lt;/b&gt;
+
+Content:
+</code></pre><p>That <code>docs-internal-guid-*</code> looks like the important bit. Copying multiple slides also results in a single guid, so I guess this is just a catch-all hash that saves all information about whatever it is that you had copied. Pretty cool.</p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/web/">Web</a></li>
+        <li><a href="/tags/coding/">Coding</a></li>
+        <li><a href="/tags/google/">Google</a></li>
+        <li><a href="/tags/clipboard/">Clipboard</a></li>
+        <li><a href="/tags/html/">Html</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

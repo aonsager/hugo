@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creativity on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/creativity/</link>
+    <description>Recent content in Creativity on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Mar 2025 16:55:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/creativity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My AI manifesto</title>
+      <link>http://localhost:1313/posts/ai-manifesto/</link>
+      <pubDate>Fri, 28 Mar 2025 16:55:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/ai-manifesto/</guid>
+      <description>&lt;p&gt;This is my personal manifesto for how I will and will not use generative AI. I believe it can be an extremely useful tool in certain situations, but can also have many negative repurcussions if used incorrectly.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-use-to-expand-my-abilities-not-as-a-crutch&#34;&gt;1: Use to expand my abilities, not as a crutch.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;a-teach-me-new-things&#34;&gt;A: Teach me new things&lt;/h3&gt;&#xA;&lt;p&gt;As a coding assistant, AI can quickly show me the correct syntax. It can suggest implementations, and teach me how to implement new functions. These are extremely useful, and help me to be exponentionally more productive as a hobby developer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hobbies that I am no good at</title>
+      <link>http://localhost:1313/posts/hobbies-that-i-am-no-good-at/</link>
+      <pubDate>Thu, 30 Jan 2025 14:48:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/hobbies-that-i-am-no-good-at/</guid>
+      <description>&lt;p&gt;A distinguished actor appeared on TV and talked about their love for juggling. They had taken lessons at various times and always sets aside time to practice because they enjoy it so much. They then recounted how they recently met their juggling teacher of ~10 years past, displayed their current juggling skills, and was met with astonishment at how &lt;em&gt;they had not improved one bit in all that time!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;It was a funny story, but what struck me was just how &lt;em&gt;nice&lt;/em&gt; it was that juggling was a constant source of enjoyment for this person &lt;em&gt;despite apparently being no good at it&lt;/em&gt;. That&amp;rsquo;s a hard thing to do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web Links - September 2022</title>
+      <link>http://localhost:1313/posts/web-links---september-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/web-links---september-2022/</guid>
+      <description>&lt;dl&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://github.com/RootMyTV/RootMyTV.github.io&#34;&gt;RootMyTV&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(RootMyTV.github.io)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;A user-friendly exploit for rooting/jailbreaking LG webOS smart TVs.&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://www.lamag.com/citythinkblog/zodiac-killer-paul-alfred-doerr/&#34;&gt;Has The Zodiac Killer Mystery Been Solved (Again)&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(www.lamag.com)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://github.com/LambdaLabsML/examples/tree/main/stable-diffusion-finetuning&#34;&gt;examples/stable-diffusion-finetuning at main · LambdaLabsML/examples&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(github.com)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;Fine tune Stable Diffusion to generate pokemon images&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://brickit.app/&#34;&gt;Brickit&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(brickit.app)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;App scans a pile of your legos and gives you ideas to create, complete with detailed instructions.&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://twofergoofer.com/&#34;&gt;Twofer Goofer&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(twofergoofer.com)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;Guess a pair of rhyming words based on their fictional definition.&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://experimentalhistory.substack.com/p/excuse-me-but-why-are-you-eating&#34;&gt;Excuse me but why are you eating so many frogs&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(experimentalhistory.substack.com)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;Productivity hacks imply that you can trick yourself into doing things you don&#39;t want to do, in favor of things you&#39;d rather be doing. The author suggests that maybe you should instead stop forcing yourself to do so many unpleasant things.&lt;/dd&gt;&#xA;  &lt;dt&gt;&#xA;    &lt;a href=&#34;https://www.fast.ai/2022/09/06/homeschooling/&#34;&gt;My family&#39;s unlikely homeschooling journey · fast.ai&lt;/a&gt;&#xA;    &lt;span class=&#34;post-meta&#34;&gt;(www.fast.ai)&lt;/span&gt;&#xA;  &lt;/dt&gt;&#xA;  &lt;dd&gt;The pandemic forced this family into experimenting with homeschooling. With good resources and a strong local support system, they found that their new arrangement seemed to work better for their kids than traditional schools do.&lt;/dd&gt;&#xA;&lt;/dl&gt;</description>
+    </item>
+    <item>
+      <title>An AI That Begins Novels</title>
+      <link>http://localhost:1313/links/an-ai-that-begins-novels/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/an-ai-that-begins-novels/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://aiweirdness.com/post/189170306297/how-to-begin-a-novel&#34;&gt;This neural network&lt;/a&gt; was trained to output unique opening lines to novels. Some of the results are surprisingly great:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I have just been informed, that the debate over the question ‘is it right or wrong to have immortal souls’ has been finally brought to a conclusion.&lt;/p&gt;&#xA;&lt;p&gt;When I was a boy, I was fond of the story of the pirate god.&lt;/p&gt;&#xA;&lt;p&gt;He had a strange name, and he was a very big boy indeed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

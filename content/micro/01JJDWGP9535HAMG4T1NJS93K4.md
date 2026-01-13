@@ -1,0 +1,6 @@
+---
+date: '2025-01-25 13:46:00 +0900'
+toot_id: 01JJDWGP9535HAMG4T1NJS93K4
+---
+<p>A good day to visit the strawberry farm.</p>
+<div class='gallery'><div><a href='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/original/01JJDWF1P3AB35RG5245YN1Y7T.jpeg'><img src='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/small/01JJDWF1P3AB35RG5245YN1Y7T.jpeg' title='Delicious strawberries waiting to be picked.'/></a></div></div>

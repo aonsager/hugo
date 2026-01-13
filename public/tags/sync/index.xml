@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sync on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/sync/</link>
+    <description>Recent content in Sync on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sync/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian iCloud sync between Mac and iPhone</title>
+      <link>http://localhost:1313/posts/obsidian-icloud-sync-between-mac-and-iphone/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/obsidian-icloud-sync-between-mac-and-iphone/</guid>
+      <description>&lt;p&gt;Just using iCloud sync has been pretty solid in my experience. I have two Macs and one iPhone that share a single vault, and I&amp;rsquo;ve had no major issues&amp;hellip; except for one.&lt;/p&gt;&#xA;&lt;p&gt;Because the entire Obsidian folder lives inside of iCloud, the &lt;code&gt;.obsidian&lt;/code&gt; settings folder is also synced. Usually a good thing, except that the multi-pane view I have setup for desktop keeps getting pushed onto mobile. Because the panes all become tiny, and because Obsidian reverts to this view every time I use the app on desktop again, Obsidian basically became unusable on my phone.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

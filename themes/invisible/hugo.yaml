@@ -1,0 +1,17 @@
+menus:
+  main:
+    - name: 'Home'
+      pageRef: '/'
+      weight: 10
+    - name: 'Posts'
+      pageRef: '/posts'
+      weight: 20
+    - name: 'Notes'
+      pageRef: '/notes'
+      weight: 30
+    - name: 'Links'
+      pageRef: '/links'
+      weight: 40
+    - name: 'Micro'
+      pageRef: '/micro'
+      weight: 50

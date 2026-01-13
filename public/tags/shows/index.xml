@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shows on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/shows/</link>
+    <description>Recent content in Shows on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Dec 2025 07:57:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/shows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Media Favorites – 2025</title>
+      <link>http://localhost:1313/posts/media-favorites-2025/</link>
+      <pubDate>Mon, 29 Dec 2025 07:57:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/media-favorites-2025/</guid>
+      <description>&lt;p&gt;Looking back on the media I consumed in 2025, this is a list of just my favorites.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-games&#34;&gt;🎮️ Games&lt;/h2&gt;&#xA;&lt;h3 id=&#34;dragon-quest-v&#34;&gt;Dragon Quest V&lt;/h3&gt;&#xA;&lt;p&gt;I was always a Nintendo kid, and have played very few &lt;em&gt;Dragon Quest&lt;/em&gt; or &lt;em&gt;Final Fantasy&lt;/em&gt; games. I&amp;rsquo;d heard that is one of the best, and I finally grabbed the iOS port this year. Among other things, I was really impressed by the clever usage of game mechanics to tell story.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

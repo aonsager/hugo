@@ -1,0 +1,6 @@
+---
+date: '2025-08-09 10:47:00 +0900'
+toot_id: 01K2686MJSCRE5M7YZW54WCSG9
+---
+<p>Dial-up Internet to be discontinued<br><a href="https://help.aol.com/articles/dial-up-internet-to-be-discontinued" rel="nofollow noreferrer noopener" target="_blank">https://help.aol.com/articles/dial-up-internet-to-be-discontinued</a><br><br>It hadn't been yet! Wow!</p>
+<div class='gallery'></div>

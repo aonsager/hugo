@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resilience on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/resilience/</link>
+    <description>Recent content in Resilience on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Apr 2025 14:23:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/resilience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identity and Community on the Fediverse</title>
+      <link>http://localhost:1313/posts/identity-vs-community/</link>
+      <pubDate>Mon, 28 Apr 2025 14:23:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/identity-vs-community/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://fediverse.info&#34;&gt;The Fediverse&lt;/a&gt;, a network of interconnected social media services, requires users to choose a service for their account, tying their identity to that community. This can be problematic if the community experiences issues like spam, moderation problems, or shutdown. If we could decouple identity from community, like Reddit did with subreddits, users could more freely participate in multiple communities — and the network overall would be more accessible and resilient.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

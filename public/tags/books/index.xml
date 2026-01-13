@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/books/</link>
+    <description>Recent content in Books on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Dec 2025 07:57:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Media Favorites – 2025</title>
+      <link>http://localhost:1313/posts/media-favorites-2025/</link>
+      <pubDate>Mon, 29 Dec 2025 07:57:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/media-favorites-2025/</guid>
+      <description>&lt;p&gt;Looking back on the media I consumed in 2025, this is a list of just my favorites.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-games&#34;&gt;🎮️ Games&lt;/h2&gt;&#xA;&lt;h3 id=&#34;dragon-quest-v&#34;&gt;Dragon Quest V&lt;/h3&gt;&#xA;&lt;p&gt;I was always a Nintendo kid, and have played very few &lt;em&gt;Dragon Quest&lt;/em&gt; or &lt;em&gt;Final Fantasy&lt;/em&gt; games. I&amp;rsquo;d heard that is one of the best, and I finally grabbed the iOS port this year. Among other things, I was really impressed by the clever usage of game mechanics to tell story.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Father&#39;s Bookshelf</title>
+      <link>http://localhost:1313/posts/a-fathers-bookshelf/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-fathers-bookshelf/</guid>
+      <description>&lt;p&gt;For a long time, I&amp;rsquo;ve avoided collecting too much stuff. I buy Kindle versions of books whenever possible, but there is a small shelf for the few books I have carried around with me over the years. My son, who is not quite two years old, will sometimes rummage through my books and leave them in a heap once he realizes there are no pictures, but it made me remember what my own father&amp;rsquo;s bookshelf was like for me.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

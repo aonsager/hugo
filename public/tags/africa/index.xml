@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Africa on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/africa/</link>
+    <description>Recent content in Africa on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/africa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Sociable Weaver</title>
+      <link>http://localhost:1313/posts/the-sociable-weaver/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-sociable-weaver/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Sociable_weaver&#34;&gt;sociable weaver&lt;/a&gt; is an African bird that creates giant, community nests in trees. The nests look like a giant woolly mammoth hanging in a tree, and have many entry holes on the bottom. These nests can house over 100 pairs of birds, spanning multiple generations at a time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2025/sociable_weaver.jpg&#34; alt=&#34;Photo from Wikipedia, by Harald Süpfle&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

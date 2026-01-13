@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Breenhill on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/breenhill/</link>
+    <description>Recent content in Breenhill on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jan 2026 10:05:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/breenhill/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Desk mat</title>
+      <link>http://localhost:1313/notes/desk-mat/</link>
+      <pubDate>Sat, 03 Jan 2026 10:05:00 +0900</pubDate>
+      <guid>http://localhost:1313/notes/desk-mat/</guid>
+      <description>&lt;h2 id=&#34;currently-using&#34;&gt;Currently using&lt;/h2&gt;&#xA;&lt;p&gt;30cm×85cm wool desk mat from &lt;a href=&#34;https://www.amazon.co.jp/dp/B0CRPZZBFS&#34;&gt;amesoba&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;amesoba-mat.jpg&#34; alt=&#34;My current desk setup&#34; title=&#34;My current desk setup&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This desk mat is fantastic. The natural wool material has been treated to have none of the typical scratchiness, and it&amp;rsquo;s comfortable for my wrists while giving a smooth surface for a mouse, too.&lt;/p&gt;&#xA;&lt;p&gt;30×90 is a more standard size, but 90cm felt a little bit too big for me, so this 85cm width is perfect.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,6 @@
+---
+date: '2025-03-21 13:40:00 +0900'
+toot_id: 01JPVG0MYR1H869E1A3RE10M9K
+---
+<p>Backblaze randomly stopped backing up for many Mac users on 3/13 (myself included), and the only information about this problem and its fix is in this reddit thread(!?)<br><br><a href="https://www.reddit.com/r/backblaze/comments/1jdlzop/bb_stopped_backing_up_after_macos_1532_update/" rel="nofollow noreferrer noopener" target="_blank">https://www.reddit.com/r/backblaze/comments/1jdlzop/bb_stopped_backing_up_after_macos_1532_update/</a><br><br>tl;dr:<br>1. Restart the computer<br>2. Manually update the app via the latest installer<br>3. Invoke a magic command to make it rescan your drive(!?)</p>
+<div class='gallery'></div>

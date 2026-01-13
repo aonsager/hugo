@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wiki on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/wiki/</link>
+    <description>Recent content in Wiki on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Dec 2025 11:29:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/site-todo/</link>
+      <pubDate>Wed, 24 Dec 2025 11:29:00 +0900</pubDate>
+      <guid>http://localhost:1313/notes/site-todo/</guid>
+      <description>&lt;p&gt;In addition to using this site as a general wiki for my thoughts, I&amp;rsquo;m eyeing the possibility of migrating my entire blog to this format. I Currently make my site with &lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; (a great product!) but I have a lot of customization living in each post&amp;rsquo;s frontmatter, and while I do have a variety of convenience scripts set up, I kind of need to be sitting at my desktop machine in order to create and publish posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

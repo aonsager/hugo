@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/notes/</link>
+    <description>Recent content in Notes on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Dec 2025 11:29:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/this-sites-organization/</link>
+      <pubDate>Wed, 24 Dec 2025 11:29:00 +0900</pubDate>
+      <guid>http://localhost:1313/notes/this-sites-organization/</guid>
+      <description>&lt;p&gt;My mind has always preferred organize files in folders. I like having a sense of where things are, and being able to see at a glance all files that pertain to a particular topic.&lt;/p&gt;&#xA;&lt;p&gt;Even though I use #obsidian, which pushes towards a tag-based approach to organization, I fight to keep things sorted in folders.&lt;/p&gt;&#xA;&lt;p&gt;But especially now that I&amp;rsquo;m experimenting with publishing my vault as a website, the folder-based approach is really starting to show its limitations. Maybe this is the time that I try to embrace tags.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Obsidian iCloud sync between Mac and iPhone</title>
+      <link>http://localhost:1313/posts/obsidian-icloud-sync-between-mac-and-iphone/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/obsidian-icloud-sync-between-mac-and-iphone/</guid>
+      <description>&lt;p&gt;Just using iCloud sync has been pretty solid in my experience. I have two Macs and one iPhone that share a single vault, and I&amp;rsquo;ve had no major issues&amp;hellip; except for one.&lt;/p&gt;&#xA;&lt;p&gt;Because the entire Obsidian folder lives inside of iCloud, the &lt;code&gt;.obsidian&lt;/code&gt; settings folder is also synced. Usually a good thing, except that the multi-pane view I have setup for desktop keeps getting pushed onto mobile. Because the panes all become tiny, and because Obsidian reverts to this view every time I use the app on desktop again, Obsidian basically became unusable on my phone.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

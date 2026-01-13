@@ -1,0 +1,6 @@
+---
+date: '2025-12-23 09:29:00 +0900'
+toot_id: 01KD49R3C6J7J0ZX2EX47Z3PAV
+---
+<p>Received my new desk mat from Minimal Desk Setups! It’s really nice, but this will take some time to get used to. I’ve been using a very hard mousepad for a long time, and this is quite different.</p>
+<div class='gallery'></div>

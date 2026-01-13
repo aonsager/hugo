@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skill on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/skill/</link>
+    <description>Recent content in Skill on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/skill/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lucid Dreaming</title>
+      <link>http://localhost:1313/posts/lucid-dreaming/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lucid-dreaming/</guid>
+      <description>&lt;p&gt;I was consistently able to have lucid dreams when I was in high school. Partway through a dream, I would realize that I was dreaming and could then control the rest of the dream to a small extent. As I&amp;rsquo;ve grown older though, this has become less and less common. Maybe age has changed something about my brain.&lt;/p&gt;&#xA;&lt;p&gt;Naturally, I&amp;rsquo;ve been interested in lucid dreaming and have read a lot about it. &lt;a href=&#34;https://tim.blog/2009/09/21/how-to-lucid-dream/&#34;&gt;Tim Ferriss has a fascinating beginner&amp;rsquo;s guide on his blog&lt;/a&gt;. Different people seem to have different approaches and theories, so I thought I would write about my own experiences.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

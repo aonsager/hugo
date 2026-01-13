@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Color on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/color/</link>
+    <description>Recent content in Color on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/color/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding CSS Support for Dark Mode</title>
+      <link>http://localhost:1313/posts/adding-css-support-for-dark-mode/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/adding-css-support-for-dark-mode/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/darkmode.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;macOS Mojave added a system-wide Dark Mode, but it doesn&amp;rsquo;t do much if all of the websites you see are still bright white. To address this, there is a new CSS media query &lt;code&gt;prefers-color-scheme&lt;/code&gt; that can detect Dark Mode and change styles accordingly. There are three possible values: &lt;code&gt;no-preference&lt;/code&gt;, &lt;code&gt;light&lt;/code&gt;, and &lt;code&gt;dark&lt;/code&gt;. You can read more in the &lt;a href=&#34;https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme&#34;&gt;W3C specification&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This new option &lt;a href=&#34;https://caniuse.com/#feat=prefers-color-scheme&#34;&gt;looks to be supported&lt;/a&gt; in Safari 12.1 and Firefox 67. As of this writing both of these have not been released officially, but you can try it out in the &lt;a href=&#34;https://developer.apple.com/safari/technology-preview/&#34;&gt;Safari Technology Preview&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generating Colors from Post Titles</title>
+      <link>http://localhost:1313/posts/adding-color-to-posts-automatically/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/adding-color-to-posts-automatically/</guid>
+      <description>&lt;p&gt;This blog has an intentionally simple design, but lately I&amp;rsquo;ve been thinking that it needs more color. A lot of the posts don&amp;rsquo;t have images and are just text, so large areas of the page are black and white with nothing visually interesting. That said, trying to include an image with every post is a pain. I would probably spend more time browsing stock images than actually writing the posts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Picular - Google, but for Colors</title>
+      <link>http://localhost:1313/links/picular/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/picular/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://picular.co/&#34;&gt;Picular&lt;/a&gt; is a site that lets you search for words like &amp;ldquo;water&amp;rdquo; or &amp;ldquo;summer&amp;rdquo; and see a list of related colors. It seems to work by running a Google image search and extracting the primary color of that image.&lt;/p&gt;&#xA;&lt;p&gt;This is the kind of project I love. It&amp;rsquo;s simple and easy to understand, but fun to play with.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Terminal Theme</title>
+      <link>http://localhost:1313/posts/terminal-theme/</link>
+      <pubDate>Mon, 24 Mar 2014 15:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/terminal-theme/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/terminal.png&#34; alt=&#34;New Terminal setup&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can download the theme &lt;a href=&#34;http://images.alexonsager.net/downloads/Base16.terminal.zip&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Colors were taken from the &lt;a href=&#34;https://github.com/chriskempson/base16-textmate&#34;&gt;Base16 TextMate theme&lt;/a&gt;, and the font is &lt;a href=&#34;http://www.google.com/fonts/specimen/Source+Code+Pro&#34;&gt;Source Code Pro&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://backup.noiseandheat.com/blog/2011/12/os-x-lion-terminal-colours/&#34;&gt;These&lt;/a&gt; &lt;a href=&#34;http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/&#34;&gt;sites&lt;/a&gt; describe how to get your Terminal to start showing colors.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

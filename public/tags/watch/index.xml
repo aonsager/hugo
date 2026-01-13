@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Watch on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/watch/</link>
+    <description>Recent content in Watch on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/watch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NAVA Ora Unica Wristwatch</title>
+      <link>http://localhost:1313/links/nava-ora-unica-wristwatch/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/nava-ora-unica-wristwatch/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ora-unica-watch.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I happened upon this watch in the mall over the weekend and loved how unconventional it is. The inner end of the loop acts as the hour hand, and the outer end is the minute hand. The in-between part seems to move freely, so you have a watch face that looks pretty different each time you look at it.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;d probably need to pause for a few seconds to decipher the time so it&amp;rsquo;s not exactly practical, but it would be a good conversation starter for sure.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

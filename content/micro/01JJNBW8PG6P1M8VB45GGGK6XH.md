@@ -1,0 +1,6 @@
+---
+date: '2025-01-28 11:29:00 +0900'
+toot_id: 01JJNBW8PG6P1M8VB45GGGK6XH
+---
+<p>Maybe: use an iOS shortcut to<br>1. Type some text<br>2. Add yaml front matter to my text<br>3. Save the file into the git repo, which exists on my iCloud drive<br>4. Use Working Copy to commit & push<br><br>🫤</p>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Apr 2025 13:35:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I may have outgrown Coolify</title>
+      <link>http://localhost:1313/posts/outgrowing-coolify/</link>
+      <pubDate>Mon, 07 Apr 2025 13:35:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/outgrowing-coolify/</guid>
+      <description>&lt;p&gt;I initially chose &lt;a href=&#34;https://coolify.io/&#34;&gt;Coolify&lt;/a&gt; as a self-hosted alternative to Heroku when it got too expensive. Coolify makes a lot of things very easy, but I ended up having to dig in to the details and learn a lot to fix things that didn&amp;rsquo;t work. Now that I have learned a fair bit about server management, I&amp;rsquo;ve found that I may no longer need Coolify&amp;rsquo;s hand-holding.&lt;/p&gt;&#xA;&lt;h2 id=&#34;venturing-into-self-hosting&#34;&gt;Venturing into self-hosting&lt;/h2&gt;&#xA;&lt;p&gt;I knew next to nothing about Linux servers, Docker, reverse proxies, and the like. I had used Heroku for a long time, but its base price became restrictively expensive considering how small each of my little projects was, so I started looking for a service that could ease me into self-hosting my apps on a VPS.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

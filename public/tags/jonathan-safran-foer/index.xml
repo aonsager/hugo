@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonathan Safran Foer on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/jonathan-safran-foer/</link>
+    <description>Recent content in Jonathan Safran Foer on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jul 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/jonathan-safran-foer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extremely Loud and Incredibly Close</title>
+      <link>http://localhost:1313/posts/extremely-loud-and-incredibly-close/</link>
+      <pubDate>Wed, 08 Jul 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/extremely-loud-and-incredibly-close/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Amazingly imaginative&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is the story of Oskar Schell, a young boy who is on a quest around New York City, attempting to solve a mystery left in the wake of his father’s death in the 9/11 attacks. The story is told in the form of narratives, letters, and journal entries from the perspective of three individuals, and their interwoven stories are revealed expertly in parallel. The book works as a scrapbook, with the reader discovering elements from the story appearing on the pages, as though they had been pasted in.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

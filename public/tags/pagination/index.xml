@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pagination on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/pagination/</link>
+    <description>Recent content in Pagination on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Dec 2025 11:25:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pagination/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/link-datamodel/</link>
+      <pubDate>Wed, 24 Dec 2025 11:25:00 +0900</pubDate>
+      <guid>http://localhost:1313/notes/link-datamodel/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;[!NOTE]&#xA;This was an early idea I had, but I&amp;rsquo;m not pursuing it any more.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;hogehoge&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m basically creating a new type of post called a Link, which consists of a link to an external site + my brief comments about it. Making this work the way I want will take a bit of tweaking.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pagination&#34;&gt;&lt;del&gt;Pagination&lt;/del&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Pagination doesn&amp;rsquo;t exist on Quartz! This is a pretty big difference from the traditional blog structure, so I need to consider how I want to format my content.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

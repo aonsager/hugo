@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fans on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/fans/</link>
+    <description>Recent content in Fans on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Apr 2025 12:44:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When a music festival was cancelled, idol fans supported the local community</title>
+      <link>http://localhost:1313/posts/momokuro-fans/</link>
+      <pubDate>Mon, 21 Apr 2025 12:44:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/momokuro-fans/</guid>
+      <description>&lt;p&gt;Some uplifting &lt;a href=&#34;https://news.yahoo.co.jp/articles/f3dc7027f17ec3d90e0da75d8f622e12452f471a&#34;&gt;news from Japan&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;On April 13th in Shibata City of Niigata prefecture (Japan), the popular idol group &lt;a href=&#34;https://www.momoclo.net&#34;&gt;Momoiro Clover Z&lt;/a&gt; had been planning a large music festival in cooperation with a large number of other artists, as well as local police, schools, and city government. However, on the day of festival the weather took a turn for the worse, and warnings were issued for strong winds, flash floods, and avalanches.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,6 @@
+---
+date: '2025-11-29 15:58:00 +0900'
+toot_id: 01KB76FYVC70361BESWFFFS02Q
+---
+<p>As I play games, I tend to collect information and think a lot about the game mechanics. I’m considering setting up a wiki or something for me to record these thoughts.</p>
+<div class='gallery'></div>

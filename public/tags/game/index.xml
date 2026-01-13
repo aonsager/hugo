@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/game/</link>
+    <description>Recent content in Game on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Feb 2025 11:48:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Katamari Damacy postmortem</title>
+      <link>http://localhost:1313/links/katamari-damacy-postmortem/</link>
+      <pubDate>Wed, 12 Feb 2025 11:48:00 +0900</pubDate>
+      <guid>http://localhost:1313/links/katamari-damacy-postmortem/</guid>
+      <description>&lt;p&gt;By Game Developer Magazine:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;We recently received a request to publish the Katamari Damacy postmortem from the December 2004 issue of Game Developer. It has been posted here in full for the first time in 2024 to celebrate the game&amp;rsquo;s 20 year anniversary. Please enjoy.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This article was written by the game&amp;rsquo;s director, Keita Takahashi, and has been translated into English from the original Japanese. I wish I could find the original text, but this is a great read regardless.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reimagining Chess with AlphaZero</title>
+      <link>http://localhost:1313/links/reimagining-chess-with-alphazero/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/reimagining-chess-with-alphazero/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Modern chess is the culmination of centuries of experience, as well as an evolutionary sequence of rule adjustments from its inception in the 6th century to the modern rules we know today. While classical chess still captivates the minds of millions of players worldwide, the game is anything but static. Many variants have been proposed and played over the years by enthusiasts and theorists. They continue the evolutionary cycle by altering the board, piece placement, or the rules—offering players &amp;ldquo;something subtle, sparkling, or amusing which cannot be done in ordinary chess.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Detroit: Become Human</title>
+      <link>http://localhost:1313/posts/detroit-become-human/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/detroit-become-human/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020/detroit.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;aside&#34;&gt;In this review, I&#39;ll talk about a few parts of the game that stood out to me, and I&#39;ll do my best to do so while avoiding spoilers.&lt;/div&gt;&#xA;&lt;p&gt;&lt;em&gt;Detroit: Become Human&lt;/em&gt; is a story-heavy adventure game developed by Quantic Dream, the studio I knew best as the creators of &lt;em&gt;Heavy Rain&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The story takes place in a future where androids are commonplace and indistinguishable from humans aside from a computer chip placed on their temple. Predictably, the androids are mistreated and repressed by humans, and you eventually find yourself in the middle of a robot uprising.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Value Promise of Subscription Games</title>
+      <link>http://localhost:1313/posts/the-value-promise-of-subscription-games/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-value-promise-of-subscription-games/</guid>
+      <description>&lt;p&gt;I had been playing World of Warcraft on and off for about 10 years, but I decided to stop playing again about a year ago. I quit because of a series of changes that were made to the game, and it motivated me to think about why I reacted that way as a paying customer.&lt;/p&gt;&#xA;&lt;p&gt;A series of recent changes made to WoW were designed to motivate players to play by ensuring they always gain something and grow a little every time they play. Unfortunately, a side effect of these changes was an increased pressure to spend many hours playing. This made me feel like my limited time spent in the game was less valuable, and is what ultimately led to me quitting the game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Game Idea: PvP Pac-Man</title>
+      <link>http://localhost:1313/posts/pvp-pacman/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pvp-pacman/</guid>
+      <description>&lt;h2 id=&#34;concept&#34;&gt;Concept&lt;/h2&gt;&#xA;&lt;p&gt;Play Pac-Man online against other players. 1 player plays as Pac-Man and 4 other players play as the ghosts. Pac-Man&amp;rsquo;s goal is to collect as many dots as possible, and the ghosts&amp;rsquo; goal is to work together to catch Pac-Man. Players receive points at the end of the round based on performance, and roles are rotated for the next round.&lt;/p&gt;&#xA;&lt;h2 id=&#34;gameplay&#34;&gt;Gameplay&lt;/h2&gt;&#xA;&lt;p&gt;In terms of strategy, the ghosts will need to work together in order to win. Pac-Man will move faster than the ghosts, so the ghosts&amp;rsquo; main strategy will be to trap Pac-Man in a corner. To encourage teamwork, all ghosts will receive the same amount of points at the end of round regardless of who actually caught Pac-Man.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Are Video Games Still For Kids?</title>
+      <link>http://localhost:1313/posts/are-games-still-for-kids/</link>
+      <pubDate>Fri, 15 Dec 2017 17:47:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/are-games-still-for-kids/</guid>
+      <description>&lt;p&gt;I grew up in the 90s, and back then video games were made for kids. Toys were for kids, and video games were just the newest, most exciting toys around.&lt;/p&gt;&#xA;&lt;p&gt;But as my generation grew up, we never really stopped playing games. As we became adults, the game companies kept making games for us, and games shifted to targeting an older audience. It makes sense that these would be successful since adults have more money to spend on games than kids do. Video games became a form of entertainment just like movies, and they started using serious storylines and graphic violence in the same ways.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pay to Win</title>
+      <link>http://localhost:1313/posts/pay-to-win/</link>
+      <pubDate>Thu, 30 Nov 2017 18:59:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/pay-to-win/</guid>
+      <description>&lt;p&gt;Mobile games can make a crazy amount of money. &lt;a href=&#34;https://en.wikipedia.org/wiki/Puzzle_%26_Dragons&#34;&gt;Puzzles and Dragons&lt;/a&gt; at its peak was said to be earning &lt;em&gt;$100 million per month&lt;/em&gt;! Why do people spend so much?&lt;/p&gt;&#xA;&lt;p&gt;Mobile games are generally much more simple than traditional video games, so they can&amp;rsquo;t provide the same rich experiences as traditional video games. Instead, they engage their core users by providing a satisfying experience of winning, especially against other players. Since people often play mobile games in their spare time, money is used as a shortcut to win quickly and efficiently. The entire game&amp;rsquo;s structure is built around creating an environment to support people who are willing to pay large amounts of money in order to win.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Rise of the Professional Cyber Athlete</title>
+      <link>http://localhost:1313/links/the-rise-of-the-professional-cyber-athlete/</link>
+      <pubDate>Tue, 25 Nov 2014 19:14:25 +0900</pubDate>
+      <guid>http://localhost:1313/links/the-rise-of-the-professional-cyber-athlete/</guid>
+      <description>&lt;p&gt;Very cool profile of Scarlett, a professional StarCraftII player&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ゲームの空間認識と今後の進化</title>
+      <link>http://localhost:1313/posts/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%A9%BA%E9%96%93%E8%AA%8D%E8%AD%98%E3%81%A8%E4%BB%8A%E5%BE%8C%E3%81%AE%E9%80%B2%E5%8C%96/</link>
+      <pubDate>Wed, 12 Nov 2014 13:59:55 +0900</pubDate>
+      <guid>http://localhost:1313/posts/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%A9%BA%E9%96%93%E8%AA%8D%E8%AD%98%E3%81%A8%E4%BB%8A%E5%BE%8C%E3%81%AE%E9%80%B2%E5%8C%96/</guid>
+      <description>&lt;p&gt;チームラボの猪子氏がTEDxFukuokaで紹介した、日本と西洋での空間認識の違いについての話がとてもおもしろかったので紹介。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://logmi.jp/23783&#34; target=&#34;_blank&#34;&gt;マリオはなぜ世界でヒットしたのか？　チームラボ・猪子氏が語る、日本的空間認識とクリエイティビティの関係性&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;プレゼンテーションの内容を省略すると、&lt;/p&gt;&#xA;&lt;p&gt;西洋の空間認識だと、パースペクティブを意識する。&#xA;よって、絵の登場人物になりきると視点が変わって絵の全体を意識しなくなる。絵の全体の意識が変わる、と言う方が適切なのかもしれない。&lt;/p&gt;&#xA;&lt;p&gt;日本の空間認識だと、レイヤーで物を見て、重ねて表現する。&#xA;絵の登場人物になりきっても、絵の認識が変わらず、絵の全体を意識し続ける。&lt;/p&gt;&#xA;&lt;p&gt;これが、日本が産んだマリオやドラクエみたいなプラットフォーマーや、トップダウンRPGなどの表現を作ったゲームの原点で、アメリカではもっと登場人物の視点で遊ぶFPSなどが流行りやすい。&lt;/p&gt;&#xA;&lt;p&gt;とのこと。&lt;/p&gt;&#xA;&lt;p&gt;ハードのスペックで3Dの表現ができなかったことも大きい、と想像しつつも、とても興味深い話。&lt;/p&gt;&#xA;&lt;p&gt;Oculus Rift 用に開発中の&lt;a href=&#34;http://www.wired.com/2014/06/oculus-luckys-tale/&#34; target=&#34;_blank&#34;&gt;Lucky’s Tale&lt;/a&gt;の話を思い出した。&lt;/p&gt;&#xA;&lt;p&gt;Lucky&amp;rsquo;s TaleはVR機能を活かした3Dのプラットフォーマーなのだが、自分が主人公になりきるわけではない。キャラクターの視点と自分の視点は完全に別で、自分が3Dの世界の中で、主人公の隣に居るという見せ方。&lt;/p&gt;&#xA;&lt;p&gt;開発者曰く、たくさんの案をとにかく作りまくっているうちに偶然出来上がったものだったが、少し遊んでみると体験の斬新さに全員が驚いた、とのこと。&lt;/p&gt;&#xA;&lt;p&gt;上の話に合わせると、VRなのでパースペクティブで入り込むのはほぼ必須として、それでもマリオのようにキャラと空間の全体の絵を意識し続けれるような、全く新しい形になっているような気がする。おそらく実際遊んでみないと体験を想像できないと思うので、リリースが楽しみだ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creating Fun</title>
+      <link>http://localhost:1313/posts/creating-fun/</link>
+      <pubDate>Wed, 25 Jun 2014 23:28:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/creating-fun/</guid>
+      <description>&lt;p&gt;My long-standing goal, in both work and personal life, is to create &amp;ldquo;fun&amp;rdquo;. I currently make games for a living, so I&amp;rsquo;ll be focusing on games for this post.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-fun&#34;&gt;What is Fun?&lt;/h2&gt;&#xA;&lt;p&gt;Games like &lt;a href=&#34;http://en.wikipedia.org/wiki/Flappy_Bird&#34;&gt;Flappy Bird&lt;/a&gt; and &lt;a href=&#34;http://gabrielecirulli.github.io/2048/&#34;&gt;2048&lt;/a&gt; show that as long as you have one crucial element that provides fun, even the simplest of games can be a huge hit. And in fact, for games like these it is necessary that they be the simplest of games, with no other elements distracting from that core nugget of fun.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>「面白い」を創る</title>
+      <link>http://localhost:1313/posts/creating-fun-jp/</link>
+      <pubDate>Wed, 25 Jun 2014 23:11:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/creating-fun-jp/</guid>
+      <description>&lt;p&gt;仕事でも、プライベートでも、自分の昔からの目標は「面白い」を創ること。&#xA;ゲームを創る職についているので、今回はゲームの話が中心となる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;面白いとは&#34;&gt;「面白い」とは？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Flappy_Bird&#34;&gt;Flappy Bird&lt;/a&gt;や&lt;a href=&#34;http://gabrielecirulli.github.io/2048/&#34;&gt;2048&lt;/a&gt;のようなゲームが見せてくれたように、&#xA;根本的な面白い要素さえあれば、どんなシンプルなゲームでも大ヒットする可能性がある。&#xA;むしろ、これらのゲームは最もシンプルであることが必須で、根本の面白さの邪魔をする要素がない、というのも成功の要因だと言える。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://asherv.com/threes/&#34;&gt;Threes&lt;/a&gt;の製作者は、凄まじい量のブレストと改善を行った上でゲームをリリースした。&#xA;その途中で、いずれ2048としてリリースされるゲームシステムを検討したが、彼らの思う「良いゲーム」の定義に当てはまらなく、ボツにされた。&#xA;2048のシステムだと、一つの角に寄せて操作すると簡単に高得点が出せるので、それが「正しい」遊び方になってしまう。&#xA;おそらく、彼らはゲームとしての深みを重視して、それがゲームの良さを損なうと考え、別のシステムを創った。&lt;/p&gt;&#xA;&lt;p&gt;結果としては、ゲームの「良さ」を損なうと疑われた要素はゲームの「面白さ」につながり、単純な方のシステムを適用した2048が全世界で大ヒットした。&#xA;実際Threesのゲームとしてのクオリティーはかなり高く評価されていて、Threesを否定するわけではない。&#xA;ただ、いくら客観的に見てThreesが良いゲームであっても、「2048の方が面白い」と思った人の方が多かった。&lt;/p&gt;&#xA;&lt;h2 id=&#34;面白いを探す&#34;&gt;「面白い」を探す&lt;/h2&gt;&#xA;&lt;p&gt;残念なことに、「面白い」は捕えにくい。一生懸命探せば探すほど、見つからない。&#xA;それを見つけるにはとてもクリエイティブな思考が必要で、たまたま得た発想が案外、有益をもたらすことが多い。&lt;/p&gt;&#xA;&lt;p&gt;自分が新しい物を創る時、なにが面白くなりそうかを考えることに必ずなる。&#xA;ただ、これがうまく行くとは限らず、面白い発想が出ない悪循環にもなり得る。&lt;/p&gt;&#xA;&lt;p&gt;万人の受けを予想しようとすると、現在万人受けしている物を参考にせざるを得ない。&#xA;考え始める前から、すでに枠の中に入ってしまっているわけだ。&#xA;プロセスはおそらく以下のようになる：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;人気がある物を見る&lt;/li&gt;&#xA;&lt;li&gt;なぜそれが面白いかを分析する&lt;/li&gt;&#xA;&lt;li&gt;その面白さを、新しい形で再現する&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;「新しい形」のところで近道をしている人がありふれたパクリゲームを作ることになるわけだが、&#xA;真面目に新しく考えようとしても、既存の物から思考がスタートしている時点で、創れる物の幅が狭くなってしまう。&lt;/p&gt;&#xA;&lt;h2 id=&#34;面白いを発見する&#34;&gt;「面白い」を発見する&lt;/h2&gt;&#xA;&lt;p&gt;プロセスはこうあるべきだ：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;新しい発想を得る&lt;/li&gt;&#xA;&lt;li&gt;それを面白くする方法を考える&lt;/li&gt;&#xA;&lt;li&gt;その面白さに集中して、余計な要素を無くす&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;奇跡的に、&lt;a href=&#34;http://pokemon.alexonsager.net&#34;&gt;ポケモンフュージョン&lt;/a&gt;はこれを果たしていると思う。&#xA;ある日その単純な発想が頭に浮かんで、そこに見つけた面白さはシンプルなサイトでも伝わる物だった。&lt;/p&gt;&#xA;&lt;p&gt;新しい発想を得ることは簡単ではなく、自分ももっと簡単にする方法を探している。&#xA;一番大事なことは、自分が興味のあるものを推し進めることだと思う。&#xA;「興味深い」の先には必ず「面白い」があると考えていて、そこに行き着くためには自らの熱意が必要。&lt;/p&gt;&#xA;&lt;p&gt;その先で「面白い」を見つけることができたら、多分それは自分しか見つけることが出来なかった新しい「面白い」であろう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Euclid The Game</title>
+      <link>http://localhost:1313/links/euclid-the-game/</link>
+      <pubDate>Mon, 23 Jun 2014 12:47:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/euclid-the-game/</guid>
+      <description>&lt;p&gt;Euclid The Game is a puzzle game that challenges you to use simple methods like drawing circles, translating lines, and bisecting angles to solve geometric puzzles. Very addicting, and it made me remember just how powerful tools like a compass can be.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geoguessr</title>
+      <link>http://localhost:1313/links/geoguessr/</link>
+      <pubDate>Wed, 22 May 2013 11:36:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/geoguessr/</guid>
+      <description>&lt;p&gt;See a Google Street View at a random point in the world, guess where it is on a map.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Computer program that learns to play classic NES games</title>
+      <link>http://localhost:1313/links/computer-program-that-learns-to-play-classic-nes-games/</link>
+      <pubDate>Sat, 13 Apr 2013 18:01:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/computer-program-that-learns-to-play-classic-nes-games/</guid>
+      <description>&lt;p&gt;The program is given a set of inputs from a human playing the game, and analyzes the RAM to define success in the game. It then plays the game with no knowledge of the rules, and works incredibly well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chrono Trigger Retrospective</title>
+      <link>http://localhost:1313/links/chrono-trigger-retrospective/</link>
+      <pubDate>Sat, 23 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/chrono-trigger-retrospective/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Chrono Trigger basically began as a jam session — a couple of star designers and a manga artist getting together to brainstorm and seeing what they might produce. No pressure. No cynicism.&lt;/p&gt;&#xA;&lt;p&gt;[ . . . ]&lt;/p&gt;&#xA;&lt;p&gt;Ultimately, the best thing about Chrono Trigger is something that can’t quite be quantified in terms of mechanics, aesthetics, or plot. It’s impossible to play without getting the sense that that its designers really had a lot of fun in conceiving it (barring a stomach ulcer or two) and were wholly dedicated to making sure they got it right. Chrono Trigger is a labor of love effected by a group of very talented game designers, and their enthusiasm for the project permeates every aspect of the experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Incredible Network of Children</title>
+      <link>http://localhost:1313/posts/the-incredible-network-of-children/</link>
+      <pubDate>Mon, 21 Dec 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-incredible-network-of-children/</guid>
+      <description>&lt;p&gt;When we were kids, we didn’t use online forums, message boards, or FAQs. Yet somehow, every single child knew that if your videogame wasn’t working, you just needed to blow in the cartridge. And it’s not like anybody documented Red Rover or Wall Ball or Groundies/Lava Monster. Kids just talked to each other and figured it out.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Donkey Kong and Me</title>
+      <link>http://localhost:1313/links/donkey-kong-and-me/</link>
+      <pubDate>Wed, 12 Mar 2008 03:22:41 +0900</pubDate>
+      <guid>http://localhost:1313/links/donkey-kong-and-me/</guid>
+      <description>&lt;p&gt;An excellent story about the making of Donkey Kong and what it was like to work in an early video game company. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

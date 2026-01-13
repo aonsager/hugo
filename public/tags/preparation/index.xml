@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preparation on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/preparation/</link>
+    <description>Recent content in Preparation on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jun 2025 15:45:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/preparation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Communication-driven productivity</title>
+      <link>http://localhost:1313/posts/cdp/</link>
+      <pubDate>Thu, 05 Jun 2025 15:45:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/cdp/</guid>
+      <description>&lt;p&gt;Or, &amp;ldquo;The latest chapter in my fool&amp;rsquo;s quest to discover a productivity framework that magically makes me effortlessly productive&amp;rdquo;. So it goes.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always considered my todo list as a list of things I need to do (for obvious reasons). But I had a minor epiphany and realized that, in my current role, everything I do has exactly zero value &lt;em&gt;until I communicate it to the right people&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For example: One big item on my todo list now is to finish writing a proposal for improving how we evaluate new game ideas. But if the overarching objective is &amp;ldquo;&lt;em&gt;Improve how we evaluate new game ideas&lt;/em&gt;&amp;rdquo;, the direct actions to achieve this are &amp;ldquo;&lt;em&gt;Convince the right important people and get approval&lt;/em&gt;&amp;rdquo;, followed by &amp;ldquo;&lt;em&gt;Tell everybody about the changes&lt;/em&gt;&amp;rdquo;. These are accompanied by the prerequisite sub-tasks, &amp;ldquo;&lt;em&gt;Write up a convincing proposal&lt;/em&gt;&amp;rdquo; and &amp;ldquo;&lt;em&gt;Update the existing guideline documents&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

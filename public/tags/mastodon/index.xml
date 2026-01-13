@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mastodon on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/mastodon/</link>
+    <description>Recent content in Mastodon on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing GoToSocial on Coolify</title>
+      <link>http://localhost:1313/posts/installing-gotosocial-on-coolify/</link>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/installing-gotosocial-on-coolify/</guid>
+      <description>&lt;p&gt;Following up to my &lt;a href=&#34;http://localhost:1313/2024/12/02/i-want-to-love-mastodon.html&#34;&gt;earlier post about the fediverse&lt;/a&gt;, I discovered &lt;a href=&#34;https://gotosocial.org&#34;&gt;GoToSocial&lt;/a&gt;. Compared to Mastodon which required a fair amount of server overhead (more than I could justify for just playing around online), GoToSocial is very &lt;a href=&#34;https://docs.gotosocial.org/en/latest/getting_started/#server-vps&#34;&gt;lightweight&lt;/a&gt;: 1 CPU, 1GB memory, and 15GB-20GB of storage space for the first year or so. Sold!&lt;/p&gt;&#xA;&lt;p&gt;This would let me set up my own single-user server, which solves all of my misgivings about Mastodon.&lt;/p&gt;&#xA;&lt;div class=&#34;callout&#34;&gt;&#xA;&lt;div class=&#34;title&#34;&gt;Disclaimer:&lt;/div&gt;&#xA;I am a total novice at all things server-related! I am probably at least a little bit wrong about some of the things I write here. Please take my experience with a grain of salt, and correct me if you can.&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I have a VPS with &lt;a href=&#34;https://coolify.io&#34;&gt;Coolify&lt;/a&gt; to manage the multiple apps I have running, and all things considered it makes things very easy.&lt;br&gt;&#xA;I used a docker-compose file to deploy GoToSocial, and their &lt;a href=&#34;https://raw.githubusercontent.com/superseriousbusiness/gotosocial/main/example/docker-compose/docker-compose.yaml&#34;&gt;example file&lt;/a&gt; was almost perfect as-is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I want to love Mastodon...</title>
+      <link>http://localhost:1313/posts/i-want-to-love-mastodon/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/i-want-to-love-mastodon/</guid>
+      <description>&lt;p&gt;But it&amp;rsquo;s just not doing it for me.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[!NOTE] Update 2024/12/27&#xA;I have set up my own instance of GoToSocial, and have written about it [[installing-gotosocial-on-coolify | here]].&#xA;This seems like the best solution for me.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The main selling point of Mastodon is its &lt;a href=&#34;https://docs.joinmastodon.org/#federation&#34;&gt;federation&lt;/a&gt; I think, and I tend to agree with &lt;a href=&#34;https://www.tbray.org/ongoing/When/202x/2024/11/15/Not-Bluesky&#34;&gt;Tim Bray&amp;rsquo;s points&lt;/a&gt; that some kind of decentralized, protocol-based network for social exchange is what will endure. Having one service run by one group of people is brittle. Having many services run by many groups of people is resilient.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

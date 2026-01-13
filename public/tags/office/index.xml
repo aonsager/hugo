@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Office on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/office/</link>
+    <description>Recent content in Office on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/office/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sorry the Elevator is Crowded</title>
+      <link>http://localhost:1313/posts/sorry-the-elevator-is-crowded/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sorry-the-elevator-is-crowded/</guid>
+      <description>&lt;p&gt;The elevator in our office building has a small LCD panel that shows information like the current floor, but when the total weight of passengers crosses a certain threshold it also adds a short note: &amp;ldquo;Sorry the elevator is crowded&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;It struck me – of all possible features for an elevator display, how did they decide that they needed this one? It has no impact on the elevator&amp;rsquo;s function of moving people vertically. And a crowded elevator is not the elevator&amp;rsquo;s fault (although this is most likely just an example of Japan&amp;rsquo;s self-deprecating approach to hospitality). So why was this message deemed necessary?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Natural Lighting in the Office</title>
+      <link>http://localhost:1313/posts/natural-lighting-in-the-office/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/natural-lighting-in-the-office/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve come to learn that I really enjoy working in environments with only natural lighting. At my job, I work in a large open room with about 50 people. Many of them are artists who need to minimize the glare on their screens, so the great big windows covering the walls of our room are always covered with blinds, and we instead have fluorescent lights turned on (these do cause glare too, but at least they are more predictable so people can tilt their screens to minimize it).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Composition on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/composition/</link>
+    <description>Recent content in Composition on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Mar 2025 20:56:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/composition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Photo Composition Challenge</title>
+      <link>http://localhost:1313/posts/the-compo-challenge/</link>
+      <pubDate>Mon, 24 Mar 2025 20:56:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/the-compo-challenge/</guid>
+      <description>&lt;p&gt;I am a mediocre photographer at best, but of course I want to improve. When I saw that &lt;a href=&#34;https://social.lol/@hiro&#34;&gt;@hiro&lt;/a&gt; was putting together 5-week challenge to experiment with various compositional techniques and share our photos, I had to join.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t have fancy gear, or a lot of time to go hunting for photos, so almost all of my shots were scenes from my daily life, taken with an iPhone. I realized pretty quickly though, that being deliberate about composition gave a new perspective on even familiar scenes, and I was surprised at compelling some of the photos turned out.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

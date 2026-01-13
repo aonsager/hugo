@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funny on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/funny/</link>
+    <description>Recent content in Funny on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jul 2014 14:14:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/funny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Censoring Chinese Scammers</title>
+      <link>http://localhost:1313/posts/censoring-chinese-scammers/</link>
+      <pubDate>Wed, 23 Jul 2014 14:14:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/censoring-chinese-scammers/</guid>
+      <description>&lt;p&gt;Q: What do you do when you&amp;rsquo;re being scammed by a Chinese scam artist?&#xA;A: Use their country&amp;rsquo;s internet censorship against them.&lt;/p&gt;&#xA;&lt;p&gt;LINE, the hugely popular Japanese messaging app, has been seeing a recent surge in scamming activity. In the most common scenario, the scam artist will gain access to a user&amp;rsquo;s account and message their friends, asking them to purchase online gift cards and send the serial number. Many people were targeted by this scam, and it received some mainstream media attention.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>North Korea missle launch delayed by Windows 8</title>
+      <link>http://localhost:1313/links/north-korea-missle-launch-delayed-by-windows-8/</link>
+      <pubDate>Fri, 12 Apr 2013 21:05:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/north-korea-missle-launch-delayed-by-windows-8/</guid>
+      <description>&lt;p&gt;#OnionOrActualHeadline&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The announcement from the Korean Central News Agency (KCNA) did not indicate a new scheduled time for a missile test, saying only that it was “working with Windows 8 support to resolve the issue.”&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A source close to the North Korean regime reported that Supreme Leader Kim Jong-un is furious about the Windows 8 problems and is considering a number of options, including declaring war on Microsoft.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,6 @@
+---
+date: '2025-11-27 11:32:00 +0900'
+toot_id: 01KB1JFR3S9EP7QGYHM83F8XV8
+---
+<p>Just learned about HazeOver. What a brilliant app, instant buy!<br><br><a href="https://hazeover.com" rel="nofollow noreferrer noopener" target="_blank">https://hazeover.com</a></p>
+<div class='gallery'></div>

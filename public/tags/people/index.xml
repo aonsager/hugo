@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/people/</link>
+    <description>Recent content in People on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music of the City - an Art Project Idea</title>
+      <link>http://localhost:1313/posts/music-of-the-city---an-art-project-idea/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/music-of-the-city---an-art-project-idea/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had an idea for a fun art project in my head for many years now, and I don&amp;rsquo;t see myself going through with it any time soon, so I&amp;rsquo;ll compromise by just writing about it.&lt;/p&gt;&#xA;&lt;p&gt;The idea is to photograph people (with permission) who are wearing headphones in the city. Their photo will be shown along with the song they happened to be listening to. It would be interesting to see if a viewer would see any correlation between a person&amp;rsquo;s visual appearance and their taste in music. The prompt &amp;ldquo;What song was playing right now&amp;rdquo; is much more interesting than &amp;ldquo;What is your favorite music,&amp;rdquo; and some people might think that I caught them at just the wrong time, making things more fun for me.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let’s stop the hate</title>
+      <link>http://localhost:1313/posts/lets-stop-the-hate/</link>
+      <pubDate>Mon, 13 Jun 2016 18:44:38 +0900</pubDate>
+      <guid>http://localhost:1313/posts/lets-stop-the-hate/</guid>
+      <description>&lt;p&gt;I&#39;m a supporter of LGBT rights. I&#39;m generally not too vocal about it, but with recent events culminating in the Orlando mass shootings, I had to say something.&lt;/p&gt;&#xA;&lt;p&gt;I&#39;ve been thinking a lot about the LGBT rights movement recently. Hopefully this effort can be another step forward following the Civil Rights Movement, as we work towards equal rights and treatment for all.&lt;/p&gt;&#xA;&lt;p&gt;The Civil Rights Act made it illegal to discriminate based on race, color, religion, sex, or national origin. Setting religion aside for a moment, the rest are distinctions that generally lead to noticeable physical differences. The ease of identification is probably one factor that helped the prejudice spread so much, and led to institutional disenfranchisement as well as terrible acts of discrimination and violence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Night My Girlfriend Dissociated and Forgot Who I Was</title>
+      <link>http://localhost:1313/links/the-night-my-girlfriend-dissociated-and-forgot-who/</link>
+      <pubDate>Thu, 05 Mar 2015 20:59:26 +0900</pubDate>
+      <guid>http://localhost:1313/links/the-night-my-girlfriend-dissociated-and-forgot-who/</guid>
+      <description>&lt;blockquote&gt;&#xA;  &lt;p&gt;Because of her dissociative identity disorder, I was a stranger in the eyes of the woman I loved.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Beautifully written, and a reminder that something like 50 First Dates is actually a terrifying situation&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dinner for 2</title>
+      <link>http://localhost:1313/posts/dinner-for-2/</link>
+      <pubDate>Fri, 28 Mar 2008 13:39:50 +0900</pubDate>
+      <guid>http://localhost:1313/posts/dinner-for-2/</guid>
+      <description>&lt;p&gt;I was at a restaurant last night and saw a couple having dinner together. At a few points, the guy was texting on his phone and the girl was looking really bored. Boo on him. &lt;/p&gt;&lt;p&gt;And then once he finished he left his phone sitting open on the table. I guess he was expecting replies? Maybe that sort of thing is commonplace now, but I still think it&amp;rsquo;s rude.  &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Boy Named Sue, and a Theory of Names</title>
+      <link>http://localhost:1313/links/a-boy-named-sue-and-a-theory-of-names/</link>
+      <pubDate>Wed, 12 Mar 2008 05:08:49 +0900</pubDate>
+      <guid>http://localhost:1313/links/a-boy-named-sue-and-a-theory-of-names/</guid>
+      <description>&lt;p&gt;What will you name your child? &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

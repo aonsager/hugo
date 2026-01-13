@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/workflow/</link>
+    <description>Recent content in Workflow on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jan 2026 22:41:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Listing external links</title>
+      <link>http://localhost:1313/notes/listing-external-links/</link>
+      <pubDate>Fri, 02 Jan 2026 22:41:00 +0900</pubDate>
+      <guid>http://localhost:1313/notes/listing-external-links/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;[!NOTE]&#xA;I don&amp;rsquo;t do this anymore!&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;del&gt;I have a page at [[/external-links]] that lists all external sites that I have linked to from this website.&lt;/del&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;del&gt;To do this, I created a custom &lt;a href=&#34;https://quartz.jzhao.xyz/advanced/making-plugins#emitters&#34;&gt;Emitter&lt;/a&gt; that detects all external links as the site is being built. It then outputs a page at [[/external-links]] that lists these links in chronological order, by the date that the linking page was published.&lt;/del&gt;&lt;/p&gt;&#xA;&lt;p&gt;~~I wanted some kind of linked list as part of my webpage, but I wasn&amp;rsquo;t sure what in format to save the data. This seems like it should work pretty well, because &amp;ldquo;I cared enough to write about it&amp;rdquo; is a pretty good heuristic for things that I found interesting. ~~&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/site-todo/</link>
+      <pubDate>Wed, 24 Dec 2025 11:29:00 +0900</pubDate>
+      <guid>http://localhost:1313/notes/site-todo/</guid>
+      <description>&lt;p&gt;In addition to using this site as a general wiki for my thoughts, I&amp;rsquo;m eyeing the possibility of migrating my entire blog to this format. I Currently make my site with &lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; (a great product!) but I have a lot of customization living in each post&amp;rsquo;s frontmatter, and while I do have a variety of convenience scripts set up, I kind of need to be sitting at my desktop machine in order to create and publish posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

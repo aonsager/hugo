@@ -1,0 +1,6 @@
+---
+date: '2025-03-01 06:44:00 +0900'
+toot_id: 01JN789WVGAFPQ2YA6M0EW45QQ
+---
+<p>New toy arrived!</p>
+<div class='gallery'><div><a href='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/original/01JN788EF7NE69CW15YH6R14QM.jpeg'><img src='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/small/01JN788EF7NE69CW15YH6R14QM.jpeg' title='Closeup of a Raspberry Pi 5 on a wooden desktop.'/></a></div></div>

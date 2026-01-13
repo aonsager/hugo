@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rails on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/rails/</link>
+    <description>Recent content in Rails on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Litestack: All your data infrastructure</title>
+      <link>http://localhost:1313/links/litestack-all-your-data-infrastructure/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/litestack-all-your-data-infrastructure/</guid>
+      <description>&lt;p&gt;From the repository:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Litestack is a Ruby gem that provides both Ruby and Ruby on Rails applications an all-in-one solution for web application data infrastructure. It exploits the power and embeddedness of SQLite to deliver a full-fledged SQL database, a fast cache , a robust job queue, a reliable message broker, a full text search engine and a metrics platform all in a single package.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been learning Python for my small projects recently, but for something that wants a full stack I&amp;rsquo;ll definitely be checking this out.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

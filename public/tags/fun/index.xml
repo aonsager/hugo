@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fun on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/fun/</link>
+    <description>Recent content in Fun on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jan 2026 16:51:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don’t min-max your hobbies</title>
+      <link>http://localhost:1313/posts/min-max-hobbies/</link>
+      <pubDate>Sat, 10 Jan 2026 16:51:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/min-max-hobbies/</guid>
+      <description>&lt;p&gt;When I’m having fun with a hobby, nothing kills my motivation faster than learning about a better, more efficient way I could be doing things.&lt;/p&gt;&#xA;&lt;p&gt;I was playing Fantasy Life i – chopping trees, making boots, fishing fish, and just generally having a grand time. It felt like alchemy skills were taking longer than the rest to level up, so i checked a wiki to see if i was missing something. Big mistake. What i learned is that, if i haven’t created 4 sunglasses with EXP boost buffs and then started crafting 10 thousand health potions to power level, I’m wasting my time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Box Line Text: A minimal whiteboard app</title>
+      <link>http://localhost:1313/links/box-line-text-a-minimal-whiteboard-app/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/box-line-text-a-minimal-whiteboard-app/</guid>
+      <description>&lt;p&gt;This is a great implementation of an extremely minimal whiteboard app. There is no UI, and you can click to add text or click+drag to add boxes and lines. Zoom options in your browser will change the size, and you can save the HTML if you want to keep a copy.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s probably not enough for work meetings, but I thought it was a great, fun product.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An AI That Begins Novels</title>
+      <link>http://localhost:1313/links/an-ai-that-begins-novels/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/an-ai-that-begins-novels/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://aiweirdness.com/post/189170306297/how-to-begin-a-novel&#34;&gt;This neural network&lt;/a&gt; was trained to output unique opening lines to novels. Some of the results are surprisingly great:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I have just been informed, that the debate over the question ‘is it right or wrong to have immortal souls’ has been finally brought to a conclusion.&lt;/p&gt;&#xA;&lt;p&gt;When I was a boy, I was fond of the story of the pirate god.&lt;/p&gt;&#xA;&lt;p&gt;He had a strange name, and he was a very big boy indeed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Picular - Google, but for Colors</title>
+      <link>http://localhost:1313/links/picular/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/picular/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://picular.co/&#34;&gt;Picular&lt;/a&gt; is a site that lets you search for words like &amp;ldquo;water&amp;rdquo; or &amp;ldquo;summer&amp;rdquo; and see a list of related colors. It seems to work by running a Google image search and extracting the primary color of that image.&lt;/p&gt;&#xA;&lt;p&gt;This is the kind of project I love. It&amp;rsquo;s simple and easy to understand, but fun to play with.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

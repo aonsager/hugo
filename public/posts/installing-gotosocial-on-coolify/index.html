@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Installing GoToSocial on Coolify | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+    <div class="site-title">
+        <svg id="header-logo" width="50" height="30" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="10" fill="#fcfcfc" stroke="#202225" stroke-width="1" />
+            <circle cx="25" cy="15" r="10" fill="#202225" stroke="#fcfcfc" stroke-width="1" />
+        </svg>
+        <div class="site-url">
+            <span class="header-url">invisibleparade.com</span>
+        </div>
+    </div>
+</div>
+
+  </header>
+  <nav>
+  	<div class="container">
+    <ul>
+        <li><a href="/">Index</a></li>
+        <li><a href="/posts">Posts</a></li>
+        <li><a href="/notes">Notes</a></li>
+        <li><a href="/links">Links</a></li>
+        <li><a href="/micro">Micro</a></li>
+    </ul>
+</div>
+
+  </nav>
+  <main>
+    
+  <h1>Installing GoToSocial on Coolify</h1>
+
+  
+  
+  <time datetime="2024-12-27T00:00:00&#43;00:00">December 27, 2024</time>
+
+  <p>Following up to my <a href="/2024/12/02/i-want-to-love-mastodon.html">earlier post about the fediverse</a>, I discovered <a href="https://gotosocial.org">GoToSocial</a>. Compared to Mastodon which required a fair amount of server overhead (more than I could justify for just playing around online), GoToSocial is very <a href="https://docs.gotosocial.org/en/latest/getting_started/#server-vps">lightweight</a>: 1 CPU, 1GB memory, and 15GB-20GB of storage space for the first year or so. Sold!</p>
+<p>This would let me set up my own single-user server, which solves all of my misgivings about Mastodon.</p>
+<div class="callout">
+<div class="title">Disclaimer:</div>
+I am a total novice at all things server-related! I am probably at least a little bit wrong about some of the things I write here. Please take my experience with a grain of salt, and correct me if you can.
+</div>
+<p>I have a VPS with <a href="https://coolify.io">Coolify</a> to manage the multiple apps I have running, and all things considered it makes things very easy.<br>
+I used a docker-compose file to deploy GoToSocial, and their <a href="https://raw.githubusercontent.com/superseriousbusiness/gotosocial/main/example/docker-compose/docker-compose.yaml">example file</a> was almost perfect as-is.</p>
+<h2 id="port-settings">Port settings</h2>
+<p>Coolify acts as a reverse proxy, so I used that part of the configuration:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">services</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">gotosocial</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e"># - &#34;443:8080&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">## For letsencrypt:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">#- &#34;80:80&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">## For reverse proxy setups:</span>
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;127.0.0.1:8002:8080&#34;</span>
+</span></span></code></pre></div><p>8002 was just an open port that I chose, and Coolify is smart enough to use that port to route traffic from my GoToSocial domain.</p>
+<h2 id="file-permissions">File permissions</h2>
+<p><a href="https://rknight.me/blog/installing-gotosocial-on-coolify/">Robb Knight&rsquo;s blog post</a> showed me how to fix the sqlite database being unable to load because of a permissions issue. I had a similar issue with the Wazero compilation cache directory not being created, but I ended up just commenting that line out because it works without.</p>
+<h2 id="shooting-myself-in-the-foot">Shooting myself in the foot</h2>
+<p>I knew I had to mount a volume to make the database persist across redeploys and not be wiped fresh every time. <a href="https://coolify.io/docs/knowledge-base/persistent-storage">Coolify&rsquo;s documentation</a> made it very clear,</p>
+<blockquote>
+<p>The base directory inside the container is /app.
+So if you need to store your files under storage directory, you need to define /app/storage as the destination path.</p>
+</blockquote>
+<p>So, I changed the settings to make sure that things were stored under <code>/app</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">services</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">gotosocial</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#ae81ff">...</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">GTS_DB_ADDRESS</span>: <span style="color:#ae81ff">/app/storage/sqlite.db</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">volumes</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#ae81ff">~/gotosocial/data:/app/storage</span>
+</span></span></code></pre></div><p>Which worked, except!<br>
+I hadn&rsquo;t realized that media storage also defaulted to the same (first) <code>/gotosocial/storage</code> directory. Since this directory was no longer being bound, it was wiped clean after every redeploy.
+Remote media was fine because it could be fetched again, but images I uploaded were lost.</p>
+<p>I poked around in the terminal and saw that both <code>/app/storage</code> and <code>/gotosocial/storage</code> were being created and used with no issues, so I just switched the database address back to the default <code>/gotosocial/storage</code>&hellip; and everything worked as expected.</p>
+<p>So, I don&rsquo;t quite understand what the Coolify docs were trying to tell me.</p>
+<h2 id="end">End</h2>
+<p>Things seem to be working fine now, and I&rsquo;m using mostly <a href="http://semaphore.social">Semaphore</a> to interact with the instance.<br>
+You can follow me <a href="https://gts.invisibleparade.com/@alex">here!</a></p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/fediverse/">Fediverse</a></li>
+        <li><a href="/tags/gotosocial/">Gotosocial</a></li>
+        <li><a href="/tags/mastodon/">Mastodon</a></li>
+        <li><a href="/tags/server/">Server</a></li>
+        <li><a href="/tags/coolify/">Coolify</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2026. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

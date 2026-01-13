@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Dec 2025 11:29:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/site-todo/</link>
+      <pubDate>Wed, 24 Dec 2025 11:29:00 +0900</pubDate>
+      <guid>http://localhost:1313/notes/site-todo/</guid>
+      <description>&lt;p&gt;In addition to using this site as a general wiki for my thoughts, I&amp;rsquo;m eyeing the possibility of migrating my entire blog to this format. I Currently make my site with &lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; (a great product!) but I have a lot of customization living in each post&amp;rsquo;s frontmatter, and while I do have a variety of convenience scripts set up, I kind of need to be sitting at my desktop machine in order to create and publish posts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/this-sites-organization/</link>
+      <pubDate>Wed, 24 Dec 2025 11:29:00 +0900</pubDate>
+      <guid>http://localhost:1313/notes/this-sites-organization/</guid>
+      <description>&lt;p&gt;My mind has always preferred organize files in folders. I like having a sense of where things are, and being able to see at a glance all files that pertain to a particular topic.&lt;/p&gt;&#xA;&lt;p&gt;Even though I use #obsidian, which pushes towards a tag-based approach to organization, I fight to keep things sorted in folders.&lt;/p&gt;&#xA;&lt;p&gt;But especially now that I&amp;rsquo;m experimenting with publishing my vault as a website, the folder-based approach is really starting to show its limitations. Maybe this is the time that I try to embrace tags.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comments are back</title>
+      <link>http://localhost:1313/posts/comments-are-back/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/comments-are-back/</guid>
+      <description>&lt;p&gt;This site has gone through many forms, and comments have come and gone. Now they are back, made possible by &lt;a href=&#34;https://github.com/souramoo/commentoplusplus&#34;&gt;commento++&lt;/a&gt;. &lt;a href=&#34;https://commento.io&#34;&gt;Commento&lt;/a&gt; was popular and on my radar for a while, but the original repository has been dead for a while. Commento++ is a fork that has been dead for&amp;hellip; a little bit less of a while. But it has a few improvements from the original, and as long as it&amp;rsquo;s stable I don&amp;rsquo;t care so much.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generating Colors from Post Titles</title>
+      <link>http://localhost:1313/posts/adding-color-to-posts-automatically/</link>
+      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/adding-color-to-posts-automatically/</guid>
+      <description>&lt;p&gt;This blog has an intentionally simple design, but lately I&amp;rsquo;ve been thinking that it needs more color. A lot of the posts don&amp;rsquo;t have images and are just text, so large areas of the page are black and white with nothing visually interesting. That said, trying to include an image with every post is a pain. I would probably spend more time browsing stock images than actually writing the posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

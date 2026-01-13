@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retirement on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/retirement/</link>
+    <description>Recent content in Retirement on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Dec 2025 12:25:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/retirement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>/future</title>
+      <link>http://localhost:1313/future/</link>
+      <pubDate>Wed, 24 Dec 2025 12:25:00 +0900</pubDate>
+      <guid>http://localhost:1313/future/</guid>
+      <description>&lt;p&gt;Things I am looking forward to in&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-year-2026&#34;&gt;The year 2026&lt;/h2&gt;&#xA;&lt;h3 id=&#34;fridays&#34;&gt;Fridays&lt;/h3&gt;&#xA;&lt;p&gt;Kid2 will enter kindergarten, which means a sudden increase in time with no kids in the house. Since I work remotely on Fridays, this creates some opportunities for precious free-time.&lt;/p&gt;&#xA;&lt;p&gt;It will be really nice to be able to spend some quiet time during the day with my wife. I would love to have semi-regular lunch dates.&lt;/p&gt;&#xA;&lt;p&gt;The kids&amp;rsquo; swimming school has a plan that lets parents of enrolled kids use the pool freely for a very reasonable monthly fee. I want to start swimming on Friday mornings. I&amp;rsquo;m terrible at swimming, but I do want to get better, and I&amp;rsquo;m hopeful that it will be a good source of exercise.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
