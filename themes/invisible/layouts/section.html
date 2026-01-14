@@ -13,8 +13,12 @@
                 {{ $myDate = $currentYear }}
             {{ end }}
             <tr>
+                {{ $myTitle := .LinkTitle }}
+                {{ if not $myTitle }}
+                    {{ $myTitle = .File.BaseFileName }}
+                {{ end }}
                 <td class="date-text">{{ $dateShort }}</td>
-                <td><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></td>
+                <td><a href="{{ .RelPermalink }}">{{ $myTitle }}</a></td>
             </tr>
         {{ end }}
     </table>

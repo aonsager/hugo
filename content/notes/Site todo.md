@@ -1,5 +1,5 @@
 ---
-title:
+title: Site todo
 date: 2025-12-24 11:29:00 +09:00
 colors:
   - "#5f33e5"
