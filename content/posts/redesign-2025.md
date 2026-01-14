@@ -21,10 +21,13 @@ metaRSS: true
 
 I've overhauled the design of my website, and am very happy with how it turned out.
 
-![The root homepage. Old design on the left, new design on the right.](/images/2025/index-redesign.jpg)
+<figure>
+    <img src='/images/2025/index-redesign.jpg' style="max-height: 300px;" />
+    <figcaption>The root homepage. Old design on the left, new design on the right.</figcaption>
+</figure>
 
 <figure>
-    <img src='/images/2025/dark-redesign.jpg' alt='A post page in dark mode. Old design on the left, new design on the right.' class="center-image" style="max-height: 300px;"/>
+    <img src='/images/2025/dark-redesign.jpg' style="max-height: 300px;"/>
     <figcaption>A post page in dark mode. Old design on the left, new design on the right.</figcaption>
 </figure>
 

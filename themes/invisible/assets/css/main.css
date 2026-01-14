@@ -64,6 +64,9 @@ html, body {
 body {
     color: light-dark(var(--color-ink-sun), var(--color-ink-moon));
     background-color: light-dark(var(--color-canvas-sun), var(--color-canvas-moon));
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -105,8 +108,16 @@ html {
 }
 
 img {
-    display: inline-block;
+    display: block;
     max-width: 100%;
+    margin: 0px auto;
+}
+
+figcaption {
+    margin: calc(0.5 * var(--spacing-unit)) 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
 }
 
 a {
@@ -143,15 +154,11 @@ pre {
     }
 }
 
-.meta {
-    opacity: 0.6;
-}
-
 /* Layout */
 
 .layout-container {
+    flex: 1;
     display: grid;
-    min-height: 100vh;
     grid-template-columns: 1fr minmax(auto, var(--content-width)) 1fr;
     grid-template-rows: auto 1fr auto;
     gap: var(--spacing-unit);
@@ -276,7 +283,113 @@ main {
     }
 }
 
+table.archive-list {
+
+    td {
+        vertical-align: top;
+
+        &.date-text {
+            text-align: right;
+            padding-right: calc(var(--spacing-unit) * 1);
+            opacity: 0.6;
+            min-width: 8ch;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+hr {
+    margin: calc(2 * var(--spacing-unit)) 0;
+    background-color: light-dark(var(--color-grey), var(--color-grey-dark));
+    border: none;
+    height: 1px;
+}
+
+.meta {
+    opacity: 0.6;
+}
+
 footer {
     grid-area: footer;
     text-align: center;
+}
+
+/**
+ * Syntax highlighting styles
+ */
+pre, code {
+    font-size: 0.9rem;
+    border: 1px solid light-dark(var(--color-white-dark), var(--color-grey-dark));
+    background-color: light-dark(var(--color-grey-light), var(--color-black-light));
+}
+
+.highlight {
+    background: light-dark(var(--color-grey-light), var(--color-black-light));
+
+    .highlighter-rouge & {
+        background: light-dark(var(--color-grey-light), var(--color-black-light));
+    }
+
+    .c     { color: var(--color-grey-6); font-style: italic }
+    .err   { color: var(--color-red); background-color: light-dark(var(--color-white), var(--color-grey-dark)); }
+    .k     { color: var(--color-pink) }
+    .o     { font-weight: bold }
+    .cm    { color: var(--color-grey-6); font-style: italic }
+    .cp    { color: var(--color-grey-6) }
+    .c1    { color: var(--color-grey-6); font-style: italic }
+    .cs    { color: var(--color-grey-6); font-style: italic }
+    .gd    { color: var(--color-black); background-color: #fdd }
+    .gd .x { color: var(--color-black); background-color: #faa }
+    .ge    { font-style: italic }
+    .gr    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .gh    { color: var(--color-grey-6) }
+    .gi    { color: var(--color-black); background-color: #dfd }
+    .gi .x { color: var(--color-black); background-color: #afa }
+    .go    { color: var(--color-grey-6) }
+    .gp    { color:  var(--color-grey-dark) }
+    .gs    { font-weight: bold }
+    .gu    { color: var(--color-grey-6) }
+    .gt    { color: light-dark(var(--color-blue), var(--color-blue-light)) }
+    .kc    { color: var(--color-pink) }
+    .kd    { color: var(--color-pink) }
+    .kp    { color: var(--color-pink) }
+    .kr    { color: var(--color-pink) }
+    .kt    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .m     { color: var(--color-orange) }
+    .s     { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .na    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .nb    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .nc    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .no    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .ni    { color: var(--color-pink) }
+    .ne    { color: light-dark(var(--color-blue), var(--color-blue-light)) }
+    .nf    { color: light-dark(var(--color-blue), var(--color-blue-light)) }
+    .nn    { color:  var(--color-grey-dark) }
+    .nt    { font-weight: bold }
+    .nv    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .ow    { font-weight: bold }
+    .w     { color: var(--color-grey-6) }
+    .mf    { color: var(--color-orange) }
+    .mh    { color: var(--color-orange) }
+    .mi    { color: var(--color-orange) }
+    .mo    { color: var(--color-orange) }
+    .sb    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sc    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sd    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .s2    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .se    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sh    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .si    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sx    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .sr    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .s1    { color: light-dark(var(--color-green), var(--color-green-light)) }
+    .ss    { color: var(--color-pink) }
+    .bp    { color: var(--color-grey-6) }
+    .vc    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .vg    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .vi    { color: light-dark(var(--color-red), var(--color-red-light)) }
+    .il    { color: light-dark(var(--color-red), var(--color-red-light)) }
 }
