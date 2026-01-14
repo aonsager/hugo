@@ -1,10 +1,21 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <section>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
-    </section>
-  {{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <table class="archive-list">
+        {{ $myDate := "" }}
+        {{ range .Pages }}
+            {{ $currentYear := .Date | time.Format "2006" }}
+            {{ $dateShort := .Date | time.Format "Jan 02" }}
+            {{ if ne $myDate $currentYear }}
+                </table>
+                <h2>{{ $currentYear }}</h2>
+                <table class="archive-list">
+                {{ $myDate = $currentYear }}
+            {{ end }}
+            <tr>
+                <td class="meta">{{ $dateShort }}</td>
+                <td><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></td>
+            </tr>
+        {{ end }}
+    </table>
 {{ end }}

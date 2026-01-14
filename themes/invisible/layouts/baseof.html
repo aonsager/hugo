@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
-  {{ partial "head.html" . }}
+    {{ partial "head.html" . }}
 </head>
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
+        <header>
+            {{ partial "header.html" . }}
+        </header>
+        <div class="layout-container">
+            <div class="sidebar-left">
+                <nav>
+                    {{ partial "nav.html" . }}
+                </nav>
+            </div>
+            <main>
+                <div class="inner-content">
+                    {{ block "main" . }}{{ end }}
+                </div>
+            </main>
+        </div>
+        <footer>
+            {{ partial "footer.html" . }}
+        </footer>
 </body>
 </html>
