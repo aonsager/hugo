@@ -1,10 +1,15 @@
 {{ define "main" }}
+    {{ $flairColors := "" }}
     {{ $myTitle := .Title }}
     {{ if not $myTitle }}
         {{ $myTitle = strings.FirstUpper .File.BaseFileName }}
     {{ end }}
         
     <h1>{{ $myTitle }}</h1>
+    {{ if .Params.colors }}
+        {{ $flairColors = printf `background-image: linear-gradient(90deg, %s)` (delimit .Params.colors ",") }}
+        <div class="post-flair" {{ printf `style="%s"` $flairColors | safeHTMLAttr}}></div>
+    {{ end }}
     {{ partial "custom-content" . }}
     
     {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}

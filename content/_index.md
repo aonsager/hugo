@@ -8,7 +8,7 @@ In addition to being a blog, this is a freeform space for me to build – and ho
 
 ### Some of my favorite posts
 
-- [Pokemon Fusion: Behind the Scenes](behind-the-scenes-pokemon-fusion)
+- [[behind-the-scenes-pokemon-fusion | Pokemon Fusion: Behind the Scenes]]
 - [[adding-color-to-posts-automatically | Generating Colors from Post Titles ]]
 - [[a-fathers-bookshelf | A Father's Bookshelf ]]
 - [[becoming-a-parent-introduced-me-to-stress | Becoming a parent introduced me to stress ]]
