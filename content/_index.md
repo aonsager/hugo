@@ -8,7 +8,7 @@ In addition to being a blog, this is a freeform space for me to build – and ho
 
 ### Some of my favorite posts
 
-- [[behind-the-scenes-pokemon-fusion | Pokemon Fusion: Behind the Scenes]]
+- [Pokemon Fusion: Behind the Scenes](behind-the-scenes-pokemon-fusion)
 - [[adding-color-to-posts-automatically | Generating Colors from Post Titles ]]
 - [[a-fathers-bookshelf | A Father's Bookshelf ]]
 - [[becoming-a-parent-introduced-me-to-stress | Becoming a parent introduced me to stress ]]
@@ -25,7 +25,7 @@ Please note that this site has a great search function. You can use the search b
 
 ## About me
 
-<img src="alex_face.png" width=200 height=200 style="float:right; margin-left: 15px;" title="My face" alt="A photo of me sitting at an outdoor terrace, smiling and trying to keep my eyes open in the bright sunlight." />
+<img src="/images/alex_face.png" width=200 height=200 style="float:right; margin-left: 15px;" title="My face" alt="A photo of me sitting at an outdoor terrace, smiling and trying to keep my eyes open in the bright sunlight." />
 
 My name is Alex. I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. I learned programming by making bad games for my TI-83 calculator. The first things I published online were bad flash websites.
 

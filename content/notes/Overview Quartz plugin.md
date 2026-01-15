@@ -1,5 +1,5 @@
 ---
-title: Overview Quartz plugin
+title:
 date: 2025-12-24 11:25:00 +09:00
 colors:
   - "#ffffff"

@@ -32,7 +32,7 @@ I've recently realized that including software-specific text in my post and page
 
 Also I fell into the habit of putting various options to customize a page's display into YAML frontmatter. This works, but as the number of options grew, so did the complexity of going through each options and making sure I have everything correct. Minimal frontmatter is fine, like a title and tags.
 
-This all just leads to a lot of mental overhead. I want to just open a new file, write my words, and hit publish. [Quartz](http://quartz.jzhao.xyz) was very good for this, since it had defaults tailored to match [[Obsidian | Obsidian's]] experience. Which leads to the next point:
+This all just leads to a lot of mental overhead. I want to just open a new file, write my words, and hit publish. [Quartz](http://quartz.jzhao.xyz) was very good for this, since it had defaults tailored to match Obsidian's experience. Which leads to the next point:
 
 ## 2. Keep most processing and customization within the code
 

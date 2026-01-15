@@ -1,5 +1,5 @@
 ---
-title: Site todo
+title:
 date: 2025-12-24 11:29:00 +09:00
 colors:
   - "#5f33e5"
@@ -29,7 +29,7 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 	- [ ] Make a section for Haiku?
 	- [ ] Decide how much I want to change the site's layout/CSS
 	- [ ] Set up automatic importing of micro posts from [[gotosocial]]
-	- [x] Revisit design of [[links]] page
+	- [x] Revisit design of [links](/links) page
 - Game wiki section 
 	- [x] Start writing things about games I am playing
 	- [ ] Micro-posts

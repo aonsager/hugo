@@ -1,5 +1,5 @@
 ---
-title: Disable Folder Listings for certain index pages
+title:
 date: 2025-12-24 11:24:00 +09:00
 colors:
 tags:

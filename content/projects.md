@@ -43,7 +43,7 @@ Poot your toots across different platforms. It reads an RSS feed and posts new e
 <div>
 A simple script that saves article text from a webpage into a local folder for archive and search.
 
-- [[squirrel---archive-webpages-so-i-can-find-them-again| Blog post]]
+- [[squirrel-archive-webpages| Blog post]]
 - [Source Code](https://github.com/aonsager/squirrel-archiver)
 </div>
 </div>

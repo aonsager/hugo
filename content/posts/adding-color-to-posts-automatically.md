@@ -33,11 +33,11 @@ Here are the results for the title "My Vacation in Tahiti":
 
 <table>
   <tr>
-    <td style="text-align:center"><img src="images/tahiti1.jpg" /></td>
-    <td style="text-align:center"><img src="images/tahiti2.jpg" /></td>
-    <td style="text-align:center"><img src="images/tahiti3.jpg" /></td>
-    <td style="text-align:center"><img src="images/tahiti4.jpg" /></td>
-    <td style="text-align:center"><img src="images/tahiti5.jpg" /></td>
+    <td style="text-align:center"><img src="/images/tahiti1.jpg" /></td>
+    <td style="text-align:center"><img src="/images/tahiti2.jpg" /></td>
+    <td style="text-align:center"><img src="/images/tahiti3.jpg" /></td>
+    <td style="text-align:center"><img src="/images/tahiti4.jpg" /></td>
+    <td style="text-align:center"><img src="/images/tahiti5.jpg" /></td>
   </tr>
   <tr>
     <td style="width:20%;text-align:center;background-color:#626E6F;color:white">#626E6F</td>

@@ -1,5 +1,5 @@
 ---
-title: PageList
+title:
 date: 2025-12-24 11:26:00 +09:00
 colors:
   - "#c9c6a5"

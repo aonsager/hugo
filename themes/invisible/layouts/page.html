@@ -1,11 +1,16 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <p class="meta">
-      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-  </p>
-  <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
+    {{ $myTitle := .Title }}
+    {{ if not $myTitle }}
+        {{ $myTitle = strings.FirstUpper .File.BaseFileName }}
+    {{ end }}
+        
+    <h1>{{ $myTitle }}</h1>
+    {{ partial "custom-content" . }}
+    
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <p class="meta">
+        <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    </p>
+    <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
 {{ end }}

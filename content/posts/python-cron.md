@@ -19,7 +19,7 @@ metaRSS: true
 
 ## The issue
 
-I had setup a cron task to run my [Squirrel Archiver](/2025/01/09/squirrel-archive-webpages-so-i-can-find-them-again.html) script once per day, but for some reason the task was not executing. Nothing, including any errors, was showing up in any logs. At first I thought there was something wrong with my crontab, but other scripts set up to run in the same way were running without issue.
+I had setup a cron task to run my [[squirrel-archive-webpages | Squirrel archiver]] script once per day, but for some reason the task was not executing. Nothing, including any errors, was showing up in any logs. At first I thought there was something wrong with my crontab, but other scripts set up to run in the same way were running without issue.
 
 Copying the commands in crontab to the terminal and running it manually worked. It was only when cron was triggering the run that it failed.
 

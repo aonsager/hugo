@@ -1,0 +1,58 @@
+<!-- Forked from https://github.com/milafrerichs/hugo-wikilinks/blob/main/partials/content-wikilinks.html -->
+{{ $firstBracket := "\\[\\[" }}
+{{ $lastBracket := "\\]\\]" }}
+
+{{ $wikiregex := "\\[\\[([^/]+?)\\]\\]" }}
+
+{{ $wikilinks := .Content | findRE $wikiregex }}
+
+{{ $content := .Content }}
+{{ $foundPage := "" }}
+
+{{ range $wikilinks }}
+
+	{{ $rawContent := . | replaceRE $wikiregex "$1" }}
+
+	<!-- Parse target and display text (supports [[target | display]] syntax) -->
+	{{ $target := $rawContent }}
+	{{ $displayText := $rawContent }}
+	{{ if strings.Contains $rawContent "|" }}
+		{{ $parts := split $rawContent "|" }}
+		{{ $target = index $parts 0 | strings.TrimSpace }}
+		{{ $rest := after 1 $parts }}
+		{{ $displayText = delimit $rest "|" | strings.TrimSpace }}
+	{{ end }}
+
+	<!-- Escape special regex characters for wikilink pattern -->
+	{{ $escapedContent := $rawContent | replaceRE "([\\\\.*+?|^$()\\[\\]{}])" "\\$1" }}
+	{{ $wikilink := printf "%s%s%s" $firstBracket $escapedContent $lastBracket }}
+	{{ $anchorized := $target | anchorize }}
+
+	<!-- Search all pages for matching filename or title -->
+	{{ $foundPage = "" }}
+	{{ range site.RegularPages }}
+		{{ if eq $foundPage "" }}
+			{{ $fileBaseName := "" }}
+			{{ with .File }}
+				{{ $fileBaseName = .ContentBaseName | anchorize }}
+			{{ end }}
+			{{ $titleAnchorized := .Title | anchorize }}
+			{{ if or (eq $fileBaseName $anchorized) (eq $titleAnchorized $anchorized) }}
+				{{ $foundPage = . }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+
+	{{ if ne $foundPage "" }}
+		{{ $rel := $foundPage.RelPermalink }}
+		{{ $link := printf "<a href=\"%s\">%s</a>" $rel $displayText }}
+		{{ $content =  $content | replaceRE $wikilink $link }}
+	{{ else }}
+		<!-- Page not found - show as plain text without brackets -->
+		{{ warnidf "content-wikilinks" "Page not found: %s" $target }}
+		{{ $content = $content | replaceRE $wikilink $displayText }}
+	{{ end }}
+{{ end }}
+
+
+{{ $content | markdownify }}
