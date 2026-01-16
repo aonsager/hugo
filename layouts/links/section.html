@@ -4,6 +4,10 @@
     <ul class="section-ul">
         {{ range .Pages }}
             <li class="border-top">
+                <h3>
+                    <a href="{{ .Page.Params.link }}">{{ .Title }}</a>&nbsp;
+                    <span class="meta">({{ partial "funcs/tld.html" .Page.Params.link }})</span>
+                </h3>
                 {{ .Content }}
                 <a href="{{ .RelPermalink }}">
                     {{ partial "date-tag.html" .Date }}

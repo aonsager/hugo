@@ -1,0 +1,3 @@
+<!-- Return the top-level domain for a given URL string -->
+{{ $url := urls.Parse . }} 
+{{ return $url.Host }}

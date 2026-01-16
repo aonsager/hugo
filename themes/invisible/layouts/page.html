@@ -12,10 +12,6 @@
     {{ end }}
     {{ partial "custom-content" . }}
     
-    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $dateHuman := .Date | time.Format ":date_long" }}
-    <p class="meta">
-        <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-    </p>
+    {{ partial "date-tag.html" .Date }}
     <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
 {{ end }}
