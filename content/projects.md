@@ -8,7 +8,7 @@ Since my day-job doesn't currently involve much programming, I like to work on f
 ## Pokemon Fusion
 
 <div style="display:flex">
-<img src="images/projects/pokemonfusion.png" class="list-img" title="Pokemon Fusion logo" />
+<img src="/images/projects/pokemonfusion.png" class="list-image" title="Pokemon Fusion logo" />
 
 <div>
 A simple website that replaces heads and swaps colors in Pokemon sprites.
@@ -23,7 +23,7 @@ A simple website that replaces heads and swaps colors in Pokemon sprites.
 ## CrossPooter
 
 <div style="display:flex">
-<img src="images/projects/crosspooter.jpeg" class="list-img" title="CrossPooter logo" />
+<img src="/images/projects/crosspooter.jpeg" class="list-image" title="CrossPooter logo" />
 
 <div>
 Poot your toots across different platforms. It reads an RSS feed and posts new entries to GoToSocial and Bluesky.
@@ -38,7 +38,7 @@ Poot your toots across different platforms. It reads an RSS feed and posts new e
 ## Squirrel
 
 <div style="display:flex">
-<img src="images/projects/squirrel.png" class="list-img" title="Squirrel logo" />
+<img src="/images/projects/squirrel.png" class="list-image" title="Squirrel logo" />
 
 <div>
 A simple script that saves article text from a webpage into a local folder for archive and search.
@@ -53,7 +53,7 @@ A simple script that saves article text from a webpage into a local folder for a
 ## Check My Wow
 
 <div style="display:flex">
-<img src="images/projects/checkmywow.png" class="list-img" title="Check My Wow logo" />
+<img src="/images/projects/checkmywow.png" class="list-image" title="Check My Wow logo" />
 
 <div>
 A website (currently discontinued) that analyzes World of Warcraft combat logs and gives targeted feedback specific to the type of character you were playing.

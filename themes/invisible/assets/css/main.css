@@ -18,8 +18,8 @@
     /* Base colors */
     --color-white: oklch(0.9807 0.0021 17.19);
     --color-black: oklch(25.11% 0.006 258.36);
-    --color-blue: oklch(0.5178 0.1246 250.94);
-    /*--color-blue: oklch(0.6126 0.0671 238.5);*/
+    --color-blue: oklch(0.5682 0.1246 250.94);
+    --color-red: oklch(0.5356 0.1103 11.65);
     --color-green: oklch(0.5265 0.0711 188.9);
     --color-yellow: oklch(0.8705 0.1295 99.41);
     
@@ -33,7 +33,7 @@
                         color-mix(in srgb, var(--color-white), var(--color-black) 15%)
                     );
     --color-primary: light-dark(
-                        color-mix(in srgb, var(--color-ink) 10%, var(--color-blue)),
+                        var(--color-blue),
                         color-mix(in srgb, var(--color-ink), var(--color-blue))
                     );
     --color-secondary: color-mix(in srgb, var(--color-canvas) 40%, var(--color-primary));
@@ -116,13 +116,9 @@ figcaption {
     font-style: italic;
 }
 
-p > a, li > a {
-    font-weight: 500;
-}
-
 a {
     word-wrap: break-word;
-    color: color-mix(in srgb, var(--color-ink) 40%, var(--color-primary));
+    color: var(--color-primary); /*color-mix(in srgb, var(--color-ink) 40%, var(--color-primary));*/
     text-underline-position: under;
     text-decoration-thickness: 2px;
     
@@ -369,7 +365,7 @@ ul.pagination {
     li {
         padding: 5px var(--spacing-unit);
         text-align: center;
-        border-radius: 5px;
+        border-radius: 10px;
         
         &.border {
             border: 1px solid var(--color-shadow-strong);
@@ -379,6 +375,12 @@ ul.pagination {
             background-color: color-mix(in srgb, var(--color-secondary), var(--color-canvas));
         }
     }
+}
+
+img.list-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 1em 0 0;
 }
 
 footer {

@@ -8,7 +8,7 @@ draft: false
 ---
 ## The output
 
-![Claude Code statusLine](images/cc-statusline.png)
+![Claude Code statusLine](/images/cc-statusline.png)
 
 This statusLine shows:
 
