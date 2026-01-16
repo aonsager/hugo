@@ -45,7 +45,7 @@
 
 	{{ if ne $foundPage "" }}
 		{{ $rel := $foundPage.RelPermalink }}
-		{{ $link := printf "<a href=\"%s\">%s</a>" $rel $displayText }}
+		{{ $link := printf "<a href=\"%s\" class=\"internal\">%s</a>" $rel $displayText }}
 		{{ $content =  $content | replaceRE $wikilink $link }}
 	{{ else }}
 		<!-- Page not found - show as plain text without brackets -->

@@ -5,7 +5,7 @@
 :root {
     /* Typography */
     --base-font-size: 16px;
-    --base-line-height: 1.5;
+    --base-line-height: 1.5rem;
     --base-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --base-font-weight: 400;
     --header-font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -16,7 +16,7 @@
     --content-width: 80ch;
 
     /* Base colors */
-    --color-white: oklch(0.99 0 0);
+    --color-white: oklch(0.9807 0.0021 17.19);
     --color-black: oklch(25.11% 0.006 258.36);
     --color-blue: oklch(0.5178 0.1246 250.94);
     /*--color-blue: oklch(0.6126 0.0671 238.5);*/
@@ -25,18 +25,18 @@
     
     /* Color palette */
     --color-canvas: light-dark(
-                        oklch(0.99 0 0), /* Off-white */
-                        oklch(25.11% 0.006 258.36) /* Soft black */
+                        var(--color-white),
+                        var(--color-black)
                     );
     --color-ink:    light-dark(
-                        oklch(25.11% 0.006 258.36), /* Soft black */
-                        oklch(91.87% 0.003 264.54) /* Smoky white */
+                        color-mix(in srgb, var(--color-black), var(--color-white) 10%),
+                        color-mix(in srgb, var(--color-white), var(--color-black) 15%)
                     );
     --color-primary: light-dark(
                         color-mix(in srgb, var(--color-ink) 10%, var(--color-blue)),
                         color-mix(in srgb, var(--color-ink), var(--color-blue))
                     );
-    --color-secondary: color-mix(in srgb, var(--color-white), var(--color-primary));
+    --color-secondary: color-mix(in srgb, var(--color-canvas) 40%, var(--color-primary));
     --color-shadow: color-mix(in srgb, var(--color-ink) 6%, var(--color-canvas));
     --color-shadow-strong: color-mix(in srgb, var(--color-shadow), var(--color-ink) 10%);
 }
@@ -116,11 +116,23 @@ figcaption {
     font-style: italic;
 }
 
+p > a, li > a {
+    font-weight: 500;
+}
+
 a {
     word-wrap: break-word;
-    color: var(--color-primary);
+    color: color-mix(in srgb, var(--color-ink) 40%, var(--color-primary));
     text-underline-position: under;
     text-decoration-thickness: 2px;
+    
+    &.internal {
+        /*color: color-mix(in srgb, var(--color-ink), var(--color-primary));*/
+        background-color: color-mix(in srgb, var(--color-secondary) 10%, var(--color-shadow));
+        text-decoration: none;
+        padding: 1px 5px;
+        border-radius: 5px;
+    }
 }
 
 a:hover {
@@ -157,6 +169,7 @@ blockquote {
     transition: border-color .2s;
     background-color: var(--color-shadow);
     overflow: auto;
+    border-radius: 0 5px 5px 0;
 }
 
 /* Layout */
@@ -279,7 +292,7 @@ main {
     grid-area: main;
     padding: var(--spacing-unit);
     
-    .meta {
+    .foot-meta {
         text-align: right;
         margin-top: calc(4*var(--spacing-unit));
     }
@@ -341,6 +354,33 @@ ul.section-ul {
     }
 }
 
+ul.pagination {
+    margin-top: calc(4 * var(--spacing-unit));
+    list-style: none;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    gap: var(--spacing-unit);
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li {
+        padding: 5px var(--spacing-unit);
+        text-align: center;
+        border-radius: 5px;
+        
+        &.border {
+            border: 1px solid var(--color-shadow-strong);
+        }
+        
+        &.active {
+            background-color: color-mix(in srgb, var(--color-secondary), var(--color-canvas));
+        }
+    }
+}
+
 footer {
     grid-area: footer;
     text-align: center;
@@ -352,6 +392,7 @@ footer {
 pre, code {
     font-size: 0.9rem;
     border: 1px solid var(--color-shadow-strong);
+    border-radius: 5px;
     background-color: var(--color-shadow);
 }
 

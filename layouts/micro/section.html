@@ -2,7 +2,8 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
     <ul class="section-ul">
-        {{ range .Pages }}
+        {{ $pages := .Pages.ByPublishDate.Reverse }}
+        {{ range (.Paginate $pages).Pages }}
             <li class="border-top">
                 {{ .Content }}
                 <a href="{{ .RelPermalink }}">
@@ -11,4 +12,5 @@
             </li>
         {{ end }}
     </ul>
+    {{ partial "pagination.html" (dict "page" . "format" "terse") }}
 {{ end }}
