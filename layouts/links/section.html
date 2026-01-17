@@ -1,6 +1,6 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    {{ partial "custom-content" . }}
     <ul class="section-ul">
         {{ $pages := .Pages.ByPublishDate.Reverse }}
         {{ range (.Paginate $pages).Pages }}
@@ -9,14 +9,8 @@
                     <a href="{{ .Page.Params.link }}">{{ .Title }}</a>&nbsp;
                     <span class="meta">({{ partial "funcs/tld.html" .Page.Params.link }})</span>
                 </h3>
-                {{ .Content }}
-                {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-                {{ $dateHuman := .Date | time.Format ":date_long" }}
-                <p class="foot-meta">
-                    <a class="internal" href="{{ .RelPermalink }}">
-                        <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-                    </a>
-                </p>
+                {{ partial "custom-content" . }}
+                {{ partial "date-link.html" . }}
             </li>
         {{ end }}
     </ul>

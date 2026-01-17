@@ -8,13 +8,9 @@ colors:
   - "#b9b9bc"
   - "#192f58"
 tags:
-  - plugin
-  - javascript
-  - website
-  - overview
-  - interface
   - quartz
-  - colophon
+  - design
+  - coding
 metaRSS: false
 ---
 

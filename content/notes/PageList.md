@@ -8,13 +8,6 @@ colors:
   - "#acc0d8"
   - "#afc2c1"
 tags:
-  - customization
-  - html
-  - folders
-  - tags
-  - design
-  - quartz
-  - colophon
 metaRSS: false
 ---
 

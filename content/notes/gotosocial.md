@@ -3,6 +3,9 @@ title: GoToSocial
 date: 2026-01-05 10:57:00 +09:00
 colors:
 tags:
+  - gotosocial
+  - social
+  - self-hosting
 metaRSS: false
 draft: false
 ---

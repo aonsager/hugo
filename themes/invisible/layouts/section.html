@@ -1,6 +1,6 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    {{ partial "custom-content" . }}
     <table class="archive-list">
         {{ $myDate := "" }}
         {{ range .Pages }}

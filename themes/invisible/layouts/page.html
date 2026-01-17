@@ -11,7 +11,7 @@
         <div class="post-flair" {{ printf `style="%s"` $flairColors | safeHTMLAttr}}></div>
     {{ end }}
     {{ partial "custom-content" . }}
-    
-    {{ partial "date-tag.html" .Date }}
+    {{ partial "date-tag.html" . }}
+    {{ partial "related-posts.html" (dict "page" .) }}
     <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
 {{ end }}

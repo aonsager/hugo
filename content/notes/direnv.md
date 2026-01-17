@@ -8,10 +8,8 @@ colors:
   - "#21a5e3"
 tags:
   - direnv
-  - environment
-  - variables
-  - security
-  - gitignore
+  - cli
+  - coding
 ---
 
 [direnv](https://direnv.net) lets you define environment variables to be loaded only within certain directories. It's a great way to save secret variables that are project-specific, without cluttering your global shell config.

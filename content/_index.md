@@ -16,7 +16,7 @@ In addition to being a blog, this is a freeform space for me to build – and ho
 
 ## About this site
 
-I write notes using [Obsidian](https://obsidian.md), and use [Quartz](https://quartz.jzhao.xyz) to transform my notes into a functional website. You can look at the [[Colophon]] for information about how this site is built. I have a running list of [[Site todo | todos]] that I want to take care of.
+I write notes using [Obsidian](https://obsidian.md), and use [Hugo](https://gohugo.io) to transform my notes into a functional website. You can look at the [[Colophon]] for information about how this site is built. I have a running list of [[Site todo| todos]] that I want to take care of.
 
 I'm still not sure what the best way to organize things is here, so they might be a lot of reorganizing for a while. For now, the vision is to just tag everything and see what happens. Maybe I will make a tag cloud to aid exploration. Maybe I will expose a list of related pages for each page. I'm not sure yet, but I think I have a lot of options.
 

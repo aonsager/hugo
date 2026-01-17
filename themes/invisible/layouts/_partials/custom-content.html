@@ -1,2 +1,3 @@
 {{ $customContent := .Content }}
-{{ partial "content-wikilinks" (dict "Content" $customContent "Page" .) }}
+{{ $customContent = partial "content-wikilinks" (dict "Content" $customContent "Page" .) }}
+{{ $customContent }}

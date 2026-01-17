@@ -1,14 +1,12 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
+    {{ partial "custom-content" . }}
     <ul class="section-ul">
         {{ $pages := .Pages.ByPublishDate.Reverse }}
         {{ range (.Paginate $pages).Pages }}
             <li class="border-top">
-                {{ .Content }}
-                <a href="{{ .RelPermalink }}">
-                    {{ partial "date-tag.html" .Date }}
-                </a>
+                {{ partial "custom-content" . }}
+                {{ partial "date-link.html" . }}
             </li>
         {{ end }}
     </ul>

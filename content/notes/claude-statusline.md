@@ -3,6 +3,10 @@ title: Claude Code statusLine
 date: 2026-01-06 10:30:00 +09:00
 colors:
 tags:
+  - claude
+  - coding
+  - AI
+  - cli
 metaRSS: false
 draft: false
 ---

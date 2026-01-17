@@ -1,22 +1,19 @@
 ---
 title: Hobbies that I am no good at
-date: '2025-01-30 14:48:00 +0900'
+date: 2025-01-30 14:48:00 +0900
 colors:
-  - '#6E89A4'
-  - '#8799B2'
-  - '#5B5C65'
-  - '#8799B2'
+  - "#6E89A4"
+  - "#8799B2"
+  - "#5B5C65"
+  - "#8799B2"
   - white
 tags:
   - actor
   - juggling
-  - hobby
   - creativity
   - enjoyment
-blurb: >-
-  We must allow ourselves to enjoy things, even in the face of our clear
-  mediocrity. Is there anything I enjoy doing - and let myself enjoy - that I am
-  not good at?
+  - hobbies
+blurb: We must allow ourselves to enjoy things, even in the face of our clear mediocrity. Is there anything I enjoy doing - and let myself enjoy - that I am not good at?
 metaRSS: true
 ---
 

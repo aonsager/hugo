@@ -8,13 +8,15 @@ colors:
   - "#f6f6f6"
   - "#c6c7c7"
 tags:
-  - wiki
   - blog
-  - customization
-  - workflow
-  - rss
-  - colophon
+  - website
+  - quartz
 ---
+
+
+> [!NOTE]
+> This is an old todo file I used when building my site with Quartz. It's left here for posterity.
+
 
 In addition to using this site as a general wiki for my thoughts, I'm eyeing the possibility of migrating my entire blog to this format. I Currently make my site with [Jekyll](https://jekyllrb.com) (a great product!) but I have a lot of customization living in each post's frontmatter, and while I do have a variety of convenience scripts set up, I kind of need to be sitting at my desktop machine in order to create and publish posts. 
 

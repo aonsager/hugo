@@ -7,11 +7,8 @@ colors:
   - "#3aba9b"
   - "#fafafa"
 tags:
-  - organization
-  - tags
-  - folders
-  - notes
   - blog
+  - website
   - colophon
 ---
 My mind has always preferred organize files in folders. I like having a sense of where things are, and being able to see at a glance all files that pertain to a particular topic.

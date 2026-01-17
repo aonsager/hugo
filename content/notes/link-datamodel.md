@@ -8,13 +8,9 @@ colors:
   - "#4767db"
   - "#a3d094"
 tags:
-  - blogging
-  - content
-  - pagination
-  - customization
-  - organization
   - quartz
-  - colophon
+  - coding
+  - links
 metaRSS: false
 ---
 

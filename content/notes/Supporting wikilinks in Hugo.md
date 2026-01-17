@@ -1,3 +1,33 @@
+---
+title:
+date: 2026-01-16 22:51:00 +09:00
+colors:
+tags:
+  - hugo
+  - blog
+  - coding
+  - customization
+  - wikilinks
+  - markdown
+metaRSS: false
+draft: false
+---
+
+I write my notes in Obsidian, and the support for wiki-style links is very convenient for linking notes, and even setting up links to notes before actually creating them. I wanted to enable these links on my generated site, without changing my current workflow in Obsidian.
+
+The strategy is pretty straightforward. 
+
+- Use regex matching to find a wikilink (`[‎[ page title]‎]`)
+	- Support alias syntax (`[‎[ page-title | Link text ]‎]`)
+- Look through all existing pages to find a page that has a filename or `title` property that matches.
+- Replace the wikilink with a link to the page's full URL.
+	- If the wikilink uses an alias, show that as a link text
+	- Style it as an [[Customize display of internal and external links | internal link]]
+- If the page doesn't exist, show it as a red disabled link, like Wikipedia.
+
+The full source is below, and you can see it on [github](https://github.com/aonsager/hugo/blob/main/themes/invisible/layouts/_partials/content-wikilinks.html), too
+
+```html
 <!-- Forked from https://github.com/milafrerichs/hugo-wikilinks/blob/main/partials/content-wikilinks.html -->
 {{ $firstBracket := "\\[\\[" }}
 {{ $lastBracket := "\\]\\]" }}
@@ -48,12 +78,12 @@
 		{{ $link := printf "<a href=\"%s\" class=\"internal\">%s</a>" $rel $displayText }}
 		{{ $content =  $content | replaceRE $wikilink $link }}
 	{{ else }}
-		<!-- Page not found - show as disabled link -->
+		<!-- Page not found - show as plain text without brackets -->
 		{{ warnidf "content-wikilinks" "Page not found: %s" $target }}
-		{{ $link := printf "<a class=\"internal disabled\">%s</a>" $displayText }}
-		{{ $content = $content | replaceRE $wikilink $link }}
+		{{ $content = $content | replaceRE $wikilink $displayText }}
 	{{ end }}
 {{ end }}
 
 
 {{ $content | markdownify }}
+```

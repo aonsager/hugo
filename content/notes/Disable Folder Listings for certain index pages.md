@@ -4,11 +4,7 @@ date: 2025-12-24 11:24:00 +09:00
 colors:
 tags:
   - quartz
-  - index
-  - folder
-  - content
-  - frontmatter
-  - colophon
+  - coding
 metaRSS: false
 ---
 

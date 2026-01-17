@@ -3,6 +3,9 @@ title: Claude Code
 date: 2026-01-06
 colors:
 tags:
+  - claude
+  - coding
+  - AI
 metaRSS: false
 ---
 

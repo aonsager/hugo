@@ -1,0 +1,107 @@
+{{- $currentPage := .page -}}
+{{- $currentTags := $currentPage.Params.tags | default slice -}}
+
+{{- if gt (len $currentTags) 0 -}}
+    {{- /* Build map of candidate pages with their shared tags */ -}}
+    {{- $candidateMap := dict -}}
+
+    {{- range $tag := $currentTags -}}
+        {{- $tagPage := site.GetPage (printf "/tags/%s" $tag) -}}
+        {{- if $tagPage -}}
+            {{- range $relatedPage := $tagPage.Pages -}}
+                {{- if ne $relatedPage.Permalink $currentPage.Permalink -}}
+                    {{- $pageKey := $relatedPage.Permalink -}}
+                    {{- $existing := index $candidateMap $pageKey -}}
+                    {{- if $existing -}}
+                        {{- /* Append tag to existing entry */ -}}
+                        {{- $existingTags := index $existing "sharedTags" -}}
+                        {{- $newTags := $existingTags | append $tag -}}
+                        {{- $candidateMap = merge $candidateMap (dict $pageKey (dict "page" $relatedPage "sharedTags" $newTags)) -}}
+                    {{- else -}}
+                        {{- /* Create new entry */ -}}
+                        {{- $candidateMap = merge $candidateMap (dict $pageKey (dict "page" $relatedPage "sharedTags" (slice $tag))) -}}
+                    {{- end -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- /* Convert to slice and sort by number of shared tags (descending) */ -}}
+    {{- $candidates := slice -}}
+    {{- range $key, $value := $candidateMap -}}
+        {{- $candidates = $candidates | append $value -}}
+    {{- end -}}
+
+    {{- /* Sort by shared tag count descending */ -}}
+    {{- $candidates = sort $candidates "sharedTags" "desc" -}}
+    {{- /* Re-sort properly by length */ -}}
+    {{- $sortedCandidates := slice -}}
+    {{- range $candidate := $candidates -}}
+        {{- $tagCount := len (index $candidate "sharedTags") -}}
+        {{- $sortedCandidates = $sortedCandidates | append (dict "page" (index $candidate "page") "sharedTags" (index $candidate "sharedTags") "tagCount" $tagCount) -}}
+    {{- end -}}
+    {{- $sortedCandidates = sort $sortedCandidates "tagCount" "desc" -}}
+
+    {{- /* Group by shared tag set and limit to 5 posts */ -}}
+    {{- $groups := slice -}}
+    {{- $totalCount := 0 -}}
+    {{- $maxPosts := 5 -}}
+
+    {{- range $candidate := $sortedCandidates -}}
+        {{- if lt $totalCount $maxPosts -}}
+            {{- $sharedTags := index $candidate "sharedTags" -}}
+            {{- $sortedTags := sort $sharedTags -}}
+            {{- $tagKey := delimit $sortedTags "," -}}
+
+            {{- /* Find existing group or create new one */ -}}
+            {{- $foundGroup := false -}}
+            {{- $newGroups := slice -}}
+            {{- range $group := $groups -}}
+                {{- if eq (index $group "tagKey") $tagKey -}}
+                    {{- $pages := index $group "pages" -}}
+                    {{- $pages = $pages | append (index $candidate "page") -}}
+                    {{- $newGroups = $newGroups | append (dict "tagKey" $tagKey "tags" $sortedTags "pages" $pages "tagCount" (index $group "tagCount")) -}}
+                    {{- $foundGroup = true -}}
+                {{- else -}}
+                    {{- $newGroups = $newGroups | append $group -}}
+                {{- end -}}
+            {{- end -}}
+
+            {{- if not $foundGroup -}}
+                {{- $newGroups = $newGroups | append (dict "tagKey" $tagKey "tags" $sortedTags "pages" (slice (index $candidate "page")) "tagCount" (len $sortedTags)) -}}
+            {{- end -}}
+
+            {{- $groups = $newGroups -}}
+            {{- $totalCount = add $totalCount 1 -}}
+        {{- end -}}
+    {{- end -}}
+
+    {{- /* Sort groups by tag count descending */ -}}
+    {{- $groups = sort $groups "tagCount" "desc" -}}
+
+<p class="related-tags">
+    {{- range $i, $tag := sort $currentTags }}
+        <span class="tag"><a href="/tags/{{ $tag }}">{{ $tag }}</a></span>
+    {{- end }}
+</p>
+    
+    {{- /* Only render if we have related posts */ -}}
+    {{- if gt (len $groups) 0 -}}
+<div class="related-posts">
+
+    <h3>Related Posts</h3>
+        {{- range $group := $groups }}
+    <p class="related-tags extend-line">
+        {{- range $i, $tag := index $group "tags" }}
+            <span class="tag"><a href="/tags/{{ $tag }}">{{ $tag }}</a></span>
+        {{- end }}
+    </p>
+    <ul class="related-list">
+            {{- range $page := index $group "pages" }}
+        <li><a class="internal" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+            {{- end }}
+    </ul>
+        {{- end }}
+</div>
+    {{- end -}}
+{{- end -}}

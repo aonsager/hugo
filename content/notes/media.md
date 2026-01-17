@@ -3,6 +3,8 @@ title: /media
 date: 2025-12-24 12:29:00 +09:00
 colors:
 tags:
+  - media
+  - personal
 metaRSS: false
 ---
 

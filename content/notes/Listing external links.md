@@ -9,12 +9,7 @@ colors:
   - "#024c93"
 tags:
   - links
-  - website
-  - emitter
-  - obsidian
-  - workflow
   - quartz
-  - colophon
 metaRSS: false
 ---
 
