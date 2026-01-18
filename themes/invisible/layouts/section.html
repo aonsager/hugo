@@ -12,11 +12,11 @@
                 <table class="archive-list">
                 {{ $myDate = $currentYear }}
             {{ end }}
+            {{ $myTitle := .LinkTitle }}
+            {{ if not $myTitle }}
+                {{ $myTitle = .File.BaseFileName }}
+            {{ end }}
             <tr>
-                {{ $myTitle := .LinkTitle }}
-                {{ if not $myTitle }}
-                    {{ $myTitle = .File.BaseFileName }}
-                {{ end }}
                 <td class="date-text">{{ $dateShort }}</td>
                 <td><a href="{{ .RelPermalink }}">{{ $myTitle }}</a></td>
             </tr>

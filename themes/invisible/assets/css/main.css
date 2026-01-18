@@ -52,18 +52,21 @@
                     );
     --color-primary: light-dark(
                         var(--color-blue),
-                        color-mix(in srgb, var(--color-ink), var(--color-blue))
+                        color-mix(in srgb, var(--color-ink) 40%, var(--color-blue))
                     );
     --color-primary-soft: color-mix(in srgb, var(--color-canvas) 40%, var(--color-primary));
     --color-negative: light-dark(
                         var(--color-red),
-                        color-mix(in srgb, var(--color-ink), var(--color-red))
+                        color-mix(in srgb, var(--color-ink) 40%, var(--color-red))
                     );
     --color-secondary: light-dark(
                         var(--color-green),
-                        color-mix(in srgb, var(--color-ink), var(--color-green))
+                        color-mix(in srgb, var(--color-ink) 40%, var(--color-green))
                     );
-    --color-shadow: color-mix(in srgb, var(--color-ink) 6%, var(--color-canvas));
+    --color-shadow: light-dark(
+                        color-mix(in srgb, var(--color-ink) 6%, var(--color-canvas)),
+                        color-mix(in srgb, var(--color-ink) 8%, var(--color-canvas))
+                    );
     --color-shadow-strong: color-mix(in srgb, var(--color-shadow), var(--color-ink) 10%);
     
     /* Eighties */
@@ -419,6 +422,7 @@ h3 .meta {
 
 .tag {
     background-color: var(--color-shadow);
+    font-size: 0.9rem;
     padding: 2px 5px;
     margin-right: 5px;
     border-radius: 5px;
@@ -435,7 +439,7 @@ h3 .meta {
     display: flex;
     align-items: center;
     
-    &:after {
+    &:before {
         content: "";
         flex: 1;
         border-bottom: 1px dashed var(--color-shadow-strong);

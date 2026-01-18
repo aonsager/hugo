@@ -79,11 +79,11 @@
     {{- /* Sort groups by tag count descending */ -}}
     {{- $groups = sort $groups "tagCount" "desc" -}}
 
-<p class="related-tags">
+<!--<p class="related-tags">
     {{- range $i, $tag := sort $currentTags }}
         <span class="tag"><a href="/tags/{{ $tag }}">{{ $tag }}</a></span>
     {{- end }}
-</p>
+</p>-->
     
     {{- /* Only render if we have related posts */ -}}
     {{- if gt (len $groups) 0 -}}
@@ -98,7 +98,11 @@
     </p>
     <ul class="related-list">
             {{- range $page := index $group "pages" }}
-        <li><a class="internal" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></li>
+                {{ $myTitle := $page.LinkTitle }}
+                {{ if not $myTitle }}
+                    {{ $myTitle = $page.File.BaseFileName }}
+                {{ end }}
+        <li><a class="internal" href="{{ $page.RelPermalink }}">{{ $myTitle }}</a></li>
             {{- end }}
     </ul>
         {{- end }}
