@@ -25,3 +25,5 @@ You can also look at the source code for this site [here](https://github.com/aon
 - [[Supporting wikilinks in Hugo]]
 - [[Show full page contents on folder page]]
 - [[Customize display of internal and external links]]
+- [[Show related posts]]
+- [[Show correlated posts on tag pages]]

@@ -51,7 +51,7 @@
                         color-mix(in srgb, var(--color-black), var(--color-white) 10%),
                         color-mix(in srgb, var(--color-white), var(--color-black) 15%)
                     );
-    --color-ink-black: color-mix(in srgb, var(--color-black), var(--color-white) 10%);
+    --color-ink-light: color-mix(in srgb, var(--color-ink), var(--color-canvas));
     --color-primary: light-dark(
                         var(--color-blue),
                         color-mix(in srgb, var(--color-ink) 40%, var(--color-blue))
@@ -342,7 +342,7 @@ table.archive-list {
         &.date-text {
             text-align: right;
             padding-right: calc(var(--spacing-unit) * 1);
-            opacity: 0.6;
+            color: var(--color-ink-light);
             min-width: 8ch;
         }
     }
@@ -365,7 +365,7 @@ hr {
 }
 
 .meta {
-    opacity: 0.6;
+    color: var(--color-ink-light);
 }
 
 h3 a {
@@ -383,15 +383,18 @@ h3 .meta {
 	margin-bottom: 2rem;
 }
 
+.related-tags {
+    margin-bottom: calc(0.5 * var(--spacing-unit));
+    text-align: right;
+}
+
 .related-posts {
-    margin-top: calc(2 * var(--spacing-unit));
+    margin-top: calc(4 * var(--spacing-unit));
+    padding-top: calc(4 * var(--spacing-unit));
+    border-top: 1px solid var(--color-shadow-strong);
 
     h3 {
         margin-bottom: var(--spacing-unit);
-    }
-
-    .related-tags {
-        margin-bottom: calc(0.5 * var(--spacing-unit));
     }
 
     .related-list {
@@ -410,7 +413,7 @@ a:has(.tag) {
         background-color: var(--color-shadow);
         font-size: 0.9rem;
         padding: 2px 5px;
-        margin-right: 5px;
+        margin-left: 5px;
         border-radius: 5px;
         border: 1px solid var(--color-shadow-strong);
     }

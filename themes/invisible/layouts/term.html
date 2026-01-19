@@ -1,7 +1,114 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  <h1>Tag: {{ .Title }}</h1>
   {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ partial "smart-title.html" . }}</a></h2>
-  {{ end }}
+
+  {{- $currentTag := .Data.Term -}}
+
+  {{- /* Step 1: Build page data with other tags (excluding current tag) */ -}}
+  {{- $pageData := slice -}}
+  {{- range $page := .Pages -}}
+    {{- $pageTags := $page.Params.tags | default slice -}}
+    {{- $otherTags := slice -}}
+    {{- range $tag := $pageTags -}}
+      {{- if ne $tag $currentTag -}}
+        {{- $otherTags = $otherTags | append $tag -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $pageData = $pageData | append (dict "page" $page "otherTags" (sort $otherTags) "key" $page.Permalink) -}}
+  {{- end -}}
+
+  {{- /* Step 2: Find all unique tag intersections between page pairs */ -}}
+  {{- $intersections := dict -}}
+  {{- range $i, $pd1 := $pageData -}}
+    {{- range $j, $pd2 := $pageData -}}
+      {{- if gt $j $i -}}
+        {{- /* Compute intersection of their other tags */ -}}
+        {{- $common := slice -}}
+        {{- range $tag := index $pd1 "otherTags" -}}
+          {{- if in (index $pd2 "otherTags") $tag -}}
+            {{- $common = $common | append $tag -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $sortedCommon := sort $common -}}
+        {{- $intKey := delimit $sortedCommon "," -}}
+        {{- $intersections = merge $intersections (dict $intKey (dict "tags" $sortedCommon "count" (len $sortedCommon))) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Step 3: Convert intersections to slice and sort by tag count descending */ -}}
+  {{- $intList := slice -}}
+  {{- range $key, $data := $intersections -}}
+    {{- $intList = $intList | append (dict "key" $key "tags" (index $data "tags") "count" (index $data "count")) -}}
+  {{- end -}}
+  {{- $intList = sort $intList "count" "desc" -}}
+
+  {{- /* Step 4: Greedily assign pages to groups, largest intersections first */ -}}
+  {{- $groups := slice -}}
+  {{- $usedPages := dict -}}
+
+  {{- range $int := $intList -}}
+    {{- $intTags := index $int "tags" -}}
+    {{- $matchingPages := slice -}}
+
+    {{- /* Find all unused pages that have ALL tags in this intersection */ -}}
+    {{- range $pd := $pageData -}}
+      {{- $pageKey := index $pd "key" -}}
+      {{- if not (index $usedPages $pageKey) -}}
+        {{- $hasAll := true -}}
+        {{- range $tag := $intTags -}}
+          {{- if not (in (index $pd "otherTags") $tag) -}}
+            {{- $hasAll = false -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if $hasAll -}}
+          {{- $matchingPages = $matchingPages | append (index $pd "page") -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- /* Only create group if 2+ pages match */ -}}
+    {{- if ge (len $matchingPages) 2 -}}
+      {{- $groups = $groups | append (dict "tags" $intTags "pages" $matchingPages "tagCount" (len $intTags)) -}}
+      {{- /* Mark these pages as used */ -}}
+      {{- range $p := $matchingPages -}}
+        {{- $usedPages = merge $usedPages (dict $p.Permalink true) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Step 5: Collect ungrouped pages */ -}}
+  {{- $ungrouped := slice -}}
+  {{- range $pd := $pageData -}}
+    {{- $pageKey := index $pd "key" -}}
+    {{- if not (index $usedPages $pageKey) -}}
+      {{- $ungrouped = $ungrouped | append (index $pd "page") -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Render groups (already sorted by tag count descending) */ -}}
+  <div class="related-posts">
+    {{- range $group := $groups }}
+    <p class="related-tags extend-line">
+        {{- range $i, $tag := index $group "tags" }}
+        <a href="/tags/{{ $tag }}"><span class="tag">{{ $tag }}</span></a>
+        {{- end }}
+    </p>
+    <ul class="related-list">
+        {{- range $page := index $group "pages" }}
+        <li><a href="{{ $page.RelPermalink }}">{{ partial "smart-title.html" $page }}</a></li>
+        {{- end }}
+    </ul>
+    {{- end }}
+    
+    {{- /* Render ungrouped pages */ -}}
+    {{- if gt (len $ungrouped) 0 }}
+    <p class="related-tags extend-line">&nbsp;</p>
+    <ul class="related-list">
+        {{- range $page := $ungrouped }}
+        <li><a href="{{ $page.RelPermalink }}">{{ partial "smart-title.html" $page }}</a></li>
+        {{- end }}
+    </ul>
+    {{- end }}
+  </div>
 {{ end }}

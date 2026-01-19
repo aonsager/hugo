@@ -3,6 +3,9 @@ title: /now
 date: 2025-02-13 14:34:00 +09:00
 colors:
 tags:
+  - now
+  - past
+  - future
 metaRSS: false
 ---
 

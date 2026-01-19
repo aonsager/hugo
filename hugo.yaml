@@ -1,6 +1,6 @@
-baseURL: 'https://example.org/'
+baseURL: 'https://www.invisibleparade.com/'
 languageCode: 'en-us'
-title: 'My New Hugo Site'
+title: 'Invisible Parade'
 theme: 'invisible'
 markup:
   goldmark:
