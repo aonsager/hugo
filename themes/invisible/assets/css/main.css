@@ -21,7 +21,7 @@
     --color-blue: oklch(0.5682 0.1246 250.94);
     --color-red: oklch(0.5356 0.1103 11.65);
     --color-green: oklch(0.592 0.0888 159.88);
-    --color-yellow: oklch(0.8705 0.1295 99.41);
+    --color-yellow: oklch(0.9243 0.0609 99.41);
     
     /* Uchu */
     /*--color-white: oklch(95.57% 0.003 286.35); /* 1 */
@@ -33,13 +33,14 @@
     
     
     /* Base16 Eighties */
-    /*--color-white: #f2f0ec;
+    --color-white: #f2f0ec;
     --color-black: #2d2d2d;
-    --color-red: #d27b53;
-    --color-blue: #6699cc;
+    --color-red: #f2777a;
+    --color-blue: #2d7bc0;
+    --color-aqua: #66cccc;
     --color-green: #99cc99;
     --color-yellow: #ffcc66;
-    --color-purple: #cc99cc;*/
+    --color-purple: #cc99cc;
     
     /* Color palette */
     --color-canvas: light-dark(
@@ -50,49 +51,26 @@
                         color-mix(in srgb, var(--color-black), var(--color-white) 10%),
                         color-mix(in srgb, var(--color-white), var(--color-black) 15%)
                     );
+    --color-ink-black: color-mix(in srgb, var(--color-black), var(--color-white) 10%);
     --color-primary: light-dark(
                         var(--color-blue),
                         color-mix(in srgb, var(--color-ink) 40%, var(--color-blue))
                     );
     --color-primary-soft: color-mix(in srgb, var(--color-canvas) 40%, var(--color-primary));
     --color-negative: light-dark(
-                        var(--color-red),
-                        color-mix(in srgb, var(--color-ink) 40%, var(--color-red))
-                    );
-    --color-secondary: light-dark(
-                        var(--color-green),
-                        color-mix(in srgb, var(--color-ink) 40%, var(--color-green))
-                    );
-    --color-shadow: light-dark(
-                        color-mix(in srgb, var(--color-ink) 6%, var(--color-canvas)),
-                        color-mix(in srgb, var(--color-ink) 8%, var(--color-canvas))
-                    );
-    --color-shadow-strong: color-mix(in srgb, var(--color-shadow), var(--color-ink) 10%);
-    
-    /* Eighties */
-    /*--color-canvas: light-dark(
-                        var(--color-white),
-                        var(--color-black)
-                    );
-    --color-ink:    light-dark(
-                        var(--color-black),
-                        var(--color-white)
-                    );
-    --color-primary: light-dark(
-                        color-mix(in srgb, var(--color-blue) 80%, var(--color-ink)),
-                        var(--color-blue)
-                    );
-    --color-primary-soft: color-mix(in srgb, var(--color-canvas) 40%, var(--color-primary));
-    --color-negative: light-dark(
-                        color-mix(in srgb, var(--color-red) 80%, var(--color-ink)),
+                        color-mix(in srgb, var(--color-ink) 20%, var(--color-red)),
                         var(--color-red)
                     );
     --color-secondary: light-dark(
-                        color-mix(in srgb, var(--color-green) 80%, var(--color-ink)),
-                        var(--color-green)
+                        color-mix(in srgb, var(--color-ink) 30%, var(--color-green)),
+                        color-mix(in srgb, var(--color-ink) 40%, var(--color-green))
                     );
-    --color-shadow: color-mix(in srgb, var(--color-ink) 6%, var(--color-canvas));
-    --color-shadow-strong: color-mix(in srgb, var(--color-ink) 20%, var(--color-canvas));*/
+    --color-highlight: light-dark(
+                        color-mix(in srgb, var(--color-green), var(--color-white)),
+                        color-mix(in srgb, var(--color-green) 70%, var(--color-canvas))
+                    );  
+    --color-shadow: color-mix(in srgb, var(--color-ink) 10%, var(--color-canvas));
+    --color-shadow-strong: color-mix(in srgb, var(--color-shadow), var(--color-ink) 10%);
 }
 
 /* Boilerplate */
@@ -172,13 +150,13 @@ figcaption {
 
 a {
     word-wrap: break-word;
-    color: var(--color-primary); /*color-mix(in srgb, var(--color-ink) 40%, var(--color-primary));*/
+    color: var(--color-primary);
     text-underline-position: under;
     text-decoration-thickness: 2px;
     
     &.internal {
-        /*color: color-mix(in srgb, var(--color-ink), var(--color-primary));*/
-        background-color: color-mix(in srgb, var(--color-primary-soft) 10%, var(--color-shadow));
+        /*background-color: color-mix(in srgb, var(--color-primary-soft) 10%, var(--color-shadow));*/
+        background-color: var(--color-shadow);
         text-decoration: none;
         padding: 1px 5px;
         border-radius: 5px;
@@ -420,18 +398,17 @@ h3 .meta {
     }
 }
 
-.tag {
-    background-color: var(--color-shadow);
-    font-size: 0.9rem;
-    padding: 2px 5px;
-    margin-right: 5px;
-    border-radius: 5px;
-    border: 1px solid var(--color-shadow);
+a:has(.tag) {
+    color: var(--color-ink);
+    text-decoration: none;
     
-    a {
-        
-        color: var(--color-secondary);
-        text-decoration: none;
+    .tag {
+        background-color: var(--color-shadow);
+        font-size: 0.9rem;
+        padding: 2px 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color-shadow-strong);
     }
 }
 

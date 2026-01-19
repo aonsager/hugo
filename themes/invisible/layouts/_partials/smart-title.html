@@ -1,0 +1,6 @@
+{{- $page := . -}}
+ {{- $title := $page.LinkTitle -}}
+ {{- if not $title -}}
+     {{- $title = $page.File.BaseFileName -}}
+ {{- end -}}
+ {{- return $title -}}

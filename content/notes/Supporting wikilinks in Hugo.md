@@ -27,6 +27,17 @@ The strategy is pretty straightforward.
 
 The full source is below, and you can see it on [github](https://github.com/aonsager/hugo/blob/main/themes/invisible/layouts/_partials/content-wikilinks.html), too
 
+### Caveats
+
+This is a fairly stupid implementation, and it has some big gotchas.
+
+Because regex is applied to the entire page content, this will grab double square brackets anywhere they appear, even if you have them in code blocks or the like.
+
+Maybe the correct way to get around this is to parse the document in blocks, and skip over any segments like code blocks that you want to ignore. 
+
+I current get around this by adding a [[zero width-character]] between the two brackets if I want to avoid detection. This works but is very hacky, so I might get around to fixing it at some point.
+
+
 ```html
 <!-- Forked from https://github.com/milafrerichs/hugo-wikilinks/blob/main/partials/content-wikilinks.html -->
 {{ $firstBracket := "\\[\\[" }}
