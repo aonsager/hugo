@@ -35,7 +35,7 @@ Because regex is applied to the entire page content, this will grab double squar
 
 Maybe the correct way to get around this is to parse the document in blocks, and skip over any segments like code blocks that you want to ignore. 
 
-I current get around this by adding a [[zero width-character]] between the two brackets if I want to avoid detection. This works but is very hacky, so I might get around to fixing it at some point.
+I current get around this by adding a [[zero-width space]] between the two brackets if I want to avoid detection. This works but is very hacky, so I might get around to fixing it at some point.
 
 
 ```html

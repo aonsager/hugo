@@ -6,3 +6,21 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+services:
+  rss:
+    limit: 10
+params:
+  author:
+    name: Alex Onsager
+outputs:
+  home: ["html", "rss", "posts", "links"]
+outputFormats:
+  rss: 
+    mediaType: "application/rss+xml"
+    baseName: "feed"
+  posts:
+    mediaType: "application/rss+xml"
+    baseName: "posts"
+  links:
+    mediaType: "application/rss+xml"
+    baseName: "links"

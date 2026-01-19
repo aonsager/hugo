@@ -36,11 +36,13 @@
     --color-white: #f2f0ec;
     --color-black: #2d2d2d;
     --color-red: #f2777a;
-    --color-blue: #2d7bc0;
-    --color-aqua: #66cccc;
-    --color-green: #99cc99;
+    --color-orange: #f99157;
     --color-yellow: #ffcc66;
+    --color-green: #99cc99;
+    --color-aqua: #66cccc;
+    --color-blue: #2d7bc0;
     --color-purple: #cc99cc;
+    --color-redorange: #d27b53;
     
     /* Color palette */
     --color-canvas: light-dark(
@@ -62,8 +64,8 @@
                         var(--color-red)
                     );
     --color-secondary: light-dark(
-                        color-mix(in srgb, var(--color-ink) 30%, var(--color-green)),
-                        color-mix(in srgb, var(--color-ink) 40%, var(--color-green))
+                        color-mix(in srgb, var(--color-ink) 30%, var(--color-yellow)),
+                        color-mix(in srgb, var(--color-canvas) 50%, var(--color-yellow))
                     );
     --color-highlight: light-dark(
                         color-mix(in srgb, var(--color-green), var(--color-white)),
@@ -275,6 +277,10 @@ header {
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
+            
+            a {
+                color: var(--color-ink);
+            }
         }
 
         .header-url {
