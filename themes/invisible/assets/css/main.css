@@ -358,6 +358,10 @@ hr {
     border: none;
     height: 1px;
     width: 90%;
+    
+    &.big {
+        margin: calc(6 * var(--spacing-unit)) auto;
+    }
 }
 
 .meta {

@@ -79,14 +79,15 @@
     {{- /* Sort groups by tag count descending */ -}}
     {{- $groups = sort $groups "tagCount" "desc" -}}
 
-<!--<p class="related-tags">
+<p class="related-tags">
     {{- range $i, $tag := sort $currentTags }}
-        <span class="tag"><a href="/tags/{{ $tag }}">{{ $tag }}</a></span>
+        <a href="/tags/{{ $tag }}"><span class="tag">{{ $tag }}</span></a>
     {{- end }}
-</p>-->
+</p>
     
     {{- /* Only render if we have related posts */ -}}
     {{- if gt (len $groups) 0 -}}
+<hr class="big"/>
 <div class="related-posts">
 
     <h3>Related Posts</h3>
