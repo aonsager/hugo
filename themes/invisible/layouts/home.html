@@ -1,3 +1,49 @@
 {{ define "main" }}
     {{ partial "custom-content" . }}
+    
+    <h2>Some places to get started</h2>
+    
+    <div class="home-card">
+        <div class="card-header">
+            <span class="card-title">Posts</span>
+            <span class="card-subtitle">Performative thinking</span>
+        </div>
+        <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "posts" "count" 5) }}</ul>
+    </div>
+    
+    <div class="home-card">
+        <div class="card-header">
+            <span class="card-title">Links</span>
+            <span class="card-subtitle">Things I liked</span>
+        </div>
+        <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "links" "count" 5) }}</ul>
+    </div>
+    
+    <div class="home-card">
+        <div class="card-header">
+            <span class="card-title">Notes</span>
+            <span class="card-subtitle">Digital garden</span>
+        </div>
+        <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "notes" "count" 5) }}</ul>
+    </div>
+    
+    <div class="home-card">
+        <div class="card-header">
+            <span class="card-title">Pages</span>
+            <span class="card-subtitle">Assorted info</span>
+        </div>
+        <p>hoge</p>
+    </div>
+    
+    <ul class="card-list">
+        <li class="card">
+            <p class="title"><a href="/pages">Pages</a></p>
+            <p class="subtitle">Assorted info</p>
+        </li>
+        <li class="card">
+            <p class="title"><a href="/pages">Micro</a></p>
+            <p class="subtitle">My <del>tweets</del> toots</p>
+        </li>
+    </ul>
+
 {{ end }}

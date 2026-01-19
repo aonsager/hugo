@@ -15,7 +15,7 @@ colors:
 metaRSS: true
 ---
 
-[![Stormtrooper Prism](/images/stormtrooper_s.jpg)](/assets/images/stormtrooper.jpg)
+[![Stormtrooper Prism](/images/stormtrooper_s.jpg)](/images/stormtrooper.jpg)
 
 Please let me know if you know the source of this image.
 

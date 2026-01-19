@@ -14,6 +14,7 @@ draft: false
 
 - [ ] Rethink display of post colors
 - [x] Explore more color palettes
+- [ ] Add home and search to header
 
 ## Related pages
 
@@ -32,6 +33,8 @@ draft: false
 - [ ] Add lightbox viewing for large images
 - [ ] Automatically process all images on build?
 - [x] Rewrite colophon
+- [ ] Clean up /games pages
+- [ ] Add search functionality
 
 ## Review 
 

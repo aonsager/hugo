@@ -8,6 +8,10 @@ draft: false
 ---
 These are my [slash pages](https://slashpages.net), where you can learn more about me and this site. They probably will be updated infrequently.
 
+### [/about](/about)
+
+More about me and this site.
+
 ### [/ai](/ai)
 
 My personal manifesto for how I will and will not use generative AI.

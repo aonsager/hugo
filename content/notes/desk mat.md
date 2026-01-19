@@ -22,7 +22,7 @@ metaRSS: false
 
 30cm×85cm wool desk mat from [amesoba](https://www.amazon.co.jp/dp/B0CRPZZBFS).
 
-![My current desk setup](amesoba-mat.jpg "My current desk setup")
+![My current desk setup](/images/amesoba-mat.jpg "My current desk setup")
 
 This desk mat is fantastic. The natural wool material has been treated to have none of the typical scratchiness, and it's comfortable for my wrists while giving a smooth surface for a mouse, too. 
 

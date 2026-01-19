@@ -10,4 +10,4 @@ draft: true
 ---
 ## Desk
 
-![My current desk setup](desk-2025.jpeg "My current desk setup")
+![My current desk setup](images/desk-2025.jpeg "My current desk setup")

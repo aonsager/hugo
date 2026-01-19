@@ -1,0 +1,22 @@
+{{- /*
+Renders the N most recent pages from a specified section, sorted by date.
+
+@context {string} section The section/folder name (e.g., "posts", "notes", "links").
+@context {int} count The number of pages to display (default: 5).
+
+@example: {{ partial "recent-pages.html" (dict "section" "posts" "count" 5) }}
+*/}}
+
+{{- $section := .section -}}
+{{- $count := .count | default 5 -}}
+
+{{- $pages := where site.RegularPages "Section" $section -}}
+{{- $pages = $pages.ByDate.Reverse | first $count -}}
+
+{{- range $pages -}}
+  <li>
+    <div><a href="{{ .RelPermalink }}">{{ partial "smart-title.html" . }}</a></div>
+    <div style="flex-grow:1;"></div>
+    <div class="date meta">{{ .Date | time.Format "2006-01-02" }}</div>
+  </li>
+{{- end -}}
