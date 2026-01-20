@@ -7,7 +7,13 @@
         <div class="site-url">
             <a href="/">Invisible Parade</a>
         </div>
-        <button id="theme-toggle" aria-label="Toggle theme" style="background: none; border: none; cursor: pointer;" onclick="toggle_theme();">
+        <button id="search-toggle" aria-label="Open search" class="header-button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="M21 21l-4.35-4.35"></path>
+            </svg>
+        </button>
+        <button id="theme-toggle" aria-label="Toggle theme" class="header-button" onclick="toggle_theme();">
             <svg id="theme-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
         </button>
     </div>
@@ -18,18 +24,18 @@
   const themeToggleButton = document.getElementById('theme-toggle');
   const html = document.querySelector('html');
   const sunIcon = `
-    <circle cx="15" cy="15" r="6" stroke="black" stroke-width="2" fill="none"/>
-    <line x1="15" y1="2" x2="15" y2="6" stroke="black" stroke-width="2"/>
-    <line x1="15" y1="24" x2="15" y2="28" stroke="black" stroke-width="2"/>
-    <line x1="2" y1="15" x2="6" y2="15" stroke="black" stroke-width="2"/>
-    <line x1="24" y1="15" x2="28" y2="15" stroke="black" stroke-width="2"/>
-    <line x1="5.5" y1="5.5" x2="8.5" y2="8.5" stroke="black" stroke-width="2"/>
-    <line x1="21.5" y1="21.5" x2="24.5" y2="24.5" stroke="black" stroke-width="2"/>
-    <line x1="5.5" y1="24.5" x2="8.5" y2="21.5" stroke="black" stroke-width="2"/>
-    <line x1="21.5" y1="8.5" x2="24.5" y2="5.5" stroke="black" stroke-width="2"/>
+    <circle cx="15" cy="15" r="6" stroke="currentColor" stroke-width="2" fill="none"/>
+    <line x1="15" y1="2" x2="15" y2="6" stroke="currentColor" stroke-width="2"/>
+    <line x1="15" y1="24" x2="15" y2="28" stroke="currentColor" stroke-width="2"/>
+    <line x1="2" y1="15" x2="6" y2="15" stroke="currentColor" stroke-width="2"/>
+    <line x1="24" y1="15" x2="28" y2="15" stroke="currentColor" stroke-width="2"/>
+    <line x1="5.5" y1="5.5" x2="8.5" y2="8.5" stroke="currentColor" stroke-width="2"/>
+    <line x1="21.5" y1="21.5" x2="24.5" y2="24.5" stroke="currentColor" stroke-width="2"/>
+    <line x1="5.5" y1="24.5" x2="8.5" y2="21.5" stroke="currentColor" stroke-width="2"/>
+    <line x1="21.5" y1="8.5" x2="24.5" y2="5.5" stroke="currentColor" stroke-width="2"/>
   `;
   const moonIcon = `
-    <path d="M15 25C20.5228 25 25 20.5228 25 15C25 14.5373 24.3065 14.4608 24.0672 14.8568C22.9289 16.7406 20.8615 18 18.5 18C14.9101 18 12 15.0899 12 11.5C12 9.13845 13.2594 7.07105 15.1432 5.93276C15.5392 5.69347 15.4627 5 15 5C9.47715 5 5 9.47715 5 15C5 20.5228 9.47715 25 15 25Z" fill="#fdfdfd"/>
+    <path d="M15 25C20.5228 25 25 20.5228 25 15C25 14.5373 24.3065 14.4608 24.0672 14.8568C22.9289 16.7406 20.8615 18 18.5 18C14.9101 18 12 15.0899 12 11.5C12 9.13845 13.2594 7.07105 15.1432 5.93276C15.5392 5.69347 15.4627 5 15 5C9.47715 5 5 9.47715 5 15C5 20.5228 9.47715 25 15 25Z" fill="#f2f0ec"/>
   `;
 
   // Check saved preference in localStorage

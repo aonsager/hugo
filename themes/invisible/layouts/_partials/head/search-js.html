@@ -1,0 +1,3 @@
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+{{- $searchJS := resources.Get "js/search.js" | js.Build -}}
+<script src="{{ $searchJS.RelPermalink }}" defer></script>

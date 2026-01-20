@@ -21,9 +21,9 @@ params:
   author:
     name: Alex Onsager
 outputs:
-  home: ["html", "rss", "posts", "links"]
+  home: ["html", "rss", "posts", "links", "json"]
 outputFormats:
-  rss: 
+  rss:
     mediaType: "application/rss+xml"
     baseName: "feed"
   posts:
@@ -32,3 +32,6 @@ outputFormats:
   links:
     mediaType: "application/rss+xml"
     baseName: "links"
+  json:
+    mediaType: "application/json"
+    baseName: "search-index"

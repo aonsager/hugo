@@ -6,7 +6,7 @@
         {{ range (.Paginate $pages).Pages }}
             <li class="border-top">
                 <h3>
-                    <a href="{{ .Page.Params.link }}">{{ .Title }}</a>&nbsp;
+                    <a href="{{ .Page.Params.link }}">{{ partial "smart-title.html" . }}</a>&nbsp;
                     <span class="meta">({{ partial "funcs/tld.html" .Page.Params.link }})</span>
                 </h3>
                 {{ partial "custom-content" . }}

@@ -17,13 +17,13 @@ blurb: My personal manifesto for how I will and will not use generative AI.
 metaRSS: true
 ---
 
-This is my personal manifesto for how I will and will not use generative AI. I believe it can be an extremely useful tool in certain situations, but can also have many negative repurcussions if used incorrectly.
+This is my personal manifesto for how I will and will not use generative AI. I believe it can be an extremely useful tool in certain situations, but can also have many negative repercussions if used incorrectly.
 
 ## 1: Use to expand my abilities, not as a crutch.
 
 ### A: Teach me new things
 
-As a coding assistant, AI can quickly show me the correct syntax. It can suggest implementations, and teach me how to implement new functions. These are extremely useful, and help me to be exponentionally more productive as a hobby developer. 
+As a coding assistant, AI can quickly show me the correct syntax. It can suggest implementations, and teach me how to implement new functions. These are extremely useful, and help me to be exponentially more productive as a hobby developer. 
 
 I must take care to use this as a tool to help me learn and grow. Instead of receiving the AI's solution and calling it done, I need to understand what it has suggested and why, so that next time I will be better able to produce that answer on my own. 
 
