@@ -87,7 +87,7 @@
     
     {{- /* Only render if we have related posts */ -}}
     {{- if gt (len $groups) 0 -}}
-<div class="related-posts">
+<div class="related-posts after-content">
 
     <h3>Related Posts</h3>
         {{- range $group := $groups }}

@@ -376,6 +376,11 @@ main {
         top: -15px;
         left: 10px;
         
+        &.right {
+            left: auto;
+            right: 10px;
+        }
+        
         .card-title {
             font-size: 1.3rem;
             margin-right: calc(0.5 * var(--spacing-unit));
@@ -383,6 +388,11 @@ main {
         
         .card-subtitle {
             color: var(--color-ink-soft);
+        }
+        
+        a {
+            color: var(--color-ink);
+            text-decoration: none;
         }
     }
     
@@ -472,9 +482,12 @@ h3 .meta {
 }
 
 .related-posts {
-    margin-top: calc(4 * var(--spacing-unit));
-    padding-top: calc(4 * var(--spacing-unit));
-    border-top: 1px solid var(--color-shadow-strong);
+    
+    &.after-content {
+        margin-top: calc(4 * var(--spacing-unit));
+        padding-top: calc(4 * var(--spacing-unit));
+        border-top: 1px solid var(--color-shadow-strong);
+    }
 
     h3 {
         margin-bottom: var(--spacing-unit);
@@ -556,6 +569,12 @@ img.list-image {
     width: 100px;
     height: 100px;
     margin: 0 1em 0 0;
+}
+
+.gallery {
+    display: flex;
+    gap: calc(var(--spacing-unit) * 0.5);
+    margin-bottom: var(--spacing-unit);
 }
 
 footer {

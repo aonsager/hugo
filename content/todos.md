@@ -3,10 +3,6 @@ title:
 date: 2026-01-17 21:51:00 +09:00
 colors:
 tags:
-  - website
-  - customization
-  - blog
-  - hugo
 metaRSS: false
 draft: false
 ---
@@ -29,11 +25,11 @@ draft: false
 
 ## Other
 
-- [ ] Support gallery image view on Micros
+- [x] Support gallery image view on Micros
 - [ ] Add lightbox viewing for large images
-- [ ] Automatically process all images on build?
+- [x] Automatically process all images on build
 - [x] Rewrite colophon
-- [ ] Clean up /games pages
+- [x] Clean up /games pages
 - [ ] Add search functionality
 
 ## Review 
