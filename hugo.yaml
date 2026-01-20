@@ -9,6 +9,14 @@ markup:
 services:
   rss:
     limit: 10
+imaging:
+  quality: 85
+  resampleFilter: Lanczos
+  exif:
+    disableDate: true
+    disableLatLong: true
+    includeFields: ''
+    excludeFields: '.*'
 params:
   author:
     name: Alex Onsager

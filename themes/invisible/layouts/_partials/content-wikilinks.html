@@ -49,7 +49,7 @@
 		{{ $content =  $content | replaceRE $wikilink $link }}
 	{{ else }}
 		<!-- Page not found - show as disabled link -->
-		{{ warnidf "content-wikilinks" "Page not found: %s" $target }}
+		{{ warnf "Page not found: %s" $target }}
 		{{ $link := printf "<a class=\"internal disabled\">%s</a>" $displayText }}
 		{{ $content = $content | replaceRE $wikilink $link }}
 	{{ end }}

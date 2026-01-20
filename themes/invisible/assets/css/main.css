@@ -143,6 +143,15 @@ img {
     margin: 0px auto;
 }
 
+picture {
+    display: block;
+}
+
+picture img {
+    max-width: 100%;
+    height: auto;
+}
+
 figcaption {
     margin: calc(0.5 * var(--spacing-unit)) 0;
     text-align: center;

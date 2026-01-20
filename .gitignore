@@ -1,2 +1,5 @@
 .envrc
 public/*
+content-processed/
+.image-cache/
+resources/_gen/

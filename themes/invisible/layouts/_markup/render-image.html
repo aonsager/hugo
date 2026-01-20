@@ -1,0 +1,59 @@
+{{- $src := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+{{- $image := .Page.Resources.GetMatch $src -}}
+{{- $maxSize := 2400 -}}
+
+{{- if $image -}}
+  {{- $ext := path.Ext $src -}}
+  {{- $nameNoExt := strings.TrimSuffix $ext $src -}}
+  {{- $processed := $image -}}
+  {{- $wasResized := false -}}
+  {{- $pageDir := .Page.RelPermalink -}}
+
+  {{/* Skip processing for SVG and GIF */}}
+  {{- if and (ne (lower $ext) ".svg") (ne (lower $ext) ".gif") -}}
+    {{/* Auto-resize if larger than max dimensions */}}
+    {{- if or (gt $image.Width $maxSize) (gt $image.Height $maxSize) -}}
+      {{- if gt $image.Width $image.Height -}}
+        {{- $processed = $image.Resize (printf "%dx q85 Lanczos" $maxSize) -}}
+      {{- else -}}
+        {{- $processed = $image.Resize (printf "x%d q85 Lanczos" $maxSize) -}}
+      {{- end -}}
+      {{- $wasResized = true -}}
+    {{- else -}}
+      {{- $processed = $image.Process "q85" -}}
+    {{- end -}}
+
+    {{/* Generate WebP version */}}
+    {{- $webp := $processed.Process "webp" -}}
+
+    {{/* Build clean filenames */}}
+    {{- $imgName := printf "%s%s" $nameNoExt $ext -}}
+    {{- if $wasResized -}}
+      {{- $imgName = printf "%s_%dx%s" $nameNoExt $processed.Width $ext -}}
+    {{- end -}}
+    {{- $webpName := printf "%s.webp" (strings.TrimSuffix $ext $imgName) -}}
+
+    {{- $processed = $processed | resources.Copy (printf "%s%s" $pageDir $imgName) -}}
+    {{- $webp = $webp | resources.Copy (printf "%s%s" $pageDir $webpName) -}}
+
+    <picture>
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <img src="{{ $processed.RelPermalink }}" alt="{{ $alt }}"
+           {{- with $title }} title="{{ . }}"{{ end }}
+           width="{{ $processed.Width }}" height="{{ $processed.Height }}"
+           loading="lazy" decoding="async">
+    </picture>
+  {{- else -}}
+    {{/* SVG and GIF: pass through without processing */}}
+    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}"
+         {{- with $title }} title="{{ . }}"{{ end }}
+         loading="lazy" decoding="async">
+  {{- end -}}
+{{- else -}}
+  {{/* Fallback for images not found as page resources */}}
+  <img src="{{ $src }}" alt="{{ $alt }}"
+       {{- with $title }} title="{{ . }}"{{ end }}
+       loading="lazy">
+{{- end -}}

@@ -1,0 +1,98 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $style := .Get "style" | default "" -}}
+{{- $thumb := .Get "thumb" -}}
+{{- $image := .Page.Resources.GetMatch $src -}}
+{{- $maxWidth := 2400 -}}
+
+{{- if $image -}}
+  {{- $ext := path.Ext $src -}}
+  {{- $nameNoExt := strings.TrimSuffix $ext $src -}}
+  {{- $processed := $image -}}
+  {{- $wasResized := false -}}
+  {{- $pageDir := .Page.RelPermalink -}}
+
+  {{/* Skip processing for SVG and GIF */}}
+  {{- if and (ne (lower $ext) ".svg") (ne (lower $ext) ".gif") -}}
+    {{/* Auto-resize only if wider than max width */}}
+    {{- if gt $image.Width $maxWidth -}}
+      {{- $processed = $image.Resize (printf "%dx q85 Lanczos" $maxWidth) -}}
+      {{- $wasResized = true -}}
+    {{- else -}}
+      {{- $processed = $image.Process "q85" -}}
+    {{- end -}}
+
+    {{/* Generate WebP version */}}
+    {{- $webp := $processed.Process "webp" -}}
+
+    {{/* Build clean filenames */}}
+    {{- $imgName := printf "%s%s" $nameNoExt $ext -}}
+    {{- if $wasResized -}}
+      {{- $imgName = printf "%s_%dx%s" $nameNoExt $processed.Width $ext -}}
+    {{- end -}}
+    {{- $webpName := printf "%s.webp" (strings.TrimSuffix $ext $imgName) -}}
+
+    {{- $processed = $processed | resources.Copy (printf "%s%s" $pageDir $imgName) -}}
+    {{- $webp = $webp | resources.Copy (printf "%s%s" $pageDir $webpName) -}}
+
+    {{/* Handle clickable thumbnail */}}
+    {{- if $thumb -}}
+      {{- $thumbImg := .Page.Resources.GetMatch $thumb -}}
+      {{- if $thumbImg -}}
+        {{- $thumbExt := path.Ext $thumb -}}
+        {{- $thumbNameNoExt := strings.TrimSuffix $thumbExt $thumb -}}
+        {{- $thumbProcessed := $thumbImg.Process "q85" -}}
+        {{- $thumbWebp := $thumbProcessed.Process "webp" -}}
+        {{- $thumbName := printf "%s%s" $thumbNameNoExt $thumbExt -}}
+        {{- $thumbWebpName := printf "%s.webp" $thumbNameNoExt -}}
+        {{- $thumbProcessed = $thumbProcessed | resources.Copy (printf "%s%s" $pageDir $thumbName) -}}
+        {{- $thumbWebp = $thumbWebp | resources.Copy (printf "%s%s" $pageDir $thumbWebpName) -}}
+        <a href="{{ $processed.RelPermalink }}">
+          <picture>
+            <source srcset="{{ $thumbWebp.RelPermalink }}" type="image/webp">
+            <img src="{{ $thumbProcessed.RelPermalink }}" alt="{{ $alt }}"
+                 {{- with $title }} title="{{ . }}"{{ end }}
+                 {{- with $class }} class="{{ . }}"{{ end }}
+                 {{- with $style }} style="{{ . | safeCSS }}"{{ end }}
+                 {{- with $width }} width="{{ . }}"{{ end }}
+                 {{- with $height }} height="{{ . }}"{{ end }}
+                 loading="lazy" decoding="async">
+          </picture>
+        </a>
+      {{- end -}}
+    {{- else -}}
+      <picture>
+        <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+        <img src="{{ $processed.RelPermalink }}" alt="{{ $alt }}"
+             {{- with $title }} title="{{ . }}"{{ end }}
+             {{- with $class }} class="{{ . }}"{{ end }}
+             {{- with $style }} style="{{ . | safeCSS }}"{{ end }}
+             {{- with $width }} width="{{ . }}"{{ end }}
+             {{- with $height }} height="{{ . }}"{{ end }}
+             loading="lazy" decoding="async">
+      </picture>
+    {{- end -}}
+  {{- else -}}
+    {{/* SVG and GIF: pass through without processing */}}
+    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}"
+         {{- with $title }} title="{{ . }}"{{ end }}
+         {{- with $class }} class="{{ . }}"{{ end }}
+         {{- with $style }} style="{{ . | safeCSS }}"{{ end }}
+         {{- with $width }} width="{{ . }}"{{ end }}
+         {{- with $height }} height="{{ . }}"{{ end }}
+         loading="lazy" decoding="async">
+  {{- end -}}
+{{- else -}}
+  {{/* Fallback for images not found as page resources */}}
+  <img src="{{ $src }}" alt="{{ $alt }}"
+       {{- with $title }} title="{{ . }}"{{ end }}
+       {{- with $class }} class="{{ . }}"{{ end }}
+       {{- with $style }} style="{{ . | safeCSS }}"{{ end }}
+       {{- with $width }} width="{{ . }}"{{ end }}
+       {{- with $height }} height="{{ . }}"{{ end }}
+       loading="lazy">
+{{- end -}}

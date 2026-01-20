@@ -1,6 +1,4 @@
 ---
-aliases:
-  - Colophon
 title: Colophon
 date: 2025-12-24 12:37:00 +09:00
 colors:
