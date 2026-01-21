@@ -60,6 +60,7 @@
     input.value = '';
     results.innerHTML = '';
     selectedIndex = -1;
+    document.activeElement.blur();
   }
 
   // Highlight matches in text

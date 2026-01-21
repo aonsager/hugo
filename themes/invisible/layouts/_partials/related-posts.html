@@ -98,7 +98,7 @@
     </p>
     <ul class="related-list">
             {{- range $page := index $group "pages" }}
-        <li><a class="internal" href="{{ $page.RelPermalink }}">{{ partial "smart-title.html" . }}</a></li>
+        <li><a href="{{ $page.RelPermalink }}">{{ partial "smart-title.html" . }}</a></li>
             {{- end }}
     </ul>
         {{- end }}
