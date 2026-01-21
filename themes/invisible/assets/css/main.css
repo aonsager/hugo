@@ -1,10 +1,6 @@
 /* Variables */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-
-/* Bitter for header */
-/* Cardo for body */
-
 :root {
     /* Typography */
     --base-font-size: 1.2rem;
@@ -18,23 +14,6 @@
     /* Layout */
     --spacing-unit: 1rem;
     --content-width: 80ch;
-
-    /* Base colors */
-    --color-white: oklch(0.9807 0.0021 17.19);
-    --color-black: oklch(25.11% 0.006 258.36);
-    --color-blue: oklch(0.5682 0.1246 250.94);
-    --color-red: oklch(0.5356 0.1103 11.65);
-    --color-green: oklch(0.592 0.0888 159.88);
-    --color-yellow: oklch(0.9243 0.0609 99.41);
-    
-    /* Uchu */
-    /*--color-white: oklch(95.57% 0.003 286.35); /* 1 */
-    /*--color-black: oklch(25.11% 0.006 258.36); /* 9 */
-    /*--color-blue: oklch(47.36% 0.185 259.89);  /* 7 */
-    /*--color-green: oklch(58.83% 0.158 145.05); /* 8 */
-    /*--color-purple: oklch(46.11% 0.198 298.4); /* 6 */
-    /*--color-red: oklch(45.8% 0.177 17.7);      /* 8 */
-    
     
     /* Base16 Eighties */
     --color-white: #f2f0ec;
@@ -252,20 +231,6 @@ li {
         "main"
         "footer";
 }
-
-/*@media screen and (min-width: 140ch) {
-    .layout-container {
-        grid-template-columns: 1fr minmax(auto, var(--content-width)) 1fr;
-        grid-template-areas:
-            "header   header   header"
-            "sidebarL main     sidebarR"
-            "footer   footer   footer";
-    }
-    
-    .sidebar-left {
-        display: flex !important;
-    }
-}*/
 
 .inner-content {
     margin: 0 auto;

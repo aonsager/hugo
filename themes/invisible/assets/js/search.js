@@ -11,7 +11,7 @@
     includeMatches: true,
     threshold: 0.3,
     ignoreLocation: true,
-    minMatchCharLength: 2
+    minMatchCharLength: 3
   };
 
   // Debounce helper
