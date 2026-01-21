@@ -335,6 +335,13 @@ header {
             top: var(--spacing-unit);
             right: var(--spacing-unit);
         }
+        
+        #search-toggle-mobile {
+            position: absolute;
+            top: calc(var(--spacing-unit) + 3px);
+            right: calc(var(--spacing-unit) + 40px);
+            display: none;
+        }
 
         .site-url {
             margin-left: 50px;
@@ -375,6 +382,14 @@ header {
         .search-trigger {
             margin-top: calc(0.5 * var(--spacing-unit));
             margin-left: 50px;
+        }
+        
+        #search-toggle-full {
+            display: none;
+        }
+        
+        #search-toggle-mobile {
+            display: block;
         }
     }
 }

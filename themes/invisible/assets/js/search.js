@@ -239,12 +239,17 @@
     if (!modal) return;
 
     // Search toggle button
-    const toggleBtn = document.getElementById('search-toggle');
-    if (toggleBtn) {
-      toggleBtn.addEventListener('click', openSearch);
+    const toggleBtnFull = document.getElementById('search-toggle-full');
+    if (toggleBtnFull) {
+      toggleBtnFull.addEventListener('click', openSearch);
+    }
+      
+    const toggleBtnMobile = document.getElementById('search-toggle-mobile');
+    if (toggleBtnMobile) {
+      toggleBtnMobile.addEventListener('click', openSearch);
     }
 
-    // Close on backdrop click
+      // Close on backdrop click
     backdrop.addEventListener('click', closeSearch);
 
     // Input handler
