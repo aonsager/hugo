@@ -17,6 +17,7 @@ import shutil
 import hashlib
 import urllib.request
 import urllib.error
+from urllib.parse import urlparse
 from collections import defaultdict
 from pathlib import Path
 
@@ -69,7 +70,7 @@ def url_to_cache_path(url):
     # Create a hash of the URL for the filename
     url_hash = hashlib.md5(url.encode()).hexdigest()[:12]
     # Extract original filename if possible
-    path = urllib.request.urlparse(url).path
+    path = urlparse(url).path
     original_name = os.path.basename(path)
     if original_name and '.' in original_name:
         name, ext = os.path.splitext(original_name)

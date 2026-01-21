@@ -25,74 +25,76 @@
         <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "links" "count" 5) }}</ul>
     </div>
     
-    <div class="home-card">
-        <div class="card-header">
-            <span class="card-title">Pages</span>
-            <span class="card-subtitle">Assorted info</span>
+    <div class="home-responsive">
+        <div class="home-card" style="flex-grow: 2;">
+            <div class="card-header">
+                <span class="card-title">Pages</span>
+                <span class="card-subtitle">Assorted info</span>
+            </div>
+            <ul class="section-ul">
+                <li>
+                    <div><a href="/about">/about</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">More about me and this site</div>
+                </li>
+                <li>
+                    <div><a href="/ai">/ai</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">My personal AI manifesto</div>
+                </li>
+                <li>
+                    <div><a href="/colophon">/colophon</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">How I build this site</div>
+                </li>
+                <li>
+                    <div><a href="/contact">/contact</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">I love receiving messages</div>
+                </li>
+                <li>
+                    <div><a href="/feeds">/feeds</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">Follow updates via RSS</div>
+                </li>
+                <li>
+                    <div><a href="/future">/future</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">Things I am looking forward to</div>
+                </li>
+                <li>
+                    <div><a href="/now">/now</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">What I am doing now</div>
+                </li>
+                <li>
+                    <div><a href="/past">/past</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">Reflections on how things went</div>
+                </li>
+                <li>
+                    <div><a href="/projects">/projects</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">Fun things I have made</div>
+                </li>
+                <li>
+                    <div><a href="/todos">/todos</a></div>
+                    <div style="flex-grow:1;"></div>
+                    <div class="meta">Changes I want to make to this site</div>
+                </li>
+            </ul>
         </div>
-        <ul class="section-ul">
-            <li>
-              <div><a href="/about">/about</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">More about me and this site</div>
+        
+        <ul class="card-list">
+            <li class="card">
+                <p class="title"><a href="/notes">Notes</a></p>
+                <p class="subtitle">Digital garden</p>
             </li>
-            <li>
-              <div><a href="/ai">/ai</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">My personal AI manifesto</div>
-            </li>
-            <li>
-              <div><a href="/colophon">/colophon</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">How I build this site</div>
-            </li>
-            <li>
-              <div><a href="/contact">/contact</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">I love receiving messages</div>
-            </li>
-            <li>
-              <div><a href="/feeds">/feeds</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">Follow updates via RSS</div>
-            </li>
-            <li>
-              <div><a href="/future">/future</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">Things I am looking forward to</div>
-            </li>
-            <li>
-              <div><a href="/now">/now</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">What I am doing now</div>
-            </li>
-            <li>
-              <div><a href="/past">/past</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">Reflections on how things went</div>
-            </li>
-            <li>
-              <div><a href="/projects">/projects</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">Fun things I have made</div>
-            </li>
-            <li>
-              <div><a href="/todos">/todos</a></div>
-              <div style="flex-grow:1;"></div>
-              <div class="meta">Changes I want to make to this site</div>
+            <li class="card">
+                <p class="title"><a href="/micro">Micro</a></p>
+                <p class="subtitle">My <del>tweets</del> toots</p>
             </li>
         </ul>
     </div>
-    
-    <ul class="card-list">
-        <li class="card">
-            <p class="title"><a href="/notes">Notes</a></p>
-            <p class="subtitle">Digital garden</p>
-        </li>
-        <li class="card">
-            <p class="title"><a href="/micro">Micro</a></p>
-            <p class="subtitle">My <del>tweets</del> toots</p>
-        </li>
-    </ul>
 
 {{ end }}

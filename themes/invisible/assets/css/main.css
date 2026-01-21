@@ -1,15 +1,19 @@
 /* Variables */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+/* Bitter for header */
+/* Cardo for body */
 
 :root {
     /* Typography */
-    --base-font-size: 16px;
-    --base-line-height: 1.5rem;
-    --base-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --base-font-size: 1.2rem;
+    --base-line-height: 1.8rem;
+    --base-font-family: "Cardo", "Georgia", serif;
     --base-font-weight: 400;
-    --header-font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --header-font-family: 'Bitter', "Georgia", serif;
     --header-font-weight: 700;
+    --mono-font-family: 'Roboto Mono', mono;
 
     /* Layout */
     --spacing-unit: 1rem;
@@ -217,6 +221,16 @@ blockquote {
     background-color: var(--color-shadow);
     overflow: auto;
     border-radius: 0 5px 5px 0;
+}
+
+.mono {
+    font-family: var(--mono-font-family);
+    font-size: 0.8rem;
+}
+
+.flex {
+    display: flex;
+    gap: var(--spacing-unit);
 }
 
 /* Layout */
@@ -449,6 +463,7 @@ header {
 /* Left sidebar */
 
 .sidebar-left {
+    font-size: 0.9rem;
     grid-area: sidebarL;
     display: none;
     flex-direction: column;
@@ -534,6 +549,12 @@ main {
     }
 }
 
+.home-responsive {
+    display: flex;
+    gap: var(--spacing-unit);
+    flex-direction: column;
+}
+
 ul.card-list {
     display: flex;
     justify-content: center;
@@ -554,6 +575,23 @@ ul.card-list {
         
         p.subtitle {
             font-size: 0.9rem;
+        }
+    }
+}
+
+@media screen and (min-width: 100ch) {
+    .home-responsive {
+        flex-direction: row;
+    }
+    
+    ul.card-list {
+        margin-top: calc(2 * var(--spacing-unit)); 
+        flex-direction: column; 
+        flex-grow: 1; 
+        justify-content: flex-start;
+        
+        li.card {
+            flex-grow: 0;
         }
     }
 }
@@ -734,7 +772,8 @@ footer {
  * Syntax highlighting styles
  */
 pre, code {
-    font-size: 0.9rem;
+    font-family: var(--mono-font-family);
+    font-size: 0.8rem;
     border: 1px solid var(--color-shadow-strong);
     border-radius: 5px;
     background-color: var(--color-shadow);

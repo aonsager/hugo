@@ -40,11 +40,11 @@ Here are the results for the title "My Vacation in Tahiti":
     <td style="text-align:center"><img src="/images/tahiti5.jpg" /></td>
   </tr>
   <tr>
-    <td style="width:20%;text-align:center;background-color:#626E6F;color:white">#626E6F</td>
-    <td style="width:20%;text-align:center;background-color:#53C2D6">#53C2D6</td>
-    <td style="width:20%;text-align:center;background-color:#7693C6">#7693C6</td>
-    <td style="width:20%;text-align:center;background-color:#39547B;color:white">#39547B</td>
-    <td style="width:20%;text-align:center;background-color:#515E65;color:white">#515E65</td>
+    <td class="mono" style="width:20%;text-align:center;background-color:#626E6F;color:white">#626E6F</td>
+    <td class="mono" style="width:20%;text-align:center;background-color:#53C2D6">#53C2D6</td>
+    <td class="mono" style="width:20%;text-align:center;background-color:#7693C6">#7693C6</td>
+    <td class="mono" style="width:20%;text-align:center;background-color:#39547B;color:white">#39547B</td>
+    <td class="mono" style="width:20%;text-align:center;background-color:#515E65;color:white">#515E65</td>
   </tr>
 </table>
 <br />
