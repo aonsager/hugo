@@ -90,13 +90,14 @@
   <div class="related-posts">
     {{- range $group := $groups }}
     <p class="related-tags extend-line">
+        <a><span class="tag meta">{{ $currentTag }}</span></a>
         {{- range $i, $tag := index $group "tags" }}
         <a href="/tags/{{ $tag }}"><span class="tag">{{ $tag }}</span></a>
         {{- end }}
     </p>
     <ul class="related-list">
         {{- range $page := index $group "pages" }}
-        <li><a href="{{ $page.RelPermalink }}">{{ partial "smart-title.html" $page }}</a></li>
+        <li><a href="{{ $page.RelPermalink }}">{{ .Title }}</a></li>
         {{- end }}
     </ul>
     {{- end }}
@@ -106,7 +107,7 @@
     <p class="related-tags extend-line">&nbsp;</p>
     <ul class="related-list">
         {{- range $page := $ungrouped }}
-        <li><a href="{{ $page.RelPermalink }}">{{ partial "smart-title.html" $page }}</a></li>
+        <li><a href="{{ $page.RelPermalink }}">{{ .Title }}</a></li>
         {{- end }}
     </ul>
     {{- end }}

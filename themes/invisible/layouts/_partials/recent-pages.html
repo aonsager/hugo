@@ -15,7 +15,7 @@ Renders the N most recent pages from a specified section, sorted by date.
 
 {{- range $pages -}}
   <li>
-    <div><a href="{{ .RelPermalink }}">{{ partial "smart-title.html" . }}</a></div>
+    <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
     <div style="flex-grow:1;"></div>
     <div class="date meta">{{ .Date | time.Format "2006-01-02" }}</div>
   </li>

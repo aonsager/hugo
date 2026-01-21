@@ -26,5 +26,6 @@ The first point was a given because Hugo is written in Go, but I needed to do a 
 - [[Show related posts]]
 - [[Show correlated posts on tag pages]]
 - [[Search]]
+- [[Fill title automatically]]
 
 You can also look at the source code for this site [here](https://github.com/aonsager/hugo).

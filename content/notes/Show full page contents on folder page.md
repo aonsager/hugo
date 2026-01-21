@@ -4,8 +4,6 @@ date: 2026-01-20 15:18:00 +09:00
 colors:
 tags:
   - hugo
-  - blog
-  - customization
   - links
   - micros
 metaRSS: false

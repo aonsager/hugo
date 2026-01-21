@@ -35,3 +35,4 @@ outputFormats:
   json:
     mediaType: "application/json"
     baseName: "search-index"
+contentDir: "content-processed"

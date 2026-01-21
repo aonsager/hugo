@@ -7,9 +7,9 @@ tags:
 
 If you want to get notified of new posts, this is for you.
 
-- [[/feed.xml]] contains all new blog posts
-- [[/links.xml]] contains all quick links I make to interesting sites 
-- [[/all.xml]] is a combination of the above two feeds
+- [posts.xml](/posts.xml) contains all new blog posts
+- [links.xml](/links.xml) contains all quick links I make to interesting sites 
+- [feed.xml](/feed.xml) is a combination of the above two feeds
 
 I also tend to publish things to my [Fediverse](https://gts.invisibleparade.com/@alex) account if you'd like to follow me there.
 

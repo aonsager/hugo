@@ -4,9 +4,6 @@ date: 2026-01-16 22:51:00 +09:00
 colors:
 tags:
   - hugo
-  - blog
-  - coding
-  - customization
   - wikilinks
   - markdown
 metaRSS: false

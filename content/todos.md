@@ -10,7 +10,8 @@ draft: false
 
 - [ ] Rethink display of post colors
 - [x] Explore more color palettes
-- [ ] Add home and search to header
+- [x] Add home and search to header
+- [ ] Style code blocks
 
 ## Related pages
 
@@ -21,7 +22,7 @@ draft: false
 
 - [x] Display tags by frequency
 - [ ] Drill down on tags to see secondary, tertiary tags that are commonly used
-- [ ] Figure out some way to make exploration of tags and pages intuitive
+- [ ] Figure out some way to make exploration of tags and pages more intuitive
 
 ## Other
 

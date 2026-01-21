@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin: var(--spacing-unit) 0;
+    line-height: 1.6rem;
 }
 
 h1 {
@@ -166,14 +167,14 @@ figcaption {
 a {
     word-wrap: break-word;
     color: var(--color-primary);
-    text-underline-position: under;
+    /*text-underline-position: under;*/
     text-decoration-thickness: 2px;
     
     &.internal {
         /*background-color: color-mix(in srgb, var(--color-primary-soft) 10%, var(--color-shadow));*/
         background-color: var(--color-shadow);
         text-decoration: none;
-        padding: 1px 5px;
+        padding: 0px 5px;
         border-radius: 5px;
     }
     
@@ -361,6 +362,20 @@ header {
                             var(--color-canvas),
                             var(--color-canvas)
                         );
+    }
+}
+
+@media screen and (max-width: 520px) {
+    header .site-title {   
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-bottom: calc(0.5 * var(--spacing-unit));
+        
+        .search-trigger {
+            margin-top: calc(0.5 * var(--spacing-unit));
+            margin-left: 50px;
+        }
     }
 }
 
@@ -589,6 +604,7 @@ ul.card-list {
         padding: 0 var(--spacing-unit);
         text-align: center;
         flex-grow: 1;
+        margin: 0;
         
         p {
             margin: calc(0.5 * var(--spacing-unit)) 0;

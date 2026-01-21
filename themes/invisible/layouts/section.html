@@ -14,7 +14,7 @@
             {{ end }}
             <tr>
                 <td class="date-text">{{ $dateShort }}</td>
-                <td><a href="{{ .RelPermalink }}">{{ partial "smart-title.html" . }}</a></td>
+                <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
             </tr>
         {{ end }}
     </table>

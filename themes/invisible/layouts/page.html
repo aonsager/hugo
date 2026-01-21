@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ $flairColors := "" }}
         
-    <h1>{{ partial "smart-title.html" . }}</h1>
+    <h1>{{ .Title }}</h1>
     {{ if .Params.colors }}
         {{ $flairColors = printf `background-image: linear-gradient(90deg, %s)` (delimit .Params.colors ",") }}
         <div class="post-flair" {{ printf `style="%s"` $flairColors | safeHTMLAttr}}></div>
