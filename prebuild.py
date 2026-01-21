@@ -184,6 +184,74 @@ def copy_image_to_bundle(src_path, bundle_dir, original_src):
     return filename
 
 
+def filename_to_title(filename):
+    """
+    Convert a filename to a human-readable title.
+    - Removes .md extension
+    - Replaces --- with ' - '
+    - Replaces remaining - with spaces
+    - Capitalizes only the first word (sentence case)
+    """
+    # Remove .md extension
+    title = filename.removesuffix('.md')
+    # Replace --- with a placeholder to preserve em-dash style separators
+    title = title.replace('---', '\x00')
+    # Replace remaining - with spaces
+    title = title.replace('-', ' ')
+    # Restore em-dash separators as ' - '
+    title = title.replace('\x00', ' - ')
+    # Capitalize only the first character (sentence case)
+    if title:
+        title = title[0].upper() + title[1:]
+    return title
+
+
+def ensure_title_in_frontmatter(content, title):
+    """
+    Ensure the frontmatter has a title field.
+    Returns (modified_content, was_changed).
+    """
+    # Check if file has frontmatter (starts with ---)
+    if not content.startswith('---'):
+        # No frontmatter, add it with the title
+        new_frontmatter = f'---\ntitle: "{title}"\n---\n\n'
+        return new_frontmatter + content, True
+
+    # Find the end of frontmatter
+    end_match = re.search(r'\n---\s*\n', content[3:])
+    if not end_match:
+        # Malformed frontmatter, skip
+        return content, False
+
+    frontmatter_end = end_match.end() + 3  # +3 for the initial '---'
+    frontmatter = content[3:frontmatter_end - 4]  # Content between --- delimiters
+
+    # Check if title exists and has a value
+    # Use [ \t]* instead of \s* to avoid matching newlines
+    title_pattern = re.compile(r'^title:[ \t]*(.*)$', re.MULTILINE)
+    title_match = title_pattern.search(frontmatter)
+
+    if title_match:
+        existing_value = title_match.group(1).strip()
+        # Remove quotes if present to check actual value
+        if existing_value.startswith('"') and existing_value.endswith('"'):
+            existing_value = existing_value[1:-1]
+        elif existing_value.startswith("'") and existing_value.endswith("'"):
+            existing_value = existing_value[1:-1]
+
+        if existing_value:
+            # Title exists and has a value, don't modify
+            return content, False
+        else:
+            # Title field exists but is empty, replace it
+            new_frontmatter = title_pattern.sub(f'title: "{title}"', frontmatter)
+            return '---' + new_frontmatter + content[frontmatter_end - 4:], True
+    else:
+        # No title field, add it at the beginning of frontmatter
+        new_frontmatter = f'title: "{title}"\n' + frontmatter
+        return '---' + new_frontmatter + content[frontmatter_end - 4:], True
+
+
 def convert_to_page_bundle(md_file):
     """
     Convert a markdown file to a page bundle.
@@ -208,6 +276,12 @@ def convert_to_page_bundle(md_file):
 def process_content_file(md_file, image_index, content_dir):
     """Process a single content file, converting images and paths."""
     content = md_file.read_text(encoding='utf-8')
+
+    # Ensure title in frontmatter
+    derived_title = filename_to_title(md_file.name)
+    content, title_added = ensure_title_in_frontmatter(content, derived_title)
+    if title_added:
+        md_file.write_text(content, encoding='utf-8')
 
     # Track images found
     images_found = []
@@ -254,7 +328,7 @@ def process_content_file(md_file, image_index, content_dir):
             has_processable_images = True
 
     if not has_processable_images:
-        return False  # No changes needed
+        return title_added  # Return True if title was added, False otherwise
 
     # Convert to page bundle
     bundle_dir = convert_to_page_bundle(md_file)
