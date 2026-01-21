@@ -316,6 +316,7 @@ header {
             
             a {
                 color: var(--color-ink);
+                text-decoration: none;
             }
         }
 
@@ -735,8 +736,8 @@ ul.pagination {
 }
 
 img.list-image {
-    width: 100px;
-    height: 100px;
+    flex-shrink: 0;
+    width: 150px;
     margin: 0 1em 0 0;
 }
 

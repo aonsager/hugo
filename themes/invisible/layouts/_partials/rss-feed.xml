@@ -1,0 +1,70 @@
+{{- $pages := .pages }}
+{{- $title := .title }}
+{{- $description := .description }}
+{{- $outputFormat := .outputFormat }}
+{{- $context := .context }}
+
+{{- $authorEmail := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .email }}
+      {{- $authorEmail = . }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- $authorName := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .name }}
+      {{- $authorName = . }}
+    {{- end }}
+  {{- else }}
+    {{- $authorName  = . }}
+  {{- end }}
+{{- end }}
+
+{{- $limit := $context.Site.Config.Services.RSS.Limit }}
+{{- if ge $limit 1 }}
+{{- $pages = $pages | first $limit }}
+{{- end }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.Language.LanguageCode }}">
+  <title>{{ $title }}</title>
+  <subtitle>{{ $description }}</subtitle>
+  <id>{{ $context.Permalink }}</id>
+  <link href="{{ $context.Permalink }}" rel="alternate" type="text/html" />
+  {{- with $context.OutputFormats.Get $outputFormat }}
+  <link href="{{ .Permalink }}" rel="self" type="{{ .MediaType }}" />
+  {{- end }}
+  {{- if $pages }}
+  <updated>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</updated>
+  {{- end }}
+  {{- if $authorName }}
+  <author>
+    <name>{{ $authorName }}</name>
+    {{- with $authorEmail }}<email>{{ . }}</email>{{ end }}
+  </author>
+  {{- end }}
+  <generator>Hugo</generator>
+  {{- with $context.Site.Copyright }}
+  <rights>{{ . }}</rights>
+  {{- end }}
+  {{- range $pages }}
+  <entry>
+    <title>{{ .Title }}</title>
+    <id>{{ .Permalink }}</id>
+    <link href="{{ .Permalink }}" rel="alternate" type="text/html" />
+    {{- with .Params.Link }}<link href="{{ . }}" rel="related" type="text/html" />{{ end }}
+    <published>{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</published>
+    <updated>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</updated>
+    {{- if $authorName }}
+    <author>
+      <name>{{ $authorName }}</name>
+      {{- with $authorEmail }}<email>{{ . }}</email>{{ end }}
+    </author>
+    {{- end }}
+    <content type="html">{{ partial "custom-content" . | transform.XMLEscape | safeHTML }}</content>
+  </entry>
+  {{- end }}
+</feed>

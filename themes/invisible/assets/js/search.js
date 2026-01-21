@@ -212,16 +212,22 @@
     }
   }
 
-  // Global shortcut (Cmd/Ctrl + /)
+  // Global shortcut ( / )
   function handleGlobalKeydown(e) {
-    if ((e.metaKey || e.ctrlKey) && e.key === '/') {
-      e.preventDefault();
-      const { modal } = getElements();
-      if (modal.classList.contains('open')) {
-        closeSearch();
-      } else {
-        openSearch();
-      }
+      if (e.key === '/') {
+        const activeElement = document.activeElement;
+        const isInput = activeElement.tagName === 'INPUT';
+        const isTextarea = activeElement.tagName === 'TEXTAREA';
+        const isContentEditable = activeElement.isContentEditable; // For rich text editors
+        if (isInput || isTextarea || isContentEditable) { return; }
+          
+        e.preventDefault();
+        const { modal } = getElements();
+        if (modal.classList.contains('open')) {
+            closeSearch();
+        } else {
+            openSearch();
+        }
     }
   }
 

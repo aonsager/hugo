@@ -30,7 +30,8 @@ draft: false
 - [x] Automatically process all images on build
 - [x] Rewrite colophon
 - [x] Clean up /games pages
-- [ ] Add search functionality
+- [x] Add search functionality
+- [ ] Autofill title frontmatter from filename on build
 
 ## Review 
 
