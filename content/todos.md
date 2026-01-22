@@ -32,7 +32,8 @@ draft: false
 - [x] Rewrite colophon
 - [x] Clean up /games pages
 - [x] Add search functionality
-- [ ] Autofill title frontmatter from filename on build
+- [x] Autofill title frontmatter from filename on build
+- [ ] Support Obsidian-style callouts
 
 ## Review 
 

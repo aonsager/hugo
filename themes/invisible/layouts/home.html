@@ -6,9 +6,9 @@
     <div class="home-card">
         <div class="card-header">
             <span class="card-title">Posts</span>
-            <span class="card-subtitle">Performative thinking</span>
+            <span class="meta">Performative thinking</span>
         </div>
-        <div class="card-header right">
+        <div class="card-footer">
             <a href="/posts">All posts →</a>
         </div>
         <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "posts" "count" 5) }}</ul>
@@ -17,9 +17,9 @@
     <div class="home-card">
         <div class="card-header">
             <span class="card-title">Links</span>
-            <span class="card-subtitle">Things I liked</span>
+            <span class="meta">Things I liked</span>
         </div>
-        <div class="card-header right">
+        <div class="card-footer">
             <a href="/links">All links →</a>
         </div>
         <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "links" "count" 5) }}</ul>
@@ -29,7 +29,7 @@
         <div class="home-card" style="flex-grow: 2;">
             <div class="card-header">
                 <span class="card-title">Pages</span>
-                <span class="card-subtitle">Assorted info</span>
+                <span class="meta">Assorted info</span>
             </div>
             <ul class="section-ul">
                 <li>
@@ -50,7 +50,7 @@
                 <li>
                     <div><a href="/contact">/contact</a></div>
                     <div style="flex-grow:1;"></div>
-                    <div class="meta">I love receiving messages</div>
+                    <div class="meta">How to reach me</div>
                 </li>
                 <li>
                     <div><a href="/feeds">/feeds</a></div>
@@ -60,7 +60,7 @@
                 <li>
                     <div><a href="/future">/future</a></div>
                     <div style="flex-grow:1;"></div>
-                    <div class="meta">Things I am looking forward to</div>
+                    <div class="meta">What I look forward to</div>
                 </li>
                 <li>
                     <div><a href="/now">/now</a></div>
@@ -70,7 +70,7 @@
                 <li>
                     <div><a href="/past">/past</a></div>
                     <div style="flex-grow:1;"></div>
-                    <div class="meta">Reflections on how things went</div>
+                    <div class="meta">How things went</div>
                 </li>
                 <li>
                     <div><a href="/projects">/projects</a></div>
@@ -80,7 +80,7 @@
                 <li>
                     <div><a href="/todos">/todos</a></div>
                     <div style="flex-grow:1;"></div>
-                    <div class="meta">Changes I want to make to this site</div>
+                    <div class="meta">Site update plans</div>
                 </li>
             </ul>
         </div>

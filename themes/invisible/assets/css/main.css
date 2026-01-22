@@ -268,6 +268,20 @@ header {
             cursor: pointer;
             color: var(--color-ink);
             padding: 0;
+            margin-left: calc(0.5 * var(--spacing-unit));
+        }
+        
+        .site-url {
+            margin-left: 50px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-right: calc(2 * var(--spacing-unit));
+
+            a {
+                color: var(--color-ink);
+                text-decoration: none;
+            }
         }
 
         .search-trigger {
@@ -282,7 +296,6 @@ header {
             color: var(--color-ink-soft);
             font-family: var(--mono-font-family);
             font-size: 0.75rem;
-            margin-left: calc(2 * var(--spacing-unit));
         }
 
         .search-trigger:hover {
@@ -296,29 +309,18 @@ header {
         }
 
         #theme-toggle {
-            position: absolute;
+            /*position: absolute;*/
             top: var(--spacing-unit);
             right: var(--spacing-unit);
         }
         
         #search-toggle-mobile {
-            position: absolute;
+            /*position: absolute;*/
             top: calc(var(--spacing-unit) + 3px);
             right: calc(var(--spacing-unit) + 40px);
             display: none;
         }
 
-        .site-url {
-            margin-left: 50px;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-
-            a {
-                color: var(--color-ink);
-                text-decoration: none;
-            }
-        }
     }
     
     .header-flair {
@@ -339,9 +341,9 @@ header {
 
 @media screen and (max-width: 520px) {
     header .site-title {   
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        /*flex-direction: column;*/
+        /*justify-content: flex-start;
+        align-items: flex-start;*/
         padding-bottom: calc(0.5 * var(--spacing-unit));
         
         .search-trigger {
@@ -356,6 +358,12 @@ header {
         #search-toggle-mobile {
             display: block;
         }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header .site-title {
+        font-size: 1rem;
     }
 }
 
@@ -408,7 +416,8 @@ header {
 }
 
 .search-input {
-    flex: 1;
+    width: 0;
+    flex-grow: 1;
     border: none;
     background: none;
     font-size: 1.1rem;
@@ -539,23 +548,27 @@ main {
         top: -15px;
         left: 10px;
         
-        &.right {
-            left: auto;
-            right: 10px;
-        }
-        
         .card-title {
             font-size: 1.3rem;
             margin-right: calc(0.5 * var(--spacing-unit));
         }
-        
-        .card-subtitle {
-            color: var(--color-ink-soft);
-        }
+    }
+    
+    .card-footer {
+        background-color: var(--color-canvas);
+        padding: 0px 5px;
+        font-size: 0.9rem;
+        position: absolute;
+        bottom: calc(-0.7 * 1rem);
+        right: 10px;
         
         a {
             color: var(--color-ink);
             text-decoration: none;
+            
+            &:hover {
+                color: var(--color-primary-soft);
+            }
         }
     }
     
@@ -588,10 +601,6 @@ ul.card-list {
         
         p {
             margin: calc(0.5 * var(--spacing-unit)) 0;
-        }
-        
-        p.subtitle {
-            font-size: 0.9rem;
         }
     }
 }
@@ -645,6 +654,7 @@ hr {
 
 .meta {
     color: var(--color-ink-soft);
+    font-size: 0.9rem;
 }
 
 h3 a {
@@ -766,7 +776,7 @@ img.list-image {
 footer {
     grid-area: footer;
     text-align: left;
-    color: var(--color-ink-soft);
+    padding: var(--spacing-unit);
     
     .inner-content {
         border-top: 1px solid var(--color-shadow);
@@ -775,8 +785,11 @@ footer {
     ul {
         list-style: none;
         display: flex;
-        flex-direction: horizontal;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
         gap: var(--spacing-unit);
+        padding-left: 0;
     }
     
     a {

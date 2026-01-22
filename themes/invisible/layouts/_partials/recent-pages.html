@@ -14,9 +14,9 @@ Renders the N most recent pages from a specified section, sorted by date.
 {{- $pages = $pages.ByDate.Reverse | first $count -}}
 
 {{- range $pages -}}
-  <li>
+  <li style="display:flex; align-items: flex-start;">
     <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
     <div style="flex-grow:1;"></div>
-    <div class="date meta">{{ .Date | time.Format "2006-01-02" }}</div>
+    <div class="date meta" style="flex-shrink:0; margin-left: 10px;">{{ .Date | time.Format "2006-01-02" }}</div>
   </li>
 {{- end -}}

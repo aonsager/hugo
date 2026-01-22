@@ -125,7 +125,7 @@
       return;
     }
 
-    container.innerHTML = results.slice(0, 5).map((result, index) => {
+    container.innerHTML = results.slice(0, 10).map((result, index) => {
       const titleMatch = result.matches?.find(m => m.key === 'title');
       const contentMatch = result.matches?.find(m => m.key === 'content');
 
