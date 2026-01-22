@@ -42,7 +42,7 @@ I have a small VPS through [Hetzner](https://www.hetzner.com) which is good enou
 
 ## Site architecture
 
-I'm aiming to create a natural [[horizontal architecture]] for the site. That said, the content is divided into a number of major sections:
+I'm aiming to create a natural [[vertical-horizontal-architecture|horizontal architecture]] for the site. That said, the content is divided into a number of major sections:
 
 - [Pages](/pages) is an index of my various [slash pages](https://slashpages.net/)
 - [Blog posts](/posts) where I put some effort into making my thoughts public
