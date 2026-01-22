@@ -786,7 +786,7 @@ footer {
         list-style: none;
         display: flex;
         flex-direction: row;
-        justify-content: left;
+        justify-content: center;
         align-items: center;
         gap: var(--spacing-unit);
         padding-left: 0;
@@ -795,6 +795,14 @@ footer {
     a {
         text-decoration: none;
         color: var(--color-ink-soft);
+    }
+    
+    .author {
+        margin-right: var(--spacing-unit);
+    }
+    
+    .footer-icon {
+         position: relative; top: 3px;
     }
 }
 
