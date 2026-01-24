@@ -653,8 +653,9 @@ hr {
 }
 
 .meta {
-    color: var(--color-ink-soft);
-    font-size: 0.9rem;
+    color: var(--color-ink);
+    font-size: 0.8rem;
+    font-style: italic;
 }
 
 h3 a {
