@@ -67,6 +67,6 @@ I think connections like these would be fascinating to explore, and I want to pl
 
 For now, I have surfaced related notes based on tags that they have in common. When displaying a page's [[related-posts|related posts]], I rank them by how many tags they have in common, since that is probably a good indicator of how related the contents are.
 
-On an [individual tag's page](/tags/hugo/), I also order the results by the number of other tags they have in common. In a sense, it's not showing a list of *pages* that have the tag. It's showing a list of *tags* that are related to the current tag, along with the pages that represent that relation. I think that's a lot more interesting.
+On an [[tag-pages|individual tag's page]], I also order the results by the number of other tags they have in common. In a sense, it's not showing a list of *pages* that have the tag. It's showing a list of *tags* that are related to the current tag, along with the pages that represent that relation. I think that's a lot more interesting.
 
 This is all I've done so far because it was pretty easy to implement, but I will see what else I can come up with.
