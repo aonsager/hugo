@@ -47,7 +47,7 @@ With this method, the connections between ideas are organic, and the site as a w
 
 ## Taking horizontal a step further
 
-I'm really drawn to the horizontal approach. Having a site with this kind of organization motivates me to write more, to publish more, to cultivate this space that some describe as a [digital garden](https://maggieappleton.com/garden-history)
+I'm really drawn to the horizontal approach. Having a site with this kind of organization motivates me to write more, to publish more, to cultivate this space that some describe as a [digital garden](https://maggieappleton.com/garden-history).
 
 Wikis, Obsidian, and most implementations of this architecture consider mainly links and backlinks – explicit mentions of notes in other notes. I think there is potential for a lot more. One thing I want to explore is the _nature of the connection_ between notes.
 

@@ -23,8 +23,8 @@ The first point was a given because Hugo is written in Go, but I needed to do a 
 - [[Supporting wikilinks in Hugo]]
 - [[Show full page contents on folder page]]
 - [[Customize display of internal and external links]]
-- [[Show related posts]]
-- [[Show correlated posts on tag pages]]
+- [[related-posts |Show related posts]]
+- [[tag-pages|Show correlated posts on tag pages]]
 - [[Search]]
 - [[Fill title automatically]]
 

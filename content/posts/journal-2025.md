@@ -2,21 +2,19 @@
 title: Journaling in 2025
 date: 2025-12-27T03:13:00.000Z
 colors:
-  - '#d6c9a0'
-  - '#cbccb9'
-  - '#7b645c'
-  - '#4c3032'
-  - '#c0bebd'
+  - "#d6c9a0"
+  - "#cbccb9"
+  - "#7b645c"
+  - "#4c3032"
+  - "#c0bebd"
 tags:
-  - journaling
   - reflection
   - organization
   - habits
   - language
+  - journal
 metaRSS: true
-blurb: >-
-  A reflection of my new journaling habit. This is the first time I managed to
-  maintain the habit for a full year.
+blurb: A reflection of my new journaling habit. This is the first time I managed to maintain the habit for a full year.
 ---
 
 ![An image of my Rollbahn notebook. It features an illustration of a train on Japan's Odakyu line.](/images/journal-2025.jpeg "2025 Journal")
