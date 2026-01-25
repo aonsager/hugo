@@ -176,6 +176,7 @@ strong, b {
 
 pre, code {
     border-radius: 3px;
+    max-width: 100%;
 }
 
 code {
@@ -223,6 +224,7 @@ li {
 
 .layout-container {
     flex: 1;
+    min-width: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: var(--spacing-unit);
@@ -246,6 +248,7 @@ header {
     top: 0px;
     background-color: var(--color-canvas);
     z-index: 1000;
+    min-width: 0;
 
     .site-title {
         font-size: 1.5rem;
@@ -527,6 +530,7 @@ nav {
 main {
     grid-area: main;
     padding: var(--spacing-unit);
+    min-width: 0;
     
     .foot-meta {
         text-align: right;
@@ -654,7 +658,7 @@ hr {
 
 .meta {
     color: var(--color-ink);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-style: italic;
 }
 
@@ -778,6 +782,7 @@ footer {
     grid-area: footer;
     text-align: left;
     padding: var(--spacing-unit);
+    min-width: 0;
     
     .inner-content {
         border-top: 1px solid var(--color-shadow);

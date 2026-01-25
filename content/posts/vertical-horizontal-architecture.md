@@ -13,13 +13,13 @@ tags:
   - blog
   - organization
 metaRSS: false
-draft: true
+draft: false
 ---
 I recently rebuilt my site, and this gave me an opportunity to rethink how to organize its contents.
 
 ## Vertical architecture
 
-Most websites have what I consider to be a "vertical" architecture. This is probably based on the early web being organized as a list of files, which are contained in various folders. 
+Most websites have what I consider to be a "vertical" architecture. This is probably based on early websites being essentially public file servers with files contained in various folders. 
 
 With a vertical architecture, the "index page" or the "top page" (see the analogy at work already?) gives an overview of the site's organization and where you can find everything. You decide what you want to see, and start drilling down.
 
@@ -35,7 +35,7 @@ Moving to a completely different area of the site (in terms of where the file is
 
 ## Horizontal architecture
 
-A completely different way of organizing content is what I consider to be a "horizontal" architecture. Rather than arrange everything in meaningful folders, you instead create connections between pages and create something like a graph of linked nodes. This is something that you see a lot in wikis.
+A completely different way of organizing content is what I consider to be a "horizontal" architecture. Rather than arrange everything in meaningful folders, you instead create connections between pages and end up with something like a graph of linked nodes. This is something that you see a lot in wikis.
 
 ![A horizontal content graph](horizontal_1.png)
 
@@ -49,9 +49,9 @@ With this method, the connections between ideas are organic, and the site as a w
 
 I'm really drawn to the horizontal approach. Having a site with this kind of organization motivates me to write more, to publish more, to cultivate this space that some describe as a [digital garden](https://maggieappleton.com/garden-history)
 
-Wikis, Obsidian, most implementations of this architecture consider mainly links and backlinks – explicit mentions of notes in other notes. I think there is potential for a lot more. One thing I want to explore is the nature of _the connection between notes_.
+Wikis, Obsidian, and most implementations of this architecture consider mainly links and backlinks – explicit mentions of notes in other notes. I think there is potential for a lot more. One thing I want to explore is the _nature of the connection_ between notes.
 
-The core idea is that you want to surface a list of notes that are related to the current one. Notes that the reader might be interested in reading next. There ought to be ways to surface not just the explicit connections, but more implicit connections as well. And that gives us the opportunity to describe these connections, and explain why we think they are interesting.
+The core idea is that you want to surface a list of notes that are related to the current one. Notes that the reader might be interested in reading next. There ought to be ways to reveal not just the explicit connections, but more implicit connections as well. And that gives us the opportunity to describe these connections, and explain why we think they are interesting.
 
 _"Look at this note. It shares these three tags in common."_
 
