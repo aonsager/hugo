@@ -778,6 +778,19 @@ img.list-image {
     margin-bottom: var(--spacing-unit);
 }
 
+.external-link {
+    margin-top: calc(-1 * var(--spacing-unit));
+    
+    a {
+        color: var(--color-ink);
+        font-size: 0.9rem;
+        
+        &:hover {
+            color: var(--color-primary-soft);
+        }
+    }
+}
+
 footer {
     grid-area: footer;
     text-align: left;
