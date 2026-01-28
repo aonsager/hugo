@@ -1,18 +1,22 @@
 ---
+category: 6.2-productivity-and-management
 title: Obsidian iCloud sync between Mac and iPhone
-date: '2022-10-05'
+date: 2022-10-05
 colors:
-  - '#1A6BF0'
-  - '#E2D0AA'
-  - '#8E3303'
-  - '#232457'
-  - '#C8C6BE'
+  - "#000000"
+  - "#4d4c4e"
+  - "#59adf6"
+  - "#797750"
+  - "#ffffff"
 tags:
   - obsidian
-  - notes
-  - productivity
-  - sync
   - icloud
+  - sync
+  - configurations
+  - mac
+  - iphone
+  - productivity
+  - settings
 metaRSS: true
 ---
 

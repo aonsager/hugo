@@ -1,17 +1,19 @@
 ---
+category: 5.1-politics-and-economics
 title: Why vote?
-date: '2008-02-07T09:05:16+09:00'
+date: 2008-02-07T09:05:16+09:00
 colors:
-  - '#526C75'
-  - '#700304'
-  - '#8A1723'
-  - '#B71212'
-  - '#720106'
+  - "#526C75"
+  - "#700304"
+  - "#8A1723"
+  - "#B71212"
+  - "#720106"
 tags:
-  - politics
-  - personal
-  - opinion
-  - vote
+  - voting
+  - democracy
+  - participation
+  - issues
+  - commitment
 metaRSS: true
 ---
 

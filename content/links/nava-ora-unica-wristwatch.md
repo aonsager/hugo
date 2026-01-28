@@ -1,18 +1,20 @@
 ---
+category: 1.4-tech-devices-and-platforms
 title: NAVA Ora Unica Wristwatch
-date: '2019-05-13'
+date: 2019-05-13
 link: https://www.navadesign.com/blog/ora-unica-design-watch/
 colors:
-  - '#363534'
-  - '#5F1B21'
-  - '#B3B3B3'
-  - '#38332C'
-  - '#C53A48'
+  - "#35333d"
+  - "#373636"
+  - "#8b8f98"
+  - "#373636"
+  - "#6c6b6b"
 tags:
-  - design
-  - watch
-  - product
-  - review
+  - wristwatch
+  - designs
+  - unconventional
+  - timekeeping
+  - gadgets
 metaRSS: true
 ---
 

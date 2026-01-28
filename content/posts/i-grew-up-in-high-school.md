@@ -1,18 +1,21 @@
 ---
+category: 4.1-personal-reflections
 title: I Grew Up in High School
-date: '2010-06-06'
+date: 2010-06-06
 colors:
-  - '#26334A'
-  - '#C8CCA9'
-  - '#55482B'
-  - '#748B8B'
-  - '#573114'
+  - "#3b6a2d"
+  - "#bebab0"
+  - "#617f40"
+  - "#f5f5f5"
+  - "#3b5675"
 tags:
-  - personal
-  - life
-  - teenager
-  - adult
-  - memory
+  - memories
+  - high-school
+  - friendship
+  - emotions
+  - growth
+  - relationships
+  - identity
 metaRSS: true
 ---
 

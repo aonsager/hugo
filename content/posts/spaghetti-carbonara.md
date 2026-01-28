@@ -1,18 +1,19 @@
 ---
+category: 4.2-lifestyle-and-hobbies
 title: Spaghetti Carbonara
-date: '2018-12-18'
+date: 2018-12-18
 colors:
-  - '#C7AC76'
-  - '#ADAFB4'
-  - '#CAAB72'
-  - '#C7AC75'
-  - '#ADA29F'
+  - "#81593b"
+  - "#bfbcba"
+  - "#bdbcc5"
+  - "#c8c7c4"
+  - "#c1c2c4"
 tags:
   - cooking
+  - recipes
+  - carbonara
+  - italian
   - pasta
-  - cheese
-  - recipe
-  - life
 metaRSS: true
 ---
 

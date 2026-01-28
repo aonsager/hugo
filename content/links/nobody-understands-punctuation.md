@@ -1,17 +1,23 @@
 ---
+category: 2.2-writing-and-literature
 title: Nobody. Understands. Punctuation.
 date: 2014-06-09 12:49:00
 tags:
-- writing
-- article
-- opinion
+  - punctuation
+  - writing
+  - style
+  - elements-of-style
+  - rhythm
+  - voice
+  - deliberation
 colors:
-- "#6F6F6F"
-- "#9D9C9B"
-- "#8C5A49"
-- "#707070"
-- "#717171"
+  - "#f3514f"
+  - "#d5a0a0"
+  - "#7d7c7c"
+  - "#b2bbd0"
+  - "#4f4945"
 metaRSS: true
+link: http://stilldrinking.org/nobody-understands-punctuation
 ---
 
 [Peter Welch](http://stilldrinking.org/nobody-understands-punctuation) has published an excellent piece on punctuation and writing style in the English language.

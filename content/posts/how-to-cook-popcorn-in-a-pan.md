@@ -1,18 +1,18 @@
 ---
+category: 4.2-lifestyle-and-hobbies
 title: How to Cook Popcorn in a Pan
-date: '2018-10-07'
+date: 2018-10-07
 colors:
-  - '#959AA9'
-  - '#F09790'
-  - '#A25B16'
-  - '#685956'
-  - '#E3650C'
+  - "#a0a39e"
+  - "#bac8c4"
+  - "#494c49"
+  - "#bc9c59"
+  - "#cab78c"
 tags:
   - cooking
   - popcorn
-  - recipe
-  - life
-  - tips
+  - recipes
+  - snacks
 metaRSS: true
 ---
 

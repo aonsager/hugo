@@ -1,21 +1,21 @@
 ---
+category: 2.1-visual-arts-and-design
 title: The Photo Composition Challenge
-date: '2025-03-24 20:56:00 +0900'
+date: 2025-03-24 20:56:00 +0900
 colors:
-  - '#93928C'
-  - '#8F8E8F'
-  - '#59595A'
-  - '#A8A699'
-  - '#A7A19F'
+  - "#c5c5bc"
+  - "#ffcd00"
+  - "#a39f9e"
+  - "#bdbbbe"
+  - "#c0bcb9"
 tags:
   - photography
   - composition
-  - techniques
-  - improvement
-  - challenge
-blurb: >-
-  I had a great time participating taking photos as part of The Photo
-  Composition Challenge. This is a recap of my experience, and shots taken.
+  - rule-of-thirds
+  - challenges
+  - iphone
+  - creativity
+blurb: I had a great time participating taking photos as part of The Photo Composition Challenge. This is a recap of my experience, and shots taken.
 metaRSS: true
 ---
 

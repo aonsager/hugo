@@ -1,26 +1,28 @@
 ---
+category: 8.3-mathematics-and-data
 title: The Time Everyone "Corrected" the World’s Smartest Woman
 date: 2015-03-02T15:40:30+09:00
 link: http://priceonomics.com/the-time-everyone-corrected-the-worlds-smartest/
 colors:
-  - "#694E2D"
-  - "#5D5D5D"
-  - "#5D5D5D"
-  - "#503322"
-  - "#5C6786"
+  - "#4b4843"
+  - "#4b4842"
+  - "#ffffff"
+  - "#504f4f"
+  - "#575569"
 tags:
-  - article
   - probability
+  - monty-hall
+  - strategies
+  - puzzles
+  - decision-making
   - math
-  - gender
+  - education
 metaRSS: true
 ---
 
-<blockquote>
-  <p>In 1990, Marilyn vos Savant correctly answered a probability puzzle in her column for Parade Magazine. And then, the world called her an idiot.</p>
-</blockquote>
+> In 1990, Marilyn vos Savant correctly answered a probability puzzle in her column for Parade Magazine. And then, the world called her an idiot.
 
-<p>I still remember the chaos caused by the Monty Hall problem in our high school math class. Here's my explanation for how it works:</p>
+I still remember the chaos caused by the Monty Hall problem in our high school math class. Here's my explanation for how it works.
 
 <ul><li>Your first choice could either be a car or a goat.</li>
   <ol>
@@ -35,4 +37,4 @@ metaRSS: true
 <li>The second strategy is better, since picking a goat is twice as easy as picking the car.</li>
 </ul>
 
-<p>The best strategy is to <em>try to pick a goat</em> in round 1. Once the host has revealed the second goat, you are guaranteed the car by switching doors.</p>
+The best strategy is to <em>try to pick a goat</em> in round 1. Once the host has revealed the second goat, you are guaranteed the car by switching doors.

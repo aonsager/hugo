@@ -1,17 +1,21 @@
 ---
+category: 2.3-music-and-audio
 title: Gogol Bordello – Oakland 2009
-date: '2009-10-26'
+date: 2009-10-26
 colors:
-  - '#323931'
-  - '#E1D2AA'
-  - '#591E24'
-  - '#6F2C02'
-  - '#E2CEAC'
+  - "#501f2e"
+  - "#faca37"
+  - "#fadb36"
+  - "#5e584d"
+  - "#eaca85"
 tags:
-  - gogol bordello
+  - concerts
+  - gogol-bordello
+  - performance
   - music
-  - concert
-  - review
+  - crowds
+  - exhilaration
+  - gypsy-punk
 metaRSS: true
 ---
 

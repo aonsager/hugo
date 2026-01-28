@@ -1,17 +1,19 @@
 ---
+category: 2.4-film-and-video
 title: Cinemagraphs
-date: '2011-09-28'
+date: 2011-09-28
 colors:
-  - '#4C5152'
-  - '#706150'
-  - '#5D5230'
-  - '#5F5B60'
-  - '#635E56'
+  - "#4C5152"
+  - "#706150"
+  - "#5D5230"
+  - "#5F5B60"
+  - "#635E56"
 tags:
-  - cinemagraph
+  - cinemagraphs
   - photography
   - animation
-  - art
+  - artistic
+  - jamie-beck
 metaRSS: true
 ---
 

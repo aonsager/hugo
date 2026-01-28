@@ -1,19 +1,20 @@
 ---
+category: 2.1-visual-arts-and-design
 title: Iterations of Google's logo
-date: '2008-02-25T17:43:59+09:00'
+date: 2008-02-25T17:43:59+09:00
 link: http://www.wired.com/techbiz/startups/multimedia/2008/02/gallery_google_logos
 colors:
-  - '#A3A5A3'
-  - '#2549C3'
-  - '#BB3429'
-  - '#5C2C23'
-  - '#C40C06'
+  - "#9ea1aa"
+  - "#8faee5"
+  - "#8dc1fa"
+  - "#0e7db5"
+  - "#4285f4"
 tags:
-  - design
-  - article
-  - product
   - google
-  - history
+  - logo
+  - iterations
+  - design
+  - branding
 metaRSS: true
 ---
 

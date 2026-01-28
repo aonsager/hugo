@@ -1,18 +1,20 @@
 ---
+category: 5.2-culture-and-community
 title: Facebook Is No Longer a Communication Platform
-date: '2017-12-21 19:53:00 +0900'
+date: 2017-12-21 19:53:00 +0900
 colors:
-  - '#C6C6C6'
-  - '#6E7171'
-  - '#A1A0B3'
-  - '#575B5C'
-  - '#545353'
+  - "#c7c6c6"
+  - "#434547"
+  - "#134598"
+  - "#0866ff"
+  - "#1c7e8b"
 tags:
-  - opinion
-  - social network
   - facebook
-  - product
-  - politics
+  - communication
+  - social-media
+  - news-feed
+  - friendship
+  - engagement
 metaRSS: true
 ---
 

@@ -1,16 +1,19 @@
 ---
+category: 4.1-personal-reflections
 title: Is that a Cigarette or a Lollipop?
-date: '2009-05-10'
+date: 2009-05-10
 colors:
-  - '#705F54'
-  - '#A19C9B'
-  - '#F38E98'
-  - '#797979'
-  - '#E59667'
+  - "#e48513"
+  - "#26314d"
+  - "#cb9585"
+  - "#555454"
+  - "#f6df82"
 tags:
-  - life
   - candy
-  - thought
+  - lollipops
+  - friendship
+  - nostalgia
+  - self-expression
 metaRSS: true
 ---
 

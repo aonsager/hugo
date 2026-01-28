@@ -1,18 +1,21 @@
 ---
+category: 8.2-nature-and-biology
 title: The Sociable Weaver
 date: 2025-01-27
 colors:
-  - "#734F44"
-  - "#685B56"
-  - "#734E45"
-  - "#0F45B0"
-  - "#AEADAF"
+  - "#b19687"
+  - "#995e36"
+  - "#695548"
+  - "#84421d"
+  - "#a0bdd9"
 tags:
-  - bird
-  - nest
-  - africa
+  - birds
+  - sociable-weaver
+  - nests
   - community
-  - sociable
+  - Africa
+  - habitats
+  - wildlife
 metaRSS: true
 ---
 

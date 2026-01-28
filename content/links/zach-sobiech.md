@@ -1,16 +1,21 @@
 ---
-title: 'My Last Days: Meet Zach Sobiech'
+category: 2.3-music-and-audio
+title: "My Last Days: Meet Zach Sobiech"
 date: 2013-06-09 13:17:00
 tags:
-- video
-- music
-- life
+  - zach-sobiech
+  - music
+  - cancer
+  - inspiration
+  - terminal-illness
+  - charity
+  - legacy
 colors:
-- "#1B2157"
-- "#5C2A26"
-- "#5A2115"
-- "#552914"
-- "#634E29"
+  - "#5c6539"
+  - "#384185"
+  - "#9f7d53"
+  - "#3c3e3b"
+  - "#c8a368"
 ---
 
 Story by [Upworthy](http://www.upworthy.com/this-kid-just-died-what-he-left-behind-is-wondtacular-rip).

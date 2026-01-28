@@ -1,17 +1,20 @@
 ---
+category: 9-miscellaneous
 title: Censoring Chinese Scammers
 date: 2014-07-23 14:14:00
 tags:
-- funny
-- news
-- china
-- app
+  - scamming
+  - china
+  - line-app
+  - tiananmen-square
+  - creativity
+  - censorship
 colors:
-- "#937067"
-- "#B30502"
-- "#5A655E"
-- "#ABABAB"
-- "#D9DAAA"
+  - "#a6a5a5"
+  - "#d60112"
+  - "#fefe8c"
+  - "#681c35"
+  - "#de101c"
 metaRSS: true
 ---
 

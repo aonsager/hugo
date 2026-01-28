@@ -1,14 +1,15 @@
 ---
+category: 1.2-web-development-and-tools
 title: Hugo
 date: 2026-01-16 22:32:00 +09:00
 colors:
 tags:
   - hugo
-  - blog
-  - coding
+  - static-site-generators
   - customization
+  - markdown
+  - go
 metaRSS: false
-draft: false
 ---
 
 This blog is built using [Hugo](https://gohugo.io). I've described my motivations in [[static-site-generator-wishlist | this post]] but the main points are:

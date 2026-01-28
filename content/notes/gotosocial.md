@@ -1,13 +1,16 @@
 ---
+category: 1.5-tech-infrastructure
 title: GoToSocial
 date: 2026-01-05 10:57:00 +09:00
 colors:
 tags:
-  - gotosocial
-  - social
-  - self-hosting
+  - activitypub
+  - mastodon
+  - gosocial
+  - vps
+  - fediverse
+  - server
 metaRSS: false
-draft: false
 ---
 
 [GoToSocial](http://gotosocial.org) is an ActivityPub server written in Go. It matches most Mastodon functions, and allows for fairly seamless interaction with existing sites and apps.

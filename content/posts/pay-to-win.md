@@ -1,18 +1,21 @@
 ---
+category: 3.3-game-design-and-analysis
 title: Pay to Win
-date: '2017-11-30 18:59:00 +0900'
+date: 2017-11-30 18:59:00 +0900
 colors:
-  - '#5C0C08'
-  - '#4F3627'
-  - '#612209'
-  - '#6B3258'
-  - '#F40102'
+  - "#fb1808"
+  - "#383634"
+  - "#00e4f5"
+  - "#1e354a"
+  - "#fb1808"
 tags:
-  - game
-  - app
-  - mobile
-  - analysis
-  - product
+  - mobile-games
+  - pay-to-win
+  - puzzles-and-dragons
+  - monetization
+  - gaming
+  - competition
+  - engagement
 metaRSS: true
 ---
 

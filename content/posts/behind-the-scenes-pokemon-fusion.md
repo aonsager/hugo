@@ -1,19 +1,22 @@
 ---
-title: 'Pokemon Fusion: Behind the Scenes'
+category: 1.1-software-development
+title: "Pokemon Fusion: Behind the Scenes"
 date: 2013-06-04 00:41:00
 metaRSS: true
 tags:
-  - tech
-  - programming
-  - dev
-  - ruby
   - pokemon
+  - sprites
+  - automation
+  - image-processing
+  - ruby
+  - imagemagick
+  - scripts
 colors:
-  - "#5D5E60"
-  - "#E74F62"
-  - "#F39C10"
-  - "#B45932"
-  - "#56472E"
+  - "#678e29"
+  - "#3f403f"
+  - "#e6afa5"
+  - "#cac3c5"
+  - "#502a5c"
 ---
 
 I've been getting a few questions about the script used to generate the [Pokemon Fusion](http://pokemon.alexonsager.net) sprites, so I thought I would write a quick blog post to describe the process.

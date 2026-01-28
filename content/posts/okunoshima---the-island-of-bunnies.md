@@ -1,18 +1,22 @@
 ---
+category: 7.2-japanese-places-and-travel
 title: Ōkunoshima - The Island of Bunnies
-date: '2019-06-02'
+date: 2019-06-02
 colors:
-  - '#654B33'
-  - '#53504B'
-  - '#666564'
-  - '#6C6561'
-  - '#534736'
+  - "#9c9479"
+  - "#7d807e"
+  - "#e8b78e"
+  - "#b4a59f"
+  - "#ebb99b"
 tags:
+  - okunoshima
+  - bunnies
   - travel
-  - photo
-  - rabbit
-  - japan
-  - personal
+  - history
+  - peace
+  - nature
+  - tourism
+  - wildlife
 metaRSS: true
 ---
 

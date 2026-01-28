@@ -1,18 +1,21 @@
 ---
+category: 1.1-software-development
 title: Rake task to backup MySQL to Amazon S3
 date: 2013-11-29 01:54:00
 tags:
-- programming
-- ruby
-- tech
-- script
-- aws
+  - rake-tasks
+  - mysql
+  - amazon-s3
+  - backup
+  - automation
+  - database
+  - ruby
 colors:
-- "#B0B0B0"
-- "#A8ABB1"
-- "#35276B"
-- "#56CA09"
-- "#919191"
+  - "#2a94c3"
+  - "#752828"
+  - "#229fd5"
+  - "#9de633"
+  - "#0076d7"
 metaRSS: true
 ---
 

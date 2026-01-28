@@ -1,18 +1,22 @@
 ---
+category: 6.2-productivity-and-management
 title: The Maker's Schedule - A Ten Year Retrospective
-date: '2019-02-04'
+date: 2019-02-04
 colors:
-  - '#0229E3'
-  - '#55160F'
-  - '#526269'
-  - '#5E5D68'
-  - '#5E575B'
+  - "#7cb4f7"
+  - "#5b4638"
+  - "#bcb9bb"
+  - "#c1ff70"
+  - "#d5cdb5"
 tags:
-  - programming
-  - business
-  - manager
-  - maker
-  - work
+  - productivity
+  - programmers
+  - distractions
+  - management
+  - collaboration
+  - workplace
+  - compromise
+  - retrospective
 metaRSS: true
 ---
 

@@ -1,17 +1,21 @@
 ---
+category: 2.3-music-and-audio
 title: Love is Overdrive
 date: 2014-04-03 22:17:00
 link:
 tags:
-- life
-- quote
-- music
+  - love
+  - songs
+  - lyrics
+  - japan
+  - emotions
+  - artists
 colors:
-- "#681213"
-- "#566562"
-- "#C2B6C4"
-- "#681617"
-- "#B3B2AE"
+  - "#d894a4"
+  - "#7c7475"
+  - "#cc3839"
+  - "#322b48"
+  - "#861805"
 ---
 
 > ラブ･イズ・オーバーっていう、超有名な曲があって、

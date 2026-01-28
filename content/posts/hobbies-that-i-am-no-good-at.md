@@ -1,18 +1,22 @@
 ---
+category: 4.2-lifestyle-and-hobbies
 title: Hobbies that I am no good at
 date: 2025-01-30 14:48:00 +0900
 colors:
-  - "#6E89A4"
-  - "#8799B2"
-  - "#5B5C65"
-  - "#8799B2"
-  - white
+  - "#636671"
+  - "#434242"
+  - "#d7c67b"
+  - "#aaaead"
+  - "#b5b1b5"
 tags:
-  - actor
-  - juggling
-  - creativity
-  - enjoyment
   - hobbies
+  - juggling
+  - web-development
+  - drawing
+  - haiku
+  - creativity
+  - self-improvement
+  - enjoyment
 blurb: We must allow ourselves to enjoy things, even in the face of our clear mediocrity. Is there anything I enjoy doing - and let myself enjoy - that I am not good at?
 metaRSS: true
 ---

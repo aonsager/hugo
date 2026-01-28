@@ -1,16 +1,22 @@
 ---
+category: 5.2-culture-and-community
 title: Sexisim on the Red Carpet
 date: 2014-04-03 21:58:00
 tags:
-- opinion
-- news
-- gender
+  - sexism
+  - media
+  - gender-equality
+  - film
+  - fashion
+  - objectification
+  - awards
+  - cate-blanchett
 colors:
-- "#6D0910"
-- "#4D322D"
-- "#A31118"
-- "#5D220E"
-- "#562F22"
+  - "#83080f"
+  - "#631519"
+  - "#8d1818"
+  - "#7c0c0f"
+  - "#7a080c"
 metaRSS: true
 ---
 

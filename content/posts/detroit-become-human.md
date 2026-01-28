@@ -1,18 +1,19 @@
 ---
-title: 'Detroit: Become Human'
-date: '2020-07-15'
+category: 3.1-video-games
+title: "Detroit: Become Human"
+date: 2020-07-15
 colors:
-  - '#945065'
-  - '#955066'
-  - '#663449'
-  - '#222953'
-  - '#965166'
+  - "#cc9aa8"
+  - "#916076"
+  - "#9db2d2"
+  - "#a37889"
+  - "#a47184"
 tags:
-  - game
-  - opinion
-  - review
-  - robot
-  - story
+  - detroit-become-human
+  - quantic-dream
+  - storytelling
+  - roleplay
+  - morality
 metaRSS: true
 ---
 

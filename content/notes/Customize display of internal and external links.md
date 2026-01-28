@@ -1,12 +1,15 @@
 ---
+category: 1.2-web-development-and-tools
 title:
 date: 2026-01-20 15:29:00 +09:00
 colors:
 tags:
-  - hugo
+  - links
   - style
+  - hugo
+  - markup
+  - css
 metaRSS: false
-draft: false
 ---
 I really liked how Quartz gave external links and internal links different styles, and I wanted to do something similar here.
 

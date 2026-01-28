@@ -1,18 +1,21 @@
 ---
+category: 2.2-writing-and-literature
 title: Three Cups of Tea
-date: '2009-12-10'
+date: 2009-12-10
 colors:
-  - '#615D62'
-  - '#B1B1AD'
-  - '#B5A419'
-  - '#928C8E'
-  - '#655C5E'
+  - "#615D62"
+  - "#B1B1AD"
+  - "#B5A419"
+  - "#928C8E"
+  - "#655C5E"
 tags:
-  - nonprofit
-  - poverty
+  - inspiration
   - education
-  - samasource
-  - review
+  - pakistan
+  - greg-mortenson
+  - personal-connection
+  - social-impact
+  - three-cups-of-tea
 metaRSS: true
 ---
 

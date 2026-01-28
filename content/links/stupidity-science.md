@@ -1,19 +1,22 @@
 ---
+category: 5.3-psychology-and-philosophy
 title: The importance of stupidity in scientific research
 link: https://web.stanford.edu/~fukamit/schwartz-2008.pdf
 date: 2026-01-07 12:01:00 +09:00
 colors:
-  - "#b26580"
-  - "#c67f97"
   - "#cf8d9d"
-  - "#848282"
+  - "#c67f97"
   - "#c6808e"
+  - "#848282"
+  - "#b26580"
 tags:
-  - science
   - stupidity
+  - science
+  - research
   - learning
-  - exploration
   - ignorance
+  - questions
+  - exploration
 ---
 
 From [Martin A. Schwartz](https://web.stanford.edu/~fukamit/schwartz-2008.pdf):

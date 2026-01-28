@@ -1,18 +1,21 @@
 ---
+category: 4.4-relationships-and-family
 title: Becoming a parent introduced me to stress
-date: '2025-01-20'
+date: 2025-01-20
 colors:
-  - '#011270'
-  - '#776B76'
-  - '#32C774'
-  - '#A55367'
-  - '#909090'
+  - "#0b1477"
+  - "#cfbfae"
+  - "#044ab1"
+  - "#b1a389"
+  - "#868583"
 tags:
   - parenting
   - stress
-  - emotions
-  - optimism
   - mindfulness
+  - self-reflection
+  - emotions
+  - children
+  - fatherhood
 metaRSS: true
 ---
 

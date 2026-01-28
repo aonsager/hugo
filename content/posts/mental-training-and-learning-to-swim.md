@@ -1,18 +1,20 @@
 ---
-title: 'Mental Training, and Learning to Swim'
-date: '2019-02-01'
+category: 4.2-lifestyle-and-hobbies
+title: Mental Training, and Learning to Swim
+date: 2019-02-01
 colors:
-  - '#F7F405'
-  - '#4F9AFC'
-  - '#F7D602'
-  - '#022F6D'
-  - '#B1B1B3'
+  - "#404640"
+  - "#fbf003"
+  - "#eb783f"
+  - "#656668"
+  - "#313340"
 tags:
   - swimming
+  - training
   - learning
-  - personal
-  - mind
-  - dream
+  - introspection
+  - friendship
+  - fitness
 metaRSS: true
 ---
 

@@ -1,17 +1,21 @@
 ---
+category: 1.1-software-development
 title: Installing Python3 modules on Macs in 2024
-date: '2024-11-21'
+date: 2024-11-21
 colors:
-  - '#AB0001'
-  - '#AFAEAF'
-  - '#B20001'
-  - '#056B97'
-  - '#B80000'
+  - "#4c4952"
+  - "#2b363d"
+  - "#364422"
+  - "#4f3143"
+  - "#366406"
 tags:
   - python
-  - mac
-  - virtualenv
-  - installation
+  - macs
+  - virtual-environments
+  - pip
+  - brew
+  - scripts
+  - alias
 metaRSS: true
 ---
 

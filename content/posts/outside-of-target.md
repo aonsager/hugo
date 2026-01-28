@@ -1,16 +1,18 @@
 ---
+category: 4.1-personal-reflections
 title: Outside of Target
-date: '2008-02-24T17:46:00+09:00'
+date: 2008-02-24T17:46:00+09:00
 colors:
-  - '#B4ADA4'
-  - '#70584B'
-  - '#45372F'
-  - '#6B9AD3'
-  - '#4C5151'
+  - "#c5bbba"
+  - "#60606b"
+  - "#3a6eaa"
+  - "#343236"
+  - "#a18ea0"
 tags:
-  - personal
-  - opinion
-  - story
+  - compassion
+  - guilt
+  - charity
+  - awareness
 metaRSS: true
 ---
 

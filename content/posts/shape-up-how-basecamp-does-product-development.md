@@ -1,18 +1,21 @@
 ---
+category: 6.2-productivity-and-management
 title: Shape Up - How Basecamp does Product Development
 date: 2019-08-01
 colors:
-  - "#4A4949"
-  - "#EC6863"
-  - "#C9B6B5"
-  - "#F60515"
-  - "#FFFFFF"
+  - "#a5ac9e"
+  - "#bdc0c1"
+  - "#ffffff"
+  - "#ffffff"
+  - "#79797a"
 tags:
-  - product
-  - management
-  - work
-  - team
   - basecamp
+  - shape-up
+  - product-development
+  - teamwork
+  - agile
+  - workflow
+  - process
 metaRSS: true
 ---
 

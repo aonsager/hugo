@@ -1,4 +1,5 @@
 ---
+category: 4.1-personal-reflections
 title: /using
 date: 2026-01-03 16:56:00 +09:00
 colors:

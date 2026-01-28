@@ -1,17 +1,19 @@
 ---
+category: 2.4-film-and-video
 title: One Cut of the Dead (カメラを止めるな！）
-date: '2019-01-29'
+date: 2019-01-29
 colors:
-  - '#E9A432'
-  - '#754C29'
-  - '#686D5B'
-  - '#EAB62B'
-  - '#6C6B42'
+  - "#684128"
+  - "#443e24"
+  - "#694900"
+  - "#3f3a3a"
+  - "#6d5324"
 tags:
-  - zombie
-  - movie
-  - review
-  - japan
+  - zombies
+  - film
+  - comedy
+  - independent
+  - one-cut-of-the-dead
 metaRSS: true
 ---
 

@@ -1,18 +1,21 @@
 ---
+category: 1.5-tech-infrastructure
 title: Installing GoToSocial on Coolify
-date: '2024-12-27'
+date: 2024-12-27
 colors:
-  - '#545454'
-  - '#AEAFB2'
-  - '#BCBEC4'
-  - '#5D5B59'
-  - '#444347'
+  - "#403b3e"
+  - "#393e3f"
+  - "#403a38"
+  - "#626161"
+  - "#c9c1b6"
 tags:
-  - fediverse
   - gotosocial
-  - mastodon
-  - server
   - coolify
+  - vps
+  - docker
+  - server
+  - deployment
+  - lightweight
 metaRSS: true
 ---
 

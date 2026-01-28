@@ -1,18 +1,21 @@
 ---
+category: 2.1-visual-arts-and-design
 title: Music of the City - an Art Project Idea
-date: '2022-04-11'
+date: 2022-04-11
 colors:
-  - '#744933'
-  - '#8D7550'
-  - '#4A4C50'
-  - '#ACB2B5'
-  - '#AC8D77'
+  - "#797a80"
+  - "#d1bfa0"
+  - "#c6a28e"
+  - "#848377"
+  - "#3d3f40"
 tags:
   - art
-  - music
-  - idea
-  - people
   - photography
+  - music
+  - headphones
+  - city
+  - people
+  - project-idea
 metaRSS: true
 ---
 

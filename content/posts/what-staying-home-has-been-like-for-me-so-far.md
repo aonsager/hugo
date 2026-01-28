@@ -1,17 +1,19 @@
 ---
+category: 4.1-personal-reflections
 title: What staying home has been like for me so far
-date: '2020-04-07'
+date: 2020-04-07
 colors:
-  - '#B6A676'
-  - '#A68E67'
-  - '#463834'
-  - '#A0A59A'
-  - '#605E62'
+  - "#B6A676"
+  - "#A68E67"
+  - "#463834"
+  - "#A0A59A"
+  - "#605E62"
 tags:
-  - life
-  - covid
-  - work
-  - home
+  - remote-work
+  - commuting
+  - social-life
+  - stress
+  - news
 metaRSS: true
 ---
 

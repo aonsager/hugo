@@ -1,18 +1,21 @@
 ---
+category: 4.1-personal-reflections
 title: How to Be Polite
 date: 2014-09-17 19:57:00
 link: https://medium.com/message/how-to-be-polite-9bf1e69e888c
 tags:
-- life
-- opinion
-- article
-- personal
+  - politeness
+  - relationships
+  - friendship
+  - impressions
+  - self-awareness
+  - communication
 colors:
-- "#5F5E5E"
-- "#73CDF4"
-- "#E6B439"
-- "#73CAFA"
-- "#73CEF4"
+  - "#0286d1"
+  - "#aaacad"
+  - "#0286d1"
+  - "#c4c2be"
+  - "#0286d1"
 ---
 
 > Most people don’t notice I’m polite, which is sort of the point. I don’t look polite. I am big and droopy and need a haircut. No soul would associate me with watercress sandwiches. Still, every year or so someone takes me aside and says, you actually are weirdly polite, aren’t you? And I always thrill. They noticed.

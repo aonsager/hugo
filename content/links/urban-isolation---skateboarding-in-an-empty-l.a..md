@@ -1,18 +1,21 @@
 ---
+category: 2.4-film-and-video
 title: Urban Isolation - Skateboarding in an empty L.A.
-date: '2022-02-10'
+date: 2022-02-10
 link: https://vimeo.com/91085172
 colors:
-  - '#B0B0B0'
-  - '#3DA935'
-  - '#576D8D'
-  - '#60645E'
-  - '#4A4235'
+  - "#6a8487"
+  - "#2f393a"
+  - "#5c98b0"
+  - "#9e0b0d"
+  - "#9da1b8"
 tags:
-  - video
   - skateboarding
-  - city
-  - art
+  - los-angeles
+  - urban-isolation
+  - video-editing
+  - relaxation
+  - russell-houghten
 metaRSS: true
 ---
 

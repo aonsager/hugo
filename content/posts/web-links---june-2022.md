@@ -1,16 +1,17 @@
 ---
+category: 9-miscellaneous
 title: Web links - June 2022
-date: '2022-06-30'
+date: 2022-06-30
 colors:
-  - '#B0AFB3'
-  - '#D70202'
-  - '#5F4A32'
-  - '#AEB1B1'
-  - '#D70203'
+  - "#B0AFB3"
+  - "#D70202"
+  - "#5F4A32"
+  - "#AEB1B1"
+  - "#D70203"
 tags:
   - reddit
   - derogatory
-  - experience
+  - experiences
   - artwork
   - history
 metaRSS: true

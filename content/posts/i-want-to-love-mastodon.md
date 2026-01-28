@@ -1,19 +1,22 @@
 ---
+category: 5.2-culture-and-community
 title: I want to love Mastodon...
-date: '2024-12-02'
+date: 2024-12-02
 colors:
-  - '#FDE401'
-  - '#4C5368'
-  - '#DE5C0A'
-  - '#AEAAAC'
-  - '#513023'
+  - "#919ead"
+  - "#445762"
+  - "#3f505e"
+  - "#4a2d39"
+  - "#fef208"
 tags:
   - mastodon
   - federation
   - moderation
+  - decentralization
+  - social-networks
   - community
   - bluesky
-  - social
+  - gotosocial
 metaRSS: true
 ---
 

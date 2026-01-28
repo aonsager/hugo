@@ -1,18 +1,18 @@
 ---
+category: 8.1-space-and-astronomy
 title: Pluto - Closest Approach
-date: '2015-07-15T11:41:17+09:00'
+date: 2015-07-15T11:41:17+09:00
 colors:
-  - '#4E4E4E'
-  - '#4E4E4E'
-  - '#59291D'
-  - '#6E6E6E'
-  - '#484848'
+  - "#6b6a6a"
+  - "#c30001"
+  - "#b69579"
+  - "#010101"
+  - "#bdbfbe"
 tags:
-  - article
   - pluto
   - nasa
+  - new-horizons
   - space
-  - photo
 metaRSS: true
 ---
 

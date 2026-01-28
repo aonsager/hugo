@@ -1,17 +1,21 @@
 ---
-title: 'Rebranding the site: Invisible Parade'
-date: '2025-01-03'
+category: 4.1-personal-reflections
+title: "Rebranding the site: Invisible Parade"
+date: 2025-01-03
 colors:
-  - '#6C1611'
-  - '#184896'
-  - '#463A37'
-  - '#685352'
-  - '#96B4D6'
+  - "#5c93ca"
+  - "#a79488"
+  - "#601323"
+  - "#939fae"
+  - "#601323"
 tags:
-  - personal
-  - branding
   - rebranding
-  - online
+  - invisible-parade
+  - blogging
+  - website
+  - personal
+  - identity
+  - design
   - nostalgia
 metaRSS: true
 ---

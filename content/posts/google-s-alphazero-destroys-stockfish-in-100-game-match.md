@@ -1,18 +1,20 @@
 ---
+category: 1.3-ai-and-automation
 title: Google's AlphaZero Destroys Stockfish In 100-Game Match
 date: 2017-12-06 22:58:00 +0900
 colors:
-  - "#5F625C"
-  - "#BBBBBB"
-  - "#023A8D"
-  - "#5B5B5B"
-  - "#B55039"
+  - "#547439"
+  - "#687a8e"
+  - "#3c3e31"
+  - "#72a843"
+  - "#547439"
 tags:
-  - AI
-  - tech
-  - google
-  - article
   - chess
+  - alphazero
+  - stockfish
+  - machine-learning
+  - deepmind
+  - AI
 metaRSS: true
 ---
 

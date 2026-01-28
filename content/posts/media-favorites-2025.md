@@ -1,22 +1,24 @@
 ---
+category: 2.5-creative-other
 title: Media Favorites – 2025
 date: 2025-12-29T07:57:00.000Z
 colors:
-  - '#731693'
-  - '#4d442f'
-  - '#373839'
-  - '#ff2400'
-  - '#31406e'
+  - "#4d442f"
+  - "#731693"
+  - "#0a5b64"
+  - "#343a50"
+  - "#bababb"
 tags:
-  - media
-  - books
-  - movies
-  - shows
-  - games
+  - dragon-quest
+  - kirby
+  - fantasy-life
+  - gaming
+  - exploration
+  - roguelike
+  - storytelling
+  - nostalgia
 metaRSS: true
-blurb: >-
-  Looking back on the media I consumed in 2025, this is a list of just my
-  favorites.
+blurb: Looking back on the media I consumed in 2025, this is a list of just my favorites.
 ---
 
 Looking back on the media I consumed in 2025, this is a list of just my favorites.

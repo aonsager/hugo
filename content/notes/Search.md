@@ -1,12 +1,16 @@
 ---
+category: 1.2-web-development-and-tools
 title:
 date: 2026-01-25 22:09:00 +09:00
 colors:
 tags:
-  - hugo
   - search
+  - fusejs
+  - websites
+  - indexing
+  - shortcuts
+  - performance
 metaRSS: false
-draft: false
 ---
 I'm very happy with the way search is working on my site.
 

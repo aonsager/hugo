@@ -1,17 +1,21 @@
 ---
-title: 'Gravity Summit Stanford: Wrap-up'
-date: '2009-05-09T13:25:58+09:00'
+category: 5.2-culture-and-community
+title: "Gravity Summit Stanford: Wrap-up"
+date: 2009-05-09T13:25:58+09:00
 colors:
-  - '#50251F'
-  - '#0D3397'
-  - '#F54606'
-  - '#514C4D'
-  - '#F54706'
+  - "#424f23"
+  - "#253842"
+  - "#d2dc63"
+  - "#4d443a"
+  - "#142660"
 tags:
-  - social network
-  - analysis
-  - communication
-  - report
+  - social-media
+  - marketing
+  - businesses
+  - transparency
+  - conversation
+  - engagement
+  - community
 metaRSS: true
 ---
 

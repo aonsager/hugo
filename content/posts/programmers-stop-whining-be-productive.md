@@ -1,18 +1,22 @@
 ---
-title: 'Programmers: Stop Whining, Be Productive'
-date: '2009-07-24'
+category: 6.2-productivity-and-management
+title: "Programmers: Stop Whining, Be Productive"
+date: 2009-07-24
 colors:
-  - '#FFD606'
-  - '#555555'
-  - '#959595'
-  - '#67636B'
-  - '#6E3F2D'
+  - "#bebcb9"
+  - "#454747"
+  - "#a39996"
+  - "#bdba7e"
+  - "#4f4738"
 tags:
-  - programming
-  - business
-  - manager
-  - maker
-  - work
+  - programmers
+  - schedules
+  - productivity
+  - meetings
+  - discipline
+  - lean-startup
+  - management
+  - training
 metaRSS: true
 ---
 

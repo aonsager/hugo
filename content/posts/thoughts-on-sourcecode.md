@@ -1,17 +1,21 @@
 ---
+category: 2.4-film-and-video
 title: Thoughts on "Sourcecode"
-date: '2012-04-04'
+date: 2012-04-04
 colors:
-  - '#D9C9B1'
-  - '#483630'
-  - '#6C0039'
-  - '#AFAEAE'
-  - '#6E475C'
+  - "#D9C9B1"
+  - "#483630"
+  - "#6C0039"
+  - "#AFAEAE"
+  - "#6E475C"
 tags:
-  - movie
-  - review
-  - dimension
-  - scifi
+  - sourcecode
+  - philosophy
+  - time-travel
+  - parallel-dimensions
+  - memory
+  - morality
+  - science-fiction
 metaRSS: true
 ---
 

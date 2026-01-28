@@ -1,24 +1,23 @@
 ---
-title: 'If you love something, pay a subscription fee'
-date: '2025-05-15 10:39:00 +0900'
+category: 6.1-business-and-entrepreneurship
+title: If you love something, pay a subscription fee
+date: 2025-05-15 10:39:00 +0900
 colors:
-  - '#54695E'
-  - '#738E69'
-  - '#164951'
-  - '#504C33'
-  - '#99A3AB'
+  - "#39333c"
+  - "#a1d9d4"
+  - "#333536"
+  - "#bcc4c3"
+  - "#2d343e"
 tags:
-  - customer
-  - service
   - subscription
-  - satisfaction
+  - customers
+  - service
   - business
-blurb: >-
-  As a rule of thumb, you are more likely to be satisfied by a service for which
-  you directly pay money. This is because paying money makes you a _customer_ of
-  the business, and the business is thereby directly motivated to keep you
-  satisfied. If you want to find a service that will satisfy you for a long
-  time, paying a subscription is your best bet.
+  - satisfaction
+  - investment
+  - applications
+  - AI
+blurb: As a rule of thumb, you are more likely to be satisfied by a service for which you directly pay money. This is because paying money makes you a _customer_ of the business, and the business is thereby directly motivated to keep you satisfied. If you want to find a service that will satisfy you for a long time, paying a subscription is your best bet.
 metaRSS: true
 ---
 

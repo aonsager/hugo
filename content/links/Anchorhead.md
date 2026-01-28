@@ -1,4 +1,5 @@
 ---
+category: 3.1-video-games
 title: Anchorhead
 link: https://pr-if.org/play/anchorhead/
 date: 2026-01-27 11:02:00 +09:00
@@ -9,10 +10,13 @@ colors:
   - "#3a2e2e"
   - "#173d57"
 tags:
-  - game
   - interactive-fiction
-  - puzzle
+  - exploration
+  - puzzles
+  - storytelling
+  - game-design
   - anchorhead
+  - michael-gentry
 ---
 This looks like a pretty neat interactive fiction game, by Michael Gentry. Excited to give it a shot.
 

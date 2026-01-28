@@ -1,22 +1,22 @@
 ---
+category: 1.5-tech-infrastructure
 title: I may have outgrown Coolify
-date: '2025-04-07 13:35:00 +0900'
+date: 2025-04-07 13:35:00 +0900
 colors:
-  - '#A39B99'
-  - '#535354'
-  - '#F79008'
-  - '#727172'
-  - '#5A6257'
+  - "#7e6a25"
+  - "#352746"
+  - "#7a807f"
+  - "#968879"
+  - "#71a8fa"
 tags:
+  - coolify
   - self-hosting
   - docker
-  - coolify
-  - linux
   - vps
-blurb: >-
-  I initially chose Coolify as a self-hosted alternative to Heroku when it got
-  too expensive. Now that I have learned a fair bit about server management,
-  I've found that I may no longer need Coolify's hand-holding.
+  - server-management
+  - gotosocial
+  - linux
+blurb: I initially chose Coolify as a self-hosted alternative to Heroku when it got too expensive. Now that I have learned a fair bit about server management, I've found that I may no longer need Coolify's hand-holding.
 metaRSS: true
 ---
 

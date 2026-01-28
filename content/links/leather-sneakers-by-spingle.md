@@ -1,19 +1,22 @@
 ---
+category: 4.2-lifestyle-and-hobbies
 title: Leather Sneakers by Spingle
-date: '2019-11-27'
+date: 2019-11-27
 link: https://www.spingle.jp/en/spingle_move/
 colors:
-  - '#6C6B71'
-  - '#C8C7C6'
-  - '#B07B48'
-  - '#954545'
-  - '#6F6970'
+  - "#363432"
+  - "#a49659"
+  - "#c2c6c9"
+  - "#44362e"
+  - "#9ab53d"
 tags:
-  - japan
-  - shoes
-  - product
-  - craft
+  - sneakers
   - leather
+  - hand-crafted
+  - spingle
+  - japan
+  - comfort
+  - footwear
 metaRSS: true
 ---
 

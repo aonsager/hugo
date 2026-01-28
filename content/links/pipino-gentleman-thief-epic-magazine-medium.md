@@ -1,18 +1,20 @@
 ---
-title: 'Pipino: Gentleman Thief — EPIC MAGAZINE — Medium'
-date: '2015-03-02T20:27:13+09:00'
+category: 9-miscellaneous
+title: "Pipino: Gentleman Thief — EPIC MAGAZINE — Medium"
+date: 2015-03-02T20:27:13+09:00
 link: https://medium.com/epic-magazine/pipino-gentleman-thief-ede9713dafb1
 colors:
-  - '#686859'
-  - '#EFD998'
-  - '#656659'
-  - '#646559'
-  - '#656659'
+  - "#2a3242"
+  - "#9da19e"
+  - "#273141"
+  - "#a5d4cd"
+  - "#4a505a"
 tags:
-  - article
-  - biography
-  - story
-  - thief
+  - heist
+  - magicians
+  - mafia
+  - art-theft
+  - storytelling
 metaRSS: true
 ---
 

@@ -1,17 +1,19 @@
 ---
+category: 4.3-health-and-wellness
 title: Natural Lighting in the Office
-date: '2019-04-08'
+date: 2019-04-08
 colors:
-  - '#676365'
-  - '#B1B0AD'
-  - '#675D57'
-  - '#564638'
-  - '#67552A'
+  - "#d0c6bc"
+  - "#84837e"
+  - "#7a7172"
+  - "#6a6a46"
+  - "#b29a80"
 tags:
-  - personal
-  - work
-  - health
+  - workspace
+  - productivity
+  - wellbeing
   - office
+  - happiness
 metaRSS: true
 ---
 

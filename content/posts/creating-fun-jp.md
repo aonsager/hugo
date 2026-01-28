@@ -1,10 +1,13 @@
 ---
+category: 3.3-game-design-and-analysis
 title: "「面白い」を創る"
 date: 2014-06-25 23:11:00
 tags:
-- opinion
-- game
-- product
+  - fun
+  - game-design
+  - inspiration
+  - creativity
+  - originality
 colors:
 - "#747474"
 - "#4E4E4E"

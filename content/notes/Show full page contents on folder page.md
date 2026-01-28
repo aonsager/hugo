@@ -1,13 +1,15 @@
 ---
+category: 1.2-web-development-and-tools
 title:
 date: 2026-01-20 15:18:00 +09:00
 colors:
 tags:
   - hugo
+  - layouts
   - links
-  - micros
+  - html
+  - wikilinks
 metaRSS: false
-draft: false
 ---
 [Links](/links) and [micro posts](/micro) are short enough that rather than displaying just their title with a link to the full post, I should simply display the full post contents on the folder's root.
 

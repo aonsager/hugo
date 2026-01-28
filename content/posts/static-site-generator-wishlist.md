@@ -1,21 +1,21 @@
 ---
+category: 1.2-web-development-and-tools
 title: Static site generator wishlist
 date: 2026-01-13 11:47:00 +09:00
 colors:
   - "#484644"
   - "#84afc7"
-  - "#afafb1"
-  - "#527f62"
-  - "#b65550"
+  - "#b2b2b4"
+  - "#8ee3f5"
+  - "#4a4949"
 tags:
-  - static
-  - generator
-  - customization
-  - markdown
+  - static-site-generators
   - jekyll
   - hugo
-  - quartz
-  - website
+  - customization
+  - markdown
+  - automation
+  - writing
 metaRSS: false
 ---
 A list of things I want to prioritize when choosing and customizing whatever static-site generator I use for building this site.

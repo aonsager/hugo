@@ -1,26 +1,21 @@
 ---
+category: 5.2-culture-and-community
 title: Identity and Community on the Fediverse
-date: '2025-04-28 14:23:00 +0900'
+date: 2025-04-28 14:23:00 +0900
 colors:
-  - '#A49F9C'
-  - '#621D0F'
-  - '#C7C1B7'
-  - '#925D22'
-  - '#3D4938'
+  - "#bdbcba"
+  - "#b18857"
+  - "#4a3328"
+  - "#96d8a7"
+  - "#674a0f"
 tags:
   - fediverse
   - identity
   - community
-  - interconnected
+  - social-media
+  - spam
   - resilience
-blurb: >-
-  The Fediverse, a network of interconnected social media services, requires
-  users to choose a service for their account, tying their identity to that
-  community. This can be problematic if the community experiences issues like
-  spam, moderation problems, or shutdown. If we could decouple identity from
-  community, like Reddit did with subreddits, users could more freely
-  participate in multiple communities — and the network overall would be more
-  accessible and resilient.
+blurb: The Fediverse, a network of interconnected social media services, requires users to choose a service for their account, tying their identity to that community. This can be problematic if the community experiences issues like spam, moderation problems, or shutdown. If we could decouple identity from community, like Reddit did with subreddits, users could more freely participate in multiple communities — and the network overall would be more accessible and resilient.
 metaRSS: true
 ---
 

@@ -1,17 +1,19 @@
 ---
+category: 2.2-writing-and-literature
 title: Becoming a Better Writer
-date: '2009-03-25T15:39:05+09:00'
+date: 2009-03-25T15:39:05+09:00
 colors:
-  - '#AEA394'
-  - '#6C6C6C'
-  - '#F9F46D'
-  - '#4A372A'
-  - '#F8F46E'
+  - "#deb67b"
+  - "#a9a8a9"
+  - "#4c4b45"
+  - "#d59c9c"
+  - "#81abee"
 tags:
-  - personal
-  - opinion
   - writing
-  - life
+  - practice
+  - style
+  - elements-of-style
+  - improvement
 metaRSS: true
 ---
 

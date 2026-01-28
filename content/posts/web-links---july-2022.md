@@ -1,16 +1,17 @@
 ---
+category: 9-miscellaneous
 title: Web links - July 2022
-date: '2022-08-01'
+date: 2022-08-01
 colors:
-  - '#996F55'
-  - '#F66C03'
-  - '#A09DA0'
-  - '#628BB9'
-  - '#555A5C'
+  - "#996F55"
+  - "#F66C03"
+  - "#A09DA0"
+  - "#628BB9"
+  - "#555A5C"
 tags:
   - art
   - buddha
-  - telescope
+  - telescopes
   - community
   - history
 metaRSS: true

@@ -1,18 +1,20 @@
 ---
+category: 6.1-business-and-entrepreneurship
 title: Samasource Selected for fbFund REV
-date: '2009-05-31'
+date: 2009-05-31
 colors:
-  - '#614E25'
-  - '#5C5C5C'
-  - '#B3B3B3'
-  - '#4D4946'
-  - '#5D5D5D'
+  - "#a08967"
+  - "#0f94cd"
+  - "#918f8c"
+  - "#364653"
+  - "#df895f"
 tags:
   - samasource
-  - facebook
-  - business
-  - nonprofit
-  - startup
+  - fbfund
+  - non-profits
+  - palo-alto
+  - impact
+  - development
 metaRSS: true
 ---
 

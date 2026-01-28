@@ -1,12 +1,16 @@
 ---
+category: 1.1-software-development
 title: Tag pages
 date: 2026-01-25 22:07:00 +09:00
 colors:
 tags:
-  - hugo
   - tags
+  - relations
+  - exploration
+  - organization
+  - pages
+  - hugo
 metaRSS: false
-draft: false
 ---
 
 Each tag's page ([example](/tags/hugo)) displays pages sorted by the number of other tags they have in common. In a sense, it’s not showing a list of _pages_ that have the tag. It’s showing a list of _tags_ that are related to the current tag, along with the pages that represent that relation. I think that’s a lot more interesting.

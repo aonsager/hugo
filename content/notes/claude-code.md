@@ -1,4 +1,5 @@
 ---
+category: 1.3-ai-and-automation
 title: Claude Code
 date: 2026-01-06
 colors:

@@ -1,18 +1,20 @@
 ---
+category: 8.1-space-and-astronomy
 title: The First Image of a Black Hole
 date: 2019-04-11
 colors:
-  - "#6E0900"
-  - "#6D0800"
-  - "#9D211E"
-  - "#4E5050"
-  - "#47352E"
+  - "#690c01"
+  - "#680b00"
+  - "#961b00"
+  - "#670a04"
+  - "#680a03"
 tags:
-  - space
-  - news
-  - black hole
-  - astronomy
-  - photography
+  - black-holes
+  - light
+  - gravity
+  - messier-87
+  - theories
+  - telescopes
 metaRSS: true
 ---
 

@@ -1,18 +1,19 @@
 ---
+category: 4.3-health-and-wellness
 title: Lucid Dreaming
-date: '2018-12-14'
+date: 2018-12-14
 colors:
-  - '#29394B'
-  - '#666062'
-  - '#324951'
-  - '#12256E'
-  - '#5A5B64'
+  - "#2d436a"
+  - "#c6c7c6"
+  - "#443a3b"
+  - "#adaca8"
+  - "#3e538a"
 tags:
-  - personal
+  - lucid-dreaming
+  - nightmares
+  - tim-ferriss
   - sleep
-  - dream
-  - mind
-  - skill
+  - experiences
 metaRSS: true
 ---
 

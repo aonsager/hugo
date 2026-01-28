@@ -1,16 +1,21 @@
 ---
+category: 4.2-lifestyle-and-hobbies
 title: Upcoming Movie Watch
-date: '2008-03-04T04:49:00+09:00'
+date: 2008-03-04T04:49:00+09:00
 colors:
-  - '#65615D'
-  - '#0E245B'
-  - '#55251B'
-  - '#072772'
-  - '#1C565E'
+  - "#25334c"
+  - "#d1b29b"
+  - "#293e37"
+  - "#6d5b39"
+  - "#5a0f12"
 tags:
-  - personal
-  - opinion
-  - movie
+  - documentaries
+  - movies
+  - film
+  - trailers
+  - music
+  - relationships
+  - culture
 metaRSS: true
 ---
 

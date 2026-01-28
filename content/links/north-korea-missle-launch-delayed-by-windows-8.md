@@ -1,19 +1,21 @@
 ---
+category: 5.1-politics-and-economics
 title: North Korea missle launch delayed by Windows 8
 date: 2013-04-12 21:05:00
 link: http://www.newyorker.com/online/blogs/borowitzreport/2013/04/north-korean-missile-test-delayed-by-windows-8.html
 tags:
-- news
-- funny
-- article
-- north korea
-- missile
+  - north-korea
+  - missile-launches
+  - windows-8
+  - politics
+  - kim-jong-un
+  - microsoft
 colors:
-- "#52454C"
-- "#F2DD63"
-- "#6C6877"
-- "#8AB5C7"
-- "#D3B28F"
+  - "#483f43"
+  - "#ccc9c1"
+  - "#839cbb"
+  - "#c3c0c1"
+  - "#f8e968"
 ---
 
 \#OnionOrActualHeadline

@@ -1,16 +1,18 @@
 ---
+category: 3.2-puzzles-and-strategy-games
 title: Amazing Crossword Puzzle
-date: '2011-10-04'
+date: 2011-10-04
 colors:
-  - '#AFAFAF'
-  - '#707070'
-  - '#B0B0B0'
-  - '#B1B1B1'
-  - '#B0B0AF'
+  - "#828181"
+  - "#ee1d23"
+  - "#ffffff"
+  - "#2a570f"
+  - "#9e9d9d"
 tags:
   - crossword
+  - new-york-times
+  - clues
   - puzzle
-  - new york times
 metaRSS: true
 ---
 

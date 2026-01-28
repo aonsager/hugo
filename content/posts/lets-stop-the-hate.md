@@ -1,18 +1,21 @@
 ---
+category: 5.4-society-other
 title: Let’s stop the hate
-date: '2016-06-13T18:44:38+09:00'
+date: 2016-06-13T18:44:38+09:00
 colors:
-  - '#363636'
-  - '#C4A85A'
-  - '#9E1A19'
-  - '#CCA83A'
-  - '#6F6F71'
+  - "#563b34"
+  - "#9fc7a0"
+  - "#000000"
+  - "#9fc7a0"
+  - "#3b393b"
 tags:
   - lgbt
-  - opinion
-  - personal
-  - people
-  - politics
+  - civil-rights
+  - discrimination
+  - love
+  - religion
+  - prejudice
+  - violence
 metaRSS: true
 ---
 

@@ -1,19 +1,21 @@
 ---
-title: 'Box Line Text: A minimal whiteboard app'
-date: '2020-04-21'
+category: 1.2-web-development-and-tools
+title: "Box Line Text: A minimal whiteboard app"
+date: 2020-04-21
 link: https://box-line-text.netlify.app/
 colors:
-  - '#C6BBBC'
-  - '#A5A5A5'
-  - '#8E8E8E'
-  - '#505050'
-  - '#9CCCE0'
+  - "#C6BBBC"
+  - "#A5A5A5"
+  - "#8E8E8E"
+  - "#505050"
+  - "#9CCCE0"
 tags:
-  - app
-  - tool
   - whiteboard
-  - web
-  - fun
+  - minimalist
+  - app
+  - html
+  - productivity
+  - design
 metaRSS: true
 ---
 

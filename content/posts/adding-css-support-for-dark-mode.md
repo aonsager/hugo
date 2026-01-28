@@ -1,18 +1,21 @@
 ---
+category: 9-miscellaneous
 title: Adding CSS Support for Dark Mode
 date: '2019-04-18'
 colors:
-  - '#56595F'
-  - '#979596'
-  - '#4C4C4C'
-  - '#16165D'
-  - '#6F6D6E'
+  - "#696868"
+  - "#e34c57"
+  - "#d72631"
+  - "#b6babc"
+  - "#a8aaad"
 tags:
   - css
-  - design
-  - mac
-  - dark mode
-  - color
+  - dark-mode
+  - media-queries
+  - safari
+  - firefox
+  - web-design
+  - usability
 metaRSS: true
 ---
 

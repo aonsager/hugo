@@ -1,16 +1,18 @@
 ---
+category: 2.2-writing-and-literature
 title: Extremely Loud and Incredibly Close
-date: '2009-07-08'
+date: 2009-07-08
 colors:
-  - '#C6262B'
-  - '#A17361'
-  - '#C6373D'
-  - '#FA0F20'
-  - '#C64943'
+  - "#bf8d7a"
+  - "#cb1c26"
+  - "#f6031b"
+  - "#ef212a"
+  - "#bd8b76"
 tags:
-  - book
-  - review
-  - Jonathan Safran Foer
+  - books
+  - new-york
+  - jonathan-safran-foer
+  - storytelling
 metaRSS: true
 ---
 

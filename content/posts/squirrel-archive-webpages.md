@@ -1,18 +1,20 @@
 ---
+category: 1.2-web-development-and-tools
 title: Squirrel - Archive webpages so I can find them again
 date: 2025-01-09
 colors:
-  - "#5B5958"
-  - "#06276E"
-  - "#60512E"
-  - "#B8AF8A"
-  - "#493630"
+  - "#444f56"
+  - "#1f6faf"
+  - "#1ebe9c"
+  - "#3f3127"
+  - "#6d6141"
 tags:
-  - bookmarking
-  - saving
-  - automation
-  - searching
-  - content
+  - web-archiving
+  - search
+  - simplification
+  - productivity
+  - squirrel
+  - pinboard
 metaRSS: true
 ---
 

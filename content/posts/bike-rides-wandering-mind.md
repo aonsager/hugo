@@ -1,21 +1,23 @@
 ---
+category: 4.3-health-and-wellness
 title: Bike rides for my wandering mind
-date: '2025-05-29 13:51:00 +0900'
+date: 2025-05-29 13:51:00 +0900
 colors:
-  - '#94908B'
-  - '#555032'
-  - '#A1A2A1'
-  - '#045AC6'
-  - '#9F9F9F'
+  - "#d7c7ae"
+  - "#cdc9c0"
+  - "#4e3c2c"
+  - "#838474"
+  - "#6c6857"
 tags:
-  - commute
-  - bike
-  - mindfulness
-  - friends
+  - biking
+  - meditation
   - freedom
-blurb: >-
-  My daily commute includes a 20-minute bike ride to the train station. I
-  started this as a way to keep my body moving, but I've come to love it for the freedom it gives my mind. I can think about whatever I want to, but it's also all right to not think about anything.
+  - nature
+  - reflection
+  - exercise
+  - mindfulness
+  - community
+blurb: My daily commute includes a 20-minute bike ride to the train station. I started this as a way to keep my body moving, but I've come to love it for the freedom it gives my mind. I can think about whatever I want to, but it's also all right to not think about anything.
 metaRSS: true
 ---
 

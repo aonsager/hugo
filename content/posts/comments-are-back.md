@@ -1,18 +1,22 @@
 ---
+category: 1.2-web-development-and-tools
 title: Comments are back
-date: '2024-11-27'
+date: 2024-11-27
 colors:
-  - '#6D6558'
-  - '#746C56'
-  - '#6E1206'
-  - '#736B56'
-  - '#605E5B'
+  - "#3d3f3e"
+  - "#b8b4a4"
+  - "#b4a7a3"
+  - "#052dda"
+  - "#b8b6a4"
 tags:
   - comments
   - writing
   - communication
-  - blog
-  - discourse
+  - blogging
+  - feedback
+  - self-expression
+  - AI
+  - commento
 metaRSS: true
 ---
 

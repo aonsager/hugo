@@ -1,21 +1,22 @@
 ---
+category: 1.2-web-development-and-tools
 title: A website redesign
-date: '2025-04-18 14:02:00 +0900'
+date: 2025-04-18 14:02:00 +0900
 colors:
-  - '#DCD4AF'
-  - '#081699'
-  - '#96A7A7'
-  - '#ACAFD5'
-  - '#6B02FF'
+  - "#4e5961"
+  - "#4e0096"
+  - "#2f4dcb"
+  - "#3331c3"
+  - "#4d6e81"
 tags:
   - design
-  - website
-  - colors
-  - theme
+  - dark-mode
+  - color-palette
+  - navigation
   - javascript
-blurb: >-
-  I've overhauled the design of my website, and am very happy with how it turned
-  out.
+  - user-experience
+  - css
+blurb: I've overhauled the design of my website, and am very happy with how it turned out.
 metaRSS: true
 ---
 

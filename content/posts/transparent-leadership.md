@@ -1,21 +1,22 @@
 ---
+category: 6.3-leadership-and-professional-skills
 title: Transparent leadership
-date: '2025-12-09 13:11:00 +0900'
+date: 2025-12-09 13:11:00 +0900
 colors:
-  - '#B0B1B2'
-  - '#E7462D'
-  - '#F6CA5D'
-  - '#2F1B97'
-  - '#075E9B'
+  - "#737679"
+  - "#b0dca1"
+  - "#775cca"
+  - "#0e97ca"
+  - "#9bc1dd"
 tags:
   - leadership
   - communication
-  - transparency
   - efficiency
+  - teamwork
   - coaching
-blurb: >-
-  Effective leaders enable people to solve problems and make progress on their
-  own, so the presence of the best leaders will probably be hard to notice.
+  - transparency
+  - bottlenecks
+blurb: Effective leaders enable people to solve problems and make progress on their own, so the presence of the best leaders will probably be hard to notice.
 metaRSS: true
 ---
 

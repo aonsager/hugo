@@ -1,16 +1,19 @@
 ---
+category: 1.4-tech-devices-and-platforms
 title: Chargekey Review
 date: 2014-03-20 20:28:00
 tags:
-- tech
-- product
-- review
+  - chargekey
+  - usb-cable
+  - accessory
+  - keychain
+  - convenience
 colors:
-- "#6995DF"
-- "#746556"
-- "#A49A87"
-- "#ACB5D0"
-- "#5D2A0E"
+  - "#403f3f"
+  - "#b9b9ad"
+  - "#3a3a3c"
+  - "#8b8b88"
+  - "#e6c6a5"
 metaRSS: true
 ---
 

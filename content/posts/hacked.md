@@ -1,21 +1,22 @@
 ---
+category: 1.5-tech-infrastructure
 title: I was hacked!
 date: 2025-12-23T05:44:00.000Z
 colors:
-  - '#c50413'
-  - '#f584ba'
-  - '#000000'
-  - '#f40a0a'
-  - '#f10a0a'
+  - "#c50413"
+  - "#f584ba"
+  - "#000000"
+  - "#f40a0a"
+  - "#283450"
 tags:
-  - security
   - hacking
+  - security
   - docker
+  - vps
+  - nextjs
+  - umami
   - malware
-  - vulnerability
-blurb: >-
-  A Next.js vulnerability led to my VPS being hacked. After assessing damage, I
-  decided to scrap the server and move to a fresh new one.
+blurb: A Next.js vulnerability led to my VPS being hacked. After assessing damage, I decided to scrap the server and move to a fresh new one.
 metaRSS: true
 ---
 

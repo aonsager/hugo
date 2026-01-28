@@ -1,16 +1,18 @@
 ---
+category: 5.1-politics-and-economics
 title: Political surveys
-date: '2008-02-07T13:39:43+09:00'
+date: 2008-02-07T13:39:43+09:00
 colors:
-  - '#53D093'
-  - '#A50C0C'
-  - '#A1A49E'
-  - '#EFD032'
-  - '#448E92'
+  - "#009494"
+  - "#3e3e40"
+  - "#cc234c"
+  - "#90403f"
+  - "#8ac4c6"
 tags:
-  - politics
-  - psychology
-  - opinion
+  - voting
+  - sales
+  - marketing
+  - surveys
 metaRSS: true
 ---
 

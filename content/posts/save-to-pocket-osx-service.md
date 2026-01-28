@@ -1,16 +1,21 @@
 ---
+category: 1.1-software-development
 title: Save to Pocket - OSX Service
 date: 2013-05-22 00:26:00
 tags:
-- programming
-- mac
-- script
+  - macos
+  - pocket
+  - links
+  - service
+  - productivity
+  - automation
+  - scripts
 colors:
-- "#636063"
-- "#B2AFB0"
-- "#BEC0CA"
-- "#B0B0B0"
-- "#AFAFAF"
+  - "#4376f3"
+  - "#3877b2"
+  - "#64a6fc"
+  - "#bbab92"
+  - "#64491e"
 metaRSS: true
 ---
 

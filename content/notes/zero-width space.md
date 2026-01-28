@@ -1,13 +1,17 @@
 ---
+category: 1.2-web-development-and-tools
 title: Zero-width space
-date: '2026-01-19 10:22:00 +09:00'
+date: 2026-01-19 10:22:00 +09:00
 colors:
-tags: 
-- html
-- hack
-- unicode
+tags:
+  - unicode
+  - zero-width-space
+  - regex
+  - text-formatting
+  - hugo
+  - coding
+  - invisible-characters
 metaRSS: false
-draft: false
 ---
 
 There is a special unicode character that does not display visually, but exists to affect text formatting and layout.

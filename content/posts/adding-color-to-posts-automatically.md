@@ -1,18 +1,21 @@
 ---
+category: 2.1-visual-arts-and-design
 title: Generating Colors from Post Titles
-date: '2019-03-20'
+date: 2019-03-20
 colors:
-  - '#A27D7A'
-  - '#927D67'
-  - '#EFAB4D'
-  - '#24919A'
-  - '#535E5E'
+  - "#303f2f"
+  - "#b2b3b0"
+  - "#59534f"
+  - "#747575"
+  - "#a9b199"
 tags:
+  - colors
   - design
-  - blog
-  - color
-  - tool
-  - automation
+  - scripts
+  - images
+  - blogging
+  - optimization
+  - visuals
 metaRSS: true
 ---
 

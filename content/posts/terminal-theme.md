@@ -1,18 +1,22 @@
 ---
+category: 1.4-tech-devices-and-platforms
 title: Terminal Theme
 date: 2014-03-24 15:12:00
 comments: true
 tags:
-- mac
-- design
-- personal
-- color
+  - terminal
+  - themes
+  - customization
+  - colors
+  - fonts
+  - source-code-pro
+  - base16
 colors:
-- "#70032B"
-- "#103A66"
-- "#606071"
-- "#D01209"
-- "#919492"
+  - "#363034"
+  - "#3f3128"
+  - "#2d2e40"
+  - "#2c343f"
+  - "#62867a"
 metaRSS: true
 ---
 

@@ -1,17 +1,22 @@
 ---
+category: 4.1-personal-reflections
 title: A Father's Bookshelf
 date: '2022-02-07'
 colors:
-  - '#092E6E'
-  - '#CFB8B4'
-  - '#4F4F4F'
-  - '#6F6D70'
-  - '#8F9090'
+  - "#4d2724"
+  - "#bfbcc1"
+  - "#d9d3ac"
+  - "#21418c"
+  - "#ccc7b9"
 tags:
-  - personal
-  - books
+  - bookshelf
+  - fatherhood
+  - calvin-and-hobbes
+  - fantasy
+  - card-magic
+  - serendipity
+  - literature
   - parenting
-  - house
 metaRSS: true
 ---
 

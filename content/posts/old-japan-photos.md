@@ -1,22 +1,22 @@
 ---
+category: 7.2-japanese-places-and-travel
 title: Photos of Japan that haven't changed in 150 years
-date: '2025-05-23 14:18:00 +0900'
+date: 2025-05-23 14:18:00 +0900
 colors:
-  - '#27A2CE'
-  - '#575136'
-  - '#676154'
-  - '#6E2A12'
-  - '#A99276'
+  - "#786e6a"
+  - "#303e41"
+  - "#c6bead"
+  - "#eabf9c"
+  - "#2a492b"
 tags:
   - japan
-  - history
-  - culture
   - photography
-  - heritage
-blurb: >-
-  I expected these photos taken from 19th century Japan to feel like looking
-  into another world, but what struck me was how familiar some of them felt. It
-  makes it clear how cultural artifacts are so remarkably well-preserved here.
+  - architecture
+  - history
+  - osaka-castle
+  - nikko-toshogu
+  - sumiyoshi-taisha
+blurb: I expected these photos taken from 19th century Japan to feel like looking into another world, but what struck me was how familiar some of them felt. It makes it clear how cultural artifacts are so remarkably well-preserved here.
 metaRSS: true
 ---
 

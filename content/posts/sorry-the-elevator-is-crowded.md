@@ -1,18 +1,20 @@
 ---
+category: 7.3-life-in-japan
 title: Sorry the Elevator is Crowded
-date: '2022-05-25'
+date: 2022-05-25
 colors:
-  - '#03328B'
-  - white
-  - '#918D87'
-  - '#A36B2A'
-  - '#71706D'
+  - "#fefefe"
+  - "#746852"
+  - "#7f6951"
+  - "#a9a9aa"
+  - "#c0b7ab"
 tags:
-  - product
   - elevator
-  - office
-  - japan
-  - life
+  - design
+  - customers
+  - hospitality
+  - product
+  - marketing
 metaRSS: true
 ---
 

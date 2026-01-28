@@ -1,18 +1,21 @@
 ---
+category: 1.5-tech-infrastructure
 title: The Value of Blockchain Platforms
-date: '2018-08-02 21:00:00 +0900'
+date: 2018-08-02 21:00:00 +0900
 colors:
-  - '#48371F'
-  - '#493720'
-  - '#5D5765'
-  - '#564A4C'
-  - '#ACACAC'
+  - "#adbccf"
+  - "#b6d4ce"
+  - "#abbddc"
+  - "#6c6265"
+  - "#2261a1"
 tags:
-  - tech
   - blockchain
-  - analysis
-  - product
-  - business
+  - decentralization
+  - trust
+  - tokens
+  - platforms
+  - facebook
+  - mastodon
 metaRSS: true
 ---
 

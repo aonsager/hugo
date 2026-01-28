@@ -1,16 +1,19 @@
 ---
+category: 4.1-personal-reflections
 title: Dinner for 2
-date: '2008-03-28T13:39:50+09:00'
+date: 2008-03-28T13:39:50+09:00
 colors:
-  - '#AAA6A1'
-  - '#5C3315'
-  - '#49474F'
-  - '#9F6623'
-  - '#99230B'
+  - "#ac9e4a"
+  - "#afb0b6"
+  - "#aaa6a6"
+  - "#abacb3"
+  - "#8d99a5"
 tags:
-  - opinion
-  - people
-  - life
+  - dinner
+  - relationships
+  - dining
+  - etiquette
+  - technology
 metaRSS: true
 ---
 

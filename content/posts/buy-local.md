@@ -1,18 +1,20 @@
 ---
+category: 7.3-life-in-japan
 title: Buy local
 date: 2026-01-03 10:05:00 +09:00
 colors:
-  - "#87c9c9"
   - "#985636"
+  - "#87c9c9"
   - "#a2cd37"
   - "#3a6897"
-  - "#eee38f"
+  - "#253765"
 tags:
-  - local
   - reviews
-  - japan
-  - products
   - quality
+  - products
+  - minimal-desk-setups
+  - amesoba
+  - local
 metaRSS: true
 ---
 I look at reviews before buying things, and I prefer personal websites and youtube channels over large publications because I can get a feel for the person behind the opinions, and their preferences. I've noticed though that reviews gravitate towards a certain subset of good, but mostly American brands. This is only a problem because I live in Japan, where limited availability and terrible exchange rates makes everything feel twice as expensive as they ought to be.

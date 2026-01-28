@@ -1,16 +1,19 @@
 ---
+category: 5.2-culture-and-community
 title: The Incredible Network of Children
-date: '2009-12-21'
+date: 2009-12-21
 colors:
-  - '#FF8219'
-  - '#938977'
-  - '#B0AFAF'
-  - '#68574F'
-  - '#47AFCA'
+  - "#e3a2ad"
+  - "#4a3225"
+  - "#dab0b0"
+  - "#0e76a6"
+  - "#0085ab"
 tags:
-  - children
   - nostalgia
-  - game
+  - childhood
+  - video-games
+  - networking
+  - playground-games
   - communication
 metaRSS: true
 ---

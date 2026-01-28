@@ -1,21 +1,17 @@
 ---
+category: 1.1-software-development
 title: CrossPooter - Poot your toots around the web
-date: '2025-02-07 16:57:00 +0900'
+date: 2025-02-07 16:57:00 +0900
 colors:
-  - '#AA5B31'
-  - '#5E2F1D'
-  - '#A35B31'
-  - '#1F2859'
-  - '#A95B30'
+  - "#4376f3"
 tags:
-  - crosspooter
   - rss
+  - automation
+  - python
   - gotosocial
   - bluesky
-  - script
-blurb: >-
-  A simple script for personal use, that reads the RSS feed of my website and
-  posts the latest article to GoToSocial and Bluesky.
+  - scripts
+blurb: A simple script for personal use, that reads the RSS feed of my website and posts the latest article to GoToSocial and Bluesky.
 metaRSS: true
 ---
 

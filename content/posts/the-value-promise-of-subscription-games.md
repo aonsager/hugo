@@ -1,18 +1,18 @@
 ---
+category: 3.3-game-design-and-analysis
 title: The Value Promise of Subscription Games
-date: '2018-10-18'
+date: 2018-10-18
 colors:
-  - '#F8EA93'
-  - '#B5B5B5'
-  - '#F7CD8E'
-  - '#B0B0B0'
-  - '#B0AFB0'
+  - "#4c4e4e"
+  - "#d00016"
+  - "#bacdc1"
+  - "#cf0012"
+  - "#6fb4c1"
 tags:
-  - game
-  - business
-  - analysis
-  - mmo
-  - product
+  - world-of-warcraft
+  - subscription-games
+  - progression
+  - dungeons
 metaRSS: true
 ---
 

@@ -1,19 +1,20 @@
 ---
+category: 1.6-technology-other
 title: Original iChat UI
-date: '2008-03-19T03:00:50+09:00'
+date: 2008-03-19T03:00:50+09:00
 link: http://mooseyard.com/Jens/2008/03/the-origin-of-the-ichat-ui
 colors:
-  - '#AFB0AF'
-  - '#B1B7C0'
-  - '#A0A2A4'
-  - '#EAD197'
-  - '#291D5E'
+  - "#abaca6"
+  - "#b9bec0"
+  - "#b2bbc5"
+  - "#aeafaf"
+  - "#b9bec1"
 tags:
-  - product
-  - design
-  - mac
-  - history
-  - apple
+  - prototypes
+  - designs
+  - conversation
+  - user-interface
+  - iChat
 metaRSS: true
 ---
 

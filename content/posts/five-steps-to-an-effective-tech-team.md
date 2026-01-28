@@ -1,18 +1,20 @@
 ---
+category: 6.2-productivity-and-management
 title: Five Steps to an Effective Tech Team
-date: '2009-12-10'
+date: 2009-12-10
 colors:
-  - '#02366B'
-  - '#6C8D91'
-  - '#9F9F9F'
-  - '#E56003'
-  - '#A8A8A7'
+  - "#496c99"
+  - "#596077"
+  - "#9c60e3"
+  - "#c4c2c1"
+  - "#9fbca6"
 tags:
-  - business
-  - team
-  - startup
-  - work
-  - programming
+  - agile
+  - development
+  - leadership
+  - priorities
+  - sprints
+  - organization
 metaRSS: true
 ---
 

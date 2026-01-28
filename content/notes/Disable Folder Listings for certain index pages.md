@@ -1,10 +1,12 @@
 ---
+category: 1.2-web-development-and-tools
 title:
 date: 2025-12-24 11:24:00 +09:00
 colors:
 tags:
   - quartz
-  - coding
+  - typescript
+  - organization
 metaRSS: false
 ---
 

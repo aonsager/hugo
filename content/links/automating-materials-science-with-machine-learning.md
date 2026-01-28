@@ -1,19 +1,21 @@
 ---
+category: 8.4-science-other
 title: Automating Materials Science with Machine Learning
-date: '2018-12-20'
+date: 2018-12-20
 link: https://www.technologyreview.com/s/612388/a-robot-scientist-will-dream-up-new-materials-to-advance-computing-and-fight-pollution/
 colors:
-  - '#AEAEAE'
-  - '#4D311D'
-  - '#A0A0A2'
-  - '#8C9292'
-  - '#B1AFAF'
+  - "#AEAEAE"
+  - "#4D311D"
+  - "#A0A0A2"
+  - "#8C9292"
+  - "#B1AFAF"
 tags:
-  - tech
-  - science
-  - AI
-  - robot
-  - article
+  - automation
+  - machine-learning
+  - robotics
+  - materials-science
+  - hypotheses
+  - Kebotix
 metaRSS: true
 ---
 

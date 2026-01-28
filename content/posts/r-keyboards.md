@@ -1,21 +1,20 @@
 ---
+category: 1.4-tech-devices-and-platforms
 title: Rambling about — Keyboards
-date: '2025-11-27 15:36:00 +0900'
+date: 2025-11-27 15:36:00 +0900
 colors:
-  - '#3867D3'
-  - '#0B6B0E'
-  - '#908E73'
-  - '#A75C30'
-  - '#68960F'
+  - "#adcd3f"
+  - "#c9bca1"
+  - "#c5c3af"
+  - "#525157"
+  - "#84ace9"
 tags:
-  - keyboard
-  - mechanical
-  - typing
-  - split
-  - review
-blurb: >-
-  I love the IQUNIX Magi65, but did not enjoy the NuPhy Air75. I'm now curious
-  about split keyboards but have been resisting buying one so far.
+  - keyboards
+  - portability
+  - iqunix
+  - nuphy
+  - corne
+blurb: I love the IQUNIX Magi65, but did not enjoy the NuPhy Air75. I'm now curious about split keyboards but have been resisting buying one so far.
 metaRSS: true
 ---
 

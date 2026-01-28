@@ -1,19 +1,22 @@
 ---
+category: 3.2-puzzles-and-strategy-games
 title: Reimagining Chess with AlphaZero
-date: '2022-01-31'
+date: 2022-01-31
 link: https://cacm.acm.org/magazines/2022/2/258230-reimagining-chess-with-alphazero/fulltext
 colors:
-  - '#00000000'
-  - '#5E5857'
-  - '#5F5C5C'
-  - '#394352'
-  - '#5F5B5B'
+  - "#969796"
+  - "#fefefe"
+  - "#f6f6f6"
+  - "#787479"
+  - "#c1ccac"
 tags:
   - chess
-  - AI
-  - game
   - alphazero
-  - tech
+  - variants
+  - ai
+  - game-design
+  - evaluation
+  - rules
 metaRSS: true
 ---
 

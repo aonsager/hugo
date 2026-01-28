@@ -1,12 +1,15 @@
 ---
+category: 1.2-web-development-and-tools
 title: Related Posts
 date: 2026-01-25 22:03:00 +09:00
 colors:
 tags:
-  - hugo
   - tags
+  - heuristics
+  - efficiency
+  - content
+  - blogging
 metaRSS: false
-draft: false
 ---
 
 At the end of every post, I display list of related posts. Currently, this list is determined by looking at the number of tags in common with the current page. The idea is that if there are multiple common tags, it is pretty likely that the two posts are closely related.

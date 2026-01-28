@@ -1,18 +1,19 @@
 ---
+category: 4.1-personal-reflections
 title: Procrastination and Fear of Failure
-date: '2022-04-12'
+date: 2022-04-12
 colors:
-  - '#716E4E'
-  - '#553320'
-  - '#63639F'
-  - '#B1B2B5'
-  - '#CBB7A8'
+  - "#005874"
+  - "#d2d0ac"
+  - "#8a8a88"
+  - "#91d2fa"
+  - "#fdc800"
 tags:
-  - personal
   - procrastination
-  - lifehack
-  - motivation
-  - work
+  - techniques
+  - self-awareness
+  - mindset
+  - productivity
 metaRSS: true
 ---
 

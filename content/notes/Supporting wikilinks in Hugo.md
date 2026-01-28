@@ -1,13 +1,17 @@
 ---
+category: 1.2-web-development-and-tools
 title:
 date: 2026-01-16 22:51:00 +09:00
 colors:
 tags:
-  - hugo
+  - obsidian
   - wikilinks
-  - markdown
+  - regex
+  - html
+  - github
+  - workflow
+  - coding
 metaRSS: false
-draft: false
 ---
 
 I write my notes in Obsidian, and the support for wiki-style links is very convenient for linking notes, and even setting up links to notes before actually creating them. I wanted to enable these links on my generated site, without changing my current workflow in Obsidian.

@@ -1,4 +1,5 @@
 ---
+category: 1.1-software-development
 date: 2025-12-24 11:27:00 +09:00
 colors:
   - "#676360"

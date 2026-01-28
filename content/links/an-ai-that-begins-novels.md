@@ -1,18 +1,22 @@
 ---
+category: 1.3-ai-and-automation
 title: An AI That Begins Novels
-date: '2019-11-21'
+date: 2019-11-21
 link: https://aiweirdness.com/post/189170306297/how-to-begin-a-novel
 colors:
-  - '#8C6253'
-  - '#BACAD0'
-  - '#4E4D4C'
-  - '#5C6661'
-  - '#07358C'
+  - "#8C6253"
+  - "#BACAD0"
+  - "#4E4D4C"
+  - "#5C6661"
+  - "#07358C"
 tags:
-  - AI
+  - ai
+  - novels
   - creativity
-  - writing
-  - fun
+  - storytelling
+  - openings
+  - inspiration
+  - neural-networks
 metaRSS: true
 ---
 

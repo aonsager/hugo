@@ -1,18 +1,20 @@
 ---
+category: 1.4-tech-devices-and-platforms
 title: Apple sets the design standard
-date: '2008-02-13T03:49:29+09:00'
+date: 2008-02-13T03:49:29+09:00
 link: http://www.businessweek.com/innovate/content/jan2007/id20070108_046657.htm
 colors:
-  - '#919534'
-  - '#B0B0B1'
-  - '#515964'
-  - '#1E2356'
-  - '#E1AEA7'
+  - "#919534"
+  - "#B0B0B1"
+  - "#515964"
+  - "#1E2356"
+  - "#E1AEA7"
 tags:
-  - apple
   - design
-  - product
-  - article
+  - success
+  - apple
+  - innovation
+  - standards
 metaRSS: true
 ---
 

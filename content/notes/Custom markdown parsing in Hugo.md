@@ -1,12 +1,14 @@
 ---
+category: 1.2-web-development-and-tools
 title:
 date: 2026-01-16 22:41:00 +09:00
 colors:
 tags:
   - hugo
+  - goldmark
   - markdown
+  - regex
 metaRSS: false
-draft: false
 ---
 
 By default Hugo uses [goldmark](https://github.com/yuin/goldmark) to parse Markdown into HTML. There are a number of goldmark extensions that come included, but if you want to extend this functionality you will need to patch and rebuild Hugo from source. 

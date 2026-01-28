@@ -1,18 +1,20 @@
 ---
-title: 'Game Idea: PvP Pac-Man'
-date: '2018-08-23'
+category: 3.3-game-design-and-analysis
+title: "Game Idea: PvP Pac-Man"
+date: 2018-08-23
 colors:
-  - '#4D4E4E'
-  - '#054695'
-  - '#5A5B5C'
-  - '#5E5D55'
-  - '#F66E04'
+  - "#d08808"
+  - "#2a363d"
+  - "#52b0d6"
+  - "#c0bfc1"
+  - "#79bcd9"
 tags:
-  - game
-  - idea
-  - pacman
   - pvp
-  - maze
+  - pac-man
+  - gameplay
+  - strategy
+  - teamwork
+  - ghosts
 metaRSS: true
 ---
 

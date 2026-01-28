@@ -1,17 +1,21 @@
 ---
+category: 1.1-software-development
 title: Missingno. in Pokemon Fusion
 date: 2014-08-10 18:49:00
 tags:
-  - ruby
-  - programming
-  - dev
   - pokemon
+  - missingno
+  - fusion
+  - artwork
+  - imagemagick
+  - sprites
+  - glitches
 colors:
-  - "#9C9BA1"
-  - "#605B62"
-  - "#675A5C"
-  - "#A29EA5"
-  - "#696969"
+  - "#b8b5b8"
+  - "#cac7c3"
+  - "#96817e"
+  - "#b9babc"
+  - "#e35560"
 metaRSS: true
 ---
 

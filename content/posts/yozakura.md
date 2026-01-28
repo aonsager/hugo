@@ -1,18 +1,19 @@
 ---
+category: 7.2-japanese-places-and-travel
 layout: post
 title: 夜桜
 date: 2014-04-12 10:15:00
 tags:
-- photo
-- japan
-- kyoto
-- flower
+  - photo
+  - kyoto
+  - flower
+  - cherry-blossoms
 colors:
-- "#995AD3"
-- "#662515"
-- "#9D6598"
-- "#5B2B1C"
-- "#24265C"
+  - "#995AD3"
+  - "#662515"
+  - "#9D6598"
+  - "#5B2B1C"
+  - "#24265C"
 metaRSS: true
 ---
 

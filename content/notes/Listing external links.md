@@ -1,4 +1,5 @@
 ---
+category: 1.2-web-development-and-tools
 title: Listing external links
 date: 2026-01-02 22:41:00 +09:00
 colors:

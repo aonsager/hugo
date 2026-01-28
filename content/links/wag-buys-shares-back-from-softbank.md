@@ -1,19 +1,21 @@
 ---
+category: 6.1-business-and-entrepreneurship
 title: Wag Buys Shares Back from SoftBank
-date: '2019-12-11'
+date: 2019-12-11
 link: https://www.bloomberg.com/opinion/articles/2019-12-10/the-dogs-ate-softbank-s-money
 colors:
-  - '#B8B9C5'
-  - '#9F330A'
-  - '#D11304'
-  - '#363649'
-  - '#D11304'
+  - "#273851"
+  - "#59b9b1"
+  - "#ffffff"
+  - "#51b8b5"
+  - "#c5a76b"
 tags:
-  - business
-  - money
-  - startup
-  - investing
-  - news
+  - wag
+  - softbank
+  - investment
+  - startups
+  - financing
+  - valuation
 metaRSS: true
 ---
 

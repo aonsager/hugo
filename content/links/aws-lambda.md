@@ -1,19 +1,22 @@
 ---
+category: 1.5-tech-infrastructure
 title: AWS Lambda
-date: '2014-11-14T11:33:00+09:00'
+date: 2014-11-14T11:33:00+09:00
 link: http://aws.amazon.com/lambda
 colors:
-  - '#AF2202'
-  - '#D3210B'
-  - '#AFB0B0'
-  - '#3D454C'
-  - '#FD3400'
+  - "#AF2202"
+  - "#D3210B"
+  - "#AFB0B0"
+  - "#3D454C"
+  - "#FD3400"
 tags:
   - aws
   - lambda
   - automation
-  - script
-  - dev
+  - thumbnails
+  - dynamodb
+  - scalability
+  - infrastructure
 metaRSS: true
 ---
 

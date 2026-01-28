@@ -1,19 +1,19 @@
 ---
+category: 3.2-puzzles-and-strategy-games
 title: Dragonsweeper - A lovely minesweeper game
-date: '2025-01-28'
+date: 2025-01-28
 link: https://danielben.itch.io/dragonsweeper
 colors:
-  - '#475556'
-  - '#AFAFAF'
-  - '#5C0F11'
-  - '#34504B'
-  - '#612021'
+  - "#475556"
+  - "#AFAFAF"
+  - "#5C0F11"
+  - "#34504B"
+  - "#612021"
 tags:
   - minesweeper
+  - dragons
   - strategy
-  - gaming
   - monsters
-  - challenge
 metaRSS: true
 ---
 

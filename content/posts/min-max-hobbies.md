@@ -1,18 +1,20 @@
 ---
+category: 4.2-lifestyle-and-hobbies
 title: Don’t min-max your hobbies
 date: 2026-01-10 16:51:00 +09:00
 colors:
-  - "#6dc6e2"
-  - "#6dc6e6"
-  - "#5db2e7"
-  - "#636468"
-  - "#b0d18b"
+  - "#04c6fa"
+  - "#484237"
+  - "#03c5fa"
+  - "#acadad"
+  - "#afd18b"
 tags:
   - hobbies
+  - fantasy-life
   - gaming
-  - efficiency
   - enjoyment
-  - fun
+  - motivation
+  - efficiency
 metaRSS: true
 ---
 When I’m having fun with a hobby, nothing kills my motivation faster than learning about a better, more efficient way I could be doing things. 

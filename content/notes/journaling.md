@@ -1,12 +1,15 @@
 ---
+category: 4.2-lifestyle-and-hobbies
 title:
 date: 2026-01-19 14:30:00 +09:00
 colors:
 tags:
+  - journals
+  - bullet-journal
   - habits
-  - journal
+  - mental-health
+  - organization
 metaRSS: false
-draft: false
 ---
 I have a very simple approach to my physical journal.
 

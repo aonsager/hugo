@@ -1,17 +1,21 @@
 ---
+category: 2.2-writing-and-literature
 title: The Elegance of the Hedgehog
-date: '2009-07-08'
+date: 2009-07-08
 colors:
-  - '#D79D26'
-  - '#D19A2E'
-  - '#0F295C'
-  - '#B0A3BF'
-  - '#D09C2F'
+  - "#326a97"
+  - "#2d6c91"
+  - "#417398"
+  - "#d5c69f"
+  - "#ae9095"
 tags:
-  - book
-  - review
+  - fiction
   - philosophy
-  - Muriel Barbery
+  - paris
+  - wisdom
+  - bourgeois
+  - muriel-barbery
+  - class
 metaRSS: true
 ---
 

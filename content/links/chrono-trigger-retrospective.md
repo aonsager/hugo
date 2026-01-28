@@ -1,18 +1,20 @@
 ---
+category: 3.1-video-games
 title: Chrono Trigger Retrospective
-date: '2010-10-23'
+date: 2010-10-23
 link: http://socksmakepeoplesexy.net/index.php?a=trigger
 colors:
-  - '#572117'
-  - '#685F56'
-  - '#57230E'
-  - '#645112'
-  - '#56281E'
+  - "#572117"
+  - "#685F56"
+  - "#57230E"
+  - "#645112"
+  - "#56281E"
 tags:
-  - game
-  - chrono trigger
-  - review
-  - article
+  - chrono-trigger
+  - nostalgia
+  - game-designers
+  - retrospective
+  - fun
 metaRSS: true
 ---
 

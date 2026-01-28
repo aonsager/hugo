@@ -1,11 +1,15 @@
 ---
+category: 1.2-web-development-and-tools
 title:
 date: 2026-01-19 13:20:00 +09:00
 colors:
 tags:
   - obsidian
+  - plugins
+  - automation
+  - templates
+  - icloud
 metaRSS: false
-draft: false
 ---
 Notes about how I use Obsidian
 

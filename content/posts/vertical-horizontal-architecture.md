@@ -1,4 +1,5 @@
 ---
+category: 1.2-web-development-and-tools
 title: Vertical and horizontal architectures for websites
 date: 2026-01-22 16:16:00 +09:00
 colors:
@@ -8,12 +9,13 @@ colors:
   - "#96b286"
   - "#1b2a4f"
 tags:
-  - website
-  - design
-  - blog
-  - organization
+  - websites
+  - architecture
+  - content
+  - navigation
+  - digital-garden
+  - wikis
 metaRSS: false
-draft: false
 ---
 I recently rebuilt my site, and this gave me an opportunity to rethink how to organize its contents.
 

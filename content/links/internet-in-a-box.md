@@ -1,27 +1,25 @@
 ---
+category: 1.5-tech-infrastructure
 title: Internet in a Box
-date: '2025-05-01 12:41:00 +0900'
+date: 2025-05-01 12:41:00 +0900
 link: https://internet-in-a-box.org/
 colors:
-  - '#A49296'
-  - '#877248'
-  - '#A69397'
-  - '#885B26'
-  - '#88734A'
+  - "#2b323d"
+  - "#95a2a3"
+  - "#c2af8d"
+  - "#bba070"
+  - "#baad8c"
 tags:
-  - education
+  - internet-access
   - community
-  - connectivity
-  - resources
+  - education
+  - technology
   - innovation
-blurb: >-
-  Internet-in-a-Box acts as a Wi-Fi hotspot for remote locations, with
-  information preloaded to serve the community. Wikipedia, eBooks, online
-  courses, medical reference material, the possibilities are endless.
+  - india
+  - wifi
+blurb: Internet-in-a-Box acts as a Wi-Fi hotspot for remote locations, with information preloaded to serve the community. Wikipedia, eBooks, online courses, medical reference material, the possibilities are endless.
 metaRSS: true
 ---
-
-https://internet-in-a-box.org/
 > Internet-in-a-Box "learning hotspots" are used in dozens of countries, to give everyone a chance, e.g. in remote mountain villages in India.  
 > It works without internet — like a community fountain, but for the mind — wirelessly serving anyone nearby with a smartphone, tablet or laptop.
 

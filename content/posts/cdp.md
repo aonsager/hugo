@@ -1,23 +1,22 @@
 ---
+category: 6.2-productivity-and-management
 title: Communication-driven productivity
-date: '2025-06-05 15:45:00 +0900'
+date: 2025-06-05 15:45:00 +0900
 colors:
-  - '#6D6C6C'
-  - '#5D5753'
-  - black
-  - '#B3ADCC'
-  - '#353734'
+  - "#a39d9b"
+  - "#c7c1c1"
+  - "#87a1a4"
+  - "#7a5e48"
+  - "#4779c9"
 tags:
   - productivity
   - communication
   - framework
-  - preparation
-  - objectives
-blurb: >-
-  I've always considered my todo list as a list of things I need to do (for
-  obvious reasons). But I had a minor epiphany and realized that, in my current
-  role, everything I do has exactly zero value until I communicate it to the
-  right people.
+  - collaboration
+  - workflow
+  - meetings
+  - proposals
+blurb: I've always considered my todo list as a list of things I need to do (for obvious reasons). But I had a minor epiphany and realized that, in my current role, everything I do has exactly zero value until I communicate it to the right people.
 metaRSS: true
 ---
 

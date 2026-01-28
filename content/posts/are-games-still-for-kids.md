@@ -1,18 +1,20 @@
 ---
+category: 3.3-game-design-and-analysis
 title: Are Video Games Still For Kids?
-date: '2017-12-15 17:47:00 +0900'
+date: 2017-12-15 17:47:00 +0900
 colors:
-  - '#5B718B'
-  - '#562824'
-  - '#5C718B'
-  - '#584933'
-  - '#5F676C'
+  - "#827a69"
+  - "#423730"
+  - "#342e3f"
+  - "#c99f71"
+  - "#4c4f4e"
 tags:
-  - game
-  - opinion
-  - nintendo
+  - gaming
+  - adults
   - children
-  - product
+  - nintendo
+  - mario
+  - splatoon
 metaRSS: true
 ---
 

@@ -1,13 +1,14 @@
 ---
+category: 2.3-music-and-audio
 title: John Frusciante - Wayne
 date: 2013-04-09
 link: http://johnfrusciante.com/2013/04/07/wayne/
 tags:
   - music
-  - tribute
-  - friendship
+  - song
   - memory
-  - artist
+  - friendship
+  - john-frusciante
 colors:
   - "#383a35"
   - "#277e91"

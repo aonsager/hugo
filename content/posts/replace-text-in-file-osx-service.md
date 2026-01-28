@@ -1,16 +1,21 @@
 ---
+category: 1.1-software-development
 title: Replace Text in File - OSX Service
 date: 2014-03-31 20:23:00
 tags:
-- mac
-- programming
-- script
+  - osx
+  - applescript
+  - sed
+  - text-editing
+  - automation
+  - script
+  - files
 colors:
-- "#648ADC"
-- "#A1B4D2"
-- "#172D6F"
-- "#B2B2B2"
-- "#636666"
+  - "#bdbfc1"
+  - "#b1b2b6"
+  - "#6191cc"
+  - "#bfc2c0"
+  - "#fbfbfb"
 metaRSS: true
 ---
 

@@ -1,18 +1,22 @@
 ---
+category: 5.1-politics-and-economics
 title: Universal Basic Income
-date: '2018-12-05'
+date: 2018-12-05
 colors:
-  - '#DA3C3D'
-  - '#50504F'
-  - '#A8C8B9'
-  - '#777777'
-  - '#58666D'
+  - "#8bbcff"
+  - "#63c3e9"
+  - "#beb178"
+  - "#6acfc9"
+  - "#5bb1da"
 tags:
-  - economy
-  - income
-  - opinion
-  - america
-  - politics
+  - universal-basic-income
+  - capitalism
+  - robots
+  - redistribution
+  - innovation
+  - employment
+  - society
+  - alaska
 metaRSS: true
 ---
 

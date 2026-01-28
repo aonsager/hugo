@@ -1,18 +1,22 @@
 ---
+category: 2.2-writing-and-literature
 title: Beautiful vs. Effective Prose
-date: '2021-12-16'
+date: 2021-12-16
 colors:
-  - '#5B5C65'
-  - '#619C5E'
-  - '#4D2719'
-  - '#B0B0B0'
-  - '#B0B0B0'
+  - "#5d250e"
+  - "#3e3f3d"
+  - "#452623"
+  - "#b6c3cc"
+  - "#3f403f"
 tags:
-  - personal
-  - writing
   - prose
-  - language
-  - english
+  - communication
+  - journalism
+  - elements-of-style
+  - writing
+  - beauty
+  - simplicity
+  - craftsmanship
 metaRSS: true
 ---
 

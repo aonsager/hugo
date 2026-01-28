@@ -1,18 +1,20 @@
 ---
+category: 7.1-japanese-culture-and-history
 title: When a music festival was cancelled, idol fans supported the local community
 date: 2025-04-21 12:44:00 +0900
 colors:
-  - "#C90738"
-  - "#525151"
-  - "#582D1C"
-  - "#B73A3C"
-  - "#592D1C"
+  - "#4a4945"
+  - "#cf7762"
+  - "#2f5181"
+  - "#000000"
+  - "#383935"
 tags:
-  - japan
-  - festival
+  - momoiro-clover-z
+  - music-festival
+  - uplifting-news
   - fans
   - community
-  - compassion
+  - local
 blurb: Uplifting news from Japan. When a music festival was cancelled in the face of dangerous weather, fans praised the organizers for their quick decisions and took it upon themselves to support the local community in its stead.
 metaRSS: true
 ---

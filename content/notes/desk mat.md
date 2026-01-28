@@ -1,4 +1,5 @@
 ---
+category: 1.4-tech-devices-and-platforms
 title: Desk mat
 date: 2026-01-03 10:05:00 +09:00
 colors:
@@ -8,14 +9,14 @@ colors:
   - "#2a3644"
   - "#cc95d2"
 tags:
-  - desk
-  - mat
-  - wool
-  - comfort
-  - review
+  - desk-mats
   - amesoba
   - minimal-desk-setups
   - breenhill
+  - wool
+  - cashmere
+  - workspace
+  - comfort
 metaRSS: false
 ---
 ## Currently using

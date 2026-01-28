@@ -1,4 +1,5 @@
 ---
+category: 1.4-tech-devices-and-platforms
 title: Adguard was preventing sites from loading in Safari sometimes
 date: '2024-12-25'
 colors:

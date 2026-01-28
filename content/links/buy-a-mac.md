@@ -1,18 +1,19 @@
 ---
+category: 1.4-tech-devices-and-platforms
 title: Buy a mac
-date: '2008-02-12T05:00:30+09:00'
+date: 2008-02-12T05:00:30+09:00
 link: http://www.nytimes.com/2008/02/09/business/smallbusiness/09pursuits.html
 colors:
-  - '#12285C'
-  - '#9E9D9F'
-  - '#707072'
-  - '#F41214'
-  - '#B0B1B0'
+  - "#12285C"
+  - "#9E9D9F"
+  - "#707072"
+  - "#F41214"
+  - "#B0B1B0"
 tags:
-  - article
-  - apple
   - mac
-  - opinion
+  - pc
+  - technology
+  - computers
 metaRSS: true
 ---
 

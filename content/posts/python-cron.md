@@ -1,18 +1,20 @@
 ---
+category: 1.1-software-development
 title: Python script failing via cron
-date: '2025-02-26 15:11:00 +0900'
+date: 2025-02-26 15:11:00 +0900
 colors:
-  - '#080808'
-  - '#595A5A'
-  - '#777777'
-  - '#452D39'
-  - '#4D4A54'
+  - "#d0c5aa"
+  - "#5bc8d5"
+  - "#3a5d63"
+  - "#2d3a33"
+  - "#343434"
 tags:
+  - python
   - cron
   - debugging
-  - python
-  - scripting
-  - bestpractices
+  - openai
+  - best-practices
+  - scripts
 blurb: Debugging a Python script that silently failed only when executed via cron.
 metaRSS: true
 ---

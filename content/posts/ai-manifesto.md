@@ -1,4 +1,5 @@
 ---
+category: 1.3-ai-and-automation
 title: My AI manifesto
 date: '2025-03-28 16:55:00 +0900'
 colors:

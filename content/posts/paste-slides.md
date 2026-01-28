@@ -1,22 +1,21 @@
 ---
+category: 1.2-web-development-and-tools
 title: Copy and paste across Google Slides
-date: '2025-07-15 10:31:00 +0900'
+date: 2025-07-15 10:31:00 +0900
 colors:
-  - '#F97675'
-  - '#FF5050'
-  - '#AFAFAF'
-  - '#B1B1AF'
-  - '#939394'
+  - "#ffffff"
+  - "#bfbcbb"
+  - "#bfc1c3"
+  - "#c9bec2"
+  - "#1950aa"
 tags:
-  - web
-  - coding
-  - google
+  - google-slides
   - clipboard
   - html
-blurb: >-
-  I wanted to copy slides from one Google Slide document to another.
-  Half-expecting it to not work, I just copied slides in one document, switched
-  to a different tab, hit paste... and it worked! Seamless and perfect.
+  - data
+  - copy-paste
+  - javascript
+blurb: I wanted to copy slides from one Google Slide document to another. Half-expecting it to not work, I just copied slides in one document, switched to a different tab, hit paste... and it worked! Seamless and perfect.
 metaRSS: true
 ---
 

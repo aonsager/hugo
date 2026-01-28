@@ -1,19 +1,20 @@
 ---
-title: 'Picular - Google, but for Colors'
-date: '2018-08-30'
+category: 1.2-web-development-and-tools
+title: Picular - Google, but for Colors
+date: 2018-08-30
 link: https://picular.co/
 colors:
-  - '#9B7056'
-  - '#EB7C32'
-  - '#2E6EAF'
-  - '#983CE9'
-  - '#D53D53'
+  - "#dbb21c"
+  - "#4877ac"
+  - "#f9d347"
+  - "#81b8e9"
+  - "#74160e"
 tags:
-  - web
-  - design
-  - color
-  - fun
-  - search
+  - colors
+  - visual-search
+  - picular
+  - image-processing
+  - design-tools
 metaRSS: true
 ---
 

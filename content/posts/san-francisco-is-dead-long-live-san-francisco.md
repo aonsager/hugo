@@ -1,17 +1,21 @@
 ---
+category: 5.2-culture-and-community
 title: San Francisco Is Dead. Long Live San Francisco
 date: 2014-04-25 13:39:00
 tags:
-- opinion
-- article
-- america
-- politics
+  - san-francisco
+  - capitalism
+  - diversity
+  - gentrification
+  - community
+  - change
+  - tradition
 colors:
-- "#50504C"
-- "#F19823"
-- "#515252"
-- "#4F4F4E"
-- "#383732"
+  - "#363535"
+  - "#bcbfc0"
+  - "#3b364e"
+  - "#666565"
+  - "#afcdd9"
 ---
 
 From [Gary Kamiya](http://www.modernluxury.com/san-francisco/story/san-francisco-dead-long-live-san-francisco) in San Francisco Magazine, talking about the many factors and consequences of San Francisco's economic growth.

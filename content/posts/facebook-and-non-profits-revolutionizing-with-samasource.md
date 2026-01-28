@@ -1,17 +1,19 @@
 ---
-title: 'Facebook and Non-Profits: Revolutionizing with Samasource'
-date: '2009-08-21'
+category: 6.1-business-and-entrepreneurship
+title: "Facebook and Non-Profits: Revolutionizing with Samasource"
+date: 2009-08-21
 colors:
-  - '#5C5C5C'
-  - '#1E314A'
-  - '#A5A5A5'
-  - '#132A60'
-  - '#F75F25'
+  - "#e81e29"
+  - "#ef2227"
+  - "#e97ad8"
+  - "#ec2226"
+  - "#eb292a"
 tags:
   - facebook
   - samasource
-  - nonprofit
-  - business
+  - non-profits
+  - entrepreneurship
+  - technology
 metaRSS: true
 ---
 

@@ -1,18 +1,21 @@
 ---
+category: 2.1-visual-arts-and-design
 title: Star Wars Oil Paintings
-date: '2021-10-21'
+date: 2021-10-21
 link: https://www.nacicaba.com/star-wars-paintings/
 colors:
-  - '#555E69'
-  - '#4E4F4D'
-  - '#A0A39E'
-  - '#5D655A'
-  - '#2F5A5C'
+  - "#879eaf"
+  - "#353e43"
+  - "#c4c8c8"
+  - "#423b33"
+  - "#cdc7bd"
 tags:
-  - art
-  - painting
-  - star wars
+  - star-wars
+  - oil-paintings
+  - naci-caba
+  - colors
   - space
+  - art
 metaRSS: true
 ---
 

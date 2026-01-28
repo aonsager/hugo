@@ -1,17 +1,23 @@
 ---
+category: 7.4-japan-other
 title: Pray for Japan
-date: '2011-03-14'
+date: 2011-03-14
 link: http://prayforjapan.jp/
 colors:
-  - '#F4CF68'
-  - '#D6242F'
-  - '#EBCF72'
-  - '#ED1B24'
-  - '#763F27'
+  - "#3f4043"
+  - "#ed1b24"
+  - "#3e4043"
+  - "#f26367"
+  - "#d2af7e"
 tags:
   - japan
-  - tsunami
+  - earthquake
+  - compassion
+  - community
+  - hope
+  - resilience
   - kindness
+  - admiration
 metaRSS: true
 ---
 

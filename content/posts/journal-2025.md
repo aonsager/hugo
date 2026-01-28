@@ -1,18 +1,20 @@
 ---
+category: 4.2-lifestyle-and-hobbies
 title: Journaling in 2025
 date: 2025-12-27T03:13:00.000Z
 colors:
   - "#d6c9a0"
-  - "#cbccb9"
-  - "#7b645c"
+  - "#c8bab7"
   - "#4c3032"
-  - "#c0bebd"
+  - "#3f352c"
+  - "#c4c8c9"
 tags:
+  - journaling
+  - bullet-journal
+  - japanese
+  - self-improvement
   - reflection
-  - organization
   - habits
-  - language
-  - journal
 metaRSS: true
 blurb: A reflection of my new journaling habit. This is the first time I managed to maintain the habit for a full year.
 ---

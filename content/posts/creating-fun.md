@@ -1,16 +1,19 @@
 ---
+category: 3.3-game-design-and-analysis
 title: Creating Fun
 date: 2014-06-25 23:28:00
 tags:
-- opinion
-- game
-- product
+  - fun
+  - game-design
+  - inspiration
+  - creativity
+  - originality
 colors:
-- "#624D33"
-- "#F7ED51"
-- "#A5A5A0"
-- "#A2A2A2"
-- "#B64336"
+  - "#f9a963"
+  - "#eec282"
+  - "#7d7c7c"
+  - "#ffd216"
+  - "#c6c4c5"
 metaRSS: true
 ---
 
@@ -22,7 +25,7 @@ Games like [Flappy Bird](http://en.wikipedia.org/wiki/Flappy_Bird) and [2048](ht
 
 The makers of [Threes](http://asherv.com/threes/) went through a tremendous amount of creative iteration before publishing their game. They considered the game system that eventually would become 2048, but decided that it didn't fit their criteria for what makes a game "good". I would imagine that during the game design process they prioritized the game's strategic depth, such as the lack of a clear _correct_ way to play. They nixed 2048 because it's relatively easy to score high if you stick to one corner, and they felt that this detracted from the game's potential.
 
-As it turns out, those elements that they felt would make the game less _good_ in fact ended up making the game more _fun_, and led to the huge success of 2048, which implements the simpler version. I'm not arguing against the quality of Threes, which was widely acclaimed for good reason. My point is simply that more people found 2048 to be more fun.
+As it turns out, those elements that they felt would make the game less _good_ in fact ended up making the game more _fun_, and led to the huge success of 2048, which implements the simpler version. I'm not arguing ag`nst the quality of Threes, which was widely acclaimed for good reason. My point is simply that more people found 2048 to be more fun.
 
 ## Searching for Fun ##
 

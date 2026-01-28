@@ -1,18 +1,20 @@
 ---
+category: 4.4-relationships-and-family
 title: Meals as a Social Activity
-date: '2009-05-23'
+date: 2009-05-23
 colors:
-  - '#5A281B'
-  - '#576865'
-  - '#566865'
-  - '#55615C'
-  - '#526E6E'
+  - "#36363a"
+  - "#6d5140"
+  - "#736154"
+  - "#643696"
+  - "#6d5538"
 tags:
-  - life
-  - thought
-  - meal
-  - social
-  - friend
+  - meals
+  - solitude
+  - dining
+  - food
+  - culture
+  - conversation
 metaRSS: true
 ---
 

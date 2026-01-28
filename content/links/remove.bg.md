@@ -1,19 +1,20 @@
 ---
+category: 1.2-web-development-and-tools
 title: Remove.bg - Remove the Background of Any Photo
-date: '2019-03-19'
+date: 2019-03-19
 link: https://www.remove.bg/
 colors:
-  - '#5E2813'
-  - '#0E64A1'
-  - '#AFAFAD'
-  - '#383939'
-  - '#B55334'
+  - "#6ba7bf"
+  - "#e1a883"
+  - "#4f514d"
+  - "#284757"
+  - "#737a75"
 tags:
-  - AI
-  - app
-  - photography
-  - tool
-  - service
+  - photo-editing
+  - background-removal
+  - remove-bg
+  - subscription
+  - images
 metaRSS: true
 ---
 

@@ -1,17 +1,20 @@
 ---
+category: 9-miscellaneous
 title: Web Links - August 2022
-date: '2022-09-01'
+date: 2022-09-01
 colors:
-  - '#F66C03'
-  - '#020202'
-  - '#0E5EB1'
-  - '#9FA0A0'
-  - '#A2A5E2'
+  - "#F66C03"
+  - "#020202"
+  - "#0E5EB1"
+  - "#9FA0A0"
+  - "#A2A5E2"
 tags:
-  - ai
-  - conversation
+  - stable-diffusion
+  - conversation-styles
+  - interruptions
   - diagrams
   - flowcharts
+  - tools
 metaRSS: true
 ---
 

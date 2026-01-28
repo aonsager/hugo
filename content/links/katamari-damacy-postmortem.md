@@ -1,22 +1,24 @@
 ---
+category: 3.3-game-design-and-analysis
 title: Katamari Damacy postmortem
-date: '2025-02-12 11:48:00 +0900'
+date: 2025-02-12 11:48:00 +0900
 link: https://www.gamedeveloper.com/design/postmortem-the-singular-design-of-namco-s-katamari-damacy-2004-
 colors:
-  - '#4E2F21'
-  - '#E8D798'
-  - '#E49A19'
-  - '#5B231F'
-  - '#632B1F'
+  - "#c3bfbe"
+  - "#c9c1c2"
+  - "#cab5ab"
+  - "#c8bec0"
+  - "#47547a"
 tags:
-  - game
-  - developer
+  - katamari-damacy
   - postmortem
-  - katamari
+  - game-development
+  - keita-takahashi
   - anniversary
-blurb: >-
-  Game Developer republished a postmortem from 2004 about Namco's Katamari
-  Damacy, written by the game's director Keita Takahashi.
+  - design
+  - regrets
+  - ambitions
+blurb: Game Developer republished a postmortem from 2004 about Namco's Katamari Damacy, written by the game's director Keita Takahashi.
 metaRSS: true
 ---
 

@@ -1,4 +1,5 @@
 ---
+category: 1.3-ai-and-automation
 title: Claude Code statusLine
 date: 2026-01-06 10:30:00 +09:00
 colors:

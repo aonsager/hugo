@@ -1,18 +1,21 @@
 ---
+category: 5.1-politics-and-economics
 title: "'Gitmo is Killing Me'"
 date: 2013-04-18 13:14:00
 link: http://www.nytimes.com/2013/04/15/opinion/hunger-striking-at-guantanamo-bay.html
 tags:
-- news
-- opinion
-- article
-- politics
+  - guantanamo
+  - detention
+  - prisoners
+  - hunger-strike
+  - human-rights
+  - imprisonment
 colors:
-- "#5F5F5F"
-- "#A1A1A1"
-- "#4F4F4F"
-- "#946B58"
-- "#4F4F4F"
+  - "#5F5F5F"
+  - "#A1A1A1"
+  - "#4F4F4F"
+  - "#946B58"
+  - "#4F4F4F"
 metaRSS: true
 ---
 

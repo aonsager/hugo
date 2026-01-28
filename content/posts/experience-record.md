@@ -1,19 +1,22 @@
 ---
+category: 4.1-personal-reflections
 title: To experience, rather than record
 date: 2025-06-30 10:21:00 +0900
 colors:
-  - "#AEAFAE"
-  - "#9ED4E7"
-  - "#92A195"
-  - "#5D0E22"
-  - "#AFAFAF"
+  - "#949f5c"
+  - "#515a3e"
+  - "#a2994a"
+  - "#3b3937"
+  - "#3987d1"
 tags:
-  - notetaking
-  - knowledge
+  - experiences
+  - memory
+  - parenting
+  - mindfulness
   - pkm
-  - remembering
-  - experience
-  - life
+  - notetaking
+  - childhood
+  - performance
 blurb: I have never made any meaningful headway in deliberate note-taking, or knowledge management, or second-brain creation. But I honestly prefer experiencing life without the pressure to record.
 metaRSS: true
 ---

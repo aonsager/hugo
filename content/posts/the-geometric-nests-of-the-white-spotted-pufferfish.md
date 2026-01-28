@@ -1,18 +1,20 @@
 ---
+category: 8.2-nature-and-biology
 title: The geometric nests of the white-spotted pufferfish
 date: 2025-02-04 14:25:00 +0900
 colors:
-  - "#ADADAD"
-  - "#635F57"
-  - "#AFAEAE"
-  - "#020202"
-  - "#AFAFAE"
+  - "#105f58"
+  - "#a5b9d1"
+  - "#bcb5ac"
+  - "#929196"
+  - "#bfc1bc"
 tags:
   - pufferfish
-  - discovery
-  - nesting
-  - japan
-  - marine
+  - nests
+  - amami-oshima
+  - marine-life
+  - reproduction
+  - biology
 blurb: Male white-spotted pufferfish spend roughly a week constructing an elaborate circular nest about 2 meters in diameter to attract females.
 metaRSS: true
 ---

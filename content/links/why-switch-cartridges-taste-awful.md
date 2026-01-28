@@ -1,19 +1,21 @@
 ---
+category: 1.6-technology-other
 title: Why Switch Cartridges Taste Awful
-date: '2022-01-27'
+date: 2022-01-27
 link: https://www.polygon.com/2017/3/1/14784140/nintendo-switch-cartridges-taste-awful-psa
 colors:
-  - '#63D424'
-  - '#656762'
-  - '#542B1C'
-  - '#646761'
-  - '#5F575F'
+  - "#a9a29a"
+  - "#cabecc"
+  - "#d0c9b6"
+  - "#383940"
+  - "#7e1473"
 tags:
+  - nintendo
   - switch
-  - tech
-  - product
-  - trivia
-  - taste
+  - cartridges
+  - design
+  - safety
+  - gaming
 metaRSS: true
 ---
 
