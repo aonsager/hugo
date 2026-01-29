@@ -10,20 +10,26 @@ This includes reference material, notes on personal progression, and my thoughts
 
 ## Mobile
 
-| Title                          | Status     |
-| ------------------------------ | ---------- |
-| [[games/Chaos Zero Nightmare]] | 🎮 Playing |
+[Chaos Zero Nightmare](chaos-zero-nightmare)  
+ 🎮 Playing
 
 ## PlayStation 5
 
-|Title     | Status |
-| --- | --- |
-|   Fantasy Life i  |  🎮 Playing   |
-|   God of War Ragnarök  |  🎁 Wishlist   |
+Fantasy Life i  
+🎮 Playing
+
+God of War Ragnarök  
+🎁 Wishlist
 
 ## PC
 
-|Title     | Status |
-| --- | --- |
-|   Kingdom Come: Deliverance  |  ⏳ Hiatus   |
-|   Kingdom Come: Deliverance 2  |  🎁 Wishlist   |
+Kingdom Come: Deliverance  
+⏳ Hiatus
+
+Kingdom Come: Deliverance 2  
+🎁 Wishlist
+
+## Other
+
+[Anchorhead](Anchorhead)  
+🎮 Playing
