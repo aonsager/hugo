@@ -38,10 +38,10 @@ This logic gate felt a little too rigid.
 I saw the spheres, remembered them from my dream, and noticed the fingerprints on them. Obviously, I have to touch them.
 
 I touch them, and nothing happens. 
-I try to pull on them, move them, push them, and nothing happens. They do not move.
+I try to pull on them, move them, push them, and always it's "It doesn't budge".
 I rub them, and the fingerprints go away (this was a nice detail)
 
-Within all that, I would have never come up with the verb `twist`. Other ways of moving the spheres gave me the impression that they are solidly fastened and immovable. I did not think to try other ways of motion. 
+Within all that, I would have never come up with the verb `twist`. "It doesn't budge" suggests pretty strongly that there's no way to move the spheres. I did not think to try other ways of motion. 
 
 Some hints here would be been really nice! Even if "try another way to moving them?" is too in-your-face, something like 
 
@@ -50,3 +50,15 @@ Some hints here would be been really nice! Even if "try another way to moving th
 > You try to pull the spheres away from the wall, but cannot get them out of their ensconcement. 
 
 gives a subtle hint that this particular direction was not fruitful. 
+
+## Cutting free from the straitjacket
+
+- Notice that there is a window at the end of the hall.
+- Realize that it has cracks
+- Decide to wedge your broken bit of glass into a crack to cut yourself free
+
+I would have never come up with that on my own! I think the main thing is that the window itself is too subtle. I guess some games are like that, where you just have to comb each room for every tiniest detail. And I guess if you're going to have a puzzle like that, you ought to do it in a small enclosed area, which the asylum is. 
+
+But consider that you probably will have a time-bomb waiting to eat you, and this becomes a lot less feasible.
+
+

@@ -1,5 +1,5 @@
 ---
-title: Anchorhead
+title: Anchorhead  - Play notes
 date: 2026-01-29 11:56:00 +09:00
 colors:
   - "#45383b"
@@ -37,3 +37,6 @@ Like most text-based games with a moderate amount of freedom, I did get stuck a 
 ## Playthrough notes
 
 - [[notes-playthrough1]] DIED 32/100
+- [[notes-playthrough2]] DIED 37/100
+- [[notes-playthrough3]] DIED 50/100
+- [[notes-playthrough4]] FINISHED 94/100

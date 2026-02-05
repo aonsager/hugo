@@ -2,21 +2,9 @@
 title: Play-through 1 | Anchorhead
 date: 2026-01-22 15:06:00 +09:00
 colors:
-  - "#8e8e67"
-  - "#bba989"
-  - "#73584f"
-  - "#c9bfb4"
-  - "#5f380f"
 tags:
-  - interactive-fiction
-  - audio-narrative
-  - horror
-  - mystery
-  - gameplay
-  - exploration
-  - narrative-driven
 metaRSS: false
-category: 3.1-video-games
+category:
 ---
 ## People
 ### Family members

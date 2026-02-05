@@ -644,6 +644,16 @@ table.archive-list {
     }
 }
 
+table.solid {
+    border-collapse: collapse;
+    
+    td {
+        border: 1px solid var(--color-ink-soft);
+        border-radius: 5px;
+        padding: calc(var(--spacing-unit) * 0.5) var(--spacing-unit);
+    }
+}
+
 hr {
     margin: calc(2 * var(--spacing-unit)) auto;
     background-color: var(--color-shadow-strong);
