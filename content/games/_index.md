@@ -27,4 +27,7 @@ Kingdom Come: Deliverance 2  🎁 Wishlist
 
 ## Other
 
-[Anchorhead](Anchorhead)  ✅️ Finished
+<table class="solid">
+	<td><a href="anchorhead">Anchorhead</a></td>
+	<td>✅️ Finished</td>
+</table>

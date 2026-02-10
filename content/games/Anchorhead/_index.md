@@ -31,8 +31,8 @@ Like most text-based games with a moderate amount of freedom, I did get stuck a 
 
 ## Pages
 
-- I've worked out a [map](anchorhead-map.png) as I've played. This was very helpful, and fun.
-- A short [list of grievances](grievances) that could be improved.
+- I've worked out a <a href="./anchorhead-map.png">map</a> as I've played. This was very helpful, and fun.
+- A short [[grievances | list of grievances]] that could be improved.
 
 ## Playthrough notes
 
