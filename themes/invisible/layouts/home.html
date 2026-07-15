@@ -6,18 +6,29 @@
     <div class="home-card">
         <div class="card-header">
             <span class="card-title">Posts</span>
-            <span class="meta">Performative thinking</span>
+            <span class="meta">Performative thinking about a topic</span>
         </div>
         <div class="card-footer">
             <a href="/posts">All posts →</a>
         </div>
         <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "posts" "count" 5) }}</ul>
     </div>
+
+    <div class="home-card">
+        <div class="card-header">
+            <span class="card-title">Journal</span>
+            <span class="meta">Freeform thoughts from my life</span>
+        </div>
+        <div class="card-footer">
+            <a href="/journal">All entries →</a>
+        </div>
+        <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "journal" "count" 5) }}</ul>
+    </div>
     
     <div class="home-card">
         <div class="card-header">
             <span class="card-title">Links</span>
-            <span class="meta">Things I liked</span>
+            <span class="meta">Things I saw and liked</span>
         </div>
         <div class="card-footer">
             <a href="/links">All links →</a>
