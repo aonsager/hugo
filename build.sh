@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+# Step 0: Fetch new micro-posts from GoToSocial into the vault
+echo "Step 0: Fetching new micro-posts from GoToSocial..."
+python3 fetch_micro.py
+
 # Step 1: Sync from Obsidian vault to /content/
 echo "Step 1: Syncing content from Obsidian vault..."
 rsync -a --exclude '.*' --exclude '_*' --delete "$CONTENT_SOURCE" content
