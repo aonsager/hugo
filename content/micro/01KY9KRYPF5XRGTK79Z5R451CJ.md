@@ -1,0 +1,6 @@
+---
+date: '2026-07-24 17:27:00 +0900'
+toot_id: 01KY9KRYPF5XRGTK79Z5R451CJ
+---
+<p>We got a lemon tree, not for the fruit, but as a caterpillar farm. These swallowtails love citrus leaves, and we have a number of residents at various development stages.</p>
+<div class='gallery'><div><a href='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/original/01KY9KR9KKJ2G65WZ51WA0K8MV.jpeg'><img src='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/small/01KY9KR9KKJ2G65WZ51WA0K8MV.jpeg' alt='A caterpillar on a green lemon leaf, just starting to change from brown to green.'/></a></div><div><a href='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/original/01KY9KRFAS9ZFDPHZW1ZM0MP92.jpeg'><img src='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/small/01KY9KRFAS9ZFDPHZW1ZM0MP92.jpeg' alt='A caterpillar on a green lemon leaf, mostly brown but starting to turn green.'/></a></div><div><a href='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/original/01KY9KRQTBD1S09940YPVBQB51.jpeg'><img src='https://gts.invisibleparade.com/fileserver/01GH6B64M32N9Y4742YPSN8KAY/attachment/small/01KY9KRQTBD1S09940YPVBQB51.jpeg' alt='A fully green caterpillar sitting proud on a green lemon leaf.'/></a></div></div>

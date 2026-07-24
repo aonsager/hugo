@@ -117,3 +117,9 @@ This is what I tried to to during this session. I would hold my breath for two s
 Next time (I should have tried this time) I will try slowly breathing out until I'm basically empty, and then take a quick sip of fresh air. This will probably make my body sink a little, so I need to pay extra attention to balance, but it's not like I'll sink to the bottom. 
 
 Sidenote: I've seen some videos of swimmers who seem to have their head completely submerged in the water, and when they take a breath it looks like they're reaching up out of the water with their mouth. Is this what it will feel like? 
+
+## 7/12
+
+I made some big progress today, and wrote about it [here](/journal/20260715). 
+
+Hopefully this means it'll be easier for me to continue to improve.

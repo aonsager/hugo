@@ -123,6 +123,8 @@ def main():
     if not content_source:
         sys.exit("Error: CONTENT_SOURCE is not set.")
     host = os.environ.get("GTS_HOST", DEFAULT_HOST)
+    if not host.startswith(("http://", "https://")):
+        host = "https://" + host
     account_id = os.environ.get("GTS_ACCOUNT_ID", DEFAULT_ACCOUNT_ID)
 
     micro_dir = Path(content_source) / "micro"
