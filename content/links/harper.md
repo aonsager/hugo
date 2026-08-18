@@ -1,5 +1,5 @@
 ---
-title: harper
+title: "Harper: Privacy-First Offline Grammar Checker"
 link: https://writewithharper.com/
 date: 2026-08-04T10:02:09+09:00
 colors:
