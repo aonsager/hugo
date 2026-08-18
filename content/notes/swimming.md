@@ -91,7 +91,7 @@ Kick from the hips, to avoid just kicking with the shins. Kicking from below the
 
 Drill 1: Torpedo kicking
 
-With arms at your side, kick a little bit, stop kicking, and start kicking again when the legs begin to fall. This is good practice to focus mainly on keeping the body horizontal, and also on kicking technique.
+With arms at your side, kick a little bit, stop kicking, and start kicking again when the legs begin to fall. This is good practice to focus mainly on keeping the body horizontal, and on kicking technique.
 
 Drill 2: Skating with breathing
 
@@ -109,14 +109,14 @@ Drilling went well, but I've firmly established that I'm having a hard time with
 
 Torpedo kicking was really hard, too. I can balance myself fine with two arms held in front. But with hands to my sides, my legs drop immediately. I try pushing down with my chest and head, but it doesn't seem to help. Is my core weak? I'm not really sure. Maybe being able to balance with my arms forward is good enough, but this might be at least a yellow flag. 
 
-Now, breathing. My head position is hard, as well as the actual inhale/exhale technique. Practicing while walking was pretty helpful to get a sense of having one goggle in the water, and getting used to breathing near the water line. I still feel like my head is rising when I take a breath, so I need to keep paying attention to this. I saw one tip that it can help to keep your eyes pointed in the water, rather than sideways or up. Just a little thing to keep your head from pointing away too much.
+Now, breathing. My head position is hard, as well as the actual inhale/exhale technique. Practicing while walking was pretty helpful to get a sense of having one goggle in the water, and getting used to breathing near the waterline. I still feel like my head is rising when I take a breath, so I need to keep paying attention to this. I saw one tip that it can help to keep your eyes pointed in the water, rather than sideways or up. Just a little thing to keep your head from pointing away too much.
 
 And I'm not really sure how much I should be inhaling and exhaling. I get tired after a 25m length, which probably means I am holding too much CO2. But, I've also heard people say that it's important to keep a set amount of air in your lungs to help with buoyancy. They say to hold your breath for most of the time, blow out air as you turn your head, and take a sip in when you clear the water.
-This is what I tried to to during this session. I would hold my breath for two strokes, breathe out on the way up on the third stroke to maybe 40-50% capacity, and fill up again with a quick sip. But maybe this is keeping too much CO2 in my lungs.
+This is what I tried to do during this session. I would hold my breath for two strokes, breathe out on the way up on the third stroke to maybe 40-50% capacity, and fill up again with a quick sip. But maybe this is keeping too much CO2 in my lungs.
 
 Next time (I should have tried this time) I will try slowly breathing out until I'm basically empty, and then take a quick sip of fresh air. This will probably make my body sink a little, so I need to pay extra attention to balance, but it's not like I'll sink to the bottom. 
 
-Sidenote: I've seen some videos of swimmers who seem to have their head completely submerged in the water, and when they take a breath it looks like they're reaching up out of the water with their mouth. Is this what it will feel like? 
+Side-note: I've seen some videos of swimmers who seem to have their head completely submerged in the water, and when they take a breath it looks like they're reaching up out of the water with their mouth. Is this what it will feel like? 
 
 ## 7/12
 
