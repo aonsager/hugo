@@ -1,4 +1,4 @@
-{{- $pages := where site.RegularPages "Section" "in" (slice "posts" "links") }}
+{{- $pages := where site.RegularPages "Section" "in" (slice "posts" "links" "journal") }}
 {{- $title := .Site.Title }}
 {{- if ne .Title .Site.Title }}
   {{- $title = printf "%s on %s" .Title .Site.Title }}

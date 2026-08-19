@@ -1,2 +1,2 @@
-{{- $pages := where site.RegularPages "Section" "posts" }}
+{{- $pages := where site.RegularPages "Section" "in" (slice "posts" "journal") }}
 {{- partial "rss-feed.xml" (dict "pages" $pages "title" (printf "Posts on %s" .Site.Title) "description" (printf "Recent posts on %s" .Site.Title) "outputFormat" "posts" "context" .) }}
