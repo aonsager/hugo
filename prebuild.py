@@ -141,6 +141,45 @@ def resolve_image(src, image_index, content_dir):
     return (None, False)
 
 
+COVER_PATTERN = re.compile(r'^cover:[ \t]*(.*)$', re.MULTILINE)
+
+
+def get_cover(content):
+    """
+    Return the `cover:` frontmatter value as a plain path or URL, or None.
+    Accepts Obsidian links like "[[file.jpg]]" or "![[file.jpg|alias]]".
+    """
+    if not content.startswith('---'):
+        return None
+    end = content.find('\n---', 3)
+    if end == -1:
+        return None
+    match = COVER_PATTERN.search(content, 0, end)
+    if not match:
+        return None
+    value = match.group(1).strip().strip('"\'').strip().lstrip('!')
+    if value.startswith('[[') and value.endswith(']]'):
+        value = value[2:-2].split('|')[0]
+    return value.strip() or None
+
+
+def set_cover(content, filename):
+    """Point the `cover:` frontmatter field at a bundle-relative filename."""
+    end = content.find('\n---', 3)
+    head = COVER_PATTERN.sub(lambda _: f'cover: "{filename}"', content[:end], count=1)
+    return head + content[end:]
+
+
+def resolve_cover(src, source_dir, image_index, content_dir):
+    """Resolve a cover image: next to the note first, then the usual image lookup."""
+    if not is_external_url(src):
+        local = source_dir / src
+        if local.is_file():
+            return local
+    path, _ = resolve_image(src, image_index, content_dir)
+    return path
+
+
 def parse_html_img_attrs(img_tag):
     """Parse attributes from an HTML img tag."""
     attrs = {}
@@ -194,6 +233,9 @@ def filename_to_title(filename):
     """
     # Remove .md extension
     title = filename.removesuffix('.md')
+    # Filenames with spaces are already human-readable (e.g. "God of War - Ragnarok")
+    if ' ' in title:
+        return title[0].upper() + title[1:]
     # Replace --- with a placeholder to preserve em-dash style separators
     title = title.replace('---', '\x00')
     # Replace remaining - with spaces
@@ -248,7 +290,7 @@ def ensure_title_in_frontmatter(content, title):
             return '---' + new_frontmatter + content[frontmatter_end - 4:], True
     else:
         # No title field, add it at the beginning of frontmatter
-        new_frontmatter = f'title: "{title}"\n' + frontmatter
+        new_frontmatter = f'\ntitle: "{title}"' + frontmatter
         return '---' + new_frontmatter + content[frontmatter_end - 4:], True
 
 
@@ -327,10 +369,13 @@ def process_content_file(md_file, image_index, content_dir):
             images_found.append(('html', match, src, attrs))
             has_processable_images = True
 
-    if not has_processable_images:
+    cover_src = get_cover(content)
+
+    if not has_processable_images and not cover_src:
         return title_added  # Return True if title was added, False otherwise
 
     # Convert to page bundle
+    source_dir = md_file.parent
     bundle_dir = convert_to_page_bundle(md_file)
 
     # Update md_file path if it was moved
@@ -407,6 +452,12 @@ def process_content_file(md_file, image_index, content_dir):
     replacements.sort(key=lambda x: x[0], reverse=True)
     for start, end, new_text in replacements:
         content = content[:start] + new_text + content[end:]
+
+    # Frontmatter cover image (done after body replacements so their offsets stay valid)
+    if cover_src:
+        cover_path = resolve_cover(cover_src, source_dir, image_index, content_dir)
+        if cover_path:
+            content = set_cover(content, copy_image_to_bundle(cover_path, bundle_dir, cover_src))
 
     # Write updated content
     md_file.write_text(content, encoding='utf-8')

@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ partial "custom-content" . }}
+
+    {{- /* .Date = finished, else started (see frontmatter.date in hugo.yaml) */}}
+    {{ $active := where .RegularPages "Params.status" "in" (slice "current" "paused") }}
+    {{ $done := where (complement $active .RegularPages) "Date.Year" "gt" 1 }}
+
+    {{ with $active }}
+        <h2>Now</h2>
+        <ul class="media-grid">
+            {{ range .ByDate.Reverse }}{{ partial "media-card.html" . }}{{ end }}
+        </ul>
+    {{ end }}
+
+    {{ range $done.GroupByDate "2006" }}
+        <h2>{{ .Key }}</h2>
+        <ul class="media-grid">
+            {{ range .Pages }}{{ partial "media-card.html" . }}{{ end }}
+        </ul>
+    {{ end }}
+{{ end }}

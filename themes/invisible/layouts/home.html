@@ -1,43 +1,47 @@
 {{ define "main" }}
-    {{ partial "custom-content" . }}
-    
-    <h2>Some places to get started</h2>
-    
-    <div class="home-card">
-        <div class="card-header">
-            <span class="card-title">Posts</span>
-            <span class="meta">Performative thinking about a topic</span>
+<div class="home-layout">
+    <header class="home-intro">
+        {{ partial "custom-content" . }}
+    </header>
+
+    <div class="home-main">
+        <div class="home-card">
+            <div class="card-header">
+                <span class="card-title">Posts</span>
+                <span class="meta">Performative thinking about a topic</span>
+            </div>
+            <div class="card-footer">
+                <a href="/posts">All posts →</a>
+            </div>
+            <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "posts" "count" 5) }}</ul>
         </div>
-        <div class="card-footer">
-            <a href="/posts">All posts →</a>
+
+        <div class="home-card">
+            <div class="card-header">
+                <span class="card-title">Journal</span>
+                <span class="meta">Freeform thoughts from my life</span>
+            </div>
+            <div class="card-footer">
+                <a href="/journal">All entries →</a>
+            </div>
+            <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "journal" "count" 5) }}</ul>
         </div>
-        <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "posts" "count" 5) }}</ul>
+        
+        <div class="home-card">
+            <div class="card-header">
+                <span class="card-title">Links</span>
+                <span class="meta">Things I saw and liked</span>
+            </div>
+            <div class="card-footer">
+                <a href="/links">All links →</a>
+            </div>
+            <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "links" "count" 5) }}</ul>
+        </div>
+    
     </div>
 
-    <div class="home-card">
-        <div class="card-header">
-            <span class="card-title">Journal</span>
-            <span class="meta">Freeform thoughts from my life</span>
-        </div>
-        <div class="card-footer">
-            <a href="/journal">All entries →</a>
-        </div>
-        <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "journal" "count" 5) }}</ul>
-    </div>
-    
-    <div class="home-card">
-        <div class="card-header">
-            <span class="card-title">Links</span>
-            <span class="meta">Things I saw and liked</span>
-        </div>
-        <div class="card-footer">
-            <a href="/links">All links →</a>
-        </div>
-        <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "links" "count" 5) }}</ul>
-    </div>
-    
-    <div class="home-responsive">
-        <div class="home-card" style="flex-grow: 2;">
+    <aside class="home-pages">
+        <div class="home-card">
             <div class="card-header">
                 <span class="card-title">Pages</span>
                 <span class="meta">Assorted info</span>
@@ -47,11 +51,6 @@
                     <div><a href="/about">/about</a></div>
                     <div style="flex-grow:1;"></div>
                     <div class="meta">More about me and this site</div>
-                </li>
-                <li>
-                    <div><a href="/ai">/ai</a></div>
-                    <div style="flex-grow:1;"></div>
-                    <div class="meta">My personal AI manifesto</div>
                 </li>
                 <li>
                     <div><a href="/colophon">/colophon</a></div>
@@ -88,24 +87,41 @@
                     <div style="flex-grow:1;"></div>
                     <div class="meta">Fun things I have made</div>
                 </li>
-                <li>
-                    <div><a href="/todos">/todos</a></div>
-                    <div style="flex-grow:1;"></div>
-                    <div class="meta">Site update plans</div>
-                </li>
             </ul>
         </div>
-        
-        <ul class="card-list">
-            <li class="card">
-                <p class="title"><a href="/notes">Notes</a></p>
-                <p class="subtitle meta">Digital garden</p>
-            </li>
-            <li class="card">
-                <p class="title"><a href="/micro">Micro</a></p>
-                <p class="subtitle meta">My <del>tweets</del> toots</p>
-            </li>
-        </ul>
-    </div>
 
+        <div class="home-card">
+            <div class="card-header">
+                <span class="card-title">Micro</span>
+                <span class="meta">My <del>tweets</del> toots</span>
+            </div>
+            <div class="card-footer">
+                <a href="/micro">All posts →</a>
+            </div>
+            {{ partial "latest-micro.html" . }}
+        </div>
+
+        <div class="home-card">
+            <div class="card-header">
+                <span class="card-title">Media</span>
+                <span class="meta">Currently enjoying</span>
+            </div>
+            <div class="card-footer">
+                <a href="/media">History →</a>
+            </div>
+            {{ partial "media-current.html" . }}
+        </div>
+    </aside>
+
+    <div class="home-card home-extra">
+        <div class="card-header">
+            <span class="card-title">Notes</span>
+            <span class="meta">Digital garden</span>
+        </div>
+        <div class="card-footer">
+            <a href="/notes">All notes →</a>
+        </div>
+        <ul class="section-ul">{{ partial "recent-pages.html" (dict "section" "notes" "count" 5) }}</ul>
+    </div>
+</div>
 {{ end }}

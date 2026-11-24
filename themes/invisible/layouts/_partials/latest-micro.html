@@ -1,0 +1,36 @@
+{{- /*
+Renders the most recent micro post: its text, plus a cropped thumbnail of its
+first gallery image (if any), linking to the post.
+
+@example: {{ partial "latest-micro.html" . }}
+*/}}
+
+{{- range first 1 (where site.RegularPages "Section" "micro").ByPublishDate.Reverse -}}
+  {{- $page := . -}}
+  <div class="micro-latest">
+    {{- /* The gallery div is always last in a micro post; drop it, keep the text. */}}
+    <div class="micro-text">
+      {{ replaceRE `(?s)<div class='gallery'>.*` "" .Content | safeHTML }}
+    </div>
+
+    {{- with findRESubmatch `image src="([^"]+)"(?: alt="([^"]*)")?` .RawContent 1 }}
+      {{- $match := index . 0 }}
+      {{- with $page.Resources.GetMatch (index $match 1) }}
+        {{- if ne .MediaType.SubType "svg" }}
+          {{- $thumb := .Fill "600x400 Center webp q80" }}
+          <a class="micro-thumb" href="{{ $page.RelPermalink }}">
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ index $match 2 | htmlUnescape }}"
+                 width="{{ $thumb.Width }}" height="{{ $thumb.Height }}"
+                 loading="lazy" decoding="async">
+          </a>
+        {{- end }}
+      {{- end }}
+    {{- end }}
+
+    <p class="micro-date meta">
+      <a href="{{ .RelPermalink }}">
+        <time datetime="{{ .Date | time.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format "2006-01-02" }}</time>
+      </a>
+    </p>
+  </div>
+{{- end -}}

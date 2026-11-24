@@ -1,0 +1,13 @@
+{{- /*
+Renders a media item's optional `rating` param (1–5) as stars. Renders nothing if unset.
+
+@context {page} . The media item.
+
+@example: {{ partial "media-rating.html" . }}
+*/}}
+
+{{- with .Params.rating -}}
+  {{- $r := int . -}}
+  {{- if gt $r 5 }}{{ $r = 5 }}{{ end -}}
+  <span class="media-rating" title="{{ $r }}/5">{{ strings.Repeat $r "★" }}{{ strings.Repeat (sub 5 $r) "☆" }}</span>
+{{- end -}}

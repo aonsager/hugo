@@ -1,0 +1,17 @@
+{{- /*
+Home widget: cards for media items with status "current", grouped by medium.
+Grid of cards by default; one row per item (cover beside text) in the wide-screen sidebar.
+
+@example: {{ partial "media-current.html" . }}
+*/}}
+
+{{- $items := where (where site.RegularPages "Section" "media") "Params.status" "current" -}}
+{{- with $items }}
+  <ul class="media-grid">
+    {{- range sort .ByDate.Reverse "Params.medium" }}
+      {{ partial "media-card.html" . }}
+    {{- end }}
+  </ul>
+{{- else }}
+  <p class="meta">Nothing at the moment.</p>
+{{- end }}

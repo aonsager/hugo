@@ -1,0 +1,20 @@
+{{- /*
+Renders a media item's `cover` image scaled (never cropped) to fit a box, or a tinted placeholder if it has none.
+
+@context {page} page The media item.
+@context {string} size Bounding box in px, e.g. "200x300".
+
+@example: {{ partial "media-cover.html" (dict "page" . "size" "200x300") }}
+*/}}
+
+{{- $page := .page -}}
+{{- $medium := $page.Params.medium | default "" | urlize -}}
+{{- $img := false -}}
+{{- with $page.Params.cover }}{{ $img = $page.Resources.Get . }}{{ end -}}
+{{- if and $img (ne $img.MediaType.SubType "svg") -}}
+  {{- $thumb := $img.Fit (printf "%s webp q80" .size) -}}
+  <img class="media-cover media-{{ $medium }}" src="{{ $thumb.RelPermalink }}" alt=""
+       width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async">
+{{- else -}}
+  <span class="media-cover media-cover-empty media-{{ $medium }}" aria-hidden="true"></span>
+{{- end -}}

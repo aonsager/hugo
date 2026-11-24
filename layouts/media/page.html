@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.cover }}{{ with $.Resources.Get . }}
+        {{ $c := . }}
+        {{ if ne .MediaType.SubType "svg" }}{{ $c = .Fit "480x720 webp q85" }}{{ end }}
+        <img class="media-cover media-cover-large" src="{{ $c.RelPermalink }}" alt="Cover of {{ $.Title }}"
+             {{ with $c.Width }}width="{{ . }}" height="{{ $c.Height }}"{{ end }}>
+    {{ end }}{{ end }}
+    <p class="meta media-meta">
+        {{ partial "media-label.html" . }}
+        {{ with .Params.started }}{{ . | time.Format "2006-01-02" }}{{ end }}
+        →
+        {{ with .Params.finished }}{{ . | time.Format "2006-01-02" }}{{ else }}now{{ end }}
+        {{ with .Params.status }}{{ if not (in (slice "current" "finished") .) }}({{ . }}){{ end }}{{ end }}
+        {{ partial "media-rating.html" . }}
+    </p>
+    {{ partial "custom-content" . }}
+    <p><a href="{{ .Parent.RelPermalink }}">← All media</a></p>
+{{ end }}

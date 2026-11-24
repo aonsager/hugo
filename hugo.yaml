@@ -36,3 +36,6 @@ outputFormats:
     mediaType: "application/json"
     baseName: "search-index"
 contentDir: "content-processed"
+frontmatter:
+  # Media items have no `date`; use finished, else started.
+  date: [date, finished, started, publishDate, lastmod]

@@ -50,6 +50,7 @@ You need 5 blocks to finish, so always be aware of how many blocks you already h
 ### If you already have 5 blocks
 
 - Tiles that don't contribute to those 5 blocks are automatically unneeded. No need to consider expandability.
+- Cut dangerous blocks first, leave safe in hand if you have room.
 
 ## Folding
 

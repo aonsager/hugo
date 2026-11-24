@@ -1,0 +1,11 @@
+{{- /*
+Renders a colored label for a media item's `medium` param (book, film, tv, game).
+
+@context {page} . The media item.
+
+@example: {{ partial "media-label.html" . }}
+*/}}
+
+{{- with .Params.medium -}}
+  <span class="media-label media-{{ lower . | urlize }}">{{ partial "media-medium-name.html" $ }}</span>
+{{- end -}}

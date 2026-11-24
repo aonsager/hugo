@@ -14,6 +14,7 @@
     /* Layout */
     --spacing-unit: 1rem;
     --content-width: 80ch;
+    --home-sidebar-width: 32ch;
     
     /* Base16 Eighties */
     --color-white: #f2f0ec;
@@ -241,7 +242,7 @@ li {
 
 /* Header */
 
-header {
+body > header {
     grid-area: header;    
     line-height: 30px;
     position: sticky;
@@ -582,46 +583,95 @@ main {
     }
 }
 
-.home-responsive {
-    display: flex;
-    gap: var(--spacing-unit);
-    flex-direction: column;
+.home-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+        "intro"
+        "main"
+        "pages"
+        "extra";
+    column-gap: calc(2 * var(--spacing-unit));
 }
 
-ul.card-list {
-    display: flex;
-    justify-content: center;
-    gap: var(--spacing-unit);
-    list-style: none;
-    padding: 0;
+.home-intro { 
+    grid-area: intro; 
+    min-width: 0; 
+    padding: 0 var(--spacing-unit);
+    margin-bottom: var(--spacing-unit);
+    font-size: 1.1rem;
+}
+
+.home-main  { grid-area: main;  min-width: 0; }
+.home-pages { grid-area: pages; min-width: 0; }
+.home-extra { grid-area: extra; }
+
+/* Narrow: thumbnail beside the text. Wide (sidebar): stacked, see media query below. */
+.micro-latest {
+    margin: var(--spacing-unit) 0 calc(0.5 * var(--spacing-unit));
+    font-size: 0.9rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "text thumb"
+        "date thumb";
+    column-gap: var(--spacing-unit);
+
+    .micro-text  { grid-area: text; }
+    .micro-thumb { grid-area: thumb; align-self: start; }
+    .micro-date  { grid-area: date; align-self: end; font-size:0.8rem;}
     
-    li.card {
-        border: 1px dashed var(--color-ink-soft);
+
+    p {
+        margin: 0 0 calc(0.5 * var(--spacing-unit));
+        line-height: 1.2rem;
+    }
+
+    .micro-thumb img {
+        display: block;
+        width: clamp(100px, 30vw, 200px);
+        height: auto;
         border-radius: 5px;
-        padding: 0 var(--spacing-unit);
-        text-align: center;
-        flex-grow: 1;
-        margin: 0;
-        
-        p {
-            margin: calc(0.5 * var(--spacing-unit)) 0;
+    }
+
+    .micro-date {
+        margin: calc(0.5 * var(--spacing-unit)) 0 0;
+
+        a {
+            color: var(--color-ink);
+            text-decoration: none;
+
+            &:hover {
+                color: var(--color-primary-soft);
+            }
         }
     }
 }
 
-@media screen and (min-width: 100ch) {
-    .home-responsive {
-        flex-direction: row;
+/* Home: Pages box moves to a left column when there's room */
+@media screen and (min-width: 1200px) {
+    body:has(.home-layout) .inner-content {
+        max-width: calc(var(--home-sidebar-width) + 2 * var(--spacing-unit) + var(--content-width));
     }
-    
-    ul.card-list {
-        margin-top: calc(2 * var(--spacing-unit)); 
-        flex-direction: column; 
-        flex-grow: 1; 
-        justify-content: flex-start;
-        
-        li.card {
-            flex-grow: 0;
+
+    .home-layout {
+        grid-template-columns: var(--home-sidebar-width) minmax(0, 1fr);
+        grid-template-areas:
+            "intro intro"
+            "pages main"
+            "pages extra";
+    }
+
+    .home-pages {
+        align-self: start;
+    }
+
+    .micro-latest {
+        display: block;
+
+        .micro-thumb img {
+            width: 100%;
         }
     }
 }
@@ -642,6 +692,127 @@ table.archive-list {
     a {
         text-decoration: none;
     }
+}
+
+/* Media: labels, covers, home widget, history table */
+.media-book { --media-color: var(--color-orange); }
+.media-film { --media-color: var(--color-purple); }
+.media-tv   { --media-color: var(--color-aqua); }
+.media-game { --media-color: var(--color-green); }
+
+.media-cover {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid var(--color-shadow-strong);
+    background-color: color-mix(in srgb, var(--media-color, var(--color-shadow)) 25%, var(--color-canvas));
+
+    &.media-cover-empty {
+        aspect-ratio: 2 / 3;
+    }
+
+    &.media-cover-large {
+        width: auto;
+        max-width: min(100%, 240px);
+        margin-bottom: var(--spacing-unit);
+    }
+}
+
+ul.media-grid {
+    list-style: none;
+    padding: 0;
+    margin: calc(0.5 * var(--spacing-unit)) 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--spacing-unit) calc(0.75 * var(--spacing-unit));
+
+    li {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+        min-width: 0;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .media-grid-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        min-width: 0;
+    }
+
+    /* Subtle medium name in a narrow strip just below the cover */
+    .media-band {
+        display: block;
+        position: relative;
+        z-index: 1;
+        margin-top: -1px; /* sit over the cover's 1px bottom border */
+        border-radius: 0px;
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--color-canvas);
+        background-color: var(--color-ink);
+        font-family: var(--mono-font-family);
+    }
+
+    /* Square off the cover's bottom corners so the band meets it flush */
+    .media-grid-cover:has(.media-band) .media-cover {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .media-grid-date {
+        font-size: 0.8rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/* Wide screens: widget sits in the narrow sidebar, so one item per row, cover beside text */
+@media screen and (min-width: 1200px) {
+    .home-pages ul.media-grid {
+        grid-template-columns: minmax(0, 1fr);
+
+        li {
+            flex-direction: row;
+            align-items: flex-start;
+            gap: calc(0.75 * var(--spacing-unit));
+        }
+
+        .media-grid-cover {
+            flex: 0 0 72px;
+        }
+    }
+}
+
+.media-label {
+    display: inline-block;
+    min-width: 5ch;
+    padding: 0 6px;
+    font-size: 0.75rem;
+    line-height: 1.4rem;
+    text-align: center;
+    white-space: nowrap;
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px solid var(--media-color, var(--color-shadow-strong));
+    background-color: color-mix(in srgb, var(--media-color, var(--color-shadow)) 20%, var(--color-canvas));
+}
+
+.media-rating {
+    color: var(--color-ink-soft);
+    font-style: normal;
+    white-space: nowrap;
 }
 
 table.solid {

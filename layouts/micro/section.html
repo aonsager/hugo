@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
+    <h1>Micro posts</h1>
     {{ partial "custom-content" . }}
     <ul class="section-ul">
         {{ $pages := .Pages.ByPublishDate.Reverse }}

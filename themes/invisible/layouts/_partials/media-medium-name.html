@@ -1,0 +1,11 @@
+{{- /*
+Returns the display name for a media item's `medium` param (case-insensitive).
+
+@context {page} . The media item.
+
+@example: {{ partial "media-medium-name.html" . }}
+*/}}
+
+{{- $names := dict "book" "Book" "film" "Movie" "tv" "TV" "game" "Game" -}}
+{{- $key := lower (.Params.medium | default "") -}}
+{{- return (index $names $key | default (title $key)) -}}
