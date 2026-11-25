@@ -778,7 +778,25 @@ ul.media-grid {
     }
 }
 
-/* Wide screens: widget sits in the narrow sidebar, so one item per row, cover beside text */
+ul.media-grid {
+    container: media-grid / inline-size;
+}
+
+/* Grid only fits one column (phones, sidebar): one item per row, cover beside text.
+   Threshold = 2 × 150px cards + column gap (0.75rem ≈ 14.4px). */
+@container media-grid (width < 315px) {
+    ul.media-grid li {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: calc(0.75 * var(--spacing-unit));
+    }
+
+    ul.media-grid .media-grid-cover {
+        flex: 0 0 72px;
+    }
+}
+
+/* Wide screens: always rows in the sidebar, even if it is wide enough for two cards */
 @media screen and (min-width: 1200px) {
     .home-pages ul.media-grid {
         grid-template-columns: minmax(0, 1fr);
