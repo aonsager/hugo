@@ -1,10 +1,13 @@
 {{- /*
-Renders a media item's `cover` image scaled (never cropped) to fit a box, or a tinted placeholder if it has none.
+Renders a media item's `cover` image in a standard 2:3 frame, or a tinted placeholder if it has none.
+
+To fit the frame, the overflowing side is cropped by at most 5%. Any remaining gap is
+letterboxed (object-fit: contain) and filled with the colors of the image's own edges.
 
 @context {page} page The media item.
-@context {string} size Bounding box in px, e.g. "200x300".
+@context {string} size Bounding box in px, e.g. "400x600".
 
-@example: {{ partial "media-cover.html" (dict "page" . "size" "200x300") }}
+@example: {{ partial "media-cover.html" (dict "page" . "size" "400x600") }}
 */}}
 
 {{- $page := .page -}}
@@ -12,9 +15,45 @@ Renders a media item's `cover` image scaled (never cropped) to fit a box, or a t
 {{- $img := false -}}
 {{- with $page.Params.cover }}{{ $img = $page.Resources.Get . }}{{ end -}}
 {{- if and $img (ne $img.MediaType.SubType "svg") -}}
-  {{- $thumb := $img.Fit (printf "%s webp q80" .size) -}}
+  {{- $target := div 2.0 3.0 -}}
+  {{- $keep := 0.95 -}}{{/* keep at least 95% of each side */}}
+
+  {{- /* Crop toward 2:3, limited to 5% of the overflowing side */ -}}
+  {{- $w := $img.Width -}}
+  {{- $h := $img.Height -}}
+  {{- $cw := $w -}}
+  {{- $ch := $h -}}
+  {{- if gt (div (float $w) $h) $target -}}
+    {{- $cw = int (math.Max (mul $h $target) (mul $w $keep)) -}}
+  {{- else -}}
+    {{- $ch = int (math.Max (div $w $target) (mul $h $keep)) -}}
+  {{- end -}}
+  {{- $c := $img -}}
+  {{- if or (lt $cw $w) (lt $ch $h) }}{{ $c = $img.Crop (printf "%dx%d Center" $cw $ch) }}{{ end -}}
+  {{- $thumb := $c.Fit (printf "%s webp q80" .size) -}}
+
+  {{- /* Fill any remaining gap with the colors of the edges facing it */ -}}
+  {{- $style := "" -}}
+  {{- $ratio := div (float $cw) $ch -}}
+  {{- if gt (math.Abs (sub $ratio $target)) 0.01 -}}
+    {{- $a := "" -}}
+    {{- $b := "" -}}
+    {{- $dir := "" -}}
+    {{- if gt $ratio $target -}}
+      {{- $a = index ($c.Crop (printf "%dx4 Top" $cw)).Colors 0 -}}
+      {{- $b = index ($c.Crop (printf "%dx4 Bottom" $cw)).Colors 0 -}}
+      {{- $dir = "to bottom" -}}
+    {{- else -}}
+      {{- $a = index ($c.Crop (printf "4x%d Left" $ch)).Colors 0 -}}
+      {{- $b = index ($c.Crop (printf "4x%d Right" $ch)).Colors 0 -}}
+      {{- $dir = "to right" -}}
+    {{- end -}}
+    {{- $style = printf "background-image: linear-gradient(%s, %s 50%%, %s 50%%)" $dir $a $b -}}
+  {{- end -}}
+
   <img class="media-cover media-{{ $medium }}" src="{{ $thumb.RelPermalink }}" alt=""
-       width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async">
+       width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async"
+       {{- with $style }} style="{{ . | safeCSS }}"{{ end }}>
 {{- else -}}
   <span class="media-cover media-cover-empty media-{{ $medium }}" aria-hidden="true"></span>
 {{- end -}}

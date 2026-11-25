@@ -8,10 +8,7 @@
     {{ end }}{{ end }}
     <p class="meta media-meta">
         {{ partial "media-label.html" . }}
-        {{ with .Params.started }}{{ . | time.Format "2006-01-02" }}{{ end }}
-        →
-        {{ with .Params.finished }}{{ . | time.Format "2006-01-02" }}{{ else }}now{{ end }}
-        {{ with .Params.status }}{{ if not (in (slice "current" "finished") .) }}({{ . }}){{ end }}{{ end }}
+        {{ with .Params.started }}Started {{ . | time.Format "2006-01-02" }}{{ end }}
         {{ partial "media-rating.html" . }}
     </p>
     {{ partial "custom-content" . }}

@@ -704,18 +704,17 @@ table.archive-list {
     display: block;
     width: 100%;
     height: auto;
+    aspect-ratio: 2 / 3; /* standard frame; see media-cover.html for crop/letterbox */
+    object-fit: contain;
     margin: 0;
     border-radius: 5px;
     border: 1px solid var(--color-shadow-strong);
     background-color: color-mix(in srgb, var(--media-color, var(--color-shadow)) 25%, var(--color-canvas));
 
-    &.media-cover-empty {
-        aspect-ratio: 2 / 3;
-    }
-
     &.media-cover-large {
         width: auto;
         max-width: min(100%, 240px);
+        aspect-ratio: auto;
         margin-bottom: var(--spacing-unit);
     }
 }
