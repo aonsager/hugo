@@ -1,3 +1,4 @@
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
-{{- $searchJS := resources.Get "js/search.js" | js.Build -}}
-<script src="{{ $searchJS.RelPermalink }}" defer></script>
+{{- with resources.Get "js/search.js" | js.Build (dict "minify" (not hugo.IsDevelopment)) | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end }}
