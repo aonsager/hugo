@@ -46,10 +46,9 @@ jobs:
             public/ \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/hugo/
 
-      # Pages, feeds and the search index are edge-cached for a long time and tagged
-      # "pages" by Caddy (Cache-Tag header); purge them so the new build shows up.
-      # Images, CSS and JS are untagged and stay cached.
-      - name: Purge Cloudflare cache (pages)
+      # Cloudflare caches everything (pages included) for a long time; purge it all
+      # so the new build shows up and no file can go stale at the edge.
+      - name: Purge Cloudflare cache
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
@@ -57,5 +56,5 @@ jobs:
           curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
             -H "Authorization: Bearer ${CF_API_TOKEN}" \
             -H "Content-Type: application/json" \
-            --data '{"tags":["pages"]}' \
+            --data '{"purge_everything":true}' \
             | tee /dev/stderr | jq -e '.success' > /dev/null
