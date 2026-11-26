@@ -1,0 +1,17 @@
+{{- /*
+One compact media thumbnail (an <li> for ul.media-grid.media-grid-compact): cover with medium band,
+linked to the item's page. No text; the title is the link's label and hover tooltip.
+
+@context {page} page The media item.
+@context {bool} [eager] Load the cover immediately (above the fold).
+
+@example: <ul class="media-grid media-grid-compact">{{ partial "media-thumb.html" (dict "page" .) }}</ul>
+*/}}
+
+{{- $p := .page -}}
+<li>
+  <a class="media-grid-cover" href="{{ $p.RelPermalink }}" title="{{ $p.Title }}" aria-label="{{ $p.Title }}">
+    {{- partial "media-cover.html" (dict "page" $p "size" "240x360" "eager" .eager) -}}
+    {{- if $p.Params.medium }}<span class="media-band" aria-hidden="true">{{ partial "media-medium-name.html" $p }}</span>{{ end -}}
+  </a>
+</li>

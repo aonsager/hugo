@@ -1,6 +1,6 @@
 {{- /*
-One media card (an <li> for ul.media-grid): cover with medium band, title, started date, rating.
-Cover and title link to the item only when its note has body text.
+One media card (an <li> for ul.media-grid): cover with medium band, title, logged date, rating.
+Cover and title link to the item's page.
 
 @context {page} . The media item.
 
@@ -10,13 +10,13 @@ Cover and title link to the item only when its note has body text.
 {{- $cover := partial "media-cover.html" (dict "page" . "size" "400x600") -}}
 <li>
   <div class="media-grid-cover">
-    {{- if .Content }}<a href="{{ .RelPermalink }}">{{ $cover }}</a>{{ else }}{{ $cover }}{{ end -}}
+    <a href="{{ .RelPermalink }}">{{ $cover }}</a>
     {{- if .Params.medium }}<span class="media-band">{{ partial "media-medium-name.html" . }}</span>{{ end -}}
   </div>
   <div class="media-grid-text">
-    <span>{{ if .Content }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end }}</span>
-    {{- with .Params.started }}
-    <span class="media-grid-date meta">Started <time datetime="{{ . | time.Format "2006-01-02" }}">{{ . | time.Format "2006-01-02" }}</time></span>
+    <span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+    {{- if gt .Date.Year 1 }}
+    <span class="media-grid-date meta">Logged <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></span>
     {{- end }}
     {{ partial "media-rating.html" . }}
   </div>

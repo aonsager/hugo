@@ -37,5 +37,5 @@ outputFormats:
     baseName: "search-index"
 contentDir: "content-processed"
 frontmatter:
-  # Media items have no `date`; use started.
-  date: [date, started, publishDate, lastmod]
+  # Media items have no `date`; use logged (or legacy started).
+  date: [date, logged, started, publishDate, lastmod]

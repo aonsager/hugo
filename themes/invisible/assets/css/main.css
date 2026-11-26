@@ -692,7 +692,7 @@ table.archive-list {
     }
 }
 
-/* Media: labels, covers, home widget, history table */
+/* Media: medium colors, covers, grids, item page */
 .media-book { --media-color: var(--color-orange); }
 .media-film { --media-color: var(--color-purple); }
 .media-tv   { --media-color: var(--color-aqua); }
@@ -708,12 +708,54 @@ table.archive-list {
     border-radius: 5px;
     border: 1px solid var(--color-shadow-strong);
     background-color: color-mix(in srgb, var(--media-color, var(--color-shadow)) 25%, var(--color-canvas));
+}
 
-    &.media-cover-large {
-        width: auto;
-        max-width: min(100%, 240px);
-        aspect-ratio: auto;
-        margin-bottom: var(--spacing-unit);
+/* Media item page: cover beside title and details; note body follows */
+.media-header {
+    display: grid;
+    grid-template-columns: minmax(0, 200px) minmax(0, 1fr);
+    gap: calc(1.5 * var(--spacing-unit));
+    align-items: start;
+    margin: var(--spacing-unit) 0 calc(1.5 * var(--spacing-unit));
+
+    h1 {
+        margin-top: 0;
+    }
+}
+
+.media-details {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    gap: calc(0.5 * var(--spacing-unit)) var(--spacing-unit);
+    align-items: baseline;
+    margin: 0;
+
+    div {
+        display: contents;
+    }
+
+    dt {
+        font-family: var(--mono-font-family);
+        font-size: 0.65rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--color-ink-soft);
+    }
+
+    dd {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .media-header {
+        grid-template-columns: 110px minmax(0, 1fr);
+        gap: var(--spacing-unit);
+
+        h1 {
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+        }
     }
 }
 
@@ -779,16 +821,37 @@ ul.media-grid {
     container: media-grid / inline-size;
 }
 
+/* History page: covers only, at most 6 per row (min track = 1/6 of the row), each linking to its page */
+ul.media-grid.media-grid-compact {
+    --compact-gap: calc(0.5 * var(--spacing-unit));
+    grid-template-columns: repeat(auto-fill, minmax(max(80px, calc((100% - 5 * var(--compact-gap)) / 6)), 1fr));
+    gap: var(--compact-gap);
+
+    .media-grid-cover {
+        display: block;
+    }
+
+    .media-band {
+        font-size: 0.55rem;
+        letter-spacing: 0.1em;
+    }
+
+    a.media-grid-cover:hover .media-cover,
+    a.media-grid-cover:focus-visible .media-cover {
+        border-color: var(--color-ink);
+    }
+}
+
 /* Grid only fits one column (phones, sidebar): one item per row, cover beside text.
    Threshold = 2 × 150px cards + column gap (0.75rem ≈ 14.4px). */
 @container media-grid (width < 315px) {
-    ul.media-grid li {
+    ul.media-grid:not(.media-grid-compact) li {
         flex-direction: row;
         align-items: flex-start;
         gap: calc(0.75 * var(--spacing-unit));
     }
 
-    ul.media-grid .media-grid-cover {
+    ul.media-grid:not(.media-grid-compact) .media-grid-cover {
         flex: 0 0 72px;
     }
 }
@@ -808,20 +871,6 @@ ul.media-grid {
             flex: 0 0 72px;
         }
     }
-}
-
-.media-label {
-    display: inline-block;
-    min-width: 5ch;
-    padding: 0 6px;
-    font-size: 0.75rem;
-    line-height: 1.4rem;
-    text-align: center;
-    white-space: nowrap;
-    font-style: normal;
-    border-radius: 5px;
-    border: 1px solid var(--media-color, var(--color-shadow-strong));
-    background-color: color-mix(in srgb, var(--media-color, var(--color-shadow)) 20%, var(--color-canvas));
 }
 
 .media-rating {

@@ -1,16 +1,24 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.cover }}{{ with $.Resources.Get . }}
-        {{ $c := . }}
-        {{ if ne .MediaType.SubType "svg" }}{{ $c = .Fit "480x720 webp q85" }}{{ end }}
-        <img class="media-cover media-cover-large" src="{{ $c.RelPermalink }}" alt="Cover of {{ $.Title }}"
-             {{ with $c.Width }}width="{{ . }}" height="{{ $c.Height }}"{{ end }}>
-    {{ end }}{{ end }}
-    <p class="meta media-meta">
-        {{ partial "media-label.html" . }}
-        {{ with .Params.started }}Started {{ . | time.Format "2006-01-02" }}{{ end }}
-        {{ partial "media-rating.html" . }}
-    </p>
+    {{- /* .Date = logged (or legacy `started`); see frontmatter.date in hugo.yaml */}}
+    <div class="media-header">
+        <div class="media-header-cover">
+            {{ partial "media-cover.html" (dict "page" . "size" "400x600" "eager" true) }}
+        </div>
+        <div class="media-header-info">
+            <h1>{{ .Title }}</h1>
+            <dl class="media-details">
+                {{- with .Params.medium }}
+                <div><dt>Medium</dt><dd>{{ partial "media-medium-name.html" $ }}</dd></div>
+                {{- end }}
+                {{- if gt .Date.Year 1 }}
+                <div><dt>Logged</dt><dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></dd></div>
+                {{- end }}
+                {{- with .Params.rating }}
+                <div><dt>Rating</dt><dd>{{ partial "media-rating.html" $ }}</dd></div>
+                {{- end }}
+            </dl>
+        </div>
+    </div>
     {{ partial "custom-content" . }}
     <p><a href="{{ .Parent.RelPermalink }}">← All media</a></p>
 {{ end }}
