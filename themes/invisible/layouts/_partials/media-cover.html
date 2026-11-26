@@ -6,6 +6,7 @@ letterboxed (object-fit: contain) and filled with the colors of the image's own 
 
 @context {page} page The media item.
 @context {string} size Bounding box in px, e.g. "400x600".
+@context {bool} [eager] Load immediately instead of lazily (for covers above the fold).
 
 @example: {{ partial "media-cover.html" (dict "page" . "size" "400x600") }}
 */}}
@@ -52,7 +53,7 @@ letterboxed (object-fit: contain) and filled with the colors of the image's own 
   {{- end -}}
 
   <img class="media-cover media-{{ $medium }}" src="{{ $thumb.RelPermalink }}" alt=""
-       width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async"
+       width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="{{ if .eager }}eager{{ else }}lazy{{ end }}" decoding="async"
        {{- with $style }} style="{{ . | safeCSS }}"{{ end }}>
 {{- else -}}
   <span class="media-cover media-cover-empty media-{{ $medium }}" aria-hidden="true"></span>
